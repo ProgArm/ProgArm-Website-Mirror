@@ -1,13 +1,13 @@
-flags: 01010101010101010
-blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Photo</th><th>Device</th><th>Description</th></tr><tr><td><a class="url http outside" href="https://dl.dropboxusercontent.com/u/71236259/DSC_0742.JPG">Photo</a></td><td>[[ProgArm 0.1{1}]]</td><td>&#x2026;</td></tr><tr><td align="right"></td><td>[[ProgArm 0.2{2}]]</td><td align="right"></td></tr><tr><td align="right"></td><td>[[ProgArm 0.3{3}]]</td><td align="right"></td></tr></table><h2>Rings</h2><table class="user"><tr><th>Photo</th><th>Ring</th><th>Description</th></tr><tr><td align="right"></td><td>[[Basic Ring]]</td><td>&#x2026;</td></tr><tr><td align="right"></td><td>&#x2026;</td><td>&#x2026;</td></tr><tr><td align="right"></td><td>[[Wireless Ring]]</td><td colspan="2"></td></tr></table><h2>Info</h2><ul><li>[[Controls{l}]]</li><li>[[Features{t}]]</li><li>[[Protocol{l}]]</li></ul>
+flags: 0101010101010101010
+blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Photo</th><th>Device</th><th>Description</th></tr><tr><td><a class="url http outside" href="https://dl.dropboxusercontent.com/u/71236259/DSC_0742.JPG">Photo</a></td><td>[[ProgArm 0.1{1}]]</td><td>&#x2026;</td></tr><tr><td align="right"></td><td>[[ProgArm 0.2{2}]]</td><td align="right"></td></tr><tr><td align="right"></td><td>[[ProgArm 0.3{3}]]</td><td align="right"></td></tr></table><h2>Rings</h2><table class="user"><tr><th>Photo</th><th>Ring</th><th>Description</th></tr><tr><td align="right"></td><td>[[Basic Ring]]</td><td>&#x2026;</td></tr><tr><td align="right"></td><td>&#x2026;</td><td>&#x2026;</td></tr><tr><td align="right"></td><td>[[Wireless Ring]]</td><td colspan="2"></td></tr></table><h2>Info</h2><ul><li>[[Controls{l}]]</li><li>[[Features{t}]]</li><li>[[Protocol{l}]]</li><li>[[Flashing Firmware]]</li></ul>
 diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; [[https://github.com/ProgArm/ProgArm-Hardware/releases Release list]]</p></div>
+	<div class="new"><p>&gt; * [[Flashing Firmware]]</p></div>
 ip: 84.52.29.94
-ts: 1404267579
+ts: 1406784417
 minor: 
-host: sa-84-52-29-94.saturn.infonet.ee
+host: 89.235.221.100
 username: AlexDaniel
-revision: 89
+revision: 90
 diff-major: 1
 summary: 
 languages: 
@@ -28,6 +28,7 @@ text: ==Devices
 	* [[Controls{l}]]
 	* [[Features{t}]]
 	* [[Protocol{l}]]
+	* [[Flashing Firmware]]
 	
-lastmajor: 89
-keep-ts: 1404267579
+lastmajor: 90
+keep-ts: 1406784417
