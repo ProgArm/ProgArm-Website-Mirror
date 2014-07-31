@@ -1,15 +1,17 @@
 flags: 0
-blocks: <h2>Files</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases/tag/v0.2.0-alpha">v0.2.0-alpha release on GitHub</a></p><h2>Photos</h2><p>TODO</p><h2>Known problems:</h2><ul><li>Device does not start if there is no battery.</li><li>Current is limited to 330 mA (?)x</li></ul>
+blocks: <h2>Files</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases/tag/v0.2.0-alpha">v0.2.0-alpha release on GitHub</a></p><h2>Photos</h2><p>TODO</p><h2>Known problems:</h2><ul><li>Device does not start if there is no battery.</li><li>Current is limited to 330 mA (?)</li></ul>
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; * <strong class="changes">None yet :)</strong></p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; * <strong class="changes">Device does not start if there is no battery.<br />&gt; * Current is limited to 330 mA (?)x</strong></p></div>
+	<div class="old"><p>&lt; * Current is limited to 330 mA (?)<strong class="changes">x</strong></p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; * Current is limited to 330 mA (?)</p></div>
 ip: 84.52.29.94
-ts: 1406818859
-minor: 
+ts: 1406818868
+minor: 1
 host: 89.235.221.100
 username: AlexDaniel
-revision: 3
-diff-major: 1
+revision: 4
+diff-major: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; * <strong class="changes">None yet :)</strong></p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; * <strong class="changes">Device does not start if there is no battery.<br />&gt; * Current is limited to 330 mA (?)x</strong></p></div>
 summary: some problems...
 languages: 
 text: ==Files
@@ -20,7 +22,7 @@ text: ==Files
 	
 	==Known problems:
 	* Device does not start if there is no battery.
-	* Current is limited to 330 mA (?)x
+	* Current is limited to 330 mA (?)
 	
 lastmajor: 3
-keep-ts: 1406818859
+keep-ts: 1406818868
