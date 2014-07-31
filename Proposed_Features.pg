@@ -1,0 +1,25 @@
+flags: 010101010101010
+blocks: <ul><li>[[Alarm Clock]]</li><li>[[Timer]]</li><li>[[Stopwatch]]</li><li>[[File Transfer]]</li><li>[[Encryption]]</li><li>[[Connection test]]</li><li>[[Ring test]]</li><li>Visualize data from accelerometer by using LED</li><li>Use master mode to communicate with multiple devices</li></ul>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; * Use master mode to communicate with multiple devices</p></div>
+ip: 84.52.19.156
+ts: 1405542379
+minor: 
+host: sa-84-52-19-156.saturn.infonet.ee
+username: AlexDaniel
+revision: 5
+diff-major: 1
+summary: 
+languages: 
+text: * [[Alarm Clock]]
+	* [[Timer]]
+	* [[Stopwatch]]
+	* [[File Transfer]]
+	* [[Encryption]]
+	* [[Connection test]]
+	* [[Ring test]]
+	* Visualize data from accelerometer by using LED
+	* Use master mode to communicate with multiple devices
+	
+lastmajor: 5
+keep-ts: 1405542379

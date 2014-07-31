@@ -1,0 +1,18 @@
+flags: 0
+blocks: <h3><a class="url http" href="https://github.com/ProgArm">https://github.com/ProgArm</a></h3>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; <strong class="changes">==</strong>https://github.com/ProgArm</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; <strong class="changes">===</strong>https://github.com/ProgArm</p></div>
+ip: 84.52.44.168
+ts: 1404554137
+minor: 
+host: sa-84-52-44-168.saturn.infonet.ee
+username: AlexDaniel
+revision: 5
+diff-major: 1
+summary: 
+languages: 
+text: ===https://github.com/ProgArm
+	
+lastmajor: 5
+keep-ts: 1404554137

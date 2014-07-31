@@ -1,0 +1,27 @@
+flags: 010101010
+blocks: <p>S - short press<br />L - long press<br />x - do not press<br /></p><table class="user"><tr><td align="center">Combination </td><td align="center">Meaning </td><td align="center">Device Action </td><td align="center">[[Client]] Action </td></tr></table><p>We are <a class="url http outside" href="https://raw.githubusercontent.com/ProgArm/ProgArm-Misc/master/bimorse/bimorseCodes.org">reworking it</a>. Please see [[Old Controls]].</p><p>[[Features]]<br />[[Proposed Controls]]</p>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; We are reworking it<strong class="changes">.</strong> Please see [[Old Controls]].</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; We are <strong class="changes">[[https://raw.githubusercontent.com/ProgArm/ProgArm-Misc/master/bimorse/bimorseCodes.org</strong> reworking it<strong class="changes">]].</strong> Please see [[Old Controls]].</p></div>
+ip: 84.52.44.168
+ts: 1404715708
+minor: 
+host: sa-84-52-44-168.saturn.infonet.ee
+username: AlexDaniel
+revision: 20
+diff-major: 1
+summary: 
+languages: 
+text: S - short press
+	L - long press
+	x - do not press
+	| Combination | Meaning | Device Action | [[Client]] Action |
+	
+	We are [[https://raw.githubusercontent.com/ProgArm/ProgArm-Misc/master/bimorse/bimorseCodes.org reworking it]]. Please see [[Old Controls]].
+	
+	
+	[[Features]]
+	[[Proposed Controls]]
+	
+lastmajor: 20
+keep-ts: 1404715708

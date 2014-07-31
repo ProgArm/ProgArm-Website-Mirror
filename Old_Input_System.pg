@@ -1,0 +1,38 @@
+flags: 010101010
+blocks: <h2><strong>NB!</strong></h2><p>Morse code is not supported anymore. Please see [[Input System]]</p><table class="user"><tr><th align="center">Key </th><th align="center">Morse </th><th align="center">Action </th><th align="center">Description </th></tr><tr><th colspan="3"align="center">Calls </th></tr><tr><td align="center">p </td><td><code>.--.</code></td><td>Accept(pickup) call</td></tr><tr><td align="center">r </td><td><code>.-.</code></td><td>Cancel(reject/release) call</td></tr><tr><th colspan="3"align="center">Music </th></tr><tr><td align="center">n </td><td><code>-.</code></td><td>next song</td></tr><tr><td align="center">b </td><td><code>-...</code></td><td>previous song</td></tr><tr><td align="center">c </td><td><code>-.-.</code></td><td>pause/play</td></tr><tr><td align="center">a </td><td><code>.-</code></td><td>toggle aaa mode</td></tr><tr><th colspan="3"align="center">Sound </th></tr><tr><td align="center">m </td><td><code>--</code></td><td>Mute</td></tr><tr><td align="center">t </td><td><code>-</code></td><td>Volume Up</td></tr><tr><td align="center">e </td><td><code>.</code></td><td>Volume Down</td></tr><tr><td align="center">v </td><td><code>...-</code></td><td>Volume Knob</td></tr><tr><th colspan="3"align="center">Misc </th></tr><tr><td align="center">s </td><td><code>...</code></td><td>test(beep)</td></tr><tr><td align="center">w </td><td><code>.--</code></td><td>current time</td></tr><tr><td align="center">d </td><td><code>-..</code></td><td>current date</td></tr><tr><td align="center">l </td><td><code>.-..</code></td><td>Flashlight</td></tr></table><p>[[Features]]<br />[[Proposed Controls]]<br />[[Proposed Input System]]</p>
+ip: 217.71.47.97
+ts: 1404552424
+minor: 
+host: 97-47-71-217.dyn.internet.emt.ee
+username: AlexDaniel
+revision: 1
+summary: ==**NB!** Morse code is not supported anymore. Please see Input System |= Key |= Morse |= Action |= Description | |||= Calls | | p . . .
+languages: 
+text: ==**NB!**
+	Morse code is not supported anymore. Please see [[Input System]]
+	
+	|= Key |= Morse |= Action |= Description |
+	|||= Calls |
+	| p |{{{.--.}}}|Accept(pickup) call|
+	| r |{{{.-.}}}|Cancel(reject/release) call|
+	|||= Music |
+	| n |{{{-.}}}|next song|
+	| b |{{{-...}}}|previous song|
+	| c |{{{-.-.}}}|pause/play|
+	| a |{{{.-}}}|toggle aaa mode|
+	|||= Sound |
+	| m |{{{--}}}|Mute|
+	| t |{{{-}}}|Volume Up|
+	| e |{{{.}}}|Volume Down|
+	| v |{{{...-}}}|Volume Knob|
+	|||= Misc |
+	| s |{{{...}}}|test(beep)|
+	| w |{{{.--}}}|current time|
+	| d |{{{-..}}}|current date|
+	| l |{{{.-..}}}|Flashlight|
+	
+	[[Features]]
+	[[Proposed Controls]]
+	[[Proposed Input System]]
+	
+lastmajor: 1

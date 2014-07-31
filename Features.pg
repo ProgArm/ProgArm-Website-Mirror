@@ -1,0 +1,22 @@
+flags: 010
+blocks: <p>&#x2026;<br />&#x2026;<br />&#x2026;</p><p>[[Proposed Features]]</p>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; <strong class="changes"></strong></p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; <strong class="changes">...<br />&gt; ...<br />&gt; ...</strong></p></div>
+ip: 84.52.39.156
+ts: 1397079335
+minor: 1
+host: sa-84-52-39-156.saturn.infonet.ee
+username: AlexDaniel
+revision: 2
+diff-major: 
+summary:  Proposed Features
+languages: 
+text: ...
+	...
+	...
+	
+	[[Proposed Features]]
+	
+lastmajor: 1
+keep-ts: 1397079335

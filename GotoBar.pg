@@ -1,0 +1,22 @@
+flags: 01010101010
+blocks: <p>[[Home{h}]]<br />[[Devices{d}]]<br />[[Source{r}]]<br />[[Ask{k}]]<br />[[Recent Changes{g}]]</p>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; [[Ask{<strong class="changes">a</strong>}]]</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; [[Ask{<strong class="changes">k</strong>}]]</p></div>
+ip: 84.52.22.78
+ts: 1398360218
+minor: 
+host: 84.52.22.78
+username: AlexDaniel
+revision: 20
+diff-major: 1
+summary: 
+languages: 
+text: [[Home{h}]]
+	[[Devices{d}]]
+	[[Source{r}]]
+	[[Ask{k}]]
+	[[Recent Changes{g}]]
+	
+lastmajor: 20
+keep-ts: 1398360218

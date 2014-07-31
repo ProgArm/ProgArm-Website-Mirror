@@ -1,0 +1,27 @@
+flags: 0
+blocks: <h2>Files</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases/tag/v0.1.0">v0.1.0 release on GitHub</a></p><h2>Photos</h2><p><a class="url http outside" href="https://dl.dropboxusercontent.com/u/71236259/DSC_0742.JPG">Photo</a></p><h2>Known problems:</h2><ul><li>One of the SPI port pins was not routed due to the error on schematic.</li><li>Accelerometer &amp; Compass are oriented differently, which means that we have to rotate coordinates to get some consistency.</li><li>Ring LED is not connected to any TIM, which means that we have to implement PWM manually. This is pretty inconvenient, because hardware PWM can have much shorter duty cycle, therefore providing a possibility to have dimmer indicators. Also hardware PWM requires no additional lines of code to achieve different shades.</li></ul>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; * Ring LED is not connected to any TIM, which means that we have to implement PWM manually. This is pretty inconvenient, because hardware PWM can have shorter duty cycle, therefore providing a possibility to have dimmer indicators. Also hardware PWM requires no additional lines of code to achieve different shades.</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; * Ring LED is not connected to any TIM, which means that we have to implement PWM manually. This is pretty inconvenient, because hardware PWM can have <strong class="changes">much</strong> shorter duty cycle, therefore providing a possibility to have dimmer indicators. Also hardware PWM requires no additional lines of code to achieve different shades.</p></div>
+ip: 84.52.29.94
+ts: 1404292166
+minor: 
+host: sa-84-52-29-94.saturn.infonet.ee
+username: AlexDaniel
+revision: 23
+diff-major: 1
+summary: 
+languages: 
+text: ==Files
+	[[https://github.com/ProgArm/ProgArm-Hardware/releases/tag/v0.1.0 v0.1.0 release on GitHub]]
+	
+	==Photos
+	[[https://dl.dropboxusercontent.com/u/71236259/DSC_0742.JPG Photo]]
+	
+	==Known problems:
+	* One of the SPI port pins was not routed due to the error on schematic.
+	* Accelerometer & Compass are oriented differently, which means that we have to rotate coordinates to get some consistency.
+	* Ring LED is not connected to any TIM, which means that we have to implement PWM manually. This is pretty inconvenient, because hardware PWM can have much shorter duty cycle, therefore providing a possibility to have dimmer indicators. Also hardware PWM requires no additional lines of code to achieve different shades.
+	
+lastmajor: 23
+keep-ts: 1404292166

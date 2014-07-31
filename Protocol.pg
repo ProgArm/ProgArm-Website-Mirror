@@ -1,0 +1,42 @@
+flags: 0
+blocks: <table class="user"><tr><th colspan="4"align="center">Bidirectional </th></tr><tr><th align="center">Byte </th><th align="center">ASCII </th><th align="center">Meaning </th><th align="center">Followed by </th></tr><tr><td align="center">112</td><td align="center">&#x2018;p&#x2019;</td><td>Ping</td><td>Nothing</td></tr><tr><td align="center">80</td><td align="center">&#x2018;P&#x2019;</td><td>Pong</td><td>Nothing</td></tr><tr><td align="center">69</td><td align="center">&#x2018;E&#x2019;</td><td>Enable/Disable command interpretation</td><td>&#x2019;0&#x2019; to disable / &#x2018;1&#x2019; to enable / &#x2018;2&#x2019; to toggle</td></tr><tr><th colspan="4"align="center">-</th></tr><tr><th colspan="4"align="center">From Arm </th></tr><tr><th align="center">Byte </th><th align="center">ASCII </th><th align="center">Meaning </th><th align="center">Followed by </th></tr><tr><td align="center">76</td><td align="center">&#x2018;L&#x2019;</td><td>Single letter</td><td>Byte representing morse letter</td></tr><tr><td align="center">87</td><td align="center">&#x2018;W&#x2019;</td><td>Previous letters form a word</td><td>Nothing</td></tr><tr><td align="center">81</td><td align="center">&#x2018;Q&#x2019;</td><td>Previous data is wrong</td><td>Nothing</td></tr><tr><td align="center">84</td><td align="center">&#x2018;T&#x2019;</td><td>Sending plain text</td><td>Null-terminated string</td></tr><tr><td align="center">83</td><td align="center">&#x2018;S&#x2019;</td><td>Sending sensors data</td><td>One character indicating the sensor type and then null-terminated string</td></tr><tr><td align="center">100</td><td align="center">&#x2018;d&#x2019;</td><td>Request date. Client should answer with the current date and time</td><td>Nothing</td></tr><tr><th colspan="4"align="center">-</th></tr><tr><th colspan="4"align="center">To Arm </th></tr><tr><th align="center">Byte </th><th align="center">ASCII </th><th align="center">Meaning </th><th align="center">Followed by </th></tr><tr><td align="center">68</td><td align="center">&#x2018;D&#x2019;</td><td>Current date is X</td><td>Two bytes for YEAR, then MONTH,DAY,HOURS,MINUTES,SECONDS described by one byte each</td></tr><tr><td align="center">86</td><td align="center">&#x2018;V&#x2019;</td><td>Set vibration</td><td>Vibration level (one byte), 0 - no vibration</td></tr></table><h3>Things to remember</h3><ul><li>Lowercase symbols are usually requests.</li><li>Some of these are not supported yet.</li><li>This protocol is subject to change.</li><li>Typable ASCII characters are preferred for the ease of debugging.</li></ul>
+diff-minor: <p><strong>Deleted:</strong></p>
+	<div class="old"><p>&lt; | 86 | 'V' |Volume knob change(deprecated)|Byte representing the number of ticks|</p></div><p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; | 86 | 'V' |Set vibration|Vibration level (one byte), 0 - no vibration|</p></div>
+ip: 89.235.239.240
+ts: 1402799043
+minor: 
+host: 89-235-239-240.saturn.infonet.ee
+username: 
+revision: 9
+diff-major: 1
+summary: 
+languages: 
+text: ||||= Bidirectional |
+	|= Byte |= ASCII |= Meaning |= Followed by |
+	| 112 | 'p' |Ping|Nothing|
+	| 80 | 'P' |Pong|Nothing|
+	| 69 | 'E' |Enable/Disable command interpretation|'0' to disable / '1' to enable / '2' to toggle|
+	||||= - |
+	||||= From Arm |
+	|= Byte |= ASCII |= Meaning |= Followed by |
+	| 76 | 'L' |Single letter|Byte representing morse letter|
+	| 87 | 'W' |Previous letters form a word|Nothing|
+	| 81 | 'Q' |Previous data is wrong|Nothing|
+	| 84 | 'T' |Sending plain text|Null-terminated string|
+	| 83 | 'S' |Sending sensors data|One character indicating the sensor type and then null-terminated string|
+	| 100 | 'd' |Request date. Client should answer with the current date and time|Nothing|
+	||||= - |
+	||||= To Arm |
+	|= Byte |= ASCII |= Meaning |= Followed by |
+	| 68 | 'D' |Current date is X|Two bytes for YEAR, then MONTH,DAY,HOURS,MINUTES,SECONDS described by one byte each|
+	| 86 | 'V' |Set vibration|Vibration level (one byte), 0 - no vibration|
+	
+	=== Things to remember
+	* Lowercase symbols are usually requests.
+	* Some of these are not supported yet.
+	* This protocol is subject to change.
+	* Typable ASCII characters are preferred for the ease of debugging.
+	
+lastmajor: 9
+keep-ts: 1402799043

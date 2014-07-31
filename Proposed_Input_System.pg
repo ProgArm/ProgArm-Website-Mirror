@@ -1,0 +1,62 @@
+flags: 010
+blocks: <p>S - short press<br />L - long press<br />x - do not press<br /></p><table class="user"><tr><td align="center">Combination </td><td align="center">Meaning </td><td align="center">Device Action </td><td align="center">Client Action </td></tr><tr><td align="center">Sx Sx </td><td align="center">e </td></tr><tr><td align="center">xS xS </td><td align="center">t </td><td align="right"></td><td>Current time</td></tr><tr><td align="center">SS SS </td><td align="center">a </td><td align="right"></td><td>Toggle AAA mode</td></tr><tr><td align="right"></td><td align="right"></td></tr><tr><td align="center">SS Sx </td><td align="center">o </td><td>Toggle compass</td><td align="right"></td></tr><tr><td align="center">SS xS </td><td align="center">i </td><td>Toggle indicator</td><td align="right"></td></tr><tr><td align="center">Sx xS </td><td align="center">n </td><td align="right"></td><td>Next song</td></tr><tr><td align="center">xS Sx </td><td align="center">s </td><td align="right"></td><td>Volume -10%</td></tr><tr><td align="center">Sx SS </td><td align="center">h </td></tr><tr><td align="center">xS SS </td><td align="center">r </td><td align="right"></td><td>Right (Next slide)</td></tr><tr><td align="right"></td><td align="right"></td></tr><tr><td align="center">Sx Lx </td><td align="center">d </td><td align="right"></td><td>Current date</td></tr><tr><td align="center">Lx Sx </td><td align="center">l </td><td align="right"></td><td>Volume +10%</td></tr><tr><td align="center">xS xL </td><td align="center">c </td><td align="right"></td><td>Play/Pause</td></tr><tr><td align="center">xL xS </td><td align="center">u </td></tr><tr><td align="center">SS LL </td><td align="center">m </td><td align="right"></td><td>Mute</td></tr><tr><td align="center">LL SS </td><td align="center">w </td></tr><tr><td align="right"></td><td align="right"></td></tr><tr><td align="center">Sx xL </td><td align="center">f </td><td align="right"></td><td>Alt+F4</td></tr><tr><td align="center">Lx xS </td><td align="center">g </td></tr><tr><td align="center">xS Lx </td><td align="center">y </td></tr><tr><td align="center">xL Sx </td><td align="center">p </td><td align="right"></td><td>Previous song</td></tr><tr><td align="center">SS Lx </td><td align="center">b </td><td>Switch bluetooth power</td><td align="right"></td></tr><tr><td align="center">SS xL </td><td align="center">v </td></tr><tr><td align="center">LL Sx </td><td align="center">k </td><td align="right"></td><td>Input text</td></tr><tr><td align="center">LL xS </td><td align="center">j </td><td>Flashlight</td><td align="right"></td></tr><tr><td align="center">Lx SS </td><td align="center">x </td><td align="right"></td><td>Start [[Typing Tutor]]</td></tr><tr><td align="center">xL SS </td><td align="center">q </td><td align="right"></td><td>Quit from any action</td></tr><tr><td align="center">Sx LL </td><td align="center">z </td><td align="right"></td><td>Left (Previous slide)</td></tr><tr><td align="center">xS LL </td><td align="right"></td></tr><tr><td align="right"></td><td align="right"></td></tr><tr><td align="center">Lx Lx </td><td align="right"></td></tr><tr><td align="center">xL xL </td><td align="right"></td></tr><tr><td align="center">LL LL </td><td align="right"></td></tr><tr><td align="right"></td><td align="right"></td></tr><tr><td align="center">Lx xL </td><td align="right"></td></tr><tr><td align="center">xL Lx </td><td align="right"></td></tr><tr><td align="center">LL Lx </td><td align="right"></td></tr><tr><td align="center">LL xL </td><td align="right"></td></tr><tr><td align="center">Lx LL </td><td align="right"></td></tr><tr><td align="center">xL LL </td><td align="right"></td></tr></table>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; | LL Sx | k |</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; | LL Sx | k | <strong class="changes">|Input text|</strong></p></div>
+ip: 84.52.40.240
+ts: 1402881235
+minor: 
+host: sa-84-52-40-240.saturn.infonet.ee
+username: AlexDaniel
+revision: 18
+diff-major: 1
+summary: 
+languages: 
+text: S - short press
+	L - long press
+	x - do not press
+	| Combination | Meaning | Device Action | Client Action |
+	| Sx Sx | e |
+	| xS xS | t | |Current time|
+	| SS SS | a | |Toggle AAA mode|
+	| | |
+	| SS Sx | o |Toggle compass| |
+	| SS xS | i |Toggle indicator| |
+	| Sx xS | n | |Next song|
+	| xS Sx | s | |Volume -10%|
+	| Sx SS | h |
+	| xS SS | r | |Right (Next slide)|
+	| | |
+	| Sx Lx | d | |Current date|
+	| Lx Sx | l | |Volume +10%|
+	| xS xL | c | |Play/Pause|
+	| xL xS | u |
+	| SS LL | m | |Mute|
+	| LL SS | w |
+	| | |
+	| Sx xL | f | |Alt+F4|
+	| Lx xS | g |
+	| xS Lx | y |
+	| xL Sx | p | |Previous song|
+	| SS Lx | b |Switch bluetooth power| |
+	| SS xL | v |
+	| LL Sx | k | |Input text|
+	| LL xS | j |Flashlight| |
+	| Lx SS | x | |Start [[Typing Tutor]]|
+	| xL SS | q | |Quit from any action|
+	| Sx LL | z | |Left (Previous slide)|
+	| xS LL |   |
+	| | |
+	| Lx Lx |   |
+	| xL xL |   |
+	| LL LL |   |
+	| | |
+	| Lx xL |   |
+	| xL Lx |   |
+	| LL Lx |   |
+	| LL xL |   |
+	| Lx LL |   |
+	| xL LL |   |
+	
+lastmajor: 18
+keep-ts: 1402881235

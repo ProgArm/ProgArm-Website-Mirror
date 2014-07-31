@@ -1,0 +1,23 @@
+flags: 0
+blocks: <table class="user"><tr><th align="center">Key </th><th align="center">Morse </th><th align="center">Action </th><th align="center">Description </th></tr><tr><td align="right"></td><td align="right"></td><td>Repeat last command</td><td align="right"></td></tr><tr><td align="right"></td><td align="right"></td><td>Check all devices (I²C)</td><td align="right"></td></tr><tr><td align="right"></td><td align="right"></td><td>Enter the most energy saving mode</td><td align="right"></td></tr><tr><td align="right"></td><td align="right"></td><td>Save current timestamp</td><td align="right"></td></tr></table>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; | | | | |</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; | | |<strong class="changes">Repeat last command| |<br />&gt; | | |Check all devices (!I²C)| |<br />&gt; | | |Enter the most energy saving mode| |<br />&gt; | | |Save current timestamp</strong>| |</p></div>
+ip: 84.52.39.156
+ts: 1397075055
+minor: 
+host: sa-84-52-39-156.saturn.infonet.ee
+username: AlexDaniel
+revision: 2
+diff-major: 1
+summary: 
+languages: 
+text: |= Key |= Morse |= Action |= Description |
+	| | |Repeat last command| |
+	| | |Check all devices (!I²C)| |
+	| | |Enter the most energy saving mode| |
+	| | |Save current timestamp| |
+	
+	
+lastmajor: 2
+keep-ts: 1397075055
