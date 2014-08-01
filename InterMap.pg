@@ -1,13 +1,18 @@
 flags: 0
-blocks: <p> File <i>u</i></p>
+blocks: <p> File <a class="url http" href="http://files.progarm.org/u/">http://files.progarm.org/u/</a></p>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt;  File /u/</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt;  File <strong class="changes">http://files.progarm.org</strong>/u/</p></div>
 ip: 89.235.236.216
-ts: 1396400181
+ts: 1406925927
 minor: 
-host: 89-235-236-216.saturn.infonet.ee
+host: 89.235.221.100
 username: AlexDaniel
-revision: 1
-summary:  File /u/
+revision: 2
+diff-major: 1
+summary: 
 languages: 
-text:  File /u/
+text:  File http://files.progarm.org/u/
 	
-lastmajor: 1
+lastmajor: 2
+keep-ts: 1406925927
