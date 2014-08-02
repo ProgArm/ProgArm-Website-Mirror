@@ -1,16 +1,15 @@
 flags: 010101010101010101010
-blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Photo</th><th>Device</th><th>Description</th></tr><tr><td>[[File:DSC_0742.JPG]]</td><td>[[ProgArm 0.1{1}]]</td><td>&#x2026;</td></tr><tr><td align="right"></td><td>[[ProgArm 0.2{2}]]</td><td align="right"></td></tr><tr><td align="right"></td><td>[[ProgArm 0.3{3}]]</td><td align="right"></td></tr></table><h2>Rings</h2><table class="user"><tr><th>Photo</th><th>Ring</th><th>Description</th></tr><tr><td align="right"></td><td>[[Basic Ring]]</td><td>&#x2026;</td></tr><tr><td align="right"></td><td>&#x2026;</td><td>&#x2026;</td></tr><tr><td align="right"></td><td>[[Wireless Ring]]</td><td colspan="2"></td></tr></table><h2>Info</h2><ul><li>[[Controls{l}]]</li><li>[[Features{t}]]</li><li>[[Protocol{l}]]</li><li>[[Flashing Firmware]]</li></ul>
-diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; |[[<strong class="changes">https://dl.dropboxusercontent.com/u/71236259/</strong>DSC_0742.JPG <strong class="changes">Photo</strong>]]|[[ProgArm 0.1{1}]]|...|</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; |[[<strong class="changes">File:</strong>DSC_0742.JPG]]|[[ProgArm 0.1{1}]]|...|</p></div>
+blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Photo</th><th>Device</th><th>Description</th></tr><tr><td>[[File:DSC_0742.JPG]]</td><td>[[ProgArm 0.1{1}]]</td><td>&#x2026;</td></tr><tr><td align="right"></td><td>[[ProgArm 0.2{2}]]</td><td align="right"></td></tr><tr><td align="right"></td><td>[[ProgArm 0.3{3}]]</td><td align="right"></td></tr></table><h2>Rings</h2><table class="user"><tr><th>Photo</th><th>Ring</th><th>Description</th></tr><tr><td align="right"></td><td>[[Basic Ring]]</td><td>&#x2026;</td></tr><tr><td align="right"></td><td>&#x2026;</td><td>&#x2026;</td></tr><tr><td align="right"></td><td>[[Wireless Ring]]</td><td colspan="2"></td></tr></table><h2>Info</h2><ul><li>[[Controls{l}]]</li><li>[[Features{t}]]</li><li>[[Protocol{l}]]</li><li>[[Flashing Firmware]]</li></ul><hr /><p>pjzsnqsphbsn, <a class="url http" href="http://www.abodemtmartha.com.au/">http://www.abodemtmartha.com.au/</a> Online casino no deposit, nTejfQv.</p><p>&#x2013; <a class="url http outside" href="http://www.abodemtmartha.com.au/">Free online casino slot games</a> 2014-08-02 02:39 UTC</p>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; ----<br />&gt; pjzsnqsphbsn, http://www.abodemtmartha.com.au/ Online casino no deposit, nTejfQv.<br />&gt; -- [http://www.abodemtmartha.com.au/ Free online casino slot games] 2014-08-02 02:39 UTC</p></div>
 ip: 84.52.29.94
-ts: 1406942868
+ts: 1406947175
 minor: 
-host: 89.235.221.100
-username: AlexDaniel
-revision: 91
+host: 96.47.225.186
+username: Free online casino slot games
+revision: 92
 diff-major: 1
-summary: 
+summary: pjzsnqsphbsn, http://www.abodemtmartha.com.au/ Online casino no deposit, nTejfQv.
 languages: 
 text: ==Devices
 	[[https://github.com/ProgArm/ProgArm-Hardware/releases Release list]]
@@ -32,5 +31,12 @@ text: ==Devices
 	* [[Flashing Firmware]]
 	
 	
-lastmajor: 91
-keep-ts: 1406942868
+	----
+	
+	pjzsnqsphbsn, http://www.abodemtmartha.com.au/ Online casino no deposit, nTejfQv.
+	
+	-- [http://www.abodemtmartha.com.au/ Free online casino slot games] 2014-08-02 02:39 UTC
+	
+	
+lastmajor: 92
+keep-ts: 1406947175
