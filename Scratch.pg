@@ -1,12 +1,25 @@
-flags: 0
-blocks: <p>Test text</p>
-ts: 1406950770
+flags: 010
+blocks: <p>Test text</p><hr /><p>Test comment</p><p>Aoeui</p><p>&#x2013; AlexDaniel 2014-08-02 03:39 UTC</p>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; ----<br />&gt; Test comment<br />&gt; Aoeui<br />&gt; -- AlexDaniel 2014-08-02 03:39 UTC</p></div>
+ts: 1406950795
 minor: 
 host: 89.235.221.100
 username: AlexDaniel
-revision: 1
-summary: Test text
+revision: 2
+diff-major: 1
+summary: Test comment Aoeui
 languages: 
 text: Test text
 	
-lastmajor: 1
+	----
+	
+	Test comment
+	
+	Aoeui
+	
+	-- AlexDaniel 2014-08-02 03:39 UTC
+	
+	
+lastmajor: 2
+keep-ts: 1406950795
