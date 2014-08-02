@@ -1,12 +1,17 @@
 flags: 0
-blocks: <pre>96.47.225.[0-9]+</pre>
-ts: 1406950093
+blocks: <pre>96\.47\.22[45]\.[0-9]+</pre>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; 96<strong class="changes">.</strong>47<strong class="changes">.225.[</strong>0-9]+</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; 96<strong class="changes">\.</strong>47<strong class="changes">\.22[45]\.[</strong>0-9]+</p></div>
+ts: 1406950177
 minor: 
 host: 89.235.221.100
 username: AlexDaniel
-revision: 1
-summary: 96.47.225.[0-9]+
+revision: 2
+diff-major: 1
+summary: 96\.47\.22[45]\.[0-9]+
 languages: 
-text: 96.47.225.[0-9]+
+text: 96\.47\.22[45]\.[0-9]+
 	
-lastmajor: 1
+lastmajor: 2
+keep-ts: 1406950177
