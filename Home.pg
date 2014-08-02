@@ -1,17 +1,14 @@
-flags: 01010
-blocks: <p><img class="url http" src="http://files.progarm.org/progarmsitelogo.png" alt="http://files.progarm.org/progarmsitelogo.png" /></p><h2><strong>Site under construction</strong></h2><p>TODO: Description</p><h2>Blog</h2>&lt;Journal 1,3&gt;
+flags: 0101010
+blocks: <p><img class="url http" src="http://files.progarm.org/progarmsitelogo.png" alt="http://files.progarm.org/progarmsitelogo.png" /></p><h2><strong>Site under construction</strong></h2><p>TODO: Description</p><p>This website is a <a class="url http outside" href="http://meatballwiki.org/wiki/WhatIsaWiki">wiki</a>. You are highly encouraged to [[Page Editing|edit]] it.</p><h2>Blog</h2>&lt;Journal 1,3&gt;
 	<p><br /></p><h2>Questions</h2>&lt;Journal 6 "^Question_\d+"&gt;
-diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; http://<strong class="changes">dl</strong>.<strong class="changes">dropboxusercontent</strong>.<strong class="changes">com/u/71236259</strong>/progarmsitelogo.png</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; http://<strong class="changes">files</strong>.<strong class="changes">progarm</strong>.<strong class="changes">org</strong>/progarmsitelogo.png</p></div><p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; ==Blog<br />&gt; &lt;Journal 1,3&gt;</p></div><p><strong>Deleted:</strong></p>
-	<div class="old"><p>&lt; ==Blog<br />&lt; &lt;Journal 1,3&gt;</p></div>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; This website is a [[http://meatballwiki.org/wiki/WhatIsaWiki wiki]]. You are highly encouraged to [[Page Editing|edit]] it.</p></div>
 ip: 84.52.29.94
-ts: 1406928981
+ts: 1406942277
 minor: 
 host: 89.235.221.100
 username: AlexDaniel
-revision: 22
+revision: 23
 diff-major: 1
 summary: 
 languages: 
@@ -21,6 +18,8 @@ text: http://files.progarm.org/progarmsitelogo.png
 	
 	TODO: Description
 	
+	This website is a [[http://meatballwiki.org/wiki/WhatIsaWiki wiki]]. You are highly encouraged to [[Page Editing|edit]] it.
+	
 	==Blog
 	<Journal 1,3>
 	
@@ -28,5 +27,5 @@ text: http://files.progarm.org/progarmsitelogo.png
 	==Questions
 	<Journal 6 "^Question_\d+">
 	
-lastmajor: 22
-keep-ts: 1406928981
+lastmajor: 23
+keep-ts: 1406942277
