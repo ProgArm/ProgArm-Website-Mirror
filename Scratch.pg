@@ -1,12 +1,12 @@
-flags: 010101010
-blocks: <p>Test text</p><p>&#x2014;-</p><p>Test comment</p><p>Aoeui</p><p>&#x2013; AlexDaniel 2014-08-02 03:39 UTC</p><p>&#x2014;-</p><p>|=Test|=Test| |Hello|Table|</p><p>&#x2013; AlexDaniel 2014-08-02 04:14 UTC</p><p>&#x2014;-</p><p>Touch</p><p>&#x2013; AlexDaniel 2014-08-03 15:27 UTC</p><p>&#x2014;-</p><p>Touch</p><p>&#x2013; AlexDaniel 2014-08-03 15:32 UTC</p>
+flags: 01010101010
+blocks: <p>Test text</p><p>----</p><p>Test comment</p><p>Aoeui</p><p>-- AlexDaniel 2014-08-02 03:39 UTC</p><p>----</p><p>|=Test|=Test| |Hello|Table|</p><p>-- AlexDaniel 2014-08-02 04:14 UTC</p><p>----</p><p>Touch</p><p>-- AlexDaniel 2014-08-03 15:27 UTC</p><p>----</p><p>Touch</p><p>-- AlexDaniel 2014-08-03 15:32 UTC</p><p>----</p><p>Touch</p><p>-- AlexDaniel 2014-08-03 15:35 UTC</p>
 diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; ----<br />&gt; Touch<br />&gt; -- AlexDaniel 2014-08-03 15:32 UTC</p></div>
-ts: 1407079963
+	<div class="new"><p>&gt; ----<br />&gt; Touch<br />&gt; -- AlexDaniel 2014-08-03 15:35 UTC</p></div>
+ts: 1407080129
 minor: 
 host: 89.235.221.100
 username: AlexDaniel
-revision: 5
+revision: 6
 diff-major: 1
 summary: Touch
 languages: 
@@ -43,5 +43,12 @@ text: Test text
 	-- AlexDaniel 2014-08-03 15:32 UTC
 	
 	
-lastmajor: 5
-keep-ts: 1407079963
+	----
+	
+	Touch
+	
+	-- AlexDaniel 2014-08-03 15:35 UTC
+	
+	
+lastmajor: 6
+keep-ts: 1407080129
