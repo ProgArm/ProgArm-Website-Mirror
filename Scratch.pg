@@ -1,14 +1,14 @@
-flags: 0101010100
-blocks: <p><div class="comment">Test text</p></div><div class="comment"><p>Test comment</p><p>Aoeui</p><p>-- AlexDaniel 2014-08-02 03:39 UTC</p></div><div class="comment"><p>|=Test|=Test| |Hello|Table|</p><p>-- AlexDaniel 2014-08-02 04:14 UTC</p></div><div class="comment"><p>Touch</p><p>-- AlexDaniel 2014-08-03 15:32 UTC</p></div><div class="comment"><p>Touch</p><p>-- AlexDaniel 2014-08-03 15:35 UTC</p></div>
-diff-minor: <p><strong>Deleted:</strong></p>
-	<div class="old"><p>&lt; -- AlexDaniel 2014-08-03 15:27 UTC<br />&lt; ----<br />&lt; Touch</p></div>
-ts: 1407080453
+flags: 010101010100
+blocks: <p><div class="userComment">Test text</p></div><div class="userComment"><p>Test comment</p><p>Aoeui</p><p>-- AlexDaniel 2014-08-02 03:39 UTC</p></div><div class="userComment"><p>|=Test|=Test| |Hello|Table|</p><p>-- AlexDaniel 2014-08-02 04:14 UTC</p></div><div class="userComment"><p>Touch</p><p>-- AlexDaniel 2014-08-03 15:32 UTC</p></div><div class="userComment"><p>Touch</p><p>-- AlexDaniel 2014-08-03 15:35 UTC</p></div><div class="userComment"><p>Test</p><p>-- AlexDaniel 2014-08-03 15:46 UTC</p></div>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; ----<br />&gt; Test<br />&gt; -- AlexDaniel 2014-08-03 15:46 UTC</p></div>
+ts: 1407080770
 minor: 
 host: 89.235.221.100
 username: AlexDaniel
-revision: 7
+revision: 8
 diff-major: 1
-summary: Touch
+summary: Test
 languages: 
 text: Test text
 	
@@ -43,5 +43,12 @@ text: Test text
 	-- AlexDaniel 2014-08-03 15:35 UTC
 	
 	
-lastmajor: 7
-keep-ts: 1407080453
+	----
+	
+	Test
+	
+	-- AlexDaniel 2014-08-03 15:46 UTC
+	
+	
+lastmajor: 8
+keep-ts: 1407080770
