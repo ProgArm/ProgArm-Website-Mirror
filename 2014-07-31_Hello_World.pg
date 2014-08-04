@@ -1,15 +1,14 @@
-flags: 0
-blocks: <p>The transition to the new server is complete. Everything is set up and the website is nearly fully functional.</p><p>You can find full source code of this website <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Website">here</a>. There is an additional backup for the whole content on this website <a class="url http outside" href="https://github.com/ProgArm/Progarm-Website-Mirror">here</a>.</p><p>Also, this is the first post in this blog. Hopefully we will be having more time and motivation to write about project news.</p>
-diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; You can find full source code of this website [[https://github.com/ProgArm/ProgArm-Website here]]. There is an additional backup for the whole content on this website [[https://github.com/ProgArm/Progarm-Website-Mirror here]].</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; You can find full source code of this website [[https://github.com/ProgArm/ProgArm-Website here]]. There is an additional backup for the whole content on this website [[https://github.com/ProgArm/Progarm-Website-Mirror here]]. </p></div>
-ts: 1407124609
-minor: 1
-host: 89.235.221.100
-username: AlexDaniel
-revision: 2
-diff-major: 
-summary: 
+flags: 00
+blocks: <p>The transition to the new server is complete. Everything is set up and the website is nearly fully functional.</p><p>You can find full source code of this website <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Website">here</a>. There is an additional backup for the whole content on this website <a class="url http outside" href="https://github.com/ProgArm/Progarm-Website-Mirror">here</a>.</p><p>Also, this is the first post in this blog. Hopefully we will be having more time and motivation to write about project news.</p><div class="userComment"><p>Great News! I'm observing reduced latency in accessing the website not that it was too slow or anything before, just a bit faster.</p><p>Feedback Regarding the web design:</p><p>By knowledge i'm no web developer but i have been messing with some color schemes lately so here's what i have to say ,i think the total black background is not quite right, something like Zenburn would be nice (#dcdccc #3f3f3f if it helps :) ) and the green is ok but if you change the background you need to adjust the font colors too  so go for the base16 colorscheme.</p><p>Check them out they are very popular and clean good color schemes:</p><p><a class="url http" href="https://github.com/chriskempson/base16">https://github.com/chriskempson/base16</a></p><p><a class="url http" href="https://github.com/jnurmine/Zenburn">https://github.com/jnurmine/Zenburn</a></p><p>-- stark 2014-08-04 17:09 UTC</p></div>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; ----<br />&gt; Great News! I'm observing reduced latency in accessing the website not that it was too slow or anything before, just a bit faster.<br />&gt; Feedback Regarding the web design:<br />&gt; By knowledge i'm no web developer but i have been messing with some color schemes lately so here's what i have to say ,i think the total black background is not quite right, something like Zenburn would be nice (#dcdccc #3f3f3f if it helps :) ) and the green is ok but if you change the background you need to adjust the font colors too  so go for the base16 colorscheme.<br />&gt; Check them out they are very popular and clean good color schemes:<br />&gt; https://github.com/chriskempson/base16<br />&gt; https://github.com/jnurmine/Zenburn<br />&gt; -- stark 2014-08-04 17:09 UTC</p></div>
+ts: 1407172197
+minor: 
+host: 37.58.52.15
+username: stark
+revision: 3
+diff-major: 1
+summary: Great News! I'm observing reduced latency in accessing the website not that it was too slow or anything before, just a bit faster. Feedback . . .
 languages: 
 text: The transition to the new server is complete. Everything is set up and the website is nearly fully functional.
 	
@@ -17,5 +16,22 @@ text: The transition to the new server is complete. Everything is set up and the
 	
 	Also, this is the first post in this blog. Hopefully we will be having more time and motivation to write about project news.
 	
-lastmajor: 1
-keep-ts: 1407124609
+	----
+	
+	Great News! I'm observing reduced latency in accessing the website not that it was too slow or anything before, just a bit faster.
+	
+	Feedback Regarding the web design:
+	
+	By knowledge i'm no web developer but i have been messing with some color schemes lately so here's what i have to say ,i think the total black background is not quite right, something like Zenburn would be nice (#dcdccc #3f3f3f if it helps :) ) and the green is ok but if you change the background you need to adjust the font colors too  so go for the base16 colorscheme.
+	
+	Check them out they are very popular and clean good color schemes:
+	
+	https://github.com/chriskempson/base16
+	
+	https://github.com/jnurmine/Zenburn
+	
+	-- stark 2014-08-04 17:09 UTC
+	
+	
+lastmajor: 3
+keep-ts: 1407172197
