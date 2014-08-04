@@ -1,13 +1,13 @@
 flags: 010101010100
-blocks: <p>Test text</p><div class="userComment"><p>Test comment</p><p>Aoeui</p><p>-- AlexDaniel 2014-08-02 03:39 UTC</p></div><div class="userComment"><p>|=Test|=Test| |Hello|Table|</p><p>-- AlexDaniel 2014-08-02 04:14 UTC</p></div><div class="userComment"><p>Touch.</p><p>-- AlexDaniel 2014-08-03 15:32 UTC</p></div><div class="userComment"><p>Touch...</p><p>-- AlexDaniel 2014-08-03 15:35 UTC</p></div><div class="userComment"><p>Test.</p><p>-- AlexDaniel 2014-08-03 15:46 UTC</p></div>
+blocks: <p>Test text</p><div class="userComment"><p>Test comment</p><p>Aoeui</p><p>&#x2013; AlexDaniel 2014-08-02 03:39 UTC</p></div><div class="userComment"><table class="user"><tr><th>Test</th><th>Test</th></tr><tr><td>Hello</td><td>Table</td></tr></table><p>&#x2013; AlexDaniel 2014-08-02 04:14 UTC</p></div><div class="userComment"><p>Touch.</p><p>&#x2013; AlexDaniel 2014-08-03 15:32 UTC</p></div><div class="userComment"><p>Touch&#x2026;</p><p>&#x2013; AlexDaniel 2014-08-03 15:35 UTC</p></div><div class="userComment"><p>Test</p><p>&#x2013; AlexDaniel 2014-08-03 15:46 UTC</p></div>
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; Touch<strong class="changes">....</strong></p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; Touch<strong class="changes">...</strong></p></div>
-ts: 1407122374
+	<div class="old"><p>&lt; Test<strong class="changes">.</strong></p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; Test</p></div>
+ts: 1407123463
 minor: 1
 host: 89.235.221.100
 username: AlexDaniel
-revision: 14
+revision: 15
 diff-major: <p><strong>Changed:</strong></p>
 	<div class="old"><p>&lt; Touch</p></div><p><strong>to</strong></p>
 	<div class="new"><p>&gt; Touch<strong class="changes">.</strong></p></div>
@@ -48,10 +48,10 @@ text: Test text
 	
 	----
 	
-	Test.
+	Test
 	
 	-- AlexDaniel 2014-08-03 15:46 UTC
 	
 	
 lastmajor: 11
-keep-ts: 1407122374
+keep-ts: 1407123463
