@@ -1,17 +1,20 @@
-flags: 00
-blocks: <p><div class="userComment">Get the latest .hex file from <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Firmware/releases">here</a>.</p><h2>GNU/Linux</h2><ol><li>Use any bluetooth manager to establish bluetooth connection. On Debian blueman works best.</li><li>Download and install <a class="url http outside" href="https://code.google.com/p/stm32flash/">stm32flash</a>.</li><li>Upload firmware using this command: </li></ol><pre class="real">stm32flash -b 38400 -w ProgArm-Firmware.hex /dev/rfcomm0</pre><ol><li>If the command above requires root privileges, then your user is not in the dialout group. It is highly recommended to be in <code>dialout</code> group, although not obligatory for flashing process.</li></ol><h2>Windows</h2><ol><li>Use standard Windows bluetooth manager to connect to the device. Let Windows to automatically install drivers for Serial-Over-Bluetooth interface.</li><li>Download and install <a class="url http outside" href="http://www.st.com/st-web-ui/static/active/en/st_prod_software_internet/resource/technical/software/demo_and_example/stsw-mcu005.zip">STM32 Flash Loader Demonstrator</a>.</li><li>Use Device Manager to see, what numbers do HC-05 virtual com ports have. The port with lower number is main Tx/Rx port</li><li>Configure the app as following:</li></ol><ul><ul><li>Port name: Your port number</li><li>Baud rate: 38400</li><li>Data bits: 8</li><li>Parity: even</li><li>Echo: disabled</li><li>Timeout: can be any (I use 3s)</li></ul></ul><ol><li>Click Next, choose your memory size and load .hex file to the STM32.</li></ol></div>
+flags: 010
+blocks: <ol><li>Get the latest .hex file from <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Firmware/releases">here</a>.<br /></li><li>Turn ProgArm on and switch the SW2 to Flashing Mode.<br /></li><li>Press and hold Reset button for approximately 1 second. This will put the device into Flashing Mode.<br /></li><li>Follow the instructions below.</li></ol><h2>GNU/Linux</h2><ol><li>Use any bluetooth manager to establish bluetooth connection. On Debian blueman works best.<br /></li><li>Download and install <a class="url http outside" href="https://code.google.com/p/stm32flash/">stm32flash</a>.<br /></li><li>Upload firmware using this command:<br /></li></ol><pre class="real">stm32flash -b 38400 -w ProgArm-Firmware.hex /dev/rfcomm0</pre><ol><li>If the command above requires root privileges, then your user is not in the dialout group. It is highly recommended to be in <code>dialout</code> group, although not obligatory for flashing process.</li></ol><h2>Windows</h2><ol><li>Use standard Windows bluetooth manager to connect to the device. Let Windows to automatically install drivers for Serial-Over-Bluetooth interface.<br /></li><li>Download and install <a class="url http outside" href="http://www.st.com/st-web-ui/static/active/en/st_prod_software_internet/resource/technical/software/demo_and_example/stsw-mcu005.zip">STM32 Flash Loader Demonstrator</a>.<br /></li><li>Use Device Manager to see, what numbers do HC-05 virtual com ports have. The port with lower number is main Tx/Rx port<br /></li><li>Configure the app as following:</li></ol><ul><ul><li>Port name: Your port number</li><li>Baud rate: 38400</li><li>Data bits: 8</li><li>Parity: even</li><li>Echo: disabled</li><li>Timeout: can be any (I use 3s)<br /></li></ul></ul><ol><li>Click Next, choose your memory size and load .hex file to the STM32.</li></ol>
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; # Use Device Manager to see, what numbers do HC-05 virtual com ports have. The <br />&lt; port with lower number is main Tx/Rx port</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; # Use Device Manager to see, what numbers do HC-05 virtual com ports have. The port with lower number is main Tx/Rx port</p></div>
-ts: 1407115620
+	<div class="old"><p>&lt; Get the latest .hex file from [[https://github.com/ProgArm/ProgArm-Firmware/releases here]].</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; <strong class="changes">#</strong> Get the latest .hex file from [[https://github.com/ProgArm/ProgArm-Firmware/releases here]].<br />&gt; <strong class="changes"># Turn ProgArm on and switch the SW2 to Flashing Mode.<br />&gt; # Press and hold Reset button for approximately 1 second. This will put the device into Flashing Mode.<br />&gt; # Follow the instructions below.</strong></p></div>
+ts: 1407187756
 minor: 
 host: 89.235.222.219
 username: Alexandr Boldin
-revision: 4
+revision: 5
 diff-major: 1
 summary: 
 languages: 
-text: Get the latest .hex file from [[https://github.com/ProgArm/ProgArm-Firmware/releases here]].
+text: # Get the latest .hex file from [[https://github.com/ProgArm/ProgArm-Firmware/releases here]].
+	# Turn ProgArm on and switch the SW2 to Flashing Mode.
+	# Press and hold Reset button for approximately 1 second. This will put the device into Flashing Mode.
+	# Follow the instructions below.
 	
 	==GNU/Linux
 	# Use any bluetooth manager to establish bluetooth connection. On Debian blueman works best.
@@ -35,5 +38,5 @@ text: Get the latest .hex file from [[https://github.com/ProgArm/ProgArm-Firmwar
 	** Timeout: can be any (I use 3s)
 	# Click Next, choose your memory size and load .hex file to the STM32.
 	
-lastmajor: 4
-keep-ts: 1407115620
+lastmajor: 5
+keep-ts: 1407187756
