@@ -1,5 +1,5 @@
-flags: 0
-blocks: <p>The transition to the new server is complete. Everything is set up and the website is nearly fully functional.</p><p>You can find full source code of this website <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Website">here</a>. There is an additional backup for the whole content on this website <a class="url http outside" href="https://github.com/ProgArm/Progarm-Website-Mirror">here</a>.</p><p>Also, this is the first post in this blog. Hopefully we will be having more time and motivation to write about project news.</p>
+flags: 00
+blocks: <p><div class="userComment">The transition to the new server is complete. Everything is set up and the website is nearly fully functional.</p><p>You can find full source code of this website <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Website">here</a>. There is an additional backup for the whole content on this website <a class="url http outside" href="https://github.com/ProgArm/Progarm-Website-Mirror">here</a>.</p><p>Also, this is the first post in this blog. Hopefully we will be having more time and motivation to write about project news.</p></div>
 ts: 1406780994
 minor: 
 host: 89.235.221.100
