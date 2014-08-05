@@ -1,22 +1,22 @@
 flags: 010
-blocks: <h3>Most of these rules are supported:</h3><p><img class="url http" src="http://files.progarm.org/creole_cheat_sheet.png" alt="http://files.progarm.org/creole_cheat_sheet.png" /></p><h3>Test page</h3><p>Feel free to use [[Scratch]] page to test any feature.</p>
+blocks: <h3>Most of these rules are supported:</h3><p><img class="url http" src="http://files.progarm.org/creole_cheat_sheet_inv.png" alt="http://files.progarm.org/creole_cheat_sheet_inv.png" /></p><h3>Test page</h3><p>Feel free to use [[Scratch]] page to test any feature.</p>
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; Most of these rules are supported:</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; <strong class="changes">===</strong>Most of these rules are supported:</p></div><p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; ===Test page<br />&gt; Feel free to use [[Scratch]] page to test any feature.</p></div>
-ts: 1406950754
+	<div class="old"><p>&lt; http://files.progarm.org/<strong class="changes">creole_cheat_sheet</strong>.png</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; http://files.progarm.org/<strong class="changes">creole_cheat_sheet_inv</strong>.png</p></div>
+ts: 1407258860
 minor: 
-host: 89.235.221.100
+host: 89.235.228.93
 username: AlexDaniel
-revision: 2
+revision: 3
 diff-major: 1
-summary: Scratch
+summary: 
 languages: 
 text: ===Most of these rules are supported:
-	http://files.progarm.org/creole_cheat_sheet.png
+	http://files.progarm.org/creole_cheat_sheet_inv.png
 	
 	===Test page
 	Feel free to use [[Scratch]] page to test any feature.
 	
-lastmajor: 2
-keep-ts: 1406950754
+	
+lastmajor: 3
+keep-ts: 1407258860
