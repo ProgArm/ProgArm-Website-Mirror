@@ -1,14 +1,14 @@
-flags: 010101010101010101010
-blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Photo</th><th>Device</th><th>Description</th></tr><tr><td>[[File:DSC_0742.JPG]]</td><td>[[ProgArm 0.1{1}]]</td><td>...</td></tr><tr><td align="right"></td><td>[[ProgArm 0.2{2}]]</td><td align="right"></td></tr><tr><td align="right"></td><td>[[ProgArm 0.3{3}]]</td><td align="right"></td></tr></table><h2>Rings</h2><table class="user"><tr><th>Photo</th><th>Ring</th><th>Description</th></tr><tr><td align="right"></td><td>[[Basic Ring]]</td><td>...</td></tr><tr><td align="right"></td><td>...</td><td>...</td></tr><tr><td align="right"></td><td>[[Wireless Ring]]</td><td colspan="2"></td></tr></table><h2>Info</h2><ul><li>[[Controls{l}]]<br /></li><li>[[Features{t}]]<br /></li><li>[[Protocol{l}]]<br /></li><li>[[Firmware Flashing]]</li></ul>
+flags: 01010101010101010101010
+blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Photo</th><th>Device</th><th>Description</th></tr><tr><td>[[File:DSC_0742.JPG]]</td><td>[[ProgArm 0.1{1}]]</td><td>...</td></tr><tr><td>[[File:IMGP1310.JPG]]</td><td>[[ProgArm 0.2{2}]]</td><td align="right"></td></tr><tr><td align="right"></td><td>[[ProgArm 0.3{3}]]</td><td align="right"></td></tr></table><h2>Rings</h2><table class="user"><tr><th>Photo</th><th>Ring</th><th>Description</th></tr><tr><td align="right"></td><td>[[Basic Ring]]</td><td>...</td></tr><tr><td align="right"></td><td>...</td><td>...</td></tr><tr><td align="right"></td><td>[[Wireless Ring]]</td><td colspan="2"></td></tr></table><h2>Info</h2><ul><li>[[Controls{l}]]<br /></li><li>[[Features{t}]]<br /></li><li>[[Protocol{l}]]<br /></li><li>[[Firmware Flashing]]</li></ul>
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; * [[<strong class="changes">Flashing</strong> Firmware]]</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; * [[Firmware <strong class="changes">Flashing</strong>]]</p></div>
+	<div class="old"><p>&lt; <strong class="changes">|</strong> |[[ProgArm 0.2{2}]]| |</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; |[[<strong class="changes">File:IMGP1310.JPG]]|[[</strong>ProgArm 0.2{2}]]| |</p></div>
 ip: 84.52.29.94
-ts: 1407203960
+ts: 1407434999
 minor: 
-host: 89.235.221.100
-username: AlexDaniel
-revision: 118
+host: 89.235.222.219
+username: Alexandr Boldin
+revision: 119
 diff-major: 1
 summary: 
 languages: 
@@ -16,7 +16,7 @@ text: ==Devices
 	[[https://github.com/ProgArm/ProgArm-Hardware/releases Release list]]
 	|=Photo|=Device|=Description|
 	|[[File:DSC_0742.JPG]]|[[ProgArm 0.1{1}]]|...|
-	| |[[ProgArm 0.2{2}]]| |
+	|[[File:IMGP1310.JPG]]|[[ProgArm 0.2{2}]]| |
 	| |[[ProgArm 0.3{3}]]| |
 	
 	==Rings
@@ -32,5 +32,7 @@ text: ==Devices
 	* [[Firmware Flashing]]
 	
 	
-lastmajor: 118
-keep-ts: 1407203960
+	
+	
+lastmajor: 119
+keep-ts: 1407434999
