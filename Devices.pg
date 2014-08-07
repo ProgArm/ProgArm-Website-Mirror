@@ -1,14 +1,14 @@
 flags: 0101010101010101010101010
-blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Photo</th><th>Device</th><th>Description</th></tr><tr><td>[[File:DSC_0742.JPG]]</td><td>[[ProgArm 0.1{1}]]</td><td>...</td></tr><tr><td>[[File:IMGP1310.JPG]]</td><td>[[ProgArm 0.2{2}]]</td><td align="right"></td></tr><tr><td align="right"></td><td>[[ProgArm 0.3{3}]]</td><td align="right"></td></tr></table><h2>Rings</h2><table class="user"><tr><th>Photo</th><th>Ring</th><th>Description</th></tr><tr><td>[[File:IMGP1298.JPG]]</td><td>[[Basic Ring]]</td><td>...</td></tr><tr><td align="right"></td><td>...</td><td>...</td></tr><tr><td align="right"></td><td>[[Wireless Ring]]</td><td colspan="2"></td></tr></table><h2>Info</h2><ul><li>[[Controls{l}]]<br /></li><li>[[Features{t}]]<br /></li><li>[[Protocol{l}]]<br /></li><li>[[Firmware Flashing]]</li></ul>
+blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Photo</th><th>Device</th><th>Description</th></tr><tr><td>[[File:DSC_0742.JPG]]</td><td>[[ProgArm 0.1{1}]]</td><td>...</td></tr><tr><td>[[File:IMGP1310.JPG]]</td><td>[[ProgArm 0.2{2}]]</td><td align="right"></td></tr><tr><td align="right"></td><td>[[ProgArm 0.3{3}]]</td><td align="right"></td></tr></table><h2>Rings</h2><table class="user"><tr><th>Photo</th><th>Ring</th><th>Description</th></tr><tr><td>[[File:IMGP1298.JPG]]</td><td>[[Ring]]</td><td>...</td></tr><tr><td align="right"></td><td>...</td><td>...</td></tr><tr><td align="right"></td><td>[[Wireless Ring]]</td><td colspan="2"></td></tr></table><h2>Info</h2><ul><li>[[Controls{l}]]<br /></li><li>[[Features{t}]]<br /></li><li>[[Protocol{l}]]<br /></li><li>[[Firmware Flashing]]</li></ul>
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; <strong class="changes">|</strong> |[[Basic Ring]]|...|</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; |[[<strong class="changes">File:IMGP1298.JPG]]|[[</strong>Basic Ring]]|...|</p></div>
+	<div class="old"><p>&lt; |[[File:IMGP1298.JPG]]|[[<strong class="changes">Basic</strong> Ring]]|...|</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; |[[File:IMGP1298.JPG]]|[[Ring]]|...|</p></div>
 ip: 84.52.29.94
-ts: 1407436610
+ts: 1407436639
 minor: 
 host: 89.235.222.219
 username: Alexandr Boldin
-revision: 120
+revision: 121
 diff-major: 1
 summary: 
 languages: 
@@ -21,7 +21,7 @@ text: ==Devices
 	
 	==Rings
 	|=Photo|=Ring|=Description|
-	|[[File:IMGP1298.JPG]]|[[Basic Ring]]|...|
+	|[[File:IMGP1298.JPG]]|[[Ring]]|...|
 	| |...|...|
 	| |[[Wireless Ring]]||
 	
@@ -36,5 +36,5 @@ text: ==Devices
 	
 	
 	
-lastmajor: 120
-keep-ts: 1407436610
+lastmajor: 121
+keep-ts: 1407436639
