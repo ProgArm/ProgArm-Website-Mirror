@@ -1,16 +1,21 @@
-flags: 0101010
-blocks: <h2>Photos</h2><p>[[File:IMGP1298.JPG]]<br />[[File:IMGP1303.JPG]]<br />[[File:IMGP1309.JPG]]</p>
-ts: 1407436657
+flags: 010101010
+blocks: <h2>Photos</h2><p>[[File:IMGP1298.JPG]]<br />[[File:IMGP1303.JPG]]<br />[[File:IMGP1309.JPG]]<br />[[File:IMGP1304.JPG]]</p>
+diff-minor: <p><strong>Deleted:</strong></p>
+	<div class="old"><p></p></div><p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; [[File:IMGP1304.JPG]]</p></div>
+ts: 1407436787
 minor: 
 host: 89.235.222.219
 username: Alexandr Boldin
-revision: 1
+revision: 2
+diff-major: 1
 summary:  ==Photos [[File:IMGP1298.JPG]] [[File:IMGP1303.JPG]] [[File:IMGP1309.JPG]]
 languages: 
-text: 
-	==Photos
+text: ==Photos
 	[[File:IMGP1298.JPG]]
 	[[File:IMGP1303.JPG]]
 	[[File:IMGP1309.JPG]]
+	[[File:IMGP1304.JPG]]
 	
-lastmajor: 1
+lastmajor: 2
+keep-ts: 1407436787
