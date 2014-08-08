@@ -1,13 +1,13 @@
 flags: 010101010101010
-blocks: <ul><li>[[Alarm Clock]]</li><li>[[Timer]]</li><li>[[Stopwatch]]</li><li>[[File Transfer]]</li><li>[[Encryption]]</li><li>[[Connection test]]</li><li>[[Ring test]]</li><li>Visualize data from accelerometer by using LED</li><li>Use master mode to communicate with multiple devices</li></ul>
+blocks: <ul><li>[[Alarm Clock]]<br /></li><li>[[Timer]]<br /></li><li>[[Stopwatch]]<br /></li><li>[[File Transfer]]<br /></li><li>[[Encryption]]<br /></li><li>[[Connection test]]<br /></li><li>[[Ring test]]<br /></li><li>Visualize data from accelerometer by using LED<br /></li><li>Use master mode to communicate with multiple devices<br /></li><li>Notify client about single-clicks. This is probably not useful, but it could be handy for custom modules.</li></ul>
 diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; * Use master mode to communicate with multiple devices</p></div>
+	<div class="new"><p>&gt; * Notify client about single-clicks. This is probably not useful, but it could be handy for custom modules.</p></div>
 ip: 84.52.19.156
-ts: 1405542379
+ts: 1407527890
 minor: 
-host: sa-84-52-19-156.saturn.infonet.ee
+host: 89.235.228.93
 username: AlexDaniel
-revision: 5
+revision: 6
 diff-major: 1
 summary: 
 languages: 
@@ -20,6 +20,7 @@ text: * [[Alarm Clock]]
 	* [[Ring test]]
 	* Visualize data from accelerometer by using LED
 	* Use master mode to communicate with multiple devices
+	* Notify client about single-clicks. This is probably not useful, but it could be handy for custom modules.
 	
-lastmajor: 5
-keep-ts: 1405542379
+lastmajor: 6
+keep-ts: 1407527890
