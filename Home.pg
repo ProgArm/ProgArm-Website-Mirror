@@ -1,14 +1,15 @@
 flags: 0101010
-blocks: <p><img class="url http" src="http://files.progarm.org/progarmsitelogo.png" alt="http://files.progarm.org/progarmsitelogo.png" /></p><h2><strong>Site under construction</strong></h2><p>TODO: Description</p><p>This website is a <a class="url http outside" href="http://meatballwiki.org/wiki/WhatIsaWiki">wiki</a>. You are highly encouraged to [[Page Editing|edit]] it.</p><h2>Blog</h2>&lt;Journal 1,3&gt;
+blocks: <p><img class="url http" src="http://files.progarm.org/progarmsitelogo.png" alt="http://files.progarm.org/progarmsitelogo.png" /></p><h2><strong>Site under construction</strong></h2><p>TODO: Description</p><p>This website is a <a class="url http outside" href="http://meatballwiki.org/wiki/WhatIsaWiki">wiki</a>. You are highly encouraged to [[Page Editing|edit]] it.</p><h2>Blog</h2>&lt;Journal 3,5&gt;
 	<p><br /></p><h2>Questions</h2>&lt;Journal 6 "^Question_\d+"&gt;
-diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; This website is a [[http://meatballwiki.org/wiki/WhatIsaWiki wiki]]. You are highly encouraged to [[Page Editing|edit]] it.</p></div>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; &lt;Journal <strong class="changes">1,</strong>3&gt;</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; &lt;Journal 3<strong class="changes">,5</strong>&gt;</p></div>
 ip: 84.52.29.94
-ts: 1406942277
+ts: 1407629928
 minor: 
-host: 89.235.221.100
-username: AlexDaniel
-revision: 23
+host: 84.52.43.244
+username: Alexandr Boldin
+revision: 24
 diff-major: 1
 summary: 
 languages: 
@@ -21,11 +22,11 @@ text: http://files.progarm.org/progarmsitelogo.png
 	This website is a [[http://meatballwiki.org/wiki/WhatIsaWiki wiki]]. You are highly encouraged to [[Page Editing|edit]] it.
 	
 	==Blog
-	<Journal 1,3>
+	<Journal 3,5>
 	
 	\\
 	==Questions
 	<Journal 6 "^Question_\d+">
 	
-lastmajor: 23
-keep-ts: 1406942277
+lastmajor: 24
+keep-ts: 1407629928
