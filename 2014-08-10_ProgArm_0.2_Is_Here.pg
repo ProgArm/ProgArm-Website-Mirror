@@ -1,0 +1,16 @@
+flags: 01010
+blocks: <p>I am glad to tell that the work on ProgArm 0.2 is now complete. The device hardware alpha <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases/tag/v0.2.0-alpha">release</a> can be found on GitHub. (Please note, that there was a fix made to the schematic, however PCB files are still those of the previous version).</p><p>By now, there is one fully functional prototype, that seems to be working as intended, however it still has some <a class="url http outside" href="http://progarm.org/ProgArm_0.2">flaws</a>.</p><p>Second prototype is also going to be built soon.</p>
+ts: 1407629678
+minor: 
+host: 84.52.43.244
+username: Alexandr Boldin
+revision: 1
+summary: I am glad to tell that the work on ProgArm 0.2 is now complete. The device hardware alpha . . .
+languages: 
+text: I am glad to tell that the work on ProgArm 0.2 is now complete. The device hardware alpha [[https://github.com/ProgArm/ProgArm-Hardware/releases/tag/v0.2.0-alpha release]] can be found on GitHub. (Please note, that there was a fix made to the schematic, however PCB files are still those of the previous version).
+	
+	By now, there is one fully functional prototype, that seems to be working as intended, however it still has some [[http://progarm.org/ProgArm_0.2 flaws]].
+	
+	Second prototype is also going to be built soon.
+	
+lastmajor: 1
