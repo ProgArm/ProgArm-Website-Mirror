@@ -1,16 +1,16 @@
 flags: 010
-blocks: <p><img class="url http" src="http://files.progarm.org/Ports.jpg" alt="http://files.progarm.org/Ports.jpg" /></p><h2>Files</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases/tag/v0.2.0-alpha">v0.2.0-alpha release on GitHub</a></p><h2>Photos</h2><p><a class="url http outside" href="http://files.progarm.org/ProgArm_0.2_Ports.jpg">Device Photo</a></p><h2>Known problems:</h2><ul><li>Device does not start if there is no battery.<br /></li><li>Current is limited to 330 mA (?)<br /></li><li>[[Firmware Flashing|Flashing mode]] is not working properly. (<a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/commit/0586e182973b1895c8a71800c2f0f30fb0aa9b93">fixed</a>)</li></ul>
+blocks: <p><img class="url http" src="http://files.progarm.org/Ports.jpg" alt="http://files.progarm.org/Ports.jpg" /></p><h2>Files</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases/tag/v0.2.0-alpha">v0.2.0-alpha release on GitHub</a></p><h2>Photos</h2><p><a class="url http outside" href="http://files.progarm.org/IMGP1310.JPG">Device Photo</a></p><h2>Known problems:</h2><ul><li>Device does not start if there is no battery.<br /></li><li>Current is limited to 330 mA (?)<br /></li><li>[[Firmware Flashing|Flashing mode]] is not working properly. (<a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/commit/0586e182973b1895c8a71800c2f0f30fb0aa9b93">fixed</a>)</li></ul>
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; [[http://files.progarm.org/<strong class="changes">IMGP1310</strong>.<strong class="changes">JPG</strong> Device Photo]]</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; [[http://files.progarm.org/<strong class="changes">ProgArm_0</strong>.<strong class="changes">2_Ports.jpg</strong> Device Photo]]</p></div>
+	<div class="old"><p>&lt; [[http://files.progarm.org/<strong class="changes">ProgArm_0</strong>.<strong class="changes">2_Ports.jpg</strong> Device Photo]]</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; [[http://files.progarm.org/<strong class="changes">IMGP1310</strong>.<strong class="changes">JPG</strong> Device Photo]]</p></div>
 ip: 84.52.29.94
-ts: 1407633877
-minor: 
+ts: 1407634397
+minor: 0
 host: 89.235.245.14
 username: AlexDaniel
-revision: 10
+revision: 11
 diff-major: 1
-summary: 
+summary: Rollback to 2014-08-10 01:17 UTC
 languages: 
 text: http://files.progarm.org/Ports.jpg
 	
@@ -18,12 +18,12 @@ text: http://files.progarm.org/Ports.jpg
 	[[https://github.com/ProgArm/ProgArm-Hardware/releases/tag/v0.2.0-alpha v0.2.0-alpha release on GitHub]]
 	
 	==Photos
-	[[http://files.progarm.org/ProgArm_0.2_Ports.jpg Device Photo]]
+	[[http://files.progarm.org/IMGP1310.JPG Device Photo]]
 	
 	==Known problems:
 	* Device does not start if there is no battery.
 	* Current is limited to 330 mA (?)
 	* [[Firmware Flashing|Flashing mode]] is not working properly. ([[https://github.com/ProgArm/ProgArm-Hardware/commit/0586e182973b1895c8a71800c2f0f30fb0aa9b93 fixed]])
 	
-lastmajor: 10
-keep-ts: 1407633877
+lastmajor: 11
+keep-ts: 1407634397
