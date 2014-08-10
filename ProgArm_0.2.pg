@@ -1,14 +1,14 @@
-flags: 01010
-blocks: <h2>Files</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases/tag/v0.2.0-alpha">v0.2.0-alpha release on GitHub</a></p><h2>Photos</h2><p>[[File:IMGP1310.JPG Device Photo]]</p><h2>Known problems:</h2><ul><li>Device does not start if there is no battery.<br /></li><li>Current is limited to 330 mA (?)<br /></li><li>[[Firmware Flashing|Flashing mode]] is not working properly. (<a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/commit/0586e182973b1895c8a71800c2f0f30fb0aa9b93">fixed</a>)</li></ul>
+flags: 010
+blocks: <h2>Files</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases/tag/v0.2.0-alpha">v0.2.0-alpha release on GitHub</a></p><h2>Photos</h2><p><a class="url http outside" href="http://files.progarm.org/IMGP1310.JPG">Device Photo</a></p><h2>Known problems:</h2><ul><li>Device does not start if there is no battery.<br /></li><li>Current is limited to 330 mA (?)<br /></li><li>[[Firmware Flashing|Flashing mode]] is not working properly. (<a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/commit/0586e182973b1895c8a71800c2f0f30fb0aa9b93">fixed</a>)</li></ul>
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; <strong class="changes">TODO</strong></p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; <strong class="changes">[[File:IMGP1310.JPG Device Photo]]</strong></p></div>
+	<div class="old"><p>&lt; [[<strong class="changes">File:</strong>IMGP1310.JPG Device Photo]]</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; [[<strong class="changes">http://files.progarm.org/</strong>IMGP1310.JPG Device Photo]]</p></div>
 ip: 84.52.29.94
-ts: 1407632658
+ts: 1407632921
 minor: 
 host: 84.52.43.244
 username: Alexandr Boldin
-revision: 7
+revision: 8
 diff-major: 1
 summary: 
 languages: 
@@ -16,12 +16,12 @@ text: ==Files
 	[[https://github.com/ProgArm/ProgArm-Hardware/releases/tag/v0.2.0-alpha v0.2.0-alpha release on GitHub]]
 	
 	==Photos
-	[[File:IMGP1310.JPG Device Photo]]
+	[[http://files.progarm.org/IMGP1310.JPG Device Photo]]
 	
 	==Known problems:
 	* Device does not start if there is no battery.
 	* Current is limited to 330 mA (?)
 	* [[Firmware Flashing|Flashing mode]] is not working properly. ([[https://github.com/ProgArm/ProgArm-Hardware/commit/0586e182973b1895c8a71800c2f0f30fb0aa9b93 fixed]])
 	
-lastmajor: 7
-keep-ts: 1407632658
+lastmajor: 8
+keep-ts: 1407632921
