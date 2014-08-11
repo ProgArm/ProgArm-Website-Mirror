@@ -1,21 +1,21 @@
-flags: 01010101010101010101010
-blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Version</th><th>Photo</th><th>Status</th></tr><tr><td>[[ProgArm 0.3{3}]]</td><td align="right"></td><td>Future release</td></tr><tr><td>[[ProgArm 0.2{2}]]</td><td>[[File:IMGP1310.JPG]]</td><td>Current version</td></tr><tr><td>[[ProgArm 0.1{1}]]</td><td>[[File:DSC_0742.JPG]]</td><td>Old version</td></tr></table><h2>Rings</h2><table class="user"><tr><th>Ring</th><th>Photo</th></tr><tr><td>[[Ring]]</td><td>[[File:IMGP1298.JPG]]</td></tr><tr><td colspan="2"align="center">More to come...</td></tr></table><h2>Info</h2><ul><li>[[Controls{l}]]<br /></li><li>[[Features{t}]]<br /></li><li>[[Protocol{l}]]<br /></li><li>[[Firmware Flashing]]</li></ul>
+flags: 0101010101010101010101010
+blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Version</th><th>Photo</th><th>Status</th></tr><tr><td>[[ProgArm 0.3{3}]]</td><td>[[File:ss2014-08-09at06.24.17.png]]</td><td>Future release</td></tr><tr><td>[[ProgArm 0.2{2}]]</td><td>[[File:IMGP1310.JPG]]</td><td>Current version</td></tr><tr><td>[[ProgArm 0.1{1}]]</td><td>[[File:DSC_0742.JPG]]</td><td>Old version</td></tr></table><h2>Rings</h2><table class="user"><tr><th>Ring</th><th>Photo</th></tr><tr><td>[[Ring]]</td><td>[[File:IMGP1298.JPG]]</td></tr><tr><td colspan="2"align="center">More to come...</td></tr></table><h2>Info</h2><ul><li>[[Controls{l}]]<br /></li><li>[[Features{t}]]<br /></li><li>[[Protocol{l}]]<br /></li><li>[[Firmware Flashing]]</li></ul>
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; |=<strong class="changes">Photo|=</strong>Ring|=<strong class="changes">Description</strong>|<br />&lt; |[[File:IMGP1298.JPG<strong class="changes">]]|[[Ring]]|...|</strong></p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; |=Ring|=<strong class="changes">Photo</strong>|<br />&gt; |[[<strong class="changes">Ring]]|[[</strong>File:IMGP1298.JPG<strong class="changes">]]|<br />&gt; || More to come... |</strong></p></div>
+	<div class="old"><p>&lt; |[[ProgArm 0.3{3<strong class="changes">}]]| |</strong>Future release|</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; |[[ProgArm 0.3{3<strong class="changes">}]]|[[File:ss2014-08-09at06.24.17.png]]|</strong>Future release|</p></div>
 ip: 84.52.29.94
-ts: 1407456433
+ts: 1407723291
 minor: 
-host: 89.235.228.93
-username: AlexDaniel
-revision: 124
+host: 84.52.43.244
+username: Alexandr Boldin
+revision: 125
 diff-major: 1
 summary: 
 languages: 
 text: ==Devices
 	[[https://github.com/ProgArm/ProgArm-Hardware/releases Release list]]
 	|=Version|=Photo|=Status|
-	|[[ProgArm 0.3{3}]]| |Future release|
+	|[[ProgArm 0.3{3}]]|[[File:ss2014-08-09at06.24.17.png]]|Future release|
 	|[[ProgArm 0.2{2}]]|[[File:IMGP1310.JPG]]|Current version|
 	|[[ProgArm 0.1{1}]]|[[File:DSC_0742.JPG]]|Old version|
 	
@@ -30,5 +30,7 @@ text: ==Devices
 	* [[Protocol{l}]]
 	* [[Firmware Flashing]]
 	
-lastmajor: 124
-keep-ts: 1407456433
+	
+	
+lastmajor: 125
+keep-ts: 1407723291
