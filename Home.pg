@@ -1,15 +1,15 @@
 flags: 0101010
-blocks: <p><img class="url http" src="http://files.progarm.org/progarmsitelogo.png" alt="http://files.progarm.org/progarmsitelogo.png" /></p><h2><strong>Site under construction</strong></h2><p>TODO: Description</p><p>This website is a <a class="url http outside" href="http://meatballwiki.org/wiki/WhatIsaWiki">wiki</a>. You are highly encouraged to [[Page Editing|edit]] it.</p><h2>Blog</h2>&lt;Journal 3,5&gt;
+blocks: <p><img class="url http" src="http://files.progarm.org/progarmsitelogo.png" alt="http://files.progarm.org/progarmsitelogo.png" /></p><h2><strong>Site under construction</strong></h2><p>TODO: Description</p><p>This website is a <a class="url http outside" href="http://oddmuse.org/wiki/What_Is_A_Wiki">wiki</a>. You are highly encouraged to [[Page Editing|edit]] it.</p><h2>Blog</h2>&lt;Journal 3,5&gt;
 	<p><br /></p><h2>Questions</h2>&lt;Journal 6 "^Question_\d+"&gt;
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; &lt;Journal <strong class="changes">1,</strong>3&gt;</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; &lt;Journal 3<strong class="changes">,5</strong>&gt;</p></div>
+	<div class="old"><p>&lt; This website is a [[http://<strong class="changes">meatballwiki</strong>.org/wiki/<strong class="changes">WhatIsaWiki</strong> wiki]]. You are highly encouraged to [[Page Editing|edit]] it.</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; This website is a [[http://<strong class="changes">oddmuse</strong>.org/wiki/<strong class="changes">What_Is_A_Wiki</strong> wiki]]. You are highly encouraged to [[Page Editing|edit]] it.</p></div>
 ip: 84.52.29.94
-ts: 1407629928
+ts: 1407933091
 minor: 
-host: 84.52.43.244
-username: Alexandr Boldin
-revision: 24
+host: 89.235.245.14
+username: AlexDaniel
+revision: 25
 diff-major: 1
 summary: 
 languages: 
@@ -19,7 +19,7 @@ text: http://files.progarm.org/progarmsitelogo.png
 	
 	TODO: Description
 	
-	This website is a [[http://meatballwiki.org/wiki/WhatIsaWiki wiki]]. You are highly encouraged to [[Page Editing|edit]] it.
+	This website is a [[http://oddmuse.org/wiki/What_Is_A_Wiki wiki]]. You are highly encouraged to [[Page Editing|edit]] it.
 	
 	==Blog
 	<Journal 3,5>
@@ -28,5 +28,5 @@ text: http://files.progarm.org/progarmsitelogo.png
 	==Questions
 	<Journal 6 "^Question_\d+">
 	
-lastmajor: 24
-keep-ts: 1407629928
+lastmajor: 25
+keep-ts: 1407933091
