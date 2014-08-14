@@ -1,12 +1,12 @@
 flags: 010101010
-blocks: <h2>Source</h2><p>You can <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client">get it from GitHub</a>. If you don't use git, then just press <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client/archive/master.zip">Download ZIP</a> button.</p><h2>Dependencies</h2><p>Currently there are only two requirements:<br /></p><ol><li>Perl version &gt;= 5.10.1<br /></li><li><code>Device::SerialPort</code> unless you are running on Android</li></ol><h2>Installation</h2><ul><li>[[Perl Client on Android]]<br /></li><li>[[Perl Client on GNU∕Linux]]<br /></li><li>[[Perl Client on Windows]]<br /></li><li>[[Perl Client on Maemo]]</li></ul><h3>Windows</h3><p>Coming soon...</p><h3>Debian</h3><p>Easy:<br /><code>sudo apt-get install libdevice-serialport-perl</code></p><p>But there are some recommended packages:<br /><code>sudo apt-get install flite xdotool</code> ...</p><h3>Other GNU/Linux distributions</h3><p>Install <code>Device::SerialPort</code> from CPAN if your distribution does not provide a package.</p><h3>Maemo (N900)</h3><p>The biggest problem is that Perl is too outdated (v5.8.3). You should install a newer version by using <a class="url http outside" href="http://perlbrew.pl/">perlbrew</a>.</p><p>Install perlbrew:<br /><code>curl -k -L http://install.perlbrew.pl | bash</code> -k option is necessary, otherwise it will throw errors about https</p><p>Install perl:<br /><code>perlbrew --notest v5.16</code> tests will run for two hours if you don't disable them. There are many failed tests, but it seems like perl is fully functional anyway.</p><p>Show installed versions:<br /><code>perlbrew list</code> If everything went well, you will see <code>perl-5.16.0</code></p><p>Switch to the newer version:<br /><code>perlbrew switch perl-5.16.0</code></p><p>Install cpanm:<br /><code>perlbrew install-cpanm</code></p><p>Install <code>Device::SerialPort</code><br /><code>cpanm --no-wget --verbose Device::SerialPort</code></p><h4>Sometimes you will have to provide full path to some binaries:</h4><p>perlbrew is located at<br /><code>~/perl5/perlbrew/bin/perlbrew</code></p><p>cpanm is located at<br /><code>~/perl5/perlbrew/bin/cpanm</code></p><p>perl v5.16 is located at<br /><code>~/perl5/perlbrew/perls/perl-5.16.0/bin/perl</code></p><p>However, once you <code>perlbrew switch</code> to your new perl, you wont have to provide full paths.</p>
+blocks: <h2>Source</h2><p>You can <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client">get it from GitHub</a>. If you don't use git, then just press <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client/archive/master.zip">Download ZIP</a> button.</p><h2>Dependencies</h2><p>Currently there are only two requirements:<br /></p><ol><li>Perl version &gt;= 5.10.1<br /></li><li><code>Device::SerialPort</code> unless you are running on Android</li></ol><h2>Installation</h2><ul><li>[[Perl Client on Android]]<br /></li><li>[[Perl Client on GNU∕Linux]]<br /></li><li>[[Perl Client on Windows]]<br /></li><li>[[Perl Client on Maemo]]</li></ul><h3>Windows</h3><p>Coming soon...</p><h3>Maemo (N900)</h3><p>The biggest problem is that Perl is too outdated (v5.8.3). You should install a newer version by using <a class="url http outside" href="http://perlbrew.pl/">perlbrew</a>.</p><p>Install perlbrew:<br /><code>curl -k -L http://install.perlbrew.pl | bash</code> -k option is necessary, otherwise it will throw errors about https</p><p>Install perl:<br /><code>perlbrew --notest v5.16</code> tests will run for two hours if you don't disable them. There are many failed tests, but it seems like perl is fully functional anyway.</p><p>Show installed versions:<br /><code>perlbrew list</code> If everything went well, you will see <code>perl-5.16.0</code></p><p>Switch to the newer version:<br /><code>perlbrew switch perl-5.16.0</code></p><p>Install cpanm:<br /><code>perlbrew install-cpanm</code></p><p>Install <code>Device::SerialPort</code><br /><code>cpanm --no-wget --verbose Device::SerialPort</code></p><h4>Sometimes you will have to provide full path to some binaries:</h4><p>perlbrew is located at<br /><code>~/perl5/perlbrew/bin/perlbrew</code></p><p>cpanm is located at<br /><code>~/perl5/perlbrew/bin/cpanm</code></p><p>perl v5.16 is located at<br /><code>~/perl5/perlbrew/perls/perl-5.16.0/bin/perl</code></p><p>However, once you <code>perlbrew switch</code> to your new perl, you wont have to provide full paths.</p>
 diff-minor: <p><strong>Deleted:</strong></p>
-	<div class="old"><p>&lt; ===Android<br />&lt; # [[https://android-scripting.googlecode.com/files/sl4a_r6.apk Download]] and install SL4A<br />&lt; [[image:File:apk_sl4a.png]]<br />&lt; # [[https://android-scripting.googlecode.com/files/perl_for_android_r1.apk Download]] and install perl-for-android<br />&lt; [[image:File:apk_perl.png]]<br />&lt; # Run Perl For Android application and press install<br />&lt; # Move ProgArm client into sl4a folder<br />&lt; # Run SL4A application and execute progarm.pl<br />&lt; It is possible that one day [[https://code.google.com/p/perldroid/ perldroid]] project will simplify this process.</p></div>
-ts: 1408038195
+	<div class="old"><p>&lt; ===Debian<br />&lt; Easy:<br />&lt; {{{sudo apt-get install libdevice-serialport-perl}}}<br />&lt; But there are some recommended packages:<br />&lt; {{{sudo apt-get install flite xdotool}}} ...<br />&lt; ===Other GNU/Linux distributions<br />&lt; Install {{{Device::SerialPort}}} from CPAN if your distribution does not provide a package.</p></div>
+ts: 1408038226
 minor: 
 host: 89.235.237.48
 username: AlexDaniel
-revision: 8
+revision: 9
 diff-major: 1
 summary: 
 languages: 
@@ -26,16 +26,6 @@ text: ==Source
 	
 	===Windows
 	Coming soon...
-	
-	===Debian
-	Easy:
-	{{{sudo apt-get install libdevice-serialport-perl}}}
-	
-	But there are some recommended packages:
-	{{{sudo apt-get install flite xdotool}}} ...
-	
-	===Other GNU/Linux distributions
-	Install {{{Device::SerialPort}}} from CPAN if your distribution does not provide a package.
 	
 	===Maemo (N900)
 	The biggest problem is that Perl is too outdated (v5.8.3). You should install a newer version by using [[http://perlbrew.pl/ perlbrew]].
@@ -70,5 +60,5 @@ text: ==Source
 	
 	However, once you {{{perlbrew switch}}} to your new perl, you wont have to provide full paths.
 	
-lastmajor: 8
-keep-ts: 1408038195
+lastmajor: 9
+keep-ts: 1408038226
