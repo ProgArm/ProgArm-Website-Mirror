@@ -1,15 +1,12 @@
-flags: 01010101010101010101010101010100
-blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Version</th><th>Photo</th><th>Status</th></tr><tr><td>[[ProgArm 0.3{3}]]</td><td align="right"></td><td>Future release</td></tr><tr><td>[[ProgArm 0.2{2}]]</td><td>[[File:IMGP1310.JPG]]</td><td>Current version</td></tr><tr><td>[[ProgArm 0.1{1}]]</td><td>[[File:DSC_0742.JPG]]</td><td>Old version</td></tr></table><h2>Rings</h2><table class="user"><tr><th>Ring</th><th>Photo</th></tr><tr><td>[[Ring]]</td><td>[[File:IMGP1298.JPG]]</td></tr><tr><td colspan="2"align="center">More to come...</td></tr></table><h2>Documentation for Users</h2><ul><li>[[Clients]]<br /></li><li>[[Controls{l}]]<br /></li><li>[[Features{t}]]<br /></li><li>[[Firmware Flashing]]</li></ul><h2>Documentation for Developers</h2><ul><li>[[Writing Perl Extensions]]<br /></li><li>[[Writing Perl Extensions for Android]]<br /></li><li>[[Writing Clients]]<br /></li><li>[[Protocol{l}]]</li></ul><h2 id="commentsHeading">Comments:</h2><div class="userComment"><p>finxyqsphbsn, <a class="url http" href="http://www.nqcgubpslq.com/">http://www.nqcgubpslq.com/</a> vodyrzwjfv</p><p>-- <a class="url http outside" href="http://www.mfkimobllk.com/">ycvqdvmeuv</a> 2014-08-14 14:35 UTC</p></div>
-diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; ----<br />&gt; finxyqsphbsn, http://www.nqcgubpslq.com/ vodyrzwjfv<br />&gt; -- [http://www.mfkimobllk.com/ ycvqdvmeuv] 2014-08-14 14:35 UTC</p></div>
+flags: 0101010101010101010101010101010
+blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Version</th><th>Photo</th><th>Status</th></tr><tr><td>[[ProgArm 0.3{3}]]</td><td align="right"></td><td>Future release</td></tr><tr><td>[[ProgArm 0.2{2}]]</td><td>[[File:IMGP1310.JPG]]</td><td>Current version</td></tr><tr><td>[[ProgArm 0.1{1}]]</td><td>[[File:DSC_0742.JPG]]</td><td>Old version</td></tr></table><h2>Rings</h2><table class="user"><tr><th>Ring</th><th>Photo</th></tr><tr><td>[[Ring]]</td><td>[[File:IMGP1298.JPG]]</td></tr><tr><td colspan="2"align="center">More to come...</td></tr></table><h2>Documentation for Users</h2><ul><li>[[Clients]]<br /></li><li>[[Controls{l}]]<br /></li><li>[[Features{t}]]<br /></li><li>[[Firmware Flashing]]</li></ul><h2>Documentation for Developers</h2><ul><li>[[Writing Perl Extensions]]<br /></li><li>[[Writing Perl Extensions for Android]]<br /></li><li>[[Writing Clients]]<br /></li><li>[[Protocol{l}]]</li></ul>
 ip: 84.52.29.94
-ts: 1408026953
-minor: 
-host: 146.0.74.205
-username: ycvqdvmeuv
-revision: 132
-diff-major: 1
-summary: finxyqsphbsn, http://www.nqcgubpslq.com/ vodyrzwjfv 
+ts: 1408036673
+minor: 0
+host: 89.235.237.48
+username: AlexDaniel
+revision: 133
+summary: Rollback to 2014-08-14 03:38 UTC
 languages: 
 text: ==Devices
 	[[https://github.com/ProgArm/ProgArm-Hardware/releases Release list]]
@@ -35,12 +32,5 @@ text: ==Devices
 	* [[Writing Clients]]
 	* [[Protocol{l}]]
 	
-	----
-	
-	finxyqsphbsn, http://www.nqcgubpslq.com/ vodyrzwjfv
-	
-	-- [http://www.mfkimobllk.com/ ycvqdvmeuv] 2014-08-14 14:35 UTC
-	
-	
-lastmajor: 132
-keep-ts: 1408026953
+lastmajor: 133
+keep-ts: 1408036673
