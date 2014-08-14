@@ -1,14 +1,14 @@
 flags: 0101010
-blocks: <p>Known ProgArm clients:<br /></p><ol><li>[[Perl Client]]. Hopefully it will run on most platforms.<br /></li><li>There was a proof-of-concept <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client">client written in Python</a>. It is currently outdated. If you want to develop your own python client, just start from scratch.</li></ol><p>Writing a client is easy! Just read data from bluetooth and interpret it according to [[Protocol]]. But please note that a good client must be extensible and customizable, that is the hardest part.</p>
+blocks: <p>Known ProgArm clients:<br /></p><ol><li>[[Perl Client]]. Hopefully it will run on most platforms.<br /></li><li>There was a proof-of-concept <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client">client written in Python</a>. It is currently outdated. If you want to develop your own python client, just start from scratch.</li></ol><p>See also:<br /></p><ul><li>[[Writing Clients]]</li></ul>
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; # [[<strong class="changes">https://github.com/ProgArm/ProgArm-Client</strong> Perl <strong class="changes">client</strong>]]. Hopefully it will run on most platforms.</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; # [[Perl <strong class="changes">Client</strong>]]. Hopefully it will run on most platforms.</p></div>
+	<div class="old"><p>&lt; <strong class="changes">Writing a client is easy! Just read data from bluetooth and interpret it according to</strong> [[<strong class="changes">Protocol]]. But please note that a good client must be extensible and customizable, that is the hardest part.</strong></p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; <strong class="changes">See also:<br />&gt; *</strong> [[<strong class="changes">Writing Clients]]</strong></p></div>
 ip: 84.52.44.168
-ts: 1407983615
+ts: 1407985329
 minor: 
 host: 89.235.245.14
 username: AlexDaniel
-revision: 7
+revision: 8
 diff-major: 1
 summary: 
 languages: 
@@ -16,7 +16,8 @@ text: Known ProgArm clients:
 	# [[Perl Client]]. Hopefully it will run on most platforms.
 	# There was a proof-of-concept [[https://github.com/ProgArm/ProgArm-Client client written in Python]]. It is currently outdated. If you want to develop your own python client, just start from scratch.
 	
-	Writing a client is easy! Just read data from bluetooth and interpret it according to [[Protocol]]. But please note that a good client must be extensible and customizable, that is the hardest part.
+	See also:
+	* [[Writing Clients]]
 	
-lastmajor: 7
-keep-ts: 1407983615
+lastmajor: 8
+keep-ts: 1407985329
