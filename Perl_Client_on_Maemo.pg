@@ -1,0 +1,42 @@
+flags: 0
+blocks: <p>The biggest problem is that Perl is too outdated (v5.8.3). You should install a newer version by using <a class="url http outside" href="http://perlbrew.pl/">perlbrew</a>.</p><p>Install perlbrew:<br /><code>curl -k -L http://install.perlbrew.pl | bash</code> -k option is necessary, otherwise it will throw errors about https</p><p>Install perl:<br /><code>perlbrew --notest v5.16</code> tests will run for two hours if you don't disable them. There are many failed tests, but it seems like perl is fully functional anyway.</p><p>Show installed versions:<br /><code>perlbrew list</code> If everything went well, you will see <code>perl-5.16.0</code></p><p>Switch to the newer version:<br /><code>perlbrew switch perl-5.16.0</code></p><p>Install cpanm:<br /><code>perlbrew install-cpanm</code></p><p>Install <code>Device::SerialPort</code><br /><code>cpanm --no-wget --verbose Device::SerialPort</code></p><h4>Sometimes you will have to provide full path to some binaries:</h4><p>perlbrew is located at<br /><code>~/perl5/perlbrew/bin/perlbrew</code></p><p>cpanm is located at<br /><code>~/perl5/perlbrew/bin/cpanm</code></p><p>perl v5.16 is located at<br /><code>~/perl5/perlbrew/perls/perl-5.16.0/bin/perl</code></p><p>However, once you <code>perlbrew switch</code> to your new perl, you wont have to provide full paths.</p>
+ts: 1408038261
+minor: 
+host: 89.235.237.48
+username: AlexDaniel
+revision: 1
+summary: The biggest problem is that Perl is too outdated (v5.8.3). You should install a newer version by using [perlbrew]. Install . . .
+languages: 
+text: The biggest problem is that Perl is too outdated (v5.8.3). You should install a newer version by using [[http://perlbrew.pl/ perlbrew]].
+	
+	Install perlbrew:
+	{{{curl -k -L http://install.perlbrew.pl | bash}}} -k option is necessary, otherwise it will throw errors about https
+	
+	Install perl:
+	{{{perlbrew --notest v5.16}}} tests will run for two hours if you don't disable them. There are many failed tests, but it seems like perl is fully functional anyway.
+	
+	Show installed versions:
+	{{{perlbrew list}}} If everything went well, you will see ##perl-5.16.0##
+	
+	Switch to the newer version:
+	{{{perlbrew switch perl-5.16.0}}}
+	
+	Install cpanm:
+	{{{perlbrew install-cpanm}}}
+	
+	Install {{{Device::SerialPort}}}
+	{{{cpanm --no-wget --verbose Device::SerialPort}}}
+	
+	====Sometimes you will have to provide full path to some binaries:
+	perlbrew is located at
+	{{{~/perl5/perlbrew/bin/perlbrew}}}
+	
+	cpanm is located at
+	{{{~/perl5/perlbrew/bin/cpanm}}}
+	
+	perl v5.16 is located at
+	{{{~/perl5/perlbrew/perls/perl-5.16.0/bin/perl}}}
+	
+	However, once you {{{perlbrew switch}}} to your new perl, you wont have to provide full paths.
+	
+lastmajor: 1
