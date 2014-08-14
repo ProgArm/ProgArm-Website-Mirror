@@ -1,0 +1,20 @@
+flags: 0
+blocks: <h3>Debian</h3><p>Easy:<br /><code>sudo apt-get install libdevice-serialport-perl</code></p><p>But there are some recommended packages:<br /><code>sudo apt-get install flite xdotool</code> ...</p><h3>Other GNU/Linux distributions</h3><p>Install <code>Device::SerialPort</code> from CPAN if your distribution does not provide a package.</p>
+ts: 1408038233
+minor: 
+host: 89.235.237.48
+username: AlexDaniel
+revision: 1
+summary: ===Debian Easy: {{{sudo apt-get install libdevice-serialport-perl}}} But there are some recommended packages: {{{sudo apt-get install flite . . .
+languages: 
+text: ===Debian
+	Easy:
+	{{{sudo apt-get install libdevice-serialport-perl}}}
+	
+	But there are some recommended packages:
+	{{{sudo apt-get install flite xdotool}}} ...
+	
+	===Other GNU/Linux distributions
+	Install {{{Device::SerialPort}}} from CPAN if your distribution does not provide a package.
+	
+lastmajor: 1
