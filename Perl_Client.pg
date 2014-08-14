@@ -1,12 +1,13 @@
-flags: 010
-blocks: <h2>Source</h2><p>You can <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client">get it from GitHub</a>. If you don't use git, then just press <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client/archive/master.zip">Download ZIP</a> button.</p><h2>Dependencies</h2><p>Currently there are only two requirements:<br /></p><ol><li>Perl version &gt;= 5.10.1<br /></li><li><code>Device::SerialPort</code> unless you are running on Android</li></ol><h2>Installing</h2><h3>Android</h3><ol><li><a class="url http outside" href="https://android-scripting.googlecode.com/files/sl4a_r6.apk">Download</a> and install SL4A<br /><a class="image inter File" href="http://files.progarm.org/apk_sl4a.png"><img class="upload" title="File:apk sl4a.png" src="http://files.progarm.org/apk_sl4a.png" alt="File:apk sl4a.png" /></a><br /></li><li><a class="url http outside" href="https://android-scripting.googlecode.com/files/perl_for_android_r1.apk">Download</a> and install perl-for-android<br /><a class="image inter File" href="http://files.progarm.org/apk_perl.png"><img class="upload" title="File:apk perl.png" src="http://files.progarm.org/apk_perl.png" alt="File:apk perl.png" /></a><br /></li><li>Run Perl For Android application and press install<br /></li><li>Move ProgArm client into sl4a folder<br /></li><li>Run SL4A application and execute progarm.pl</li></ol><p>It is possible that one day <a class="url http outside" href="https://code.google.com/p/perldroid/">perldroid</a> project will simplify this process.</p><h3>Windows</h3><p>Coming soon...</p><h3>Debian</h3><p>Easy:<br /><code>sudo apt-get install libdevice-serialport-perl</code></p><p>But there are some recommended packages:<br /><code>sudo apt-get install flite xdotool</code> ...</p><h3>Other GNU/Linux distributions</h3><p>Install <code>Device::SerialPort</code> from CPAN if your distribution does not provide a package.</p><h3>Maemo (N900)</h3><p>The biggest problem is that Perl is too outdated (v5.8.3). You should install a newer version by using <a class="url http outside" href="http://perlbrew.pl/">perlbrew</a>.</p><p>Install perlbrew:<br /><code>curl -k -L http://install.perlbrew.pl | bash</code> -k option is necessary, otherwise it will throw errors about https</p><p>Install perl:<br /><code>perlbrew --notest v5.16</code> tests will run for two hours if you don't disable them. There are many failed tests, but it seems like perl is fully functional anyway.</p><p>Show installed versions:<br /><code>perlbrew list</code> If everything went well, you will see <code>perl-5.16.0</code></p><p>Switch to the newer version:<br /><code>perlbrew switch perl-5.16.0</code></p><p>Install cpanm:<br /><code>perlbrew install-cpanm</code></p><p>Install <code>Device::SerialPort</code><br /><code>cpanm --no-wget --verbose Device::SerialPort</code></p><h4>Sometimes you will have to provide full path to some binaries:</h4><p>perlbrew is located at<br /><code>~/perl5/perlbrew/bin/perlbrew</code></p><p>cpanm is located at<br /><code>~/perl5/perlbrew/bin/cpanm</code></p><p>perl v5.16 is located at<br /><code>~/perl5/perlbrew/perls/perl-5.16.0/bin/perl</code></p><p>However, once you <code>perlbrew switch</code> to your new perl, you wont have to provide full paths.</p>
-diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; It is possible that one day [[https://code.google.com/p/perldroid/ perldroid]] project will simplify this process.</p></div>
-ts: 1408037753
+flags: 01010101010
+blocks: <h2>Source</h2><p>You can <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client">get it from GitHub</a>. If you don't use git, then just press <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client/archive/master.zip">Download ZIP</a> button.</p><h2>Dependencies</h2><p>Currently there are only two requirements:<br /></p><ol><li>Perl version &gt;= 5.10.1<br /></li><li><code>Device::SerialPort</code> unless you are running on Android</li></ol><h2>Installation</h2><ul><li>[[Perl Client on Android]]<br /></li><li>[[Perl Client on GNU∕Linux]]<br /></li><li>[[Perl Client on Windows]]<br /></li><li>[[Perl Client on Maemo]]</li></ul><h3>Android</h3><ol><li><a class="url http outside" href="https://android-scripting.googlecode.com/files/sl4a_r6.apk">Download</a> and install SL4A<br /><a class="image inter File" href="http://files.progarm.org/apk_sl4a.png"><img class="upload" title="File:apk sl4a.png" src="http://files.progarm.org/apk_sl4a.png" alt="File:apk sl4a.png" /></a><br /></li><li><a class="url http outside" href="https://android-scripting.googlecode.com/files/perl_for_android_r1.apk">Download</a> and install perl-for-android<br /><a class="image inter File" href="http://files.progarm.org/apk_perl.png"><img class="upload" title="File:apk perl.png" src="http://files.progarm.org/apk_perl.png" alt="File:apk perl.png" /></a><br /></li><li>Run Perl For Android application and press install<br /></li><li>Move ProgArm client into sl4a folder<br /></li><li>Run SL4A application and execute progarm.pl</li></ol><p>It is possible that one day <a class="url http outside" href="https://code.google.com/p/perldroid/">perldroid</a> project will simplify this process.</p><h3>Windows</h3><p>Coming soon...</p><h3>Debian</h3><p>Easy:<br /><code>sudo apt-get install libdevice-serialport-perl</code></p><p>But there are some recommended packages:<br /><code>sudo apt-get install flite xdotool</code> ...</p><h3>Other GNU/Linux distributions</h3><p>Install <code>Device::SerialPort</code> from CPAN if your distribution does not provide a package.</p><h3>Maemo (N900)</h3><p>The biggest problem is that Perl is too outdated (v5.8.3). You should install a newer version by using <a class="url http outside" href="http://perlbrew.pl/">perlbrew</a>.</p><p>Install perlbrew:<br /><code>curl -k -L http://install.perlbrew.pl | bash</code> -k option is necessary, otherwise it will throw errors about https</p><p>Install perl:<br /><code>perlbrew --notest v5.16</code> tests will run for two hours if you don't disable them. There are many failed tests, but it seems like perl is fully functional anyway.</p><p>Show installed versions:<br /><code>perlbrew list</code> If everything went well, you will see <code>perl-5.16.0</code></p><p>Switch to the newer version:<br /><code>perlbrew switch perl-5.16.0</code></p><p>Install cpanm:<br /><code>perlbrew install-cpanm</code></p><p>Install <code>Device::SerialPort</code><br /><code>cpanm --no-wget --verbose Device::SerialPort</code></p><h4>Sometimes you will have to provide full path to some binaries:</h4><p>perlbrew is located at<br /><code>~/perl5/perlbrew/bin/perlbrew</code></p><p>cpanm is located at<br /><code>~/perl5/perlbrew/bin/cpanm</code></p><p>perl v5.16 is located at<br /><code>~/perl5/perlbrew/perls/perl-5.16.0/bin/perl</code></p><p>However, once you <code>perlbrew switch</code> to your new perl, you wont have to provide full paths.</p>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; ==<strong class="changes">Installing</strong></p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; ==<strong class="changes">Installation<br />&gt; * [[Perl Client on Android]]<br />&gt; * [[Perl Client on GNU∕Linux]]<br />&gt; * [[Perl Client on Windows]]<br />&gt; * [[Perl Client on Maemo]]</strong></p></div>
+ts: 1408038171
 minor: 
 host: 89.235.237.48
 username: AlexDaniel
-revision: 6
+revision: 7
 diff-major: 1
 summary: 
 languages: 
@@ -18,7 +19,12 @@ text: ==Source
 	# Perl version >= 5.10.1
 	# {{{Device::SerialPort}}} unless you are running on Android
 	
-	==Installing
+	==Installation
+	* [[Perl Client on Android]]
+	* [[Perl Client on GNU∕Linux]]
+	* [[Perl Client on Windows]]
+	* [[Perl Client on Maemo]]
+	
 	===Android
 	# [[https://android-scripting.googlecode.com/files/sl4a_r6.apk Download]] and install SL4A
 	[[image:File:apk_sl4a.png]]
@@ -76,5 +82,5 @@ text: ==Source
 	
 	However, once you {{{perlbrew switch}}} to your new perl, you wont have to provide full paths.
 	
-lastmajor: 6
-keep-ts: 1408037753
+lastmajor: 7
+keep-ts: 1408038171
