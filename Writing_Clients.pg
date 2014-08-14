@@ -1,0 +1,14 @@
+flags: 01010
+blocks: <p>Writing your own client is easy! But before you start doing it, please make sure that the lacking functionality cannot be implemented by [[Writing_Perl_Extensions|creating extension]].</p><p>Just read data from bluetooth (usually represented by serial port) and interpret it according to the [[Protocol]]. Good client must be extensible and customizable, that is the hardest part.</p>
+ts: 1407985744
+minor: 
+host: 89.235.245.14
+username: AlexDaniel
+revision: 1
+summary: Writing your own client is easy! But before you start doing it, please make sure that the lacking functionality cannot be implemented by . . .
+languages: 
+text: Writing your own client is easy! But before you start doing it, please make sure that the lacking functionality cannot be implemented by [[Writing_Perl_Extensions|creating extension]].
+	
+	Just read data from bluetooth (usually represented by serial port) and interpret it according to the [[Protocol]]. Good client must be extensible and customizable, that is the hardest part.
+	
+lastmajor: 1
