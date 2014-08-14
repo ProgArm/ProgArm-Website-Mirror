@@ -1,13 +1,14 @@
-flags: 01010101010
-blocks: <p>Known ProgArm clients:<br /></p><ol><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client">Perl client</a>. Hopefully it will run on most platforms.<br /></li><li>There was a proof-of-concept <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client">client written in Python</a>. It is currently outdated. If you want to develop your own python client, just start from scratch.</li></ol><h2><strong>These are just some notes:</strong></h2><h2>Perl Client</h2><p>Currently there are only two requirements:<br /></p><ol><li>Perl version &gt;= 5.10<br /></li><li>Device::SerialPort</li></ol><h3>Windows</h3><p>Coming soon...</p><h3>Debian</h3><p>Your Perl version should be high enough. Just:<br /><code>sudo apt-get install libdevice-serialport-perl</code></p><h3>Other GNU/Linux distributions</h3><p>Install <code>Device::SerialPort</code> from CPAN if your distribution does not provide a package for <code>Device::SerialPort</code>.</p><h3>Maemo (N900)</h3><p>The biggest problem is that Perl is too outdated (v5.8.3). You should install a newer version by using <a class="url http outside" href="http://perlbrew.pl/">perlbrew</a>.</p><p>Install perlbrew:<br /><code>curl -k -L http://install.perlbrew.pl | bash</code> -k option is necessary, otherwise it will throw errors about https</p><p>Install perl:<br /><code>perlbrew --notest v5.16</code> tests will run for two hours if you don't disable them. There are many failed tests, but it seems like perl is fully functional anyway.</p><p>Show installed versions:<br /><code>perlbrew list</code> If everything went well, you will see <code>perl-5.16.0</code></p><p>Switch to the newer version:<br /><code>perlbrew switch perl-5.16.0</code></p><p>Install cpanm:<br /><code>perlbrew install-cpanm</code></p><p>Install <code>Device::SerialPort</code><br /><code>cpanm --no-wget --verbose Device::SerialPort</code></p><h4>Sometimes you will have to provide full path to some binaries:</h4><p>perlbrew is located at<br /><code>~/perl5/perlbrew/bin/perlbrew</code></p><p>cpanm is located at<br /><code>~/perl5/perlbrew/bin/cpanm</code></p><p>perl v5.16 is located at<br /><code>~/perl5/perlbrew/perls/perl-5.16.0/bin/perl</code></p><p>However, once you <code>perlbrew switch</code> to your new perl, you wont have to provide full paths.</p><h3>Writing Modules</h3><p>By default actions are called without any parameters, however <code>repeat.pl</code> will pass <code>1</code> and <code>-1</code> to indicate repeat and negative repeat.</p><p>The longest way to detect negative repeat is to use<br /><code>if defined $_[0] and $_[0] == -1</code></p><p>You can shorten it to<br /><code>if ($_[0] // 0) == -1</code></p><p>However, it is much easier to use experimental <a class="url http outside" href="http://perldoc.perl.org/perlop.html#Smartmatch-Operator">smartmatch operator</a><br /><code>if $_[0] ~~ -1</code><br />Most modules use smartmatch operator.</p>
-diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; ===Writing Modules<br />&gt; By default actions are called without any parameters, however ##repeat.pl## will pass ##1## and ##-1## to indicate repeat and negative repeat.<br />&gt; The longest way to detect negative repeat is to use<br />&gt; {{{if defined $_[0] and $_[0] == -1}}}<br />&gt; You can shorten it to<br />&gt; {{{if ($_[0] // 0) == -1}}}<br />&gt; However, it is much easier to use experimental [[http://perldoc.perl.org/perlop.html#Smartmatch-Operator smartmatch operator]]<br />&gt; {{{if $_[0] ~~ -1}}}<br />&gt; Most modules use smartmatch operator.</p></div>
+flags: 01010
+blocks: <p>Known ProgArm clients:<br /></p><ol><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client">Perl client</a>. Hopefully it will run on most platforms.<br /></li><li>There was a proof-of-concept <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client">client written in Python</a>. It is currently outdated. If you want to develop your own python client, just start from scratch.</li></ol><p>Writing a client is easy! Just read data from bluetooth and interpret it according to [[Protocol]]. But please note that a good client must be extensible and customizable, that is the hardest part.</p>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; <strong class="changes">==**These are just some notes:**<br />&lt; ==Perl Client<br />&lt; Currently there are only two requirements:<br />&lt; # Perl version &gt;= 5.10<br />&lt; # Device::SerialPort<br />&lt; ===Windows<br />&lt; Coming soon...<br />&lt; ===Debian<br />&lt; Your Perl version should be high enough. Just:<br />&lt; {{{sudo apt-get install libdevice-serialport-perl}}}<br />&lt; ===Other GNU/Linux distributions<br />&lt; Install ##Device::SerialPort## from CPAN if your distribution does not provide a package for ##Device::SerialPort##.<br />&lt; ===Maemo (N900)<br />&lt; The biggest problem is that Perl is too outdated (v5.8.3). You should install a newer version by using [[http://perlbrew.pl/ perlbrew]].<br />&lt; Install perlbrew:<br />&lt; {{{curl -k -L http://install.perlbrew.pl | bash}}} -k option is necessary, otherwise it will throw errors about https<br />&lt; Install perl:<br />&lt; {{{perlbrew --notest v5.16}}} tests will run for two hours if you don't disable them. There are many failed tests, but it seems like perl is fully functional anyway.<br />&lt; Show installed versions:<br />&lt; {{{perlbrew list}}} If everything went well, you will see ##perl-5.16.0##<br />&lt; Switch to the newer version:<br />&lt; {{{perlbrew switch perl-5.16.0}}}<br />&lt; Install cpanm:<br />&lt; {{{perlbrew install-cpanm}}}<br />&lt; Install ##Device::SerialPort##<br />&lt; {{{cpanm --no-wget --verbose Device::SerialPort}}}<br />&lt; ====Sometimes you will have to provide full path to some binaries:<br />&lt; perlbrew is located at<br />&lt; {{{~/perl5/perlbrew/bin/perlbrew}}}<br />&lt; cpanm is located at<br />&lt; {{{~/perl5/perlbrew/bin/cpanm}}}<br />&lt; perl v5.16 is located at<br />&lt; {{{~/perl5/perlbrew/perls/perl-5.16.0/bin/perl}}}<br />&lt; However, once you {{{perlbrew switch}}} to your new perl, you wont have to provide full paths.<br />&lt; ===</strong>Writing <strong class="changes">Modules<br />&lt; By default actions are called without any parameters, however ##repeat.pl## will pass ##1## and ##-1## to indicate repeat and negative repeat.<br />&lt; The longest way to detect negative repeat</strong> is <strong class="changes">to use<br />&lt; {{{if defined $_[0]</strong> and <strong class="changes">$_[0] == -1}}}<br />&lt; You can shorten</strong> it to<br />&lt; <strong class="changes">{{{if ($_[0] // 0) == -1}}}<br />&lt; However</strong>, <strong class="changes">it</strong> is <strong class="changes">much easier to use experimental [[http://perldoc.perl.org/perlop.html#Smartmatch-Operator smartmatch operator]]<br />&lt; {{{if $_[0] ~~ -1}}}<br />&lt; Most modules use smartmatch operator</strong>.</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; Writing <strong class="changes">a client</strong> is <strong class="changes">easy! Just read data from bluetooth</strong> and <strong class="changes">interpret</strong> it <strong class="changes">according</strong> to <strong class="changes">[[Protocol]]. But please note that a good client must be extensible and customizable</strong>, <strong class="changes">that</strong> is <strong class="changes">the hardest part</strong>.</p></div>
 ip: 84.52.44.168
-ts: 1407481963
+ts: 1407983311
 minor: 
-host: 89.235.228.93
+host: 89.235.245.14
 username: AlexDaniel
-revision: 5
+revision: 6
 diff-major: 1
 summary: 
 languages: 
@@ -15,70 +16,7 @@ text: Known ProgArm clients:
 	# [[https://github.com/ProgArm/ProgArm-Client Perl client]]. Hopefully it will run on most platforms.
 	# There was a proof-of-concept [[https://github.com/ProgArm/ProgArm-Client client written in Python]]. It is currently outdated. If you want to develop your own python client, just start from scratch.
 	
+	Writing a client is easy! Just read data from bluetooth and interpret it according to [[Protocol]]. But please note that a good client must be extensible and customizable, that is the hardest part.
 	
-	==**These are just some notes:**
-	
-	==Perl Client
-	Currently there are only two requirements:
-	# Perl version >= 5.10
-	# Device::SerialPort
-	
-	===Windows
-	Coming soon...
-	
-	===Debian
-	Your Perl version should be high enough. Just:
-	{{{sudo apt-get install libdevice-serialport-perl}}}
-	
-	===Other GNU/Linux distributions
-	Install ##Device::SerialPort## from CPAN if your distribution does not provide a package for ##Device::SerialPort##.
-	
-	===Maemo (N900)
-	The biggest problem is that Perl is too outdated (v5.8.3). You should install a newer version by using [[http://perlbrew.pl/ perlbrew]].
-	
-	Install perlbrew:
-	{{{curl -k -L http://install.perlbrew.pl | bash}}} -k option is necessary, otherwise it will throw errors about https
-	
-	Install perl:
-	{{{perlbrew --notest v5.16}}} tests will run for two hours if you don't disable them. There are many failed tests, but it seems like perl is fully functional anyway.
-	
-	Show installed versions:
-	{{{perlbrew list}}} If everything went well, you will see ##perl-5.16.0##
-	
-	Switch to the newer version:
-	{{{perlbrew switch perl-5.16.0}}}
-	
-	Install cpanm:
-	{{{perlbrew install-cpanm}}}
-	
-	Install ##Device::SerialPort##
-	{{{cpanm --no-wget --verbose Device::SerialPort}}}
-	
-	====Sometimes you will have to provide full path to some binaries:
-	perlbrew is located at
-	{{{~/perl5/perlbrew/bin/perlbrew}}}
-	
-	cpanm is located at
-	{{{~/perl5/perlbrew/bin/cpanm}}}
-	
-	perl v5.16 is located at
-	{{{~/perl5/perlbrew/perls/perl-5.16.0/bin/perl}}}
-	
-	However, once you {{{perlbrew switch}}} to your new perl, you wont have to provide full paths.
-	
-	
-	===Writing Modules
-	By default actions are called without any parameters, however ##repeat.pl## will pass ##1## and ##-1## to indicate repeat and negative repeat.
-	
-	The longest way to detect negative repeat is to use
-	{{{if defined $_[0] and $_[0] == -1}}}
-	
-	You can shorten it to
-	{{{if ($_[0] // 0) == -1}}}
-	
-	However, it is much easier to use experimental [[http://perldoc.perl.org/perlop.html#Smartmatch-Operator smartmatch operator]]
-	{{{if $_[0] ~~ -1}}}
-	Most modules use smartmatch operator.
-	
-lastmajor: 5
-keep-ts: 1407481963
+lastmajor: 6
+keep-ts: 1407983311
