@@ -1,16 +1,21 @@
 flags: 010
-blocks: <p>The price of the end device highly depends on the number of preorders, therefore we are trying to estimate the number of devices we should make.</p><p>The price is going to be lower than 50€.</p><p>If you are interested in getting ProgArm in the near future, please leave a comment below or write an email to <code>alex.jakimenko+progarm@gmail.com</code></p>
-ts: 1407988281
-minor: 
+blocks: <p>The price of the device highly depends on the number of preorders, therefore we are trying to estimate the number of devices we should make.</p><p>The price is going to be lower than 50€.</p><p>If you are interested in getting ProgArm in the near future, please leave a comment below or write an email to <code>alex.jakimenko+progarm@gmail.com</code></p>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; The price of the <strong class="changes">end</strong> device highly depends on the number of preorders, therefore we are trying to estimate the number of devices we should make.</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; The price of the device highly depends on the number of preorders, therefore we are trying to estimate the number of devices we should make.</p></div>
+ts: 1407988316
+minor: 1
 host: 89.235.245.14
 username: AlexDaniel
-revision: 1
+revision: 2
+diff-major: 
 summary: The price of the end device highly depends on the number of preorders, therefore we are trying to estimate the number of devices we should make. . . .
 languages: 
-text: The price of the end device highly depends on the number of preorders, therefore we are trying to estimate the number of devices we should make.
+text: The price of the device highly depends on the number of preorders, therefore we are trying to estimate the number of devices we should make.
 	
 	The price is going to be lower than 50€.
 	
 	If you are interested in getting ProgArm in the near future, please leave a comment below or write an email to {{{alex.jakimenko+progarm@gmail.com}}}
 	
 lastmajor: 1
+keep-ts: 1407988316
