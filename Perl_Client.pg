@@ -1,12 +1,14 @@
 flags: 010101010
-blocks: <h2>Source</h2><p>You can <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client">get it from GitHub</a>. If you don't use git, then just press <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client/archive/master.zip">Download ZIP</a> button.</p><h2>Dependencies</h2><p>Currently there are only two requirements:<br /></p><ol><li>Perl version &gt;= 5.10.1<br /></li><li><code>Device::SerialPort</code> unless you are running on Android</li></ol><h2>Installation</h2><ul><li>[[Perl Client on Android]]<br /></li><li>[[Perl Client on GNU∕Linux]]<br /></li><li>[[Perl Client on Windows]]<br /></li><li>[[Perl Client on Maemo]]</li></ul><h3>Windows</h3><p>Coming soon...</p>
-diff-minor: <p><strong>Deleted:</strong></p>
-	<div class="old"><p>&lt; ===Maemo (N900)<br />&lt; The biggest problem is that Perl is too outdated (v5.8.3). You should install a newer version by using [[http://perlbrew.pl/ perlbrew]].<br />&lt; Install perlbrew:<br />&lt; {{{curl -k -L http://install.perlbrew.pl | bash}}} -k option is necessary, otherwise it will throw errors about https<br />&lt; Install perl:<br />&lt; {{{perlbrew --notest v5.16}}} tests will run for two hours if you don't disable them. There are many failed tests, but it seems like perl is fully functional anyway.<br />&lt; Show installed versions:<br />&lt; {{{perlbrew list}}} If everything went well, you will see ##perl-5.16.0##<br />&lt; Switch to the newer version:<br />&lt; {{{perlbrew switch perl-5.16.0}}}<br />&lt; Install cpanm:<br />&lt; {{{perlbrew install-cpanm}}}<br />&lt; Install {{{Device::SerialPort}}}<br />&lt; {{{cpanm --no-wget --verbose Device::SerialPort}}}<br />&lt; ====Sometimes you will have to provide full path to some binaries:<br />&lt; perlbrew is located at<br />&lt; {{{~/perl5/perlbrew/bin/perlbrew}}}<br />&lt; cpanm is located at<br />&lt; {{{~/perl5/perlbrew/bin/cpanm}}}<br />&lt; perl v5.16 is located at<br />&lt; {{{~/perl5/perlbrew/perls/perl-5.16.0/bin/perl}}}<br />&lt; However, once you {{{perlbrew switch}}} to your new perl, you wont have to provide full paths.</p></div>
-ts: 1408038253
+blocks: <h2>Source</h2><p>You can <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client">get it from GitHub</a>. If you don't use git, then just press <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client/archive/master.zip">Download ZIP</a> button.</p><h2>Dependencies</h2><p>Currently there are only two requirements:<br /></p><ol><li>Perl version &gt;= 5.10.1<br /></li><li><code>Device::SerialPort</code> unless you are running on Android</li></ol><h2>Installation</h2><ul><li>[[Perl Client on Android]]<br /></li><li>[[Perl Client on GNU∕Linux]]<br /></li><li>[[Perl Client on Windows]] -- Coming soon...<br /></li><li>[[Perl Client on Maemo]]</li></ul>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; * [[Perl Client on Windows]]</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; * [[Perl Client on Windows]] <strong class="changes">-- Coming soon...</strong></p></div><p><strong>Deleted:</strong></p>
+	<div class="old"><p>&lt; ===Windows<br />&lt; Coming soon...</p></div>
+ts: 1408038284
 minor: 
 host: 89.235.237.48
 username: AlexDaniel
-revision: 10
+revision: 11
 diff-major: 1
 summary: 
 languages: 
@@ -21,11 +23,8 @@ text: ==Source
 	==Installation
 	* [[Perl Client on Android]]
 	* [[Perl Client on GNU∕Linux]]
-	* [[Perl Client on Windows]]
+	* [[Perl Client on Windows]] -- Coming soon...
 	* [[Perl Client on Maemo]]
 	
-	===Windows
-	Coming soon...
-	
-lastmajor: 10
-keep-ts: 1408038253
+lastmajor: 11
+keep-ts: 1408038284
