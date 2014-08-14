@@ -1,12 +1,13 @@
-flags: 01010
-blocks: <ol><li><a class="url http outside" href="https://android-scripting.googlecode.com/files/sl4a_r6.apk">Download</a> and install SL4A<br /><a class="image inter File" href="http://files.progarm.org/apk_sl4a.png"><img class="upload" title="File:apk sl4a.png" src="http://files.progarm.org/apk_sl4a.png" alt="File:apk sl4a.png" /></a><br /></li><li><a class="url http outside" href="https://android-scripting.googlecode.com/files/perl_for_android_r1.apk">Download</a> and install perl-for-android<br /><a class="image inter File" href="http://files.progarm.org/apk_perl.png"><img class="upload" title="File:apk perl.png" src="http://files.progarm.org/apk_perl.png" alt="File:apk perl.png" /></a><br /></li><li>Run Perl For Android application and press install<br /></li><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client/archive/master.zip">Download</a> ProgArm client.<br /></li><li>Move ProgArm client into sl4a folder<br /></li><li>Run SL4A application and execute progarm.pl</li></ol><p>It is possible that one day <a class="url http outside" href="https://code.google.com/p/perldroid/">perldroid</a> project will simplify this process.</p>
-diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; # [[https://github.com/ProgArm/ProgArm-Client/archive/master.zip Download]] ProgArm client.</p></div>
-ts: 1408038764
+flags: 010
+blocks: <ol><li><a class="url http outside" href="https://android-scripting.googlecode.com/files/sl4a_r6.apk">Download</a> and install SL4A<br /><a class="image inter File" href="http://files.progarm.org/apk_sl4a.png"><img class="upload" title="File:apk sl4a.png" src="http://files.progarm.org/apk_sl4a.png" alt="File:apk sl4a.png" /></a><br /></li><li><a class="url http outside" href="https://android-scripting.googlecode.com/files/perl_for_android_r1.apk">Download</a> and install perl-for-android<br /><a class="image inter File" href="http://files.progarm.org/apk_perl.png"><img class="upload" title="File:apk perl.png" src="http://files.progarm.org/apk_perl.png" alt="File:apk perl.png" /></a><br /></li><li>Run Perl For Android application and press install<br /></li><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client/archive/master.zip">Download</a> ProgArm client.<br /></li><li>Move ProgArm client into sl4a folder<br /></li><li>Run SL4A application and execute progarm.pl</li></ol><p>It is possible that one day <a class="url http outside" href="https://code.google.com/p/perldroid/">perldroid</a> project will simplify this process.</p>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; # [[https://github.com/ProgArm/ProgArm-Client/archive/master.zip Download]] ProgArm client.</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; # [[https://github.com/ProgArm/ProgArm-Client/archive/master.zip Download]] <strong class="changes">!</strong>ProgArm client.</p></div>
+ts: 1408038782
 minor: 
 host: 89.235.237.48
 username: Alexandr Boldin
-revision: 2
+revision: 3
 diff-major: 1
 summary: 
 languages: 
@@ -15,11 +16,11 @@ text: # [[https://android-scripting.googlecode.com/files/sl4a_r6.apk Download]] 
 	# [[https://android-scripting.googlecode.com/files/perl_for_android_r1.apk Download]] and install perl-for-android
 	[[image:File:apk_perl.png]]
 	# Run Perl For Android application and press install
-	# [[https://github.com/ProgArm/ProgArm-Client/archive/master.zip Download]] ProgArm client.
+	# [[https://github.com/ProgArm/ProgArm-Client/archive/master.zip Download]] !ProgArm client.
 	# Move ProgArm client into sl4a folder
 	# Run SL4A application and execute progarm.pl
 	
 	It is possible that one day [[https://code.google.com/p/perldroid/ perldroid]] project will simplify this process.
 	
-lastmajor: 2
-keep-ts: 1408038764
+lastmajor: 3
+keep-ts: 1408038782
