@@ -1,0 +1,14 @@
+flags: 010101010
+blocks: <p>Use <a class="url http outside" href="https://code.google.com/p/android-scripting/wiki/ApiReference">SL4A reference</a> to find what is possible from perl. If you need something that is not provided by SL4A, then it must be implemented by using ProgArm [[Android Layer]]. This is unfortunate, because you have to recompile java code after every modification. One of the advantages of ProgArm Perl Client is that you can modify it on the go, the only thing you need is text editor.</p><p>Everything written in [[Writing_Perl_Extensions]] still applies.</p>
+ts: 1407986524
+minor: 
+host: 89.235.245.14
+username: AlexDaniel
+revision: 1
+summary: Use [SL4A reference] to find what is possible from perl. If you need something that . . .
+languages: 
+text: Use [[https://code.google.com/p/android-scripting/wiki/ApiReference SL4A reference]] to find what is possible from perl. If you need something that is not provided by SL4A, then it must be implemented by using ProgArm [[Android Layer]]. This is unfortunate, because you have to recompile java code after every modification. One of the advantages of ProgArm Perl Client is that you can modify it on the go, the only thing you need is text editor.
+	
+	Everything written in [[Writing_Perl_Extensions]] still applies.
+	
+lastmajor: 1
