@@ -1,0 +1,83 @@
+flags: 0
+blocks: <h2>Basic extension structure</h2><pre class="real">use strict;
+	use warnings;
+	
+	package ProgArm;
+	our(%Keys, %CODES);
+	
+	@Keys{MyNewSub} = $CODES{g};
+	
+	sub MyNewSub {
+	    # Wrie your code here
+	}</pre><h2>Repeats</h2><p>By default actions are called without any parameters, however <code>repeat.pl</code> will pass <code>1</code> and <code>-1</code> to indicate repeat and negative repeat.</p><p>The longest way to detect negative repeat is to use<br /><code>if defined $_[0] and $_[0] == -1</code></p><p>You can shorten it to<br /><code>if ($_[0] // 0) == -1</code></p><p>However, it is much easier to use experimental <a class="url http outside" href="http://perldoc.perl.org/perlop.html#Smartmatch-Operator">smartmatch operator</a><br /><code>if $_[0] ~~ -1</code><br />Most extensions use smartmatch operator.</p><p>We can rewrite previous example to handle negative repeats:<br /></p><pre class="real">use strict;
+	use warnings;
+	
+	package ProgArm;
+	our(%Keys, %CODES);
+	
+	@Keys{MyNewSub} = $CODES{g};
+	
+	sub MyNewSub {
+	    return MyNewSubNegative() if $_[0] ~~ -1;
+	    # Wrie your code here
+	}
+	
+	sub MyNewSubNegative {
+	    # Wrie your code here
+	}</pre>
+ts: 1407985279
+minor: 
+host: 89.235.245.14
+username: AlexDaniel
+revision: 1
+summary: ==Basic extension structure {{{ use strict; use warnings; package ProgArm; our(%Keys, %CODES); @Keys{MyNewSub} = $CODES{g}; sub MyNewSub . . .
+languages: 
+text: ==Basic extension structure
+	{{{
+	use strict;
+	use warnings;
+	
+	package ProgArm;
+	our(%Keys, %CODES);
+	
+	@Keys{MyNewSub} = $CODES{g};
+	
+	sub MyNewSub {
+	    # Wrie your code here
+	}
+	}}}
+	
+	==Repeats
+	By default actions are called without any parameters, however {{{repeat.pl}}} will pass {{{1}}} and {{{-1}}} to indicate repeat and negative repeat.
+	
+	The longest way to detect negative repeat is to use
+	{{{if defined $_[0] and $_[0] == -1}}}
+	
+	You can shorten it to
+	{{{if ($_[0] // 0) == -1}}}
+	
+	However, it is much easier to use experimental [[http://perldoc.perl.org/perlop.html#Smartmatch-Operator smartmatch operator]]
+	{{{if $_[0] ~~ -1}}}
+	Most extensions use smartmatch operator.
+	
+	We can rewrite previous example to handle negative repeats:
+	{{{
+	use strict;
+	use warnings;
+	
+	package ProgArm;
+	our(%Keys, %CODES);
+	
+	@Keys{MyNewSub} = $CODES{g};
+	
+	sub MyNewSub {
+	    return MyNewSubNegative() if $_[0] ~~ -1;
+	    # Wrie your code here
+	}
+	
+	sub MyNewSubNegative {
+	    # Wrie your code here
+	}
+	}}}
+	
+lastmajor: 1
