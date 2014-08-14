@@ -1,15 +1,14 @@
-flags: 0101010
-blocks: <p><img class="url http" src="http://files.progarm.org/progarmsitelogo.png" alt="http://files.progarm.org/progarmsitelogo.png" /></p><h2><strong>Site under construction</strong></h2><p>TODO: Description</p><p>This website is a <a class="url http outside" href="http://oddmuse.org/wiki/What_Is_A_Wiki">wiki</a>. You are highly encouraged to [[Page Editing|edit]] it.</p><h2>Blog</h2>&lt;Journal 3,5&gt;
+flags: 010101010
+blocks: <p><img class="url http" src="http://files.progarm.org/progarmsitelogo.png" alt="http://files.progarm.org/progarmsitelogo.png" /></p><h2><strong>Site under construction</strong></h2><p>TODO: Description</p><p>This website is a <a class="url http outside" href="http://oddmuse.org/wiki/What_Is_A_Wiki">wiki</a>. You are highly encouraged to [[Page Editing|edit]] it.</p><p>[[Start Here]] if you are new to this project.</p><h2>Blog</h2>&lt;Journal 3,5&gt;
 	<p><br /></p><h2>Questions</h2>&lt;Journal 6 "^Question_\d+"&gt;
-diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; This website is a [[http://<strong class="changes">meatballwiki</strong>.org/wiki/<strong class="changes">WhatIsaWiki</strong> wiki]]. You are highly encouraged to [[Page Editing|edit]] it.</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; This website is a [[http://<strong class="changes">oddmuse</strong>.org/wiki/<strong class="changes">What_Is_A_Wiki</strong> wiki]]. You are highly encouraged to [[Page Editing|edit]] it.</p></div>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; [[Start Here]] if you are new to this project.</p></div>
 ip: 84.52.29.94
-ts: 1407933091
+ts: 1407986618
 minor: 
 host: 89.235.245.14
 username: AlexDaniel
-revision: 25
+revision: 26
 diff-major: 1
 summary: 
 languages: 
@@ -21,6 +20,8 @@ text: http://files.progarm.org/progarmsitelogo.png
 	
 	This website is a [[http://oddmuse.org/wiki/What_Is_A_Wiki wiki]]. You are highly encouraged to [[Page Editing|edit]] it.
 	
+	[[Start Here]] if you are new to this project.
+	
 	==Blog
 	<Journal 3,5>
 	
@@ -28,5 +29,5 @@ text: http://files.progarm.org/progarmsitelogo.png
 	==Questions
 	<Journal 6 "^Question_\d+">
 	
-lastmajor: 25
-keep-ts: 1407933091
+lastmajor: 26
+keep-ts: 1407986618
