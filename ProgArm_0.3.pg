@@ -1,13 +1,14 @@
 flags: 0
-blocks: <h2>Files</h2><p><strong>This is an upcoming version. The work has not started yet.</strong></p><h2>Possible improvements:</h2><ul><li>Use newer and smaller barometer (BMP180 ?)</li><li>Use combined accelgyro and magnetometer (MPU9150 ?)</li><li>Reduce size to fit into 5x5cm (4x7cm currently) to reduce costs. 4x5cm would be great!</li><li>Add LED to indicate reflashing process.</li><li>Add built-in voltmeter for self-tests</li><li>Charge LED is disabled when device is turned off. This leads to false assumption that charging is not working when device is turned off by hardware switch.</li><li>Smaller bluetooth module (CC2541)</li></ul>
-diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; * Smaller bluetooth module (CC2541)</p></div>
+blocks: <h2>Files</h2><p><strong>This is an upcoming version. The work has not started yet.</strong></p><h2>Possible improvements:</h2><ul><li>Use newer and smaller barometer (BMP180? LPS25H?)<br /></li><li>Use combined accelgyro and magnetometer (MPU9150 ?)<br /></li><li>Reduce size to fit into 5x5cm (4x7cm currently) to reduce costs. 4x5cm would be great!<br /></li><li>Add LED to indicate reflashing process.<br /></li><li>Add built-in voltmeter for self-tests<br /></li><li>Charge LED is disabled when device is turned off. This leads to false assumption that charging is not working when device is turned off by hardware switch.<br /></li><li>Smaller bluetooth module (CC2541)</li></ul>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; * Use newer and smaller barometer (BMP180 ?)</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; * Use newer and smaller barometer (BMP180<strong class="changes">? LPS25H</strong>?)</p></div>
 ip: 84.52.38.40
-ts: 1405277127
+ts: 1408132972
 minor: 
-host: sa-84-52-38-40.saturn.infonet.ee
+host: 89.235.246.223
 username: AlexDaniel
-revision: 9
+revision: 10
 diff-major: 1
 summary: 
 languages: 
@@ -15,7 +16,7 @@ text: ==Files
 	**This is an upcoming version. The work has not started yet.**
 	
 	==Possible improvements:
-	* Use newer and smaller barometer (BMP180 ?)
+	* Use newer and smaller barometer (BMP180? LPS25H?)
 	* Use combined accelgyro and magnetometer (MPU9150 ?)
 	* Reduce size to fit into 5x5cm (4x7cm currently) to reduce costs. 4x5cm would be great!
 	* Add LED to indicate reflashing process.
@@ -23,5 +24,5 @@ text: ==Files
 	* Charge LED is disabled when device is turned off. This leads to false assumption that charging is not working when device is turned off by hardware switch.
 	* Smaller bluetooth module (CC2541)
 	
-lastmajor: 9
-keep-ts: 1405277127
+lastmajor: 10
+keep-ts: 1408132972
