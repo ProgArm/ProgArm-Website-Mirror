@@ -1,15 +1,14 @@
-flags: 01010
-blocks: <p>We are glad to tell that the work on ProgArm 0.2 is now complete. The device hardware alpha <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases/tag/v0.2.0-alpha">release</a> can be found on [[Source|GitHub]]. Please note that there was a fix made to the schematic, however PCB files are still those of the previous version.</p><p>By now, there is only one fully functional prototype. This prototype is working as intended, however it still has some <a class="url http outside" href="http://progarm.org/ProgArm_0.2">flaws</a>.</p><p>Second prototype is going to be built soon.</p>
-diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; <strong class="changes">I am</strong> glad to tell that the work on ProgArm 0.2 is now complete. The device hardware alpha [[https://github.com/ProgArm/ProgArm-Hardware/releases/tag/v0.2.0-alpha release]] can be found on GitHub<strong class="changes">. (</strong>Please note<strong class="changes">,</strong> that there was a fix made to the schematic, however PCB files are still those of the previous version<strong class="changes">).</strong><br />&lt; By now, there is one fully functional prototype<strong class="changes">, that seems to be</strong> working as intended, however it still has some [[http://progarm.org/ProgArm_0.2 flaws]].<br />&lt; Second prototype is <strong class="changes">also</strong> going to be built soon.</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; <strong class="changes">We are</strong> glad to tell that the work on ProgArm 0.2 is now complete. The device hardware alpha [[https://github.com/ProgArm/ProgArm-Hardware/releases/tag/v0.2.0-alpha release]] can be found on <strong class="changes">[[Source|</strong>GitHub<strong class="changes">]].</strong> Please note that there was a fix made to the schematic, however PCB files are still those of the previous version<strong class="changes">.</strong><br />&gt; By now, there is <strong class="changes">only</strong> one fully functional prototype<strong class="changes">. This prototype is</strong> working as intended, however it still has some [[http://progarm.org/ProgArm_0.2 flaws]].<br />&gt; Second prototype is going to be built soon.</p></div>
-ts: 1407631312
-minor: 1
-host: 89.235.245.14
-username: AlexDaniel
-revision: 2
-diff-major: 
-summary: Tiny corrections
+flags: 010100
+blocks: <p>We are glad to tell that the work on ProgArm 0.2 is now complete. The device hardware alpha <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases/tag/v0.2.0-alpha">release</a> can be found on [[Source|GitHub]]. Please note that there was a fix made to the schematic, however PCB files are still those of the previous version.</p><p>By now, there is only one fully functional prototype. This prototype is working as intended, however it still has some <a class="url http outside" href="http://progarm.org/ProgArm_0.2">flaws</a>.</p><p>Second prototype is going to be built soon.</p><h2 id="commentsHeading">Comments:</h2><div class="userComment"><p>+1</p><p>Excited about what new features are going to be there in 0.2.</p><p>Also i saw the device image so there's going to be ring thats Wired ?</p><p>Don't you think thats a little bit inconvenient ? What if i'm on a bike and i accidentally fall off while the wire got stuck on the handle and from the pressure of my falling it would get detach.</p><p>Also is there any L.C.D / L.E.D screen ?</p><p>-- stark 2014-08-15 13:58 UTC</p></div>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; ----<br />&gt; +1<br />&gt; Excited about what new features are going to be there in 0.2.<br />&gt; Also i saw the device image so there's going to be ring thats Wired ?<br />&gt; Don't you think thats a little bit inconvenient ? What if i'm on a bike and i accidentally fall off while the wire got stuck on the handle and from the pressure of my falling it would get detach.<br />&gt; Also is there any L.C.D / L.E.D screen ?<br />&gt; -- stark 2014-08-15 13:58 UTC</p></div>
+ts: 1408111116
+minor: 
+host: 103.10.197.58
+username: stark
+revision: 3
+diff-major: 1
+summary: +1 Excited about what new features are going to be there in 0.2. Also i saw the device image so there's going to be ring thats Wired ? Don't . . .
 languages: 
 text: We are glad to tell that the work on ProgArm 0.2 is now complete. The device hardware alpha [[https://github.com/ProgArm/ProgArm-Hardware/releases/tag/v0.2.0-alpha release]] can be found on [[Source|GitHub]]. Please note that there was a fix made to the schematic, however PCB files are still those of the previous version.
 	
@@ -17,5 +16,20 @@ text: We are glad to tell that the work on ProgArm 0.2 is now complete. The devi
 	
 	Second prototype is going to be built soon.
 	
-lastmajor: 1
-keep-ts: 1407631312
+	----
+	
+	+1
+	
+	Excited about what new features are going to be there in 0.2.
+	
+	Also i saw the device image so there's going to be ring thats Wired ?
+	
+	Don't you think thats a little bit inconvenient ? What if i'm on a bike and i accidentally fall off while the wire got stuck on the handle and from the pressure of my falling it would get detach.
+	
+	Also is there any L.C.D / L.E.D screen ?
+	
+	-- stark 2014-08-15 13:58 UTC
+	
+	
+lastmajor: 3
+keep-ts: 1408111116
