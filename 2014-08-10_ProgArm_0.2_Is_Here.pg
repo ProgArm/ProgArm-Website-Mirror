@@ -1,14 +1,14 @@
-flags: 010100
-blocks: <p>We are glad to tell that the work on ProgArm 0.2 is now complete. The device hardware alpha <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases/tag/v0.2.0-alpha">release</a> can be found on [[Source|GitHub]]. Please note that there was a fix made to the schematic, however PCB files are still those of the previous version.</p><p>By now, there is only one fully functional prototype. This prototype is working as intended, however it still has some <a class="url http outside" href="http://progarm.org/ProgArm_0.2">flaws</a>.</p><p>Second prototype is going to be built soon.</p><h2 id="commentsHeading">Comments:</h2><div class="userComment"><p>+1</p><p>Excited about what new features are going to be there in 0.2.</p><p>Also i saw the device image so there's going to be ring thats Wired ?</p><p>Don't you think thats a little bit inconvenient ? What if i'm on a bike and i accidentally fall off while the wire got stuck on the handle and from the pressure of my falling it would get detach.</p><p>Also is there any L.C.D / L.E.D screen ?</p><p>-- stark 2014-08-15 13:58 UTC</p></div>
+flags: 01010100
+blocks: <p>We are glad to tell that the work on ProgArm 0.2 is now complete. The device hardware alpha <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases/tag/v0.2.0-alpha">release</a> can be found on [[Source|GitHub]]. Please note that there was a fix made to the schematic, however PCB files are still those of the previous version.</p><p>By now, there is only one fully functional prototype. This prototype is working as intended, however it still has some <a class="url http outside" href="http://progarm.org/ProgArm_0.2">flaws</a>.</p><p>Second prototype is going to be built soon.</p><h2 id="commentsHeading">Comments:</h2><div class="userComment"><p>+1</p><p>Excited about what new features are going to be there in 0.2.</p><p>Also i saw the device image so there's going to be ring thats Wired ?</p><p>Don't you think thats a little bit inconvenient ? What if i'm on a bike and i accidentally fall off while the wire got stuck on the handle and from the pressure of my falling it would get detach.</p><p>Also is there any L.C.D / L.E.D screen ?</p><p>-- stark 2014-08-15 13:58 UTC</p></div><div class="userComment"><p>Yes, we are using the wired ring right now. As our tests have shown, it is a lot more convenient than it looks like at first glance.</p><p>We are also thinking about a wireless version, where the main problem would be ring battery. We are currently thinking of tiny li-ion batteries or a supercap/ionistor, but the wireless ring is still just a concept.</p><p>The micro USB type connector on ring wire provides protection in situations like you have described. When falling off a bike, the wire simply gets detached instead of getting torn off, and can be easily reconnected after you get up.</p><p>Any type of LCD/LED screen that uses SPI/IIC interface can be connected to ProgArm using it's external interface ports. Right now we are not using any display, but planning to try using a small monochrome OLED screen.</p><p>-- Alexandr Boldin 2014-08-15 15:22 UTC</p></div>
 diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; ----<br />&gt; +1<br />&gt; Excited about what new features are going to be there in 0.2.<br />&gt; Also i saw the device image so there's going to be ring thats Wired ?<br />&gt; Don't you think thats a little bit inconvenient ? What if i'm on a bike and i accidentally fall off while the wire got stuck on the handle and from the pressure of my falling it would get detach.<br />&gt; Also is there any L.C.D / L.E.D screen ?<br />&gt; -- stark 2014-08-15 13:58 UTC</p></div>
-ts: 1408111116
+	<div class="new"><p>&gt; ----<br />&gt; Yes, we are using the wired ring right now. As our tests have shown, it is a lot more convenient than it looks like at first glance.<br />&gt; We are also thinking about a wireless version, where the main problem would be ring battery. We are currently thinking of tiny li-ion batteries or a supercap/ionistor, but the wireless ring is still just a concept.<br />&gt; The micro USB type connector on ring wire provides protection in situations like you have described. When falling off a bike, the wire simply gets detached instead of getting torn off, and can be easily reconnected after you get up.<br />&gt; Any type of LCD/LED screen that uses SPI/IIC interface can be connected to ProgArm using it's external interface ports. Right now we are not using any display, but planning to try using a small monochrome OLED screen.<br />&gt; -- Alexandr Boldin 2014-08-15 15:22 UTC</p></div>
+ts: 1408116174
 minor: 
-host: 103.10.197.58
-username: stark
-revision: 3
+host: 89.235.237.48
+username: Alexandr Boldin
+revision: 4
 diff-major: 1
-summary: +1 Excited about what new features are going to be there in 0.2. Also i saw the device image so there's going to be ring thats Wired ? Don't . . .
+summary: Yes, we are using the wired ring right now. As our tests have shown, it is a lot more convenient than it looks like at first glance. We are also . . .
 languages: 
 text: We are glad to tell that the work on ProgArm 0.2 is now complete. The device hardware alpha [[https://github.com/ProgArm/ProgArm-Hardware/releases/tag/v0.2.0-alpha release]] can be found on [[Source|GitHub]]. Please note that there was a fix made to the schematic, however PCB files are still those of the previous version.
 	
@@ -31,5 +31,18 @@ text: We are glad to tell that the work on ProgArm 0.2 is now complete. The devi
 	-- stark 2014-08-15 13:58 UTC
 	
 	
-lastmajor: 3
-keep-ts: 1408111116
+	----
+	
+	Yes, we are using the wired ring right now. As our tests have shown, it is a lot more convenient than it looks like at first glance.
+	
+	We are also thinking about a wireless version, where the main problem would be ring battery. We are currently thinking of tiny li-ion batteries or a supercap/ionistor, but the wireless ring is still just a concept.
+	
+	The micro USB type connector on ring wire provides protection in situations like you have described. When falling off a bike, the wire simply gets detached instead of getting torn off, and can be easily reconnected after you get up.
+	
+	Any type of LCD/LED screen that uses SPI/IIC interface can be connected to ProgArm using it's external interface ports. Right now we are not using any display, but planning to try using a small monochrome OLED screen.
+	
+	-- Alexandr Boldin 2014-08-15 15:22 UTC
+	
+	
+lastmajor: 4
+keep-ts: 1408116174
