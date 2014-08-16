@@ -1,13 +1,15 @@
-flags: 01010101010
-blocks: <h2>Source</h2><p>You can <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client">get it from GitHub</a>. If you don't use git, then just press <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client/archive/master.zip">Download ZIP</a> button.</p><h2>Dependencies</h2><p>Currently there are only two requirements:<br /></p><ol><li>Perl version &gt;= 5.10.1<br /></li><li>Hook::LexWrap (required by repeat.pl)<br /></li><li><code>Device::SerialPort</code> unless you are running on Android</li></ol><h2>Installation</h2><ul><li>[[Perl Client on Android]]<br /></li><li>[[Perl Client on GNU∕Linux]]<br /></li><li>[[Perl Client on Windows]] -- Coming soon...<br /></li><li>[[Perl Client on Maemo]]</li></ul>
-diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; # Hook::LexWrap (required by repeat.pl)</p></div>
-ts: 1408207208
-minor: 
+flags: 010101010
+blocks: <h2>Source</h2><p>You can <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client">get it from GitHub</a>. If you don't use git, then just press <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client/archive/master.zip">Download ZIP</a> button.</p><h2>Dependencies</h2><p>Currently there are only two requirements:<br /></p><ol><li>Perl version &gt;= 5.10.1<br /></li><li><code>Hook::LexWrap</code> (required by repeat.pl)<br /></li><li><code>Device::SerialPort</code> unless you are running on Android</li></ol><h2>Installation</h2><ul><li>[[Perl Client on Android]]<br /></li><li>[[Perl Client on GNU∕Linux]]<br /></li><li>[[Perl Client on Windows]] -- Coming soon...<br /></li><li>[[Perl Client on Maemo]]</li></ul>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; # Hook::LexWrap (required by repeat.pl)</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; # <strong class="changes">{{{</strong>Hook::LexWrap<strong class="changes">}}}</strong> (required by repeat.pl)</p></div>
+ts: 1408207220
+minor: 1
 host: 89.235.246.223
 username: AlexDaniel
-revision: 12
-diff-major: 1
+revision: 13
+diff-major: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; # Hook::LexWrap (required by repeat.pl)</p></div>
 summary: 
 languages: 
 text: ==Source
@@ -16,7 +18,7 @@ text: ==Source
 	==Dependencies
 	Currently there are only two requirements:
 	# Perl version >= 5.10.1
-	# Hook::LexWrap (required by repeat.pl)
+	# {{{Hook::LexWrap}}} (required by repeat.pl)
 	# {{{Device::SerialPort}}} unless you are running on Android
 	
 	==Installation
@@ -26,4 +28,4 @@ text: ==Source
 	* [[Perl Client on Maemo]]
 	
 lastmajor: 12
-keep-ts: 1408207208
+keep-ts: 1408207220
