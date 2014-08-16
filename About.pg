@@ -1,17 +1,22 @@
-flags: 010
-blocks: <p>Progarm is a fully open-source HID-type wearable device, which is meant to conveniently control computers, mobile phones, tablets, and other bluetooth-enabled devices.</p><p>Progarm incorporates many typical inputs, including accelerometer, barometer, magnetometer and gyroscope, as well as the innovative two-button input ring, which turned out to be very easy and pleasant to use.</p><p>As for outputs, Progarm provides an ultra-bright RGB LED, a piezo buzzer and a tactile feedback provided by vibration motor.</p><p>The Progarm utilises an STM32F103-series ARM MCU with an external 8 MHz oscillator and fully functional RTC with an option of connecting an external RTC backup cell.</p><p>The design of Progarm includes an external SPI and IIC interface ports with dedicated switchable power line. Ports utilise Micro USB female sockets as such sockets and plugs are extremely easy to find. The ports give the possibility to connect any external IIC or SPI devices directly to progarm (such as displays, sensors, memory chips, MP3 Decoders, etc) There are also solder pads with the same interfaces for easy expansion of Progarm functions without using external port sockets.</p><p>As for the wireless interface, Progarm has a built-in Serial-over-Bluetooth module, which enables connection with all bluetooth-compatible devices and can as well work in master mode.</p><p>Two-button Ring interface is a 3d-printed plastic ring with two micro buttons and a RGB LED glued to it. It is meant to be worn on a finger with Progarm itself being worn on a wrist. The Ring is connected to the progarm via thin wire and a dedicated Ring port on Progarm. The ring allows to enter various commands with short and long button presses and different combinations of two buttons.</p><p>Progarm can be powered by any Li-ion or Li-po battery, that can be charged via USB port. System power and battery charging is provided by a Linear Technology PMIC chip, which includes Power-Path, battery charger, and an 1 Amp Buck-Boost converter. Progarm also has a Fuel-Gauge IC for precision charge level monitoring.</p><p>[[Firmware Flashing]] is extremely easily done with an innovative technology, that utilises Bluetooth wireless UART protocol in combination with STM32 Flash-Over-UART mode, which provides an instant flashing over bluetooth, initiated by a single press of a button. This technology can be extremely useful for programmers, as they need to reflash their devices frequently in order to test the code.</p><p>Overall, Progarm is a small and easy-to use device, which enables you with a fingertip-control of many electronic devices, and at the same time is a powerful and feature-rich development board for geeks and enthusiasts.</p><p><a class="image inter File" href="http://files.progarm.org/ProgArm_Arm_small.JPG"><img class="upload" title="File:ProgArm Arm small.JPG" src="http://files.progarm.org/ProgArm_Arm_small.JPG" alt="File:ProgArm Arm small.JPG" /></a></p>
-diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; <strong class="changes">http://files.progarm.org/</strong>ProgArm_Arm_small.JPG</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; <strong class="changes">[[image:File:</strong>ProgArm_Arm_small.JPG<strong class="changes">]]</strong></p></div>
-ts: 1408050916
+flags: 0101010101010
+blocks: <ul><li>[[Goals]]<br /></li><li>[[Ideology]]<br /></li><li>[[Technology]]<br /></li><li>[[Natural_Interface]]<br /></li><li>[[You_Only_Need_One_Arm]]</li></ul><p>Progarm is a fully open-source HID-type wearable device, which is meant to conveniently control computers, mobile phones, tablets, and other bluetooth-enabled devices.</p><p>Progarm incorporates many typical inputs, including accelerometer, barometer, magnetometer and gyroscope, as well as the innovative two-button input ring, which turned out to be very easy and pleasant to use.</p><p>As for outputs, Progarm provides an ultra-bright RGB LED, a piezo buzzer and a tactile feedback provided by vibration motor.</p><p>The Progarm utilises an STM32F103-series ARM MCU with an external 8 MHz oscillator and fully functional RTC with an option of connecting an external RTC backup cell.</p><p>The design of Progarm includes an external SPI and IIC interface ports with dedicated switchable power line. Ports utilise Micro USB female sockets as such sockets and plugs are extremely easy to find. The ports give the possibility to connect any external IIC or SPI devices directly to progarm (such as displays, sensors, memory chips, MP3 Decoders, etc) There are also solder pads with the same interfaces for easy expansion of Progarm functions without using external port sockets.</p><p>As for the wireless interface, Progarm has a built-in Serial-over-Bluetooth module, which enables connection with all bluetooth-compatible devices and can as well work in master mode.</p><p>Two-button Ring interface is a 3d-printed plastic ring with two micro buttons and a RGB LED glued to it. It is meant to be worn on a finger with Progarm itself being worn on a wrist. The Ring is connected to the progarm via thin wire and a dedicated Ring port on Progarm. The ring allows to enter various commands with short and long button presses and different combinations of two buttons.</p><p>Progarm can be powered by any Li-ion or Li-po battery, that can be charged via USB port. System power and battery charging is provided by a Linear Technology PMIC chip, which includes Power-Path, battery charger, and an 1 Amp Buck-Boost converter. Progarm also has a Fuel-Gauge IC for precision charge level monitoring.</p><p>[[Firmware Flashing]] is extremely easily done with an innovative technology, that utilises Bluetooth wireless UART protocol in combination with STM32 Flash-Over-UART mode, which provides an instant flashing over bluetooth, initiated by a single press of a button. This technology can be extremely useful for programmers, as they need to reflash their devices frequently in order to test the code.</p><p>Overall, Progarm is a small and easy-to use device, which enables you with a fingertip-control of many electronic devices, and at the same time is a powerful and feature-rich development board for geeks and enthusiasts.</p><p><a class="image inter File" href="http://files.progarm.org/ProgArm_Arm_small.JPG"><img class="upload" title="File:ProgArm Arm small.JPG" src="http://files.progarm.org/ProgArm_Arm_small.JPG" alt="File:ProgArm Arm small.JPG" /></a></p>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; * [[Goals]]<br />&gt; * [[Ideology]]<br />&gt; * [[Technology]]<br />&gt; * [[Natural_Interface]]<br />&gt; * [[You_Only_Need_One_Arm]]</p></div>
+ts: 1408153070
 minor: 
-host: 89.235.237.48
-username: Alexandr Boldin
-revision: 5
+host: 89.235.246.223
+username: AlexDaniel
+revision: 6
 diff-major: 1
 summary: 
 languages: 
-text: Progarm is a fully open-source HID-type wearable device, which is meant to conveniently control computers, mobile phones, tablets, and other bluetooth-enabled devices.
+text: * [[Goals]]
+	* [[Ideology]]
+	* [[Technology]]
+	* [[Natural_Interface]]
+	* [[You_Only_Need_One_Arm]]
+	
+	Progarm is a fully open-source HID-type wearable device, which is meant to conveniently control computers, mobile phones, tablets, and other bluetooth-enabled devices.
 	
 	Progarm incorporates many typical inputs, including accelerometer, barometer, magnetometer and gyroscope, as well as the innovative two-button input ring, which turned out to be very easy and pleasant to use.
 	
@@ -33,5 +38,5 @@ text: Progarm is a fully open-source HID-type wearable device, which is meant to
 	
 	[[image:File:ProgArm_Arm_small.JPG]]
 	
-lastmajor: 5
-keep-ts: 1408050916
+lastmajor: 6
+keep-ts: 1408153070
