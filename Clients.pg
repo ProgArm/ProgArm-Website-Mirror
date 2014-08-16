@@ -1,18 +1,19 @@
-flags: 010101010
-blocks: <p>Known ProgArm clients:<br /></p><ol><li>[[Perl Client]]. It runs on all platforms.<br /></li><li>There was a proof-of-concept <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client">client written in Python</a>. It is currently outdated. If you want to develop your own python client, just start from scratch.</li></ol><p>See also:<br /></p><ul><li>[[Which_Programming_Language]]<br /></li><li>[[Writing Clients]]</li></ul>
-diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; # [[Perl Client]]. <strong class="changes">Hopefully it will run</strong> on <strong class="changes">most</strong> platforms.</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; # [[Perl Client]]. <strong class="changes">It runs</strong> on <strong class="changes">all</strong> platforms.</p></div>
+flags: 01010101010
+blocks: <p>ProgArm is way more useful if you connect it to some other device (like your phone or a personal computer). Of course, pure bluetooth connection is not enough to be useful, there must be something running on your computer. We call that kind of software "Client".</p><p>Known ProgArm clients:<br /></p><ol><li>[[Perl Client]]. It runs on all platforms.<br /></li><li>There was a proof-of-concept <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client">client written in Python</a>. It is currently outdated. If you want to develop your own python client, just start from scratch.</li></ol><p>See also:<br /></p><ul><li>[[Which_Programming_Language]]<br /></li><li>[[Writing Clients]]</li></ul>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; ProgArm is way more useful if you connect it to some other device (like your phone or a personal computer). Of course, pure bluetooth connection is not enough to be useful, there must be something running on your computer. We call that kind of software "Client".</p></div>
 ip: 84.52.44.168
-ts: 1408155356
+ts: 1408156572
 minor: 
 host: 89.235.246.223
 username: AlexDaniel
-revision: 11
+revision: 12
 diff-major: 1
 summary: 
 languages: 
-text: Known ProgArm clients:
+text: ProgArm is way more useful if you connect it to some other device (like your phone or a personal computer). Of course, pure bluetooth connection is not enough to be useful, there must be something running on your computer. We call that kind of software "Client".
+	
+	Known ProgArm clients:
 	# [[Perl Client]]. It runs on all platforms.
 	# There was a proof-of-concept [[https://github.com/ProgArm/ProgArm-Client client written in Python]]. It is currently outdated. If you want to develop your own python client, just start from scratch.
 	
@@ -20,5 +21,5 @@ text: Known ProgArm clients:
 	* [[Which_Programming_Language]]
 	* [[Writing Clients]]
 	
-lastmajor: 11
-keep-ts: 1408155356
+lastmajor: 12
+keep-ts: 1408156572
