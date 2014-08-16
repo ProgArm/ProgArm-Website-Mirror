@@ -1,23 +1,20 @@
 flags: 010101010
-blocks: <p><a class="image inter File" href="http://files.progarm.org/progarmsitelogo.png"><img class="upload" title="File:progarmsitelogo.png" src="http://files.progarm.org/progarmsitelogo.png" alt="File:progarmsitelogo.png" /></a></p><h2><strong>Site under construction</strong></h2><p>TODO: Description</p><p>This website is a <a class="url http outside" href="http://oddmuse.org/wiki/What_Is_A_Wiki">wiki</a>. You are highly encouraged to [[Page Editing|edit]] it.</p><p>[[Start Here]] if you are new to this project.</p><h2>Blog</h2>&lt;Journal 3,5&gt;
+blocks: <p><a class="image inter File" href="http://files.progarm.org/progarmsitelogo.png"><img class="upload" title="File:progarmsitelogo.png" src="http://files.progarm.org/progarmsitelogo.png" alt="File:progarmsitelogo.png" /></a></p><h2><strong>Site under construction</strong></h2><p>This website is a <a class="url http outside" href="http://oddmuse.org/wiki/What_Is_A_Wiki">wiki</a>. You are highly encouraged to [[Page Editing|edit]] it.</p><p>[[Start Here]] if you are new to this project.</p><h2>Blog</h2>&lt;Journal 3,5&gt;
 	<p><br /></p><h2>Questions</h2>&lt;Journal 6 "^Question_\d+"&gt;
-diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; <strong class="changes">http://files.progarm.org/</strong>progarmsitelogo.png</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; <strong class="changes">[[image:File:</strong>progarmsitelogo.png<strong class="changes">]]</strong></p></div>
+diff-minor: <p><strong>Deleted:</strong></p>
+	<div class="old"><p>&lt; TODO: Description</p></div>
 ip: 84.52.29.94
-ts: 1408050952
+ts: 1408156625
 minor: 
-host: 89.235.237.48
-username: Alexandr Boldin
-revision: 27
+host: 89.235.246.223
+username: AlexDaniel
+revision: 28
 diff-major: 1
 summary: 
 languages: 
 text: [[image:File:progarmsitelogo.png]]
 	
 	==**Site under construction**
-	
-	TODO: Description
 	
 	This website is a [[http://oddmuse.org/wiki/What_Is_A_Wiki wiki]]. You are highly encouraged to [[Page Editing|edit]] it.
 	
@@ -30,5 +27,5 @@ text: [[image:File:progarmsitelogo.png]]
 	==Questions
 	<Journal 6 "^Question_\d+">
 	
-lastmajor: 27
-keep-ts: 1408050952
+lastmajor: 28
+keep-ts: 1408156625
