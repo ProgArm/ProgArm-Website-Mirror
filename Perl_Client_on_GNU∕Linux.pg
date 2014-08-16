@@ -1,15 +1,19 @@
 flags: 0
-blocks: <h3>Debian</h3><p>Easy:<br /><code>sudo apt-get install libdevice-serialport-perl</code></p><p>But there are some recommended packages:<br /><code>sudo apt-get install flite xdotool</code> ...</p><h3>Other GNU/Linux distributions</h3><p>Install <code>Device::SerialPort</code> from CPAN if your distribution does not provide a package.</p>
-ts: 1408038233
+blocks: <h3>Debian</h3><p>Easy:<br /><code>sudo apt-get install libdevice-serialport-perl libhook-lexwrap-perl</code></p><p>But there are some recommended packages:<br /><code>sudo apt-get install flite xdotool</code> ...</p><h3>Other GNU/Linux distributions</h3><p>Install <code>Device::SerialPort</code> from CPAN if your distribution does not provide a package.</p>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; {{{sudo apt-get install libdevice-serialport-perl}}}</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; {{{sudo apt-get install libdevice-serialport-perl <strong class="changes">libhook-lexwrap-perl</strong>}}}</p></div>
+ts: 1408207345
 minor: 
-host: 89.235.237.48
+host: 89.235.246.223
 username: AlexDaniel
-revision: 1
-summary: ===Debian Easy: {{{sudo apt-get install libdevice-serialport-perl}}} But there are some recommended packages: {{{sudo apt-get install flite . . .
+revision: 2
+diff-major: 1
+summary: 
 languages: 
 text: ===Debian
 	Easy:
-	{{{sudo apt-get install libdevice-serialport-perl}}}
+	{{{sudo apt-get install libdevice-serialport-perl libhook-lexwrap-perl}}}
 	
 	But there are some recommended packages:
 	{{{sudo apt-get install flite xdotool}}} ...
@@ -17,4 +21,5 @@ text: ===Debian
 	===Other GNU/Linux distributions
 	Install {{{Device::SerialPort}}} from CPAN if your distribution does not provide a package.
 	
-lastmajor: 1
+lastmajor: 2
+keep-ts: 1408207345
