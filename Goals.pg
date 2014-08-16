@@ -1,13 +1,20 @@
 flags: 010
-blocks: <ul><li>It must be useful, and this usefulness must be measurable.<br /></li><li>Device must be easily extensible.<ul><li>On software level:<ol><li>It should be relatively easy to write your own extensions.</li><li>The only thing required to change the client code is a text editor. By using interpreted languages we can make it possible to edit the code as soon as you get some idea.</li></ol></li><li>On hardware level:<ol><li>[[Ring]], SPI and I²C ports to allow pluggable modules, as well as solder pins.</li><li>Excessive hardware features. Things like barometer or accelerometer are not required for basic functionality, but they provide freedom of thought for developers.</li></ol></li><li>All development files must be released under free software license. Besides boosting development speed by letting others to contribute, these files might come handy for other projects.<br /></li></ul></li><li>The less interaction required, the better. For example, why use both hands when you can use just one.<br /></li><li>Device should not disturb you from daily tasks.<br /></li><li>It must be safe to wear.</li></ul>
-ts: 1408155020
+blocks: <ul><li>It must be useful, and this usefulness must be measurable.<br /></li><li>The less interaction required, the better. For example, why use both hands when you can use just one.<br /></li><li>Device should not disturb you from daily tasks.<br /></li><li>It must be safe to wear.<br /></li><li>Device must be easily extensible.<ul><li>On software level:<ol><li>It should be relatively easy to write your own extensions.</li><li>The only thing required to change the client code is a text editor. By using interpreted languages we can make it possible to edit the code as soon as you get some idea.</li></ol></li><li>On hardware level:<ol><li>[[Ring]], SPI and I²C ports to allow pluggable modules, as well as solder pins.</li><li>Excessive hardware features. Things like barometer or accelerometer are not required for basic functionality, but they provide freedom of thought for developers.</li></ol></li><li>All development files must be released under free software license. Besides boosting development speed by letting others to contribute, these files might come handy for other projects.</li></ul></li></ul>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; * The less interaction required, the better. For example, why use both hands when you can use just one.<br />&gt; * Device should not disturb you from daily tasks.<br />&gt; * It must be safe to wear.</p></div><p><strong>Deleted:</strong></p>
+	<div class="old"><p>&lt; * The less interaction required, the better. For example, why use both hands when you can use just one.<br />&lt; * Device should not disturb you from daily tasks.<br />&lt; * It must be safe to wear.</p></div>
+ts: 1408155041
 minor: 
 host: 89.235.246.223
 username: AlexDaniel
-revision: 1
+revision: 2
+diff-major: 1
 summary: * It must be useful, and this usefulness must be measurable. * Device must be easily extensible. ** On software level: ### It should be relatively . . .
 languages: 
 text: * It must be useful, and this usefulness must be measurable.
+	* The less interaction required, the better. For example, why use both hands when you can use just one.
+	* Device should not disturb you from daily tasks.
+	* It must be safe to wear.
 	* Device must be easily extensible.
 	** On software level:
 	### It should be relatively easy to write your own extensions.
@@ -16,8 +23,6 @@ text: * It must be useful, and this usefulness must be measurable.
 	### [[Ring]], SPI and !I²C ports to allow pluggable modules, as well as solder pins.
 	### Excessive hardware features. Things like barometer or accelerometer are not required for basic functionality, but they provide freedom of thought for developers.
 	** All development files must be released under free software license. Besides boosting development speed by letting others to contribute, these files might come handy for other projects.
-	* The less interaction required, the better. For example, why use both hands when you can use just one.
-	* Device should not disturb you from daily tasks.
-	* It must be safe to wear.
 	
-lastmajor: 1
+lastmajor: 2
+keep-ts: 1408155041
