@@ -1,0 +1,35 @@
+flags: 010101010101010
+blocks: <h2>Hardware</h2><p>We are using [[www.kicad-pcb.org Kicad]] for schematic and pcb development. You can find the source in our <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware">repository</a> on GitHub.<br />Just open <code>ProgArm.pro</code> with Kicad.<br />If you want to submit your contribution, please set up these <a class="url http outside" href="http://git-scm.com/book/en/Customizing-Git-Git-Attributes">filters</a> before commiting to this repository:<br /></p><pre class="real">git config --global filter.cleansch.clean "sed 's/^Date.*$/Date \"\"/'"
+	git config --global filter.cleanlib.clean "sed 's/^\(EESchema-LIBRARY Version [^ \\t]*\).*$/\1/'"
+	git config --global filter.cleanpcb.clean "sed 's/\(host pcbnew \"\)[^\"]*/\1/'"
+	git config --global filter.cleanpro.clean "sed 's/^\(update=\).*$/\1/'"</pre><h2>Firmware</h2><p>TODO</p><h2>Client</h2><p>If you wrote an extension for [[Perl Client]], feel free to add it to [[Perl Client Modules]] list. It would be nice if you made a pull request with your module, however you can simply paste it to this wiki if you are not familiar with git yet.</p><p>If you want to contribute some changes directly to the core, we will happily accept your pull request. See <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client">Perl Client Repo</a>.</p><h2>Creating your own client</h2><p>Just create your own repository! You can find more information on [[Writing Clients]]. Don't forget to add it to [[Clients]] page.</p>
+ts: 1408379556
+minor: 
+host: 217.71.44.10
+username: AlexDaniel
+revision: 1
+summary: ==Hardware We are using www.kicad-pcb.org Kicad for schematic and pcb development. You can find the source in our . . .
+languages: 
+text: ==Hardware
+	We are using [[www.kicad-pcb.org Kicad]] for schematic and pcb development. You can find the source in our [[https://github.com/ProgArm/ProgArm-Hardware repository]] on GitHub.
+	Just open ##ProgArm.pro## with Kicad.
+	If you want to submit your contribution, please set up these [[http://git-scm.com/book/en/Customizing-Git-Git-Attributes filters]] before commiting to this repository:
+	{{{
+	git config --global filter.cleansch.clean "sed 's/^Date.*$/Date \"\"/'"
+	git config --global filter.cleanlib.clean "sed 's/^\(EESchema-LIBRARY Version [^ \\t]*\).*$/\1/'"
+	git config --global filter.cleanpcb.clean "sed 's/\(host pcbnew \"\)[^\"]*/\1/'"
+	git config --global filter.cleanpro.clean "sed 's/^\(update=\).*$/\1/'"
+	}}}
+	
+	==Firmware
+	TODO
+	
+	==Client
+	If you wrote an extension for [[Perl Client]], feel free to add it to [[Perl Client Modules]] list. It would be nice if you made a pull request with your module, however you can simply paste it to this wiki if you are not familiar with git yet.
+	
+	If you want to contribute some changes directly to the core, we will happily accept your pull request. See [[https://github.com/ProgArm/ProgArm-Client Perl Client Repo]].
+	
+	==Creating your own client
+	Just create your own repository! You can find more information on [[Writing Clients]]. Don't forget to add it to [[Clients]] page.
+	
+lastmajor: 1
