@@ -1,13 +1,13 @@
-flags: 0
-blocks: <p>Here you can ask any question.</p><p>If you want to report some particular problem please consider creating an issue in appropriate <a class="url http outside" href="https://github.com/ProgArm">repository on GitHub</a>.</p>
-diff-minor: <p><strong>Deleted:</strong></p>
-	<div class="old"><p>&lt; ==Your question:</p></div>
+flags: 010
+blocks: <p>Here you can ask any question.</p><p>If you want to report some particular problem please consider creating an issue in appropriate <a class="url http outside" href="https://github.com/ProgArm">repository on GitHub</a>.</p><p>See also [[Contributions]]</p>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; See also [[Contributions]]</p></div>
 ip: 217.71.47.97
-ts: 1408050702
+ts: 1408373633
 minor: 
-host: 89.235.237.48
-username: Alexandr Boldin
-revision: 3
+host: 217.71.47.166
+username: AlexDaniel
+revision: 4
 diff-major: 1
 summary: 
 languages: 
@@ -15,5 +15,7 @@ text: Here you can ask any question.
 	
 	If you want to report some particular problem please consider creating an issue in appropriate [[https://github.com/ProgArm repository on GitHub]].
 	
-lastmajor: 3
-keep-ts: 1408050702
+	See also [[Contributions]]
+	
+lastmajor: 4
+keep-ts: 1408373633
