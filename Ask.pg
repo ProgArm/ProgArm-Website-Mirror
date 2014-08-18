@@ -1,13 +1,14 @@
 flags: 010
-blocks: <p>Here you can ask any question.</p><p>If you want to report some particular problem please consider creating an issue in appropriate <a class="url http outside" href="https://github.com/ProgArm">repository on GitHub</a>.</p><p>See also [[Contributions]]</p>
-diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; See also [[Contributions]]</p></div>
+blocks: <p>Here you can ask any question.</p><p>If you want to report some particular problem please consider creating an issue in appropriate <a class="url http outside" href="https://github.com/ProgArm">repository on GitHub</a>.</p><p>See also [[Contribute]].</p>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; See also [[<strong class="changes">Contributions]]</strong></p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; See also [[<strong class="changes">Contribute]].</strong></p></div>
 ip: 217.71.47.97
-ts: 1408373633
+ts: 1408373724
 minor: 
 host: 217.71.47.166
 username: AlexDaniel
-revision: 4
+revision: 5
 diff-major: 1
 summary: 
 languages: 
@@ -15,7 +16,7 @@ text: Here you can ask any question.
 	
 	If you want to report some particular problem please consider creating an issue in appropriate [[https://github.com/ProgArm repository on GitHub]].
 	
-	See also [[Contributions]]
+	See also [[Contribute]].
 	
-lastmajor: 4
-keep-ts: 1408373633
+lastmajor: 5
+keep-ts: 1408373724
