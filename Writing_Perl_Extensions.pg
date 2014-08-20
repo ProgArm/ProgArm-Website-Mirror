@@ -3,9 +3,9 @@ blocks: <h2>Basic extension structure</h2><pre class="real">use strict;
 	use warnings;
 	
 	package ProgArm;
-	our(%Keys, %CODES);
+	our(%Keys);
 	
-	@Keys{MyNewSub} = $CODES{g};
+	@Keys{MyNewSub} = 'g';
 	
 	sub MyNewSub {
 	    # Wrie your code here
@@ -25,12 +25,16 @@ blocks: <h2>Basic extension structure</h2><pre class="real">use strict;
 	sub MyNewSubNegative {
 	    # Wrie your code here
 	}</pre>
-ts: 1407985279
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; our(%Keys<strong class="changes">, %CODES</strong>);<br />&lt; @Keys{MyNewSub} = <strong class="changes">$CODES{</strong>g<strong class="changes">};</strong></p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; our(%Keys);<br />&gt; @Keys{MyNewSub} = <strong class="changes">'</strong>g<strong class="changes">';</strong></p></div>
+ts: 1408560819
 minor: 
-host: 89.235.245.14
-username: AlexDaniel
-revision: 1
-summary: ==Basic extension structure {{{ use strict; use warnings; package ProgArm; our(%Keys, %CODES); @Keys{MyNewSub} = $CODES{g}; sub MyNewSub . . .
+host: 89.235.228.197
+username: 
+revision: 2
+diff-major: 1
+summary: 
 languages: 
 text: ==Basic extension structure
 	{{{
@@ -38,9 +42,9 @@ text: ==Basic extension structure
 	use warnings;
 	
 	package ProgArm;
-	our(%Keys, %CODES);
+	our(%Keys);
 	
-	@Keys{MyNewSub} = $CODES{g};
+	@Keys{MyNewSub} = 'g';
 	
 	sub MyNewSub {
 	    # Wrie your code here
@@ -80,4 +84,5 @@ text: ==Basic extension structure
 	}
 	}}}
 	
-lastmajor: 1
+lastmajor: 2
+keep-ts: 1408560819
