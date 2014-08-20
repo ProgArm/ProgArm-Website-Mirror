@@ -1,17 +1,22 @@
 flags: 01010
-blocks: <h2>Don't you think that wired ring is inconvenient?</h2><p>See [[Wired Ring]].</p><h2>Is there any display?</h2><p>See [[Display]].</p>
-ts: 1408379840
+blocks: <h2>Don't you think that wired ring is inconvenient?</h2><p>See [[Wired_Ring]].</p><h2>Is there any display?</h2><p>See [[Display]].</p>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; See [[<strong class="changes">Wired Ring</strong>]].</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; See [[<strong class="changes">Wired_Ring</strong>]].</p></div>
+ts: 1408560614
 minor: 
-host: 217.71.44.10
-username: AlexDaniel
-revision: 1
-summary: ==Don't you think that wired ring is inconvenient? See Wired Ring. ==Is there any display? See Display. 
+host: 89.235.228.197
+username: 
+revision: 2
+diff-major: 1
+summary: 
 languages: 
 text: ==Don't you think that wired ring is inconvenient?
-	See [[Wired Ring]].
+	See [[Wired_Ring]].
 	
 	==Is there any display?
 	See [[Display]].
 	
 	
-lastmajor: 1
+lastmajor: 2
+keep-ts: 1408560614
