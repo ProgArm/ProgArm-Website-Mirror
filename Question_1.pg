@@ -1,15 +1,29 @@
-flags: 0
-blocks: <p>When can I receive the device? :C</p><p>-- Yuno 2014-08-23 12:49 UTC</p>
-ts: 1408798180
+flags: 01010100
+blocks: <p>When can I receive the device? :C</p><p>-- Yuno 2014-08-23 12:49 UTC</p><h2 id="commentsHeading">Comments:</h2><div class="userComment"><p>Please see this page: [[Get ProgArm]]<br />And feel free to add this question to the [[FAQ]] :)</p><p>Unfortunately, we cannot tell the exact day currently. If the number of preorders is less than 5 or maybe even 10, then we will probably approach to build these devices by ourselves. But this becomes unfeasible as the number grows.</p><p>-- AlexDaniel 2014-08-23 14:56 UTC</p></div>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; ----<br />&gt; Please see this page: [[Get ProgArm]]<br />&gt; And feel free to add this question to the [[FAQ]] :)<br />&gt; Unfortunately, we cannot tell the exact day currently. If the number of preorders is less than 5 or maybe even 10, then we will probably approach to build these devices by ourselves. But this becomes unfeasible as the number grows.<br />&gt; -- AlexDaniel 2014-08-23 14:56 UTC</p></div>
+ts: 1408805792
 minor: 
-host: 130.226.70.234
-username: Yuno
-revision: 1
-summary: When can I receive the device? :C
+host: 89.235.223.25
+username: AlexDaniel
+revision: 2
+diff-major: 1
+summary: Please see this page: Get ProgArm And feel free to add this question to the FAQ :) Unfortunately, we cannot tell the exact day currently. . . .
 languages: 
 text: When can I receive the device? :C
 	
 	-- Yuno 2014-08-23 12:49 UTC
 	
 	
-lastmajor: 1
+	----
+	
+	Please see this page: [[Get ProgArm]]
+	And feel free to add this question to the [[FAQ]] :)
+	
+	Unfortunately, we cannot tell the exact day currently. If the number of preorders is less than 5 or maybe even 10, then we will probably approach to build these devices by ourselves. But this becomes unfeasible as the number grows.
+	
+	-- AlexDaniel 2014-08-23 14:56 UTC
+	
+	
+lastmajor: 2
+keep-ts: 1408805792
