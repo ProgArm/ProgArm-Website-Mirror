@@ -1,18 +1,23 @@
 flags: 0101010
-blocks: <p>Currently we are using STM32F103RBT6.</p><p>STM32F103RBT6<br /></p><ul><li><strong>R</strong> - 64-pin LQFP. [[ProgArm 0.1|Previously]] we were using <strong>C</strong> (48-pin LQFP), but it seems like it is not enough for ProgArm project.</li><li><strong>B</strong> - 128 Kbytes of Flash. <strong>8</strong> (64 Kbytes) is fine too, but the price difference is pretty much negligible.</li><li><strong>T</strong> -</li><li><strong>6</strong> - operating temperature. <strong>6</strong> is good enough unless you want to boil ProgArm.</li></ul>
-ts: 1408934480
+blocks: <p>Currently we are using STM32F103RBT6.</p><p>Meaning of last letters:<br /></p><ul><li><strong>R</strong> - 64-pin LQFP. [[ProgArm 0.1|Previously]] we were using <strong>C</strong> (48-pin LQFP), but it seems like it is not enough for ProgArm project.</li><li><strong>B</strong> - 128 Kbytes of Flash. <strong>8</strong> (64 Kbytes) is fine too, but the price difference is pretty much negligible.</li><li><strong>T</strong> -</li><li><strong>6</strong> - operating temperature. <strong>6</strong> is good enough unless you want to boil ProgArm.</li></ul>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; <strong class="changes">STM32F103RBT6</strong></p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; <strong class="changes">Meaning of last letters:</strong></p></div>
+ts: 1408934519
 minor: 
 host: 89.235.245.58
 username: AlexDaniel
-revision: 1
+revision: 2
+diff-major: 1
 summary: Currently we are using STM32F103RBT6. STM32F103RBT6 * **R** - 64-pin LQFP. [[ProgArm 0.1|Previously]] we were using **C** (48-pin LQFP), but it . . .
 languages: 
 text: Currently we are using STM32F103RBT6.
 	
-	STM32F103RBT6
+	Meaning of last letters:
 	* **R** - 64-pin LQFP. [[ProgArm 0.1|Previously]] we were using **C** (48-pin LQFP), but it seems like it is not enough for ProgArm project.
 	* **B** - 128 Kbytes of Flash. **8** (64 Kbytes) is fine too, but the price difference is pretty much negligible.
 	* **T** - 
 	* **6** - operating temperature. **6** is good enough unless you want to boil ProgArm.
 	
-lastmajor: 1
+lastmajor: 2
+keep-ts: 1408934519
