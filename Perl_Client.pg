@@ -1,16 +1,14 @@
-flags: 010101010
-blocks: <h2>Source</h2><p>You can <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client">get it from GitHub</a>. If you don't use git, then just press <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client/archive/master.zip">Download ZIP</a> button.</p><h2>Dependencies</h2><p>Currently there are only two requirements:<br /></p><ol><li>Perl version &gt;= 5.10.1<br /></li><li><code>Hook::LexWrap</code> (required by repeat.pl)<br /></li><li><code>Device::SerialPort</code> unless you are running on Android</li></ol><h2>Installation</h2><ul><li>[[Perl Client on Android]]<br /></li><li>[[Perl Client on GNU∕Linux]]<br /></li><li>[[Perl_Client_on_Windows]] -- Coming soon...<br /></li><li>[[Perl Client on Maemo]]</li></ul>
-diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; * [[<strong class="changes">Perl Client on Windows</strong>]] -- Coming soon...</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; * [[<strong class="changes">Perl_Client_on_Windows</strong>]] -- Coming soon...</p></div>
-ts: 1408207239
-minor: 1
-host: 89.235.246.223
-username: AlexDaniel
-revision: 14
-diff-major: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; # Hook::LexWrap (required by repeat.pl)</p></div>
-summary: 
+flags: 0101010100
+blocks: <h2>Source</h2><p>You can <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client">get it from GitHub</a>. If you don't use git, then just press <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client/archive/master.zip">Download ZIP</a> button.</p><h2>Dependencies</h2><p>Currently there are only two requirements:<br /></p><ol><li>Perl version &gt;= 5.10.1</li><li><code>Hook::LexWrap</code> (required by repeat.pl)</li><li><code>Device::SerialPort</code> unless you are running on Android</li></ol><h2>Installation</h2><ul><li>[[Perl Client on Android]]</li><li>[[Perl Client on GNU∕Linux]]</li><li>[[Perl_Client_on_Windows]] -- Coming soon...</li><li>[[Perl Client on Maemo]]</li></ul><h2 id="commentsHeading">Comments:</h2><div class="userComment"><p>4dt</p><p>-- Anonymous 2014-08-25 12:47 UTC</p></div>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; ----<br />&gt; 4dt<br />&gt; -- Anonymous 2014-08-25 12:47 UTC</p></div>
+ts: 1408970877
+minor: 
+host: 79.104.2.118
+username: 
+revision: 15
+diff-major: 1
+summary: 4dt
 languages: 
 text: ==Source
 	You can [[https://github.com/ProgArm/ProgArm-Client get it from GitHub]]. If you don't use git, then just press [[https://github.com/ProgArm/ProgArm-Client/archive/master.zip Download ZIP]] button.
@@ -27,5 +25,12 @@ text: ==Source
 	* [[Perl_Client_on_Windows]] -- Coming soon...
 	* [[Perl Client on Maemo]]
 	
-lastmajor: 12
-keep-ts: 1408207239
+	----
+	
+	4dt
+	
+	-- Anonymous 2014-08-25 12:47 UTC
+	
+	
+lastmajor: 15
+keep-ts: 1408970877
