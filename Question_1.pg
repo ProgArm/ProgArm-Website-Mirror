@@ -1,14 +1,14 @@
-flags: 01010100
-blocks: <p>When can I receive the device? :C</p><p>-- Yuno 2014-08-23 12:49 UTC</p><h2 id="commentsHeading">Comments:</h2><div class="userComment"><p>Please see this page: [[Get ProgArm]]<br />And feel free to add this question to the [[FAQ]] :)</p><p>Unfortunately, we cannot tell the exact day currently. If the number of preorders is less than 5 or maybe even 10, then we will probably approach to build these devices by ourselves. But this becomes unfeasible as the number grows.</p><p>-- AlexDaniel 2014-08-23 14:56 UTC</p></div>
+flags: 010101010100
+blocks: <p>When can I receive the device? :C</p><p>-- Yuno 2014-08-23 12:49 UTC</p><h2 id="commentsHeading">Comments:</h2><div class="userComment"><p>Please see this page: [[Get ProgArm]]<br />And feel free to add this question to the [[FAQ]] :)</p><p>Unfortunately, we cannot tell the exact day currently. If the number of preorders is less than 5 or maybe even 10, then we will probably approach to build these devices by ourselves. But this becomes unfeasible as the number grows.</p><p>-- AlexDaniel 2014-08-23 14:56 UTC</p></div><div class="userComment"><p>After a little discussion we decided to build another [[ProgArm 0.2]] especially for you.<br />Since I am aware of your programming skills, I am pretty sure that this will be very helpful :)<br />Hopefully we will ship it in the first days of September.</p><p>Have a nice day!</p><p>-- AlexDaniel 2014-08-25 00:41 UTC</p></div>
 diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; ----<br />&gt; Please see this page: [[Get ProgArm]]<br />&gt; And feel free to add this question to the [[FAQ]] :)<br />&gt; Unfortunately, we cannot tell the exact day currently. If the number of preorders is less than 5 or maybe even 10, then we will probably approach to build these devices by ourselves. But this becomes unfeasible as the number grows.<br />&gt; -- AlexDaniel 2014-08-23 14:56 UTC</p></div>
-ts: 1408805792
+	<div class="new"><p>&gt; ----<br />&gt; After a little discussion we decided to build another [[ProgArm 0.2]] especially for you.<br />&gt; Since I am aware of your programming skills, I am pretty sure that this will be very helpful :)<br />&gt; Hopefully we will ship it in the first days of September.<br />&gt; Have a nice day!<br />&gt; -- AlexDaniel 2014-08-25 00:41 UTC</p></div>
+ts: 1408927315
 minor: 
-host: 89.235.223.25
+host: 89.235.245.58
 username: AlexDaniel
-revision: 2
+revision: 3
 diff-major: 1
-summary: Please see this page: Get ProgArm And feel free to add this question to the FAQ :) Unfortunately, we cannot tell the exact day currently. . . .
+summary: After a little discussion we decided to build another ProgArm 0.2 especially for you. Since I am aware of your programming skills, I am pretty . . .
 languages: 
 text: When can I receive the device? :C
 	
@@ -25,5 +25,16 @@ text: When can I receive the device? :C
 	-- AlexDaniel 2014-08-23 14:56 UTC
 	
 	
-lastmajor: 2
-keep-ts: 1408805792
+	----
+	
+	After a little discussion we decided to build another [[ProgArm 0.2]] especially for you.
+	Since I am aware of your programming skills, I am pretty sure that this will be very helpful :)
+	Hopefully we will ship it in the first days of September.
+	
+	Have a nice day!
+	
+	-- AlexDaniel 2014-08-25 00:41 UTC
+	
+	
+lastmajor: 3
+keep-ts: 1408927315
