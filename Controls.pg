@@ -1,16 +1,28 @@
 flags: 010101010101010101010
-blocks: <p>We are <a class="url http outside" href="https://raw.githubusercontent.com/ProgArm/ProgArm-Misc/master/bimorse/bimorseCodes.org">reworking it</a>. Please see [[Old Controls]].</p><p>Current list is incomplete.</p><p>S - short press<br />L - long press<br />x - do not press</p><table class="user"><tr><td align="center">Combination </td><td align="center">Meaning </td><td align="center">Device Action </td><td align="center">[[Client]] Action </td></tr><tr><td>Sx Sx</td><td>Space</td><td align="right"></td><td>[[Repeat]]</td></tr><tr><td>xS xS</td><td>Backspace</td><td align="right"></td><td>[[Negative Repeat]]</td></tr><tr><td>SS SS</td><td>Enter</td><td align="right"></td><td align="right"></td></tr><tr><td>Sx xS</td><td>Shift</td><td align="right"></td><td>[[Shift Key]]</td></tr><tr><td>xS Sx</td><td>Symbols</td><td align="right"></td><td>[[Symbols Key]]</td></tr><tr><td>Sx SS</td><td>e</td><td align="right"></td><td align="right"></td></tr><tr><td>xS SS</td><td>t</td><td align="right"></td><td>Tell time</td></tr><tr><td>SS Sx</td><td>a</td><td align="right"></td><td>Toggle AAA mode</td></tr><tr><td>SS xS</td><td>o</td><td align="right"></td><td align="right"></td></tr><tr><td>Sx Lx</td><td>i</td><td>Toggle indicator</td><td align="right"></td></tr><tr><td>Lx Sx</td><td>n</td><td align="right"></td><td><strong>N</strong>ext song</td></tr><tr><td>xS xL</td><td>s</td><td align="right"></td><td>Volume -10% (Mnemonic: Silence!)</td></tr><tr><td>xL xS</td><td>h</td><td align="right"></td><td align="right"></td></tr><tr><td>SS LL</td><td>r</td><td align="right"></td><td>'Right' key (Next slide)</td></tr><tr><td>LL SS</td><td>d</td><td align="right"></td><td>Tell date</td></tr><tr><td>Sx xL</td><td>l</td><td align="right"></td><td>Volume +10% (Mnemonic: Louder!)</td></tr><tr><td>Lx xS</td><td>c</td><td align="right"></td><td>Pause/<strong>C</strong>ontinue music</td></tr><tr><td>xS Lx</td><td>u</td><td align="right"></td><td align="right"></td></tr><tr><td>xL Sx</td><td>m</td><td align="right"></td><td>Mute</td></tr><tr><td>Sx LL</td><td>w</td><td align="right"></td><td>Write current timestamp</td></tr><tr><td>Lx SS</td><td>f</td><td align="right"></td><td>Close (Alt+F4)</td></tr><tr><td>xS LL</td><td>g</td><td align="right"></td><td align="right"></td></tr><tr><td>xL SS</td><td>y</td><td align="right"></td><td align="right"></td></tr><tr><td>SS Lx</td><td>p</td><td align="right"></td><td>Previous song</td></tr><tr><td>SS xL</td><td>b</td><td>Switch<br />bluetooth power</td><td align="right"></td></tr><tr><td>LL Sx</td><td>v</td><td align="right"></td><td align="right"></td></tr><tr><td>LL xS</td><td>k</td><td align="right"></td><td>Text input</td></tr><tr><td>Lx Lx</td><td>j</td><td>[[Flashlight]]</td><td align="right"></td></tr><tr><td>xL xL</td><td>x</td><td align="right"></td><td>[[Typing Tutor]]</td></tr><tr><td>LL LL</td><td>q</td><td align="right"></td><td align="right"></td></tr><tr><td>Lx xL</td><td>z</td><td align="right"></td><td>Left (Previous slide)</td></tr><tr><td>xL Lx</td><td>Ctrl</td><td align="right"></td><td align="right"></td></tr><tr><td>Lx LL</td><td>Alt</td><td align="right"></td><td align="right"></td></tr><tr><td>xL LL</td><td>Escape</td><td align="right"></td><td align="right"></td></tr><tr><td>LL Lx</td><td>Tab</td><td align="right"></td><td align="right"></td></tr><tr><td>LL xL</td><td align="right"></td><td align="right"></td><td align="right"></td></tr></table><p>[[Features]]<br />[[Proposed Controls]]</p>
-diff-minor: <p><strong>Added:</strong></p>
+blocks: <p>We are <a class="url http outside" href="https://raw.githubusercontent.com/ProgArm/ProgArm-Misc/master/bimorse/bimorseCodes.org">reworking it</a>. Please see [[Old Controls]].</p><p>Current list is incomplete.</p><p>S - short press<br />L - long press<br />x - do not press</p><table class="user"><tr><td align="center">Combination </td><td align="center">Meaning </td><td align="center">Device Action </td><td align="center">[[Client]] Action </td></tr><tr><td>Sx Sx</td><td>Space</td><td align="right"></td><td>[[Repeat]]</td></tr><tr><td>xS xS</td><td>Backspace</td><td align="right"></td><td>[[Negative Repeat]]</td></tr><tr><td>SS SS</td><td>Enter</td><td align="right"></td><td align="right"></td></tr><tr><td>Sx xS</td><td>Shift</td><td align="right"></td><td>[[Shift Key]]</td></tr><tr><td>xS Sx</td><td>Symbols</td><td align="right"></td><td>[[Symbols Key]]</td></tr><tr><td>Sx SS</td><td>e</td><td align="right"></td><td align="right"></td></tr><tr><td>xS SS</td><td>t</td><td align="right"></td><td>Tell <strong>t</strong>ime</td></tr><tr><td>SS Sx</td><td>a</td><td align="right"></td><td>Toggle <strong>A</strong>AA mode</td></tr><tr><td>SS xS</td><td>o</td><td align="right"></td><td align="right"></td></tr><tr><td>Sx Lx</td><td>i</td><td>Toggle <strong>i</strong>ndicator</td><td align="right"></td></tr><tr><td>Lx Sx</td><td>n</td><td align="right"></td><td><strong>N</strong>ext song</td></tr><tr><td>xS xL</td><td>s</td><td align="right"></td><td>Volume -10% (Mnemonic: <strong>s</strong>ilence!)</td></tr><tr><td>xL xS</td><td>h</td><td align="right"></td><td align="right"></td></tr><tr><td>SS LL</td><td>r</td><td align="right"></td><td>'<strong>R</strong>ight' key (Next slide)</td></tr><tr><td>LL SS</td><td>d</td><td align="right"></td><td>Tell <strong>d</strong>ate</td></tr><tr><td>Sx xL</td><td>l</td><td align="right"></td><td>Volume +10% (Mnemonic: <strong>l</strong>ouder!)</td></tr><tr><td>Lx xS</td><td>c</td><td align="right"></td><td>Pause/<strong>c</strong>ontinue music</td></tr><tr><td>xS Lx</td><td>u</td><td align="right"></td><td align="right"></td></tr><tr><td>xL Sx</td><td>m</td><td align="right"></td><td><strong>m</strong>ute</td></tr><tr><td>Sx LL</td><td>w</td><td align="right"></td><td><strong>w</strong>rite current timestamp</td></tr><tr><td>Lx SS</td><td>f</td><td align="right"></td><td>Close (Alt+<strong>f</strong>4)</td></tr><tr><td>xS LL</td><td>g</td><td align="right"></td><td align="right"></td></tr><tr><td>xL SS</td><td>y</td><td align="right"></td><td align="right"></td></tr><tr><td>SS Lx</td><td>p</td><td align="right"></td><td><strong>p</strong>revious song</td></tr><tr><td>SS xL</td><td>b</td><td>Switch<br /><strong>b</strong>luetooth power</td><td align="right"></td></tr><tr><td>LL Sx</td><td>v</td><td align="right"></td><td align="right"></td></tr><tr><td>LL xS</td><td>k</td><td align="right"></td><td>Text input</td></tr><tr><td>Lx Lx</td><td>j</td><td>[[Flashlight]]</td><td align="right"></td></tr><tr><td>xL xL</td><td>x</td><td align="right"></td><td>[[Typing Tutor]]</td></tr><tr><td>LL LL</td><td>q</td><td align="right"></td><td align="right"></td></tr><tr><td>Lx xL</td><td>z</td><td align="right"></td><td>Left (Previous slide)</td></tr><tr><td>xL Lx</td><td>Ctrl</td><td align="right"></td><td align="right"></td></tr><tr><td>Lx LL</td><td>Alt</td><td align="right"></td><td align="right"></td></tr><tr><td>xL LL</td><td>Escape</td><td align="right"></td><td align="right"></td></tr><tr><td>LL Lx</td><td>Tab</td><td align="right"></td><td align="right"></td></tr><tr><td>LL xL</td><td align="right"></td><td align="right"></td><td align="right"></td></tr></table><p>[[Features]]<br />[[Proposed Controls]]</p>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; |xS SS|t| |Tell <strong class="changes">time</strong>|<br />&lt; |SS Sx|a| |Toggle <strong class="changes">AAA</strong> mode|</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; |xS SS|t| |Tell <strong class="changes">**t**ime</strong>|<br />&gt; |SS Sx|a| |Toggle <strong class="changes">**A**AA</strong> mode|</p></div><p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; |Sx Lx|i|Toggle <strong class="changes">indicator</strong>| |</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; |Sx Lx|i|Toggle <strong class="changes">**i**ndicator</strong>| |</p></div><p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; |xS xL|s| |Volume -10% (Mnemonic: <strong class="changes">Silence</strong>!)|</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; |xS xL|s| |Volume -10% (Mnemonic: <strong class="changes">**s**ilence</strong>!)|</p></div><p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; |SS LL|r| <strong class="changes">|'Right</strong>' key (Next slide)|<br />&lt; |LL SS|d| |Tell <strong class="changes">date</strong>|<br />&lt; |Sx xL|l| |Volume +10% (Mnemonic: <strong class="changes">Louder</strong>!)|<br />&lt; |Lx xS|c| |Pause/**<strong class="changes">C</strong>**ontinue music|</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; |SS LL|r| <strong class="changes">|'**R**ight</strong>' key (Next slide)|<br />&gt; |LL SS|d| |Tell <strong class="changes">**d**ate</strong>|<br />&gt; |Sx xL|l| |Volume +10% (Mnemonic: <strong class="changes">**l**ouder</strong>!)|<br />&gt; |Lx xS|c| |Pause/**<strong class="changes">c</strong>**ontinue music|</p></div><p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; |xL Sx|m| <strong class="changes">|Mute</strong>|<br />&lt; |Sx LL|w| <strong class="changes">|Write</strong> current timestamp|<br />&lt; |Lx SS|f| |Close (Alt<strong class="changes">+F4</strong>)|</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; |xL Sx|m| <strong class="changes">|**m**ute</strong>|<br />&gt; |Sx LL|w| <strong class="changes">|**w**rite</strong> current timestamp|<br />&gt; |Lx SS|f| |Close (Alt<strong class="changes">+**f**4</strong>)|</p></div><p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; |SS Lx|p| <strong class="changes">|Previous</strong> song|<br />&lt; |SS xL|b|Switch<strong class="changes">\\bluetooth</strong> power| |</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; |SS Lx|p| <strong class="changes">|**p**revious</strong> song|<br />&gt; |SS xL|b|Switch<strong class="changes">\\**b**luetooth</strong> power| |</p></div>
+ip: 84.52.44.168
+ts: 1409011875
+minor: 1
+host: 89.235.245.58
+username: AlexDaniel
+revision: 22
+diff-major: <p><strong>Added:</strong></p>
 	<div class="new"><p>&gt; We are [[https://raw.githubusercontent.com/ProgArm/ProgArm-Misc/master/bimorse/bimorseCodes.org reworking it]]. Please see [[Old Controls]].<br />&gt; Current list is incomplete.</p></div><p><strong>Changed:</strong></p>
 	<div class="old"><p>&lt; <strong class="changes">We are [[https://raw.githubusercontent.com/ProgArm/ProgArm</strong>-<strong class="changes">Misc/master/bimorse/bimorseCodes.org reworking it]]. Please see [[Old Controls]].</strong></p></div><p><strong>to</strong></p>
 	<div class="new"><p>&gt; <strong class="changes">|Sx Sx|Space| |[[Repeat]]|<br />&gt; |xS xS|Backspace| |[[Negative Repeat]]|<br />&gt; |SS SS|Enter| | |<br />&gt; |Sx xS|Shift| |[[Shift Key]]|<br />&gt; |xS Sx|Symbols| |[[Symbols Key]]|<br />&gt; |Sx SS|e| | |<br />&gt; |xS SS|t| |Tell time|<br />&gt; |SS Sx|a| |Toggle AAA mode|<br />&gt; |SS xS|o| | |<br />&gt; |Sx Lx|i|Toggle indicator| |<br />&gt; |Lx Sx|n| |**N**ext song|<br />&gt; |xS xL|s| |Volume</strong> -<strong class="changes">10% (Mnemonic: Silence!)|<br />&gt; |xL xS|h| | |<br />&gt; |SS LL|r| |'Right' key (Next slide)|<br />&gt; |LL SS|d| |Tell date|<br />&gt; |Sx xL|l| |Volume +10% (Mnemonic: Louder!)|<br />&gt; |Lx xS|c| |Pause/**C**ontinue music|<br />&gt; |xS Lx|u| | |<br />&gt; |xL Sx|m| |Mute|<br />&gt; |Sx LL|w| |Write current timestamp|<br />&gt; |Lx SS|f| |Close (Alt+F4)|<br />&gt; |xS LL|g| | |<br />&gt; |xL SS|y| | |<br />&gt; |SS Lx|p| |Previous song|<br />&gt; |SS xL|b|Switch\\bluetooth power| |<br />&gt; |LL Sx|v| | |<br />&gt; |LL xS|k| |Text input|<br />&gt; |Lx Lx|j|[[Flashlight]]| |<br />&gt; |xL xL|x| |[[Typing Tutor]]|<br />&gt; |LL LL|q| | |<br />&gt; |Lx xL|z| |Left (Previous slide)|<br />&gt; |xL Lx|Ctrl| | |<br />&gt; |Lx LL|Alt| | |<br />&gt; |xL LL|Escape| | |<br />&gt; |LL Lx|Tab| | |<br />&gt; |LL xL| | | |</strong></p></div>
-ip: 84.52.44.168
-ts: 1409011751
-minor: 
-host: 89.235.245.58
-username: AlexDaniel
-revision: 21
-diff-major: 1
 summary: Layout
 languages: 
 text: We are [[https://raw.githubusercontent.com/ProgArm/ProgArm-Misc/master/bimorse/bimorseCodes.org reworking it]]. Please see [[Old Controls]].
@@ -28,25 +40,25 @@ text: We are [[https://raw.githubusercontent.com/ProgArm/ProgArm-Misc/master/bim
 	|Sx xS|Shift| |[[Shift Key]]|
 	|xS Sx|Symbols| |[[Symbols Key]]|
 	|Sx SS|e| | |
-	|xS SS|t| |Tell time|
-	|SS Sx|a| |Toggle AAA mode|
+	|xS SS|t| |Tell **t**ime|
+	|SS Sx|a| |Toggle **A**AA mode|
 	|SS xS|o| | |
-	|Sx Lx|i|Toggle indicator| |
+	|Sx Lx|i|Toggle **i**ndicator| |
 	|Lx Sx|n| |**N**ext song|
-	|xS xL|s| |Volume -10% (Mnemonic: Silence!)|
+	|xS xL|s| |Volume -10% (Mnemonic: **s**ilence!)|
 	|xL xS|h| | |
-	|SS LL|r| |'Right' key (Next slide)|
-	|LL SS|d| |Tell date|
-	|Sx xL|l| |Volume +10% (Mnemonic: Louder!)|
-	|Lx xS|c| |Pause/**C**ontinue music|
+	|SS LL|r| |'**R**ight' key (Next slide)|
+	|LL SS|d| |Tell **d**ate|
+	|Sx xL|l| |Volume +10% (Mnemonic: **l**ouder!)|
+	|Lx xS|c| |Pause/**c**ontinue music|
 	|xS Lx|u| | |
-	|xL Sx|m| |Mute|
-	|Sx LL|w| |Write current timestamp|
-	|Lx SS|f| |Close (Alt+F4)|
+	|xL Sx|m| |**m**ute|
+	|Sx LL|w| |**w**rite current timestamp|
+	|Lx SS|f| |Close (Alt+**f**4)|
 	|xS LL|g| | |
 	|xL SS|y| | |
-	|SS Lx|p| |Previous song|
-	|SS xL|b|Switch\\bluetooth power| |
+	|SS Lx|p| |**p**revious song|
+	|SS xL|b|Switch\\**b**luetooth power| |
 	|LL Sx|v| | |
 	|LL xS|k| |Text input|
 	|Lx Lx|j|[[Flashlight]]| |
@@ -63,4 +75,4 @@ text: We are [[https://raw.githubusercontent.com/ProgArm/ProgArm-Misc/master/bim
 	[[Proposed Controls]]
 	
 lastmajor: 21
-keep-ts: 1409011751
+keep-ts: 1409011875
