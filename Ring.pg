@@ -1,12 +1,13 @@
 flags: 010101010101010
-blocks: <p>This is the very basic version of an input ring, that comes with ProgArm out of the box. It is a 3D-printed ring with two micro-buttons and a bright RGB LED superglued to it. Ring is connected to ProgArm through the dedicated Ring_Port. Micro-USB-type plug of a ring wire also contains the resistors for a LED, this allows to use different LED types without modifying the ProgArm.</p><p>Our tests have proven the Ring to be very convenient to use, easy to build and reliable enough to wear every day.</p><h3>Attention! The Ring is NOT waterproof</h3><h2>Photos</h2><p>[[File:IMGP1298.JPG]]<br />[[File:IMGP1303.JPG]]<br />[[File:IMGP1309.JPG]]<br />[[File:IMGP1304.JPG]]</p>
-diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; This is the very basic version of an input ring, that comes with ProgArm out of the box. It is a 3D-printed ring with two micro-buttons and a bright RGB LED superglued to it. Ring is connected to ProgArm through the dedicated Ring_Port. Micro-USB-type plug of a ring wire also contains the resistors for a LED, this allows to use different LED types without modifying the ProgArm.<br />&gt; Our tests have proven the Ring to be very convenient to use, easy to build and reliable enough to wear every day.<br />&gt; ===Attention! The Ring is NOT waterproof</p></div>
-ts: 1409436837
+blocks: <p>This is the very basic version of an input ring, that comes with ProgArm out of the box. It is a 3D-printed ring with two micro-buttons and a bright RGB LED superglued to it. Ring is connected to ProgArm through the dedicated Ring_Port. Micro-USB-type plug of a ring wire also contains the resistors for a LED, this allows to use different LED types without modifying the ProgArm.</p><p>Our tests have proven the Ring to be very convenient to use, easy to build and reliable enough to wear every day.</p><h3>Attention! This version of ring is NOT waterproof</h3><h2>Photos</h2><p>[[File:IMGP1298.JPG]]<br />[[File:IMGP1303.JPG]]<br />[[File:IMGP1309.JPG]]<br />[[File:IMGP1304.JPG]]</p>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; ===Attention! <strong class="changes">The Ring</strong> is NOT waterproof</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; ===Attention! <strong class="changes">This version of ring</strong> is NOT waterproof</p></div>
+ts: 1409436892
 minor: 
 host: 89.235.242.77
 username: Alexandr Boldin
-revision: 3
+revision: 4
 diff-major: 1
 summary: 
 languages: 
@@ -14,7 +15,7 @@ text: This is the very basic version of an input ring, that comes with ProgArm o
 	
 	Our tests have proven the Ring to be very convenient to use, easy to build and reliable enough to wear every day.
 	
-	===Attention! The Ring is NOT waterproof
+	===Attention! This version of ring is NOT waterproof
 	
 	
 	==Photos
@@ -23,5 +24,5 @@ text: This is the very basic version of an input ring, that comes with ProgArm o
 	[[File:IMGP1309.JPG]]
 	[[File:IMGP1304.JPG]]
 	
-lastmajor: 3
-keep-ts: 1409436837
+lastmajor: 4
+keep-ts: 1409436892
