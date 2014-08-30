@@ -1,0 +1,21 @@
+flags: 01010
+blocks: <p>Our first prototypes and even early versions of [[ProgArm 0.1]] were using Morse code as input system. Once we figured out that Morse code is too inefficient for our purpose, we have created our own [[Controls|two button input system]].</p><p>Advantages of morse code:<br /></p><ul><li>Well known, some people already know it.</li><li>Requires only one button (you are not going to fit many buttons on one ring anyway)</li></ul><p>Disadvantages:<br /></p><ul><li>Morse code has 2 one-click actions, 4 two-click actions, 8 three-click actions and 16 four-click actions with a total of 30, while our new input system has 36 two-click actions.</li><li>Since the number of clicks is arbitrary, there must be a delay. You can choose any delay, but in practice something around 500 ms is fine.</li><li>You might think that 500 ms is very short, but it turns out that it is too long. Any delay is undesirable. It is much harder to learn the whole alphabet if you are not getting instant feedback.</li></ul>
+ts: 1409413588
+minor: 
+host: 88.196.241.125
+username: AlexDaniel
+revision: 1
+summary: Our first prototypes and even early versions of ProgArm 0.1 were using Morse code as input system. Once we figured out that Morse code is too . . .
+languages: 
+text: Our first prototypes and even early versions of [[ProgArm 0.1]] were using Morse code as input system. Once we figured out that Morse code is too inefficient for our purpose, we have created our own [[Controls|two button input system]].
+	
+	Advantages of morse code:
+	* Well known, some people already know it.
+	* Requires only one button (you are not going to fit many buttons on one ring anyway)
+	
+	Disadvantages:
+	* Morse code has 2 one-click actions, 4 two-click actions, 8 three-click actions and 16 four-click actions with a total of 30, while our new input system has 36 two-click actions.
+	* Since the number of clicks is arbitrary, there must be a delay. You can choose any delay, but in practice something around 500 ms is fine.
+	* You might think that 500 ms is very short, but it turns out that it is too long. Any delay is undesirable. It is much harder to learn the whole alphabet if you are not getting instant feedback.
+	
+lastmajor: 1
