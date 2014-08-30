@@ -1,21 +1,27 @@
-flags: 010101010
-blocks: <h2>Photos</h2><p>[[File:IMGP1298.JPG]]<br />[[File:IMGP1303.JPG]]<br />[[File:IMGP1309.JPG]]<br />[[File:IMGP1304.JPG]]</p>
-diff-minor: <p><strong>Deleted:</strong></p>
-	<div class="old"><p></p></div><p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; [[File:IMGP1304.JPG]]</p></div>
-ts: 1407436787
+flags: 010101010101010
+blocks: <p>This is the very basic version of an input ring, that comes with ProgArm out of the box. It is a 3D-printed ring with two micro-buttons and a bright RGB LED superglued to it. Ring is connected to ProgArm through the dedicated Ring_Port. Micro-USB-type plug of a ring wire also contains the resistors for a LED, this allows to use different LED types without modifying the ProgArm.</p><p>Our tests have proven the Ring to be very convenient to use, easy to build and reliable enough to wear every day.</p><h3>Attention! The Ring is NOT waterproof</h3><h2>Photos</h2><p>[[File:IMGP1298.JPG]]<br />[[File:IMGP1303.JPG]]<br />[[File:IMGP1309.JPG]]<br />[[File:IMGP1304.JPG]]</p>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; This is the very basic version of an input ring, that comes with ProgArm out of the box. It is a 3D-printed ring with two micro-buttons and a bright RGB LED superglued to it. Ring is connected to ProgArm through the dedicated Ring_Port. Micro-USB-type plug of a ring wire also contains the resistors for a LED, this allows to use different LED types without modifying the ProgArm.<br />&gt; Our tests have proven the Ring to be very convenient to use, easy to build and reliable enough to wear every day.<br />&gt; ===Attention! The Ring is NOT waterproof</p></div>
+ts: 1409436837
 minor: 
-host: 89.235.222.219
+host: 89.235.242.77
 username: Alexandr Boldin
-revision: 2
+revision: 3
 diff-major: 1
-summary:  ==Photos [[File:IMGP1298.JPG]] [[File:IMGP1303.JPG]] [[File:IMGP1309.JPG]]
+summary: 
 languages: 
-text: ==Photos
+text: This is the very basic version of an input ring, that comes with ProgArm out of the box. It is a 3D-printed ring with two micro-buttons and a bright RGB LED superglued to it. Ring is connected to ProgArm through the dedicated Ring_Port. Micro-USB-type plug of a ring wire also contains the resistors for a LED, this allows to use different LED types without modifying the ProgArm.
+	
+	Our tests have proven the Ring to be very convenient to use, easy to build and reliable enough to wear every day.
+	
+	===Attention! The Ring is NOT waterproof
+	
+	
+	==Photos
 	[[File:IMGP1298.JPG]]
 	[[File:IMGP1303.JPG]]
 	[[File:IMGP1309.JPG]]
 	[[File:IMGP1304.JPG]]
 	
-lastmajor: 2
-keep-ts: 1407436787
+lastmajor: 3
+keep-ts: 1409436837
