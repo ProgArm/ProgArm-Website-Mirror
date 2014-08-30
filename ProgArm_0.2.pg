@@ -1,18 +1,18 @@
 flags: 01010
-blocks: <p><a class="image inter File" href="http://files.progarm.org/ProgArm_0.2_Ports_small.jpg"><img class="upload" title="File:ProgArm 0.2 Ports small.jpg" src="http://files.progarm.org/ProgArm_0.2_Ports_small.jpg" alt="File:ProgArm 0.2 Ports small.jpg" /></a></p><h2>Files</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases/tag/v0.2.0-alpha">v0.2.0-alpha release on GitHub</a></p><h2>Photos</h2><p>[[File:IMGP1310.JPG|Device Photo]]</p><h2>Known problems:</h2><ul><li>Device does not start if there is no battery.<br /></li><li>Current is limited to 330 mA (?)<br /></li><li>[[Firmware Flashing|Flashing mode]] is not working properly. (<a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/commit/0586e182973b1895c8a71800c2f0f30fb0aa9b93">fixed</a>)</li></ul>
+blocks: <p><a class="image inter File" href="http://files.progarm.org/Ports_small.png"><img class="upload" title="File:Ports small.png" src="http://files.progarm.org/Ports_small.png" alt="File:Ports small.png" /></a></p><h2>Files</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases/tag/v0.2.0-alpha">v0.2.0-alpha release on GitHub</a></p><h2>Photos</h2><p>[[File:IMGP1310.JPG|Device Photo]]</p><h2>Known problems:</h2><ul><li>Device does not start if there is no battery.</li><li>Current is limited to 330 mA (?)</li><li>[[Firmware Flashing|Flashing mode]] is not working properly. (<a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/commit/0586e182973b1895c8a71800c2f0f30fb0aa9b93">fixed</a>)</li></ul>
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; [[<strong class="changes">http://files.progarm.org/</strong>IMGP1310.JPG Device Photo]]</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; [[<strong class="changes">File:</strong>IMGP1310.JPG<strong class="changes">|</strong>Device Photo]]</p></div>
+	<div class="old"><p>&lt; [[image:File:<strong class="changes">ProgArm_0</strong>.<strong class="changes">2_Ports_small.jpg</strong>]]</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; [[image:File:<strong class="changes">Ports_small</strong>.<strong class="changes">png</strong>]]</p></div>
 ip: 84.52.29.94
-ts: 1408058293
+ts: 1409437361
 minor: 
-host: 89.235.245.14
-username: AlexDaniel
-revision: 19
+host: 89.235.242.77
+username: Alexandr Boldin
+revision: 20
 diff-major: 1
 summary: 
 languages: 
-text: [[image:File:ProgArm_0.2_Ports_small.jpg]]
+text: [[image:File:Ports_small.png]]
 	
 	==Files
 	[[https://github.com/ProgArm/ProgArm-Hardware/releases/tag/v0.2.0-alpha v0.2.0-alpha release on GitHub]]
@@ -25,5 +25,6 @@ text: [[image:File:ProgArm_0.2_Ports_small.jpg]]
 	* Current is limited to 330 mA (?)
 	* [[Firmware Flashing|Flashing mode]] is not working properly. ([[https://github.com/ProgArm/ProgArm-Hardware/commit/0586e182973b1895c8a71800c2f0f30fb0aa9b93 fixed]])
 	
-lastmajor: 19
-keep-ts: 1408058293
+	
+lastmajor: 20
+keep-ts: 1409437361
