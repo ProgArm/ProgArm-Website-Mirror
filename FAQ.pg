@@ -1,22 +1,15 @@
-flags: 01010
-blocks: <h2>Don't you think that wired ring is inconvenient?</h2><p>See [[Ring]].</p><h2>Is there any display?</h2><p>See [[Display]].</p>
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; See [[<strong class="changes">Wired_Ring</strong>]].</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; See [[<strong class="changes">Ring</strong>]].</p></div>
-ts: 1409439055
+	<div class="old"><p>&lt; <strong class="changes">==Don't you think that wired ring is inconvenient?<br />&lt; See [[Ring]].<br />&lt; ==Is there any display?<br />&lt; See [[Display]].</strong></p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; <strong class="changes"></strong></p></div>
+ts: 1409439093
 minor: 
 host: 89.235.242.77
 username: Alexandr Boldin
-revision: 3
+revision: 4
 diff-major: 1
 summary: 
 languages: 
-text: ==Don't you think that wired ring is inconvenient?
-	See [[Ring]].
+text: 
 	
-	==Is there any display?
-	See [[Display]].
-	
-	
-lastmajor: 3
-keep-ts: 1409439055
+lastmajor: 4
+keep-ts: 1409439093
