@@ -1,12 +1,17 @@
-flags: 0
-blocks: <p>Wireless_Ring is a version of Ring, that doesn't need any wire to work. In addition to two buttons it also has a small battery or a supercap, and a transmitter, Tiny microcontroller also might be needed in order to digitally modulate transmitter's signal to represent presses of different buttons. The Wireless_Ring can be charged via Prog_Arm itself (on the go), or with a dedicated charger. This type of ring will also lack a LED due to the battery of applicable size would be of too low capacity to power it. For now, Wireless_Ring is just a concept.</p>
-ts: 1409436253
+flags: 010
+blocks: <p>Wireless_Ring is a version of Ring, that doesn't need any wire to work. In addition to two buttons it also has a small battery or a supercap, and a transmitter, Tiny microcontroller also might be needed in order to digitally modulate transmitter's signal to represent presses of different buttons. The Wireless_Ring can be charged via ProgArm itself (on the go), or with a dedicated charger. This type of ring will also lack a LED due to the battery of applicable size would be of too low capacity to power it. For now, Wireless_Ring is just a concept.</p>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; Wireless_Ring is a version of Ring, that doesn't need any wire to work. In addition to two buttons it also has a small battery or a supercap, and a transmitter, Tiny microcontroller also might be needed in order to digitally modulate transmitter's signal to represent presses of different buttons. The Wireless_Ring can be charged via <strong class="changes">Prog_Arm</strong> itself (on the go), or with a dedicated charger. This type of ring will also lack a LED due to the battery of applicable size would be of too low capacity to power it. For now, Wireless_Ring is just a concept.</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; Wireless_Ring is a version of Ring, that doesn't need any wire to work. In addition to two buttons it also has a small battery or a supercap, and a transmitter, Tiny microcontroller also might be needed in order to digitally modulate transmitter's signal to represent presses of different buttons. The Wireless_Ring can be charged via <strong class="changes">ProgArm</strong> itself (on the go), or with a dedicated charger. This type of ring will also lack a LED due to the battery of applicable size would be of too low capacity to power it. For now, Wireless_Ring is just a concept.</p></div>
+ts: 1409436301
 minor: 
 host: 89.235.242.77
 username: Alexandr Boldin
-revision: 1
+revision: 2
+diff-major: 1
 summary: Wireless_Ring is a version of Ring, that doesn't need any wire to work. In addition to two buttons it also has a small battery or a supercap, and a . . .
 languages: 
-text: Wireless_Ring is a version of Ring, that doesn't need any wire to work. In addition to two buttons it also has a small battery or a supercap, and a transmitter, Tiny microcontroller also might be needed in order to digitally modulate transmitter's signal to represent presses of different buttons. The Wireless_Ring can be charged via Prog_Arm itself (on the go), or with a dedicated charger. This type of ring will also lack a LED due to the battery of applicable size would be of too low capacity to power it. For now, Wireless_Ring is just a concept.
+text: Wireless_Ring is a version of Ring, that doesn't need any wire to work. In addition to two buttons it also has a small battery or a supercap, and a transmitter, Tiny microcontroller also might be needed in order to digitally modulate transmitter's signal to represent presses of different buttons. The Wireless_Ring can be charged via ProgArm itself (on the go), or with a dedicated charger. This type of ring will also lack a LED due to the battery of applicable size would be of too low capacity to power it. For now, Wireless_Ring is just a concept.
 	
-lastmajor: 1
+lastmajor: 2
+keep-ts: 1409436301
