@@ -1,11 +1,16 @@
-flags: 0
-blocks: <p>The biggest problem is that Perl is too outdated (v5.8.3). You should install a newer version by using <a class="url http outside" href="http://perlbrew.pl/">perlbrew</a>.</p><p>Install perlbrew:<br /><code>curl -k -L http://install.perlbrew.pl | bash</code> -k option is necessary, otherwise it will throw errors about https</p><p>Install perl:<br /><code>perlbrew --notest v5.16</code> tests will run for two hours if you don't disable them. There are many failed tests, but it seems like perl is fully functional anyway.</p><p>Show installed versions:<br /><code>perlbrew list</code> If everything went well, you will see <code>perl-5.16.0</code></p><p>Switch to the newer version:<br /><code>perlbrew switch perl-5.16.0</code></p><p>Install cpanm:<br /><code>perlbrew install-cpanm</code></p><p>Install <code>Device::SerialPort</code><br /><code>cpanm --no-wget --verbose Device::SerialPort</code></p><h4>Sometimes you will have to provide full path to some binaries:</h4><p>perlbrew is located at<br /><code>~/perl5/perlbrew/bin/perlbrew</code></p><p>cpanm is located at<br /><code>~/perl5/perlbrew/bin/cpanm</code></p><p>perl v5.16 is located at<br /><code>~/perl5/perlbrew/perls/perl-5.16.0/bin/perl</code></p><p>However, once you <code>perlbrew switch</code> to your new perl, you wont have to provide full paths.</p>
-ts: 1408038261
+flags: 01010
+blocks: <p>The biggest problem is that Perl is too outdated (v5.8.3). You should install a newer version by using <a class="url http outside" href="http://perlbrew.pl/">perlbrew</a>.</p><p>Install perlbrew:<br /><code>curl -k -L http://install.perlbrew.pl | bash</code> -k option is necessary, otherwise it will throw errors about https</p><p>Install perl:<br /><code>perlbrew --notest v5.16</code> tests will run for two hours if you don't disable them. There are many failed tests, but it seems like perl is fully functional anyway.</p><p>Show installed versions:<br /><code>perlbrew list</code> If everything went well, you will see <code>perl-5.16.0</code></p><p>Switch to the newer version:<br /><code>perlbrew switch perl-5.16.0</code></p><p>Install cpanm:<br /><code>perlbrew install-cpanm</code></p><p>Install <code>Device::SerialPort</code><br /><code>cpanm --no-wget --verbose Device::SerialPort</code></p><p>Install <code>Hook::LexWrap</code><br /><code>cpanm --no-wget --verbose Hook::LexWrap</code></p><h4>Sometimes you will have to provide full path to some binaries:</h4><p>perlbrew is located at<br /><code>~/perl5/perlbrew/bin/perlbrew</code></p><p>cpanm is located at<br /><code>~/perl5/perlbrew/bin/cpanm</code></p><p>perl v5.16 is located at<br /><code>~/perl5/perlbrew/perls/perl-5.16.0/bin/perl</code></p><p>However, once you <code>perlbrew switch</code> to your new perl, you wont have to provide full paths.</p>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; Install <strong class="changes">{{{</strong>Device::SerialPort<strong class="changes">}}}</strong></p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; Install <strong class="changes">##</strong>Device::SerialPort<strong class="changes">##</strong></p></div><p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; Install ##Hook::LexWrap##<br />&gt; {{{cpanm --no-wget --verbose Hook::LexWrap}}}</p></div>
+ts: 1409694447
 minor: 
-host: 89.235.237.48
+host: 84.52.12.115
 username: AlexDaniel
-revision: 1
-summary: The biggest problem is that Perl is too outdated (v5.8.3). You should install a newer version by using [perlbrew]. Install . . .
+revision: 2
+diff-major: 1
+summary: add lexwrap
 languages: 
 text: The biggest problem is that Perl is too outdated (v5.8.3). You should install a newer version by using [[http://perlbrew.pl/ perlbrew]].
 	
@@ -24,8 +29,11 @@ text: The biggest problem is that Perl is too outdated (v5.8.3). You should inst
 	Install cpanm:
 	{{{perlbrew install-cpanm}}}
 	
-	Install {{{Device::SerialPort}}}
+	Install ##Device::SerialPort##
 	{{{cpanm --no-wget --verbose Device::SerialPort}}}
+	
+	Install ##Hook::LexWrap##
+	{{{cpanm --no-wget --verbose Hook::LexWrap}}}
 	
 	====Sometimes you will have to provide full path to some binaries:
 	perlbrew is located at
@@ -39,4 +47,6 @@ text: The biggest problem is that Perl is too outdated (v5.8.3). You should inst
 	
 	However, once you {{{perlbrew switch}}} to your new perl, you wont have to provide full paths.
 	
-lastmajor: 1
+	
+lastmajor: 2
+keep-ts: 1409694447
