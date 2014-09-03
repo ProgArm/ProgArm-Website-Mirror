@@ -1,23 +1,21 @@
-flags: 0101010101010
-blocks: <ul><li>Read [[About]] page to understand project goals.</li><li>Learn about [[Features|ProgArm Features]] to understand if that is what you actually need.</li><li>If you have any questions, read everything you are interested in on [[Devices]] page.</li><li>If you still have any questions, feel free to [[Ask]] them.</li><li>[[Get ProgArm]] from us or [[Build ProgArm]] yourself.</li></ul>
+flags: 010101010101010
+blocks: <ul><li>Read [[About]] page to understand project goals.</li><li>Learn about [[Features|ProgArm Features]] to understand if that is what you actually need.</li><li>If you have any questions, read everything you are interested in on [[Devices]] page and [[FAQ]].</li><li>If you still have any questions, feel free to [[Ask]] them.</li><li>[[Get ProgArm]] from us or [[Build ProgArm]] yourself.</li></ul>
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; * [[Get ProgArm]] from us or [[<strong class="changes">Build_ProgArm</strong>]] yourself.</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; * [[Get ProgArm]] from us or [[<strong class="changes">Build ProgArm</strong>]] yourself.</p></div>
-ts: 1408803069
-minor: 1
-host: 89.235.223.25
+	<div class="old"><p>&lt; * If you have any questions, read everything you are interested in on [[Devices]] page<strong class="changes">.</strong></p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; * If you have any questions, read everything you are interested in on [[Devices]] page <strong class="changes">and [[FAQ]].</strong></p></div>
+ts: 1409759861
+minor: 
+host: 217.71.45.119
 username: AlexDaniel
-revision: 5
-diff-major: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; * Learn about <strong class="changes">ProgArm</strong> [[Features]] to understand if that is what you actually need.</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; * Learn about [[Features<strong class="changes">|ProgArm Features</strong>]] to understand if that is what you actually need.</p></div>
-summary: 
+revision: 6
+diff-major: 1
+summary: FAQ
 languages: 
 text: * Read [[About]] page to understand project goals.
 	* Learn about [[Features|ProgArm Features]] to understand if that is what you actually need.
-	* If you have any questions, read everything you are interested in on [[Devices]] page.
+	* If you have any questions, read everything you are interested in on [[Devices]] page and [[FAQ]].
 	* If you still have any questions, feel free to [[Ask]] them.
 	* [[Get ProgArm]] from us or [[Build ProgArm]] yourself.
 	
-lastmajor: 2
-keep-ts: 1408803069
+lastmajor: 6
+keep-ts: 1409759861
