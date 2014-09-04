@@ -1,52 +1,95 @@
 flags: 01010
-blocks: <p>The biggest problem is that Perl is too outdated (v5.8.3). You should install a newer version by using <a class="url http outside" href="http://perlbrew.pl/">perlbrew</a>.</p><p>Install perlbrew:<br /><code>curl -k -L http://install.perlbrew.pl | bash</code> -k option is necessary, otherwise it will throw errors about https</p><p>Install perl:<br /><code>perlbrew --notest v5.16</code> tests will run for two hours if you don't disable them. There are many failed tests, but it seems like perl is fully functional anyway.</p><p>Show installed versions:<br /><code>perlbrew list</code> If everything went well, you will see <code>perl-5.16.0</code></p><p>Switch to the newer version:<br /><code>perlbrew switch perl-5.16.0</code></p><p>Install cpanm:<br /><code>perlbrew install-cpanm</code></p><p>Install <code>Device::SerialPort</code><br /><code>cpanm --no-wget --verbose Device::SerialPort</code></p><p>Install <code>Hook::LexWrap</code><br /><code>cpanm --no-wget --verbose Hook::LexWrap</code></p><h4>Sometimes you will have to provide full path to some binaries:</h4><p>perlbrew is located at<br /><code>~/perl5/perlbrew/bin/perlbrew</code></p><p>cpanm is located at<br /><code>~/perl5/perlbrew/bin/cpanm</code></p><p>perl v5.16 is located at<br /><code>~/perl5/perlbrew/perls/perl-5.16.0/bin/perl</code></p><p>However, once you <code>perlbrew switch</code> to your new perl, you wont have to provide full paths.</p>
+blocks: <p>The biggest problem is that Perl is too outdated (v5.8.3). You should install a newer version by using <a class="url http outside" href="http://perlbrew.pl/">perlbrew</a>.</p><p>Install perlbrew:<br /></p><pre class="real">curl -k -L http://install.perlbrew.pl | bash</pre><p>-k option is necessary, otherwise it will throw errors about https</p><p>Install perl:<br /></p><pre class="real">perlbrew --notest v5.16</pre><p>tests will run for two hours if you don't disable them. There are many failed tests, but it seems like perl is fully functional anyway.</p><p>Show installed versions:<br /></p><pre class="real">perlbrew list</pre><p>If everything went well, you will see <code>perl-5.16.0</code></p><p>Switch to the newer version:<br /></p><pre class="real">perlbrew switch perl-5.16.0</pre><p>Install cpanm:<br /></p><pre class="real">perlbrew install-cpanm</pre><p>Install <code>Device::SerialPort</code><br /></p><pre class="real">cpanm --no-wget --verbose Device::SerialPort</pre><p>Install <code>Hook::LexWrap</code><br /></p><pre class="real">cpanm --no-wget --verbose Hook::LexWrap</pre><h4>Sometimes you will have to provide full path to some binaries:</h4><p>perlbrew is located at<br /></p><pre class="real">~/perl5/perlbrew/bin/perlbrew</pre><p>cpanm is located at<br /></p><pre class="real">~/perl5/perlbrew/bin/cpanm</pre><p>perl v5.16 is located at<br /></p><pre class="real">~/perl5/perlbrew/perls/perl-5.16.0/bin/perl</pre><p>However, once you <code>perlbrew switch</code> to your new perl, you wont have to provide full paths.</p>
 diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; {{{curl -k -L http://install.perlbrew.pl | bash}}} -k option is necessary, otherwise it will throw errors about https</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; {{{<br />&gt; curl -k -L http://install.perlbrew.pl | bash<br />&gt; }}}<br />&gt; -k option is necessary, otherwise it will throw errors about https</p></div><p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; {{{perlbrew --notest v5.16}}} tests will run for two hours if you don't disable them. There are many failed tests, but it seems like perl is fully functional anyway.</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; {{{<br />&gt; perlbrew --notest v5.16<br />&gt; }}}<br />&gt; tests will run for two hours if you don't disable them. There are many failed tests, but it seems like perl is fully functional anyway.</p></div><p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; {{{perlbrew list}}} If everything went well, you will see ##perl-5.16.0##</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; {{{<br />&gt; perlbrew list<br />&gt; }}}<br />&gt; If everything went well, you will see ##perl-5.16.0##</p></div><p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; {{{perlbrew switch perl-5.16.0}}}</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; {{{<br />&gt; perlbrew switch perl-5.16.0<br />&gt; }}}</p></div><p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; {{{perlbrew install-cpanm}}}</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; {{{<br />&gt; perlbrew install-cpanm<br />&gt; }}}</p></div><p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; {{{cpanm --no-wget --verbose Device::SerialPort}}}</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; {{{<br />&gt; cpanm --no-wget --verbose Device::SerialPort<br />&gt; }}}</p></div><p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; {{{cpanm --no-wget --verbose Hook::LexWrap}}}</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; {{{<br />&gt; cpanm --no-wget --verbose Hook::LexWrap<br />&gt; }}}</p></div><p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; <strong class="changes">{{{~/</strong>perl5/perlbrew/bin/perlbrew}}}</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; <strong class="changes">{{{<br />&gt; ~/</strong>perl5/perlbrew/bin/perlbrew<br />&gt; }}}</p></div><p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; <strong class="changes">{{{~/</strong>perl5/perlbrew/bin/cpanm}}}</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; <strong class="changes">{{{<br />&gt; ~/</strong>perl5/perlbrew/bin/cpanm<br />&gt; }}}</p></div><p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; <strong class="changes">{{{~/</strong>perl5/perlbrew/perls/perl-5.16.0/bin/perl}}}</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; <strong class="changes">{{{<br />&gt; ~/</strong>perl5/perlbrew/perls/perl-5.16.0/bin/perl<br />&gt; }}}</p></div>
+ts: 1409854158
+minor: 1
+host: 217.71.44.147
+username: AlexDaniel
+revision: 3
+diff-major: <p><strong>Changed:</strong></p>
 	<div class="old"><p>&lt; Install <strong class="changes">{{{</strong>Device::SerialPort<strong class="changes">}}}</strong></p></div><p><strong>to</strong></p>
 	<div class="new"><p>&gt; Install <strong class="changes">##</strong>Device::SerialPort<strong class="changes">##</strong></p></div><p><strong>Added:</strong></p>
 	<div class="new"><p>&gt; Install ##Hook::LexWrap##<br />&gt; {{{cpanm --no-wget --verbose Hook::LexWrap}}}</p></div>
-ts: 1409694447
-minor: 
-host: 84.52.12.115
-username: AlexDaniel
-revision: 2
-diff-major: 1
-summary: add lexwrap
+summary: 
 languages: 
 text: The biggest problem is that Perl is too outdated (v5.8.3). You should install a newer version by using [[http://perlbrew.pl/ perlbrew]].
 	
 	Install perlbrew:
-	{{{curl -k -L http://install.perlbrew.pl | bash}}} -k option is necessary, otherwise it will throw errors about https
+	{{{
+	curl -k -L http://install.perlbrew.pl | bash
+	}}}
+	-k option is necessary, otherwise it will throw errors about https
 	
 	Install perl:
-	{{{perlbrew --notest v5.16}}} tests will run for two hours if you don't disable them. There are many failed tests, but it seems like perl is fully functional anyway.
+	{{{
+	perlbrew --notest v5.16
+	}}}
+	tests will run for two hours if you don't disable them. There are many failed tests, but it seems like perl is fully functional anyway.
 	
 	Show installed versions:
-	{{{perlbrew list}}} If everything went well, you will see ##perl-5.16.0##
+	{{{
+	perlbrew list
+	}}}
+	If everything went well, you will see ##perl-5.16.0##
 	
 	Switch to the newer version:
-	{{{perlbrew switch perl-5.16.0}}}
+	{{{
+	perlbrew switch perl-5.16.0
+	}}}
 	
 	Install cpanm:
-	{{{perlbrew install-cpanm}}}
+	{{{
+	perlbrew install-cpanm
+	}}}
 	
 	Install ##Device::SerialPort##
-	{{{cpanm --no-wget --verbose Device::SerialPort}}}
+	{{{
+	cpanm --no-wget --verbose Device::SerialPort
+	}}}
 	
 	Install ##Hook::LexWrap##
-	{{{cpanm --no-wget --verbose Hook::LexWrap}}}
+	{{{
+	cpanm --no-wget --verbose Hook::LexWrap
+	}}}
 	
 	====Sometimes you will have to provide full path to some binaries:
 	perlbrew is located at
-	{{{~/perl5/perlbrew/bin/perlbrew}}}
+	{{{
+	~/perl5/perlbrew/bin/perlbrew
+	}}}
 	
 	cpanm is located at
-	{{{~/perl5/perlbrew/bin/cpanm}}}
+	{{{
+	~/perl5/perlbrew/bin/cpanm
+	}}}
 	
 	perl v5.16 is located at
-	{{{~/perl5/perlbrew/perls/perl-5.16.0/bin/perl}}}
+	{{{
+	~/perl5/perlbrew/perls/perl-5.16.0/bin/perl
+	}}}
 	
 	However, once you {{{perlbrew switch}}} to your new perl, you wont have to provide full paths.
 	
 	
 lastmajor: 2
-keep-ts: 1409694447
+keep-ts: 1409854158
