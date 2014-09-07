@@ -1,23 +1,23 @@
 flags: 010101010
-blocks: <p>Bluetooth is one of the defining features of ProgArm. Even though there are some hardware [[Features|features]] that could work without bluetooth connection, most of the usefulness comes from pairing ProgArm to another device.</p><p>We are using HC-05 bluetooth modules. These are very cheap and easy to get, but they do not BLE (Bluetooth Low Energy).</p><p>Since bluetooth consumes most of the current, it is very desirable to use BLE to minimize [[Power_Consumtion]]. There is a claim that HM-10 modules are drop-in replacements for HC-05, but we were unable to observe this. Although HM-10 indeed provides BLE, they are very different in functionality. Furthermore, they are not compatible with Bluetooth 2.0 devices (which happens to be the most popular version among bluetooth dongles). For now we advice to stick with HC-05.</p>
+blocks: <p>Bluetooth is one of the defining features of ProgArm. Even though there are some hardware [[Features|features]] that could work without bluetooth connection, most of the usefulness comes from pairing ProgArm to another device.</p><p>We are using HC-05 bluetooth modules. These are very cheap and easy to get, but they are not BLE (Bluetooth Low Energy).</p><p>Since bluetooth consumes most of the current, it is very desirable to use BLE to minimize [[Power_Consumtion]]. There is a claim that HM-10 modules are drop-in replacements for HC-05, but we were unable to observe this. Although HM-10 indeed provides BLE, they are very different in functionality. Furthermore, they are not compatible with Bluetooth 2.0 devices (which happens to be the most popular version among bluetooth dongles). For now we advice to stick with HC-05.</p>
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; Since bluetooth consumes most of the current, it is very desirable to use BLE to minimize [[Power_Consumtion]]. There is a claim that HM-10 modules are drop-in replacements for HC-05, but we were unable to observe this. Although HM-10 indeed <strong class="changes">provide</strong> BLE, they are very different in functionality. Furthermore, they are not compatible with Bluetooth 2.0 devices (which happens to be the most popular version among bluetooth dongles). For now we advice to stick with HC-05.</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; Since bluetooth consumes most of the current, it is very desirable to use BLE to minimize [[Power_Consumtion]]. There is a claim that HM-10 modules are drop-in replacements for HC-05, but we were unable to observe this. Although HM-10 indeed <strong class="changes">provides</strong> BLE, they are very different in functionality. Furthermore, they are not compatible with Bluetooth 2.0 devices (which happens to be the most popular version among bluetooth dongles). For now we advice to stick with HC-05.</p></div>
-ts: 1408936149
+	<div class="old"><p>&lt; We are using HC-05 bluetooth modules. These are very cheap and easy to get, but they <strong class="changes">do</strong> not BLE (Bluetooth Low Energy). </p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; We are using HC-05 bluetooth modules. These are very cheap and easy to get, but they <strong class="changes">are</strong> not BLE (Bluetooth Low Energy). </p></div>
+ts: 1410078100
 minor: 1
-host: 89.235.245.58
-username: AlexDaniel
-revision: 4
+host: 81.17.27.182
+username: stark
+revision: 5
 diff-major: <p><strong>Changed:</strong></p>
 	<div class="old"><p>&lt; Since bluetooth consumes most of the current, it is very desirable to use <strong class="changes">BLUE</strong> to minimize [[Power_Consumtion]]. There is a claim that HM-10 modules are drop-in replacements for HC-05, but were unable to observe this. Although HM-10 indeed provide BLE, they are very different in functionality. Furthermore, they are not compatible with Bluetooth 2.0 devices (which happens to be the most popular version among bluetooth dongles). For now we advice to stick with HC-05.</p></div><p><strong>to</strong></p>
 	<div class="new"><p>&gt; Since bluetooth consumes most of the current, it is very desirable to use <strong class="changes">BLE</strong> to minimize [[Power_Consumtion]]. There is a claim that HM-10 modules are drop-in replacements for HC-05, but were unable to observe this. Although HM-10 indeed provide BLE, they are very different in functionality. Furthermore, they are not compatible with Bluetooth 2.0 devices (which happens to be the most popular version among bluetooth dongles). For now we advice to stick with HC-05.</p></div>
-summary: Bluetooth is one of the defining features of ProgArm. Even though there are some hardware [[Features|features]] that could work without bluetooth . . .
+summary: s/do/are :)
 languages: 
 text: Bluetooth is one of the defining features of ProgArm. Even though there are some hardware [[Features|features]] that could work without bluetooth connection, most of the usefulness comes from pairing ProgArm to another device.
 	
-	We are using HC-05 bluetooth modules. These are very cheap and easy to get, but they do not BLE (Bluetooth Low Energy). 
+	We are using HC-05 bluetooth modules. These are very cheap and easy to get, but they are not BLE (Bluetooth Low Energy). 
 	
 	Since bluetooth consumes most of the current, it is very desirable to use BLE to minimize [[Power_Consumtion]]. There is a claim that HM-10 modules are drop-in replacements for HC-05, but we were unable to observe this. Although HM-10 indeed provides BLE, they are very different in functionality. Furthermore, they are not compatible with Bluetooth 2.0 devices (which happens to be the most popular version among bluetooth dongles). For now we advice to stick with HC-05.
 	
 lastmajor: 2
-keep-ts: 1408936149
+keep-ts: 1410078100
