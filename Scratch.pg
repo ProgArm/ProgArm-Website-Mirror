@@ -1,18 +1,29 @@
 flags: 01010100
-blocks: <p>Test text <strong>bold</strong> <em>italics</em> _underline_<br /></p><h1>Heading 1 (reserved)</h1><h2>Heading 2</h2><h3>Heading 3</h3><h4>Heading 4</h4><h5>Heading 5</h5><h6>Heading 6</h6><h2 id="commentsHeading">Comments:</h2><div class="userComment"><p>Test comment</p><p>Aoeui</p><p>-- AlexDaniel 2014-08-02 03:39 UTC</p></div><div class="userComment"><table class="user"><tr><th>Test</th><th>Test</th></tr><tr><td>Hello</td><td>Table</td></tr></table><p>-- AlexDaniel 2014-08-02 04:14 UTC</p></div><div class="userComment"><p>Test</p><p>-- AlexDaniel 2014-08-03 15:46 UTC</p></div>
+blocks: <p>Test text <strong>bold</strong> <em>italics</em><br />Line<br />break</p><p>Line<br />break</p><ol><li>Mixed list<ol><li>Item<ul><li>Bullet</li><li>Bullet</li></ul></li><li>Item</li><li>Item</li></ol></li></ol><h1>Heading 1 (reserved)</h1><h2>Heading 2</h2><h3>Heading 3</h3><h4>Heading 4</h4><h5>Heading 5</h5><h6>Heading 6</h6><h2 id="commentsHeading">Comments:</h2><div class="userComment"><p>Test comment</p><p>Aoeui</p><p>-- AlexDaniel 2014-08-02 03:39 UTC</p></div><div class="userComment"><table class="user"><tr><th>Test</th><th>Test</th></tr><tr><td>Hello</td><td>Table</td></tr></table><p>-- AlexDaniel 2014-08-02 04:14 UTC</p></div><div class="userComment"><p>Test</p><p>-- AlexDaniel 2014-08-03 15:46 UTC</p></div>
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; Test text **bold** //italics//</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; Test text **bold** //italics// <strong class="changes">_underline_<br />&gt; =Heading 1 (reserved)<br />&gt; ==Heading 2<br />&gt; ===Heading 3<br />&gt; ====Heading 4<br />&gt; =====Heading 5<br />&gt; ======Heading 6</strong></p></div><p><strong>Deleted:</strong></p>
-	<div class="old"><p>&lt; Touch.<br />&lt; -- AlexDaniel 2014-08-03 15:32 UTC<br />&lt; ----<br />&lt; Touch....<br />&lt; -- AlexDaniel 2014-08-03 15:35 UTC<br />&lt; ----</p></div>
-ts: 1410349665
+	<div class="old"><p>&lt; Test text **bold** //italics// <strong class="changes">_underline_</strong></p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; Test text **bold** //italics//<br />&gt; <strong class="changes">Line<br />&gt; break<br />&gt; Line\\break<br />&gt; # Mixed list<br />&gt; ## Item<br />&gt; *** Bullet<br />&gt; *** Bullet<br />&gt; ## Item<br />&gt; ## Item</strong></p></div>
+ts: 1410349746
 minor: 
 host: 217.71.45.55
 username: AlexDaniel
-revision: 18
+revision: 19
 diff-major: 1
 summary: 
 languages: 
-text: Test text **bold** //italics// _underline_
+text: Test text **bold** //italics//
+	Line
+	break
+	
+	Line\\break
+	
+	# Mixed list
+	## Item
+	*** Bullet
+	*** Bullet
+	## Item
+	## Item
+	
 	=Heading 1 (reserved)
 	==Heading 2
 	===Heading 3
@@ -44,5 +55,5 @@ text: Test text **bold** //italics// _underline_
 	-- AlexDaniel 2014-08-03 15:46 UTC
 	
 	
-lastmajor: 18
-keep-ts: 1410349665
+lastmajor: 19
+keep-ts: 1410349746
