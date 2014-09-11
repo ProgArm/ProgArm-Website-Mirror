@@ -1,20 +1,27 @@
-flags: 01010
-blocks: <p>Although it is said that HM-10 "can replace HC-05, HC-06, HC-07 etc", it is not exactly like that.</p><ul><li>AT commands are different. For example, to change the password, you should send AT+PSWD to HC-05 and AT+PASS to HM-10.</li><li>In HC-05, your AT commands are separated by \r\n. In HM-10, AT commands are separated by a delay (I have no idea how big that delay should be).</li><li>Command format is different too. With HC-05 it is like <strong>AT+NAME=ProgArm</strong>, but in HM-10 it is <strong>AT+NAMEProgArm</strong>.</li></ul><p>These are some minor issues, but it means that you cannot simply replace HC-05 with HM-10 or vice versa.</p><p>We have made a <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Misc/blob/master/bt_setup.py">script</a> that can configure both. It will detect whether it is HM-10 or HC-05 automatically.</p>
-ts: 1410458623
-minor: 
+flags: 010101010
+blocks: <p>Although it is said that HM-10 "can replace [[HC-05]], [[HC-06]], HC-07 etc", it is not exactly like that.</p><ul><li>AT commands are different. For example, to change the password, you should send <code>AT+PSWD</code> to [[HC-05] and <code>AT+PASS</code> to HM-10.</li><li>In HC-05, your AT commands are separated by \r\n. In HM-10, AT commands are separated by a delay (I have no idea how big that delay should be).</li><li>Command format is different too. With HC-05 it is like <code>AT+NAME=ProgArm</code>, but in HM-10 it is <code>AT+NAMEProgArm</code>.</li></ul><p>These are some minor issues, but it means that you cannot simply replace [[HC-05]] with HM-10 or vice versa.</p><p>We have made a <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Misc/blob/master/bt_setup.py">script</a> that can configure both. It will detect whether it is HM-10 or [[HC-05]] automatically.</p>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; Although it is said that HM-10 "can replace HC-05<strong class="changes">,</strong> HC-06<strong class="changes">,</strong> HC-07 etc", it is not exactly like that.<br />&lt; * AT commands are different. For example, to change the password, you should send AT+PSWD to HC-05 and AT+PASS to HM-10.</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; Although it is said that HM-10 "can replace <strong class="changes">[[</strong>HC-05<strong class="changes">]], [[</strong>HC-06<strong class="changes">]],</strong> HC-07 etc", it is not exactly like that.<br />&gt; * AT commands are different. For example, to change the password, you should send <strong class="changes">{{{</strong>AT+PSWD<strong class="changes">}}}</strong> to <strong class="changes">[[</strong>HC-05<strong class="changes">]</strong> and <strong class="changes">{{{</strong>AT+PASS<strong class="changes">}}}</strong> to HM-10.</p></div><p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; * Command format is different too. With HC-05 it is like <strong class="changes">**</strong>AT+NAME=ProgArm<strong class="changes">**,</strong> but in HM-10 it is <strong class="changes">**</strong>AT+NAMEProgArm<strong class="changes">**.</strong><br />&lt; These are some minor issues, but it means that you cannot simply replace HC-05 with HM-10 or vice versa.<br />&lt; We have made a [[https://github.com/ProgArm/ProgArm-Misc/blob/master/bt_setup.py script]] that can configure both. It will detect whether it is HM-10 or HC-05 automatically.</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; * Command format is different too. With HC-05 it is like <strong class="changes">{{{</strong>AT+NAME=ProgArm<strong class="changes">}}},</strong> but in HM-10 it is <strong class="changes">{{{</strong>AT+NAMEProgArm<strong class="changes">}}}.</strong><br />&gt; These are some minor issues, but it means that you cannot simply replace <strong class="changes">[[</strong>HC-05<strong class="changes">]]</strong> with HM-10 or vice versa.<br />&gt; We have made a [[https://github.com/ProgArm/ProgArm-Misc/blob/master/bt_setup.py script]] that can configure both. It will detect whether it is HM-10 or <strong class="changes">[[</strong>HC-05<strong class="changes">]]</strong> automatically.</p></div>
+ts: 1410458683
+minor: 1
 host: 89.235.241.41
 username: AlexDaniel
-revision: 1
-summary: Some info about HM-10
+revision: 2
+diff-major: 
+summary: Links and formatting
 languages: 
-text: Although it is said that HM-10 "can replace HC-05, HC-06, HC-07 etc", it is not exactly like that.
+text: Although it is said that HM-10 "can replace [[HC-05]], [[HC-06]], HC-07 etc", it is not exactly like that.
 	
-	* AT commands are different. For example, to change the password, you should send AT+PSWD to HC-05 and AT+PASS to HM-10.
+	* AT commands are different. For example, to change the password, you should send {{{AT+PSWD}}} to [[HC-05] and {{{AT+PASS}}} to HM-10.
 	* In HC-05, your AT commands are separated by \r\n. In HM-10, AT commands are separated by a delay (I have no idea how big that delay should be).
-	* Command format is different too. With HC-05 it is like **AT+NAME=ProgArm**, but in HM-10 it is **AT+NAMEProgArm**.
+	* Command format is different too. With HC-05 it is like {{{AT+NAME=ProgArm}}}, but in HM-10 it is {{{AT+NAMEProgArm}}}.
 	
-	These are some minor issues, but it means that you cannot simply replace HC-05 with HM-10 or vice versa.
+	These are some minor issues, but it means that you cannot simply replace [[HC-05]] with HM-10 or vice versa.
 	
-	We have made a [[https://github.com/ProgArm/ProgArm-Misc/blob/master/bt_setup.py script]] that can configure both. It will detect whether it is HM-10 or HC-05 automatically.
+	We have made a [[https://github.com/ProgArm/ProgArm-Misc/blob/master/bt_setup.py script]] that can configure both. It will detect whether it is HM-10 or [[HC-05]] automatically.
 	
 lastmajor: 1
+keep-ts: 1410458683
