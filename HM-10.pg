@@ -1,0 +1,20 @@
+flags: 01010
+blocks: <p>Although it is said that HM-10 "can replace HC-05, HC-06, HC-07 etc", it is not exactly like that.</p><ul><li>AT commands are different. For example, to change the password, you should send AT+PSWD to HC-05 and AT+PASS to HM-10.</li><li>In HC-05, your AT commands are separated by \r\n. In HM-10, AT commands are separated by a delay (I have no idea how big that delay should be).</li><li>Command format is different too. With HC-05 it is like <strong>AT+NAME=ProgArm</strong>, but in HM-10 it is <strong>AT+NAMEProgArm</strong>.</li></ul><p>These are some minor issues, but it means that you cannot simply replace HC-05 with HM-10 or vice versa.</p><p>We have made a <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Misc/blob/master/bt_setup.py">script</a> that can configure both. It will detect whether it is HM-10 or HC-05 automatically.</p>
+ts: 1410458623
+minor: 
+host: 89.235.241.41
+username: AlexDaniel
+revision: 1
+summary: Some info about HM-10
+languages: 
+text: Although it is said that HM-10 "can replace HC-05, HC-06, HC-07 etc", it is not exactly like that.
+	
+	* AT commands are different. For example, to change the password, you should send AT+PSWD to HC-05 and AT+PASS to HM-10.
+	* In HC-05, your AT commands are separated by \r\n. In HM-10, AT commands are separated by a delay (I have no idea how big that delay should be).
+	* Command format is different too. With HC-05 it is like **AT+NAME=ProgArm**, but in HM-10 it is **AT+NAMEProgArm**.
+	
+	These are some minor issues, but it means that you cannot simply replace HC-05 with HM-10 or vice versa.
+	
+	We have made a [[https://github.com/ProgArm/ProgArm-Misc/blob/master/bt_setup.py script]] that can configure both. It will detect whether it is HM-10 or HC-05 automatically.
+	
+lastmajor: 1
