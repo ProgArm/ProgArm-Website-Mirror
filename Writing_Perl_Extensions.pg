@@ -9,7 +9,7 @@ blocks: <h2>Basic extension structure</h2><pre class="real">use strict;
 	
 	sub MyNewSub {
 	    # Wrie your code here
-	}</pre><h2>Repeats</h2><p>By default actions are called without any parameters, however <code>repeat.pl</code> will pass <code>1</code> and <code>-1</code> to indicate repeat and negative repeat.</p><p>The longest way to detect negative repeat is to use<br /><code>if defined $_[0] and $_[0] == -1</code></p><p>You can shorten it to<br /><code>if ($_[0] // 0) == -1</code></p><p>However, it is much easier to use experimental <a class="url http outside" href="http://perldoc.perl.org/perlop.html#Smartmatch-Operator">smartmatch operator</a><br /><code>if $_[0] ~~ -1</code><br />Most extensions use smartmatch operator.</p><p>We can rewrite previous example to handle negative repeats:<br /></p><pre class="real">use strict;
+	}</pre><h2>Repeats</h2><p>By default actions are called without any parameters, however <code>repeat.pl</code> will pass <code>1</code> or <code>-1</code> to indicate repeat and negative repeat.</p><p>The longest way to detect negative repeat is to use<br /><code>if defined $_[0] and $_[0] == -1</code></p><p>You can shorten it to<br /><code>if ($_[0] // 0) == -1</code></p><p>However, it is much easier to use experimental <a class="url http outside" href="http://perldoc.perl.org/perlop.html#Smartmatch-Operator">smartmatch operator</a><br /><code>if $_[0] ~~ -1</code><br />Most extensions use smartmatch operator.</p><p>We can rewrite previous example to handle negative repeats:<br /></p><pre class="real">use strict;
 	use warnings;
 	
 	package ProgArm;
@@ -26,13 +26,13 @@ blocks: <h2>Basic extension structure</h2><pre class="real">use strict;
 	    # Wrie your code here
 	}</pre>
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; our(%Keys<strong class="changes">, %CODES</strong>);<br />&lt; @Keys{MyNewSub} = <strong class="changes">$CODES{</strong>g<strong class="changes">};</strong></p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; our(%Keys);<br />&gt; @Keys{MyNewSub} = <strong class="changes">'</strong>g<strong class="changes">';</strong></p></div>
-ts: 1408560853
+	<div class="old"><p>&lt; By default actions are called without any parameters, however {{{repeat.pl}}} will pass {{{1}}} <strong class="changes">and</strong> {{{-1}}} to indicate repeat and negative repeat.</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; By default actions are called without any parameters, however {{{repeat.pl}}} will pass {{{1}}} <strong class="changes">or</strong> {{{-1}}} to indicate repeat and negative repeat.</p></div>
+ts: 1410981043
 minor: 
-host: 89.235.228.197
-username: 
-revision: 3
+host: 89.235.230.13
+username: AlexDaniel
+revision: 4
 diff-major: 1
 summary: 
 languages: 
@@ -52,7 +52,7 @@ text: ==Basic extension structure
 	}}}
 	
 	==Repeats
-	By default actions are called without any parameters, however {{{repeat.pl}}} will pass {{{1}}} and {{{-1}}} to indicate repeat and negative repeat.
+	By default actions are called without any parameters, however {{{repeat.pl}}} will pass {{{1}}} or {{{-1}}} to indicate repeat and negative repeat.
 	
 	The longest way to detect negative repeat is to use
 	{{{if defined $_[0] and $_[0] == -1}}}
@@ -84,5 +84,5 @@ text: ==Basic extension structure
 	}
 	}}}
 	
-lastmajor: 3
-keep-ts: 1408560853
+lastmajor: 4
+keep-ts: 1410981043
