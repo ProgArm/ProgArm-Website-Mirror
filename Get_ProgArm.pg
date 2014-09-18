@@ -1,15 +1,14 @@
-flags: 010
-blocks: <p>The price of the device highly depends on the number of preorders, therefore we are trying to estimate the number of devices we should make.</p><p>The price is going to be lower than 50€.</p><p>If you are interested in getting ProgArm in the near future, please leave a comment below or write an email to <code>alex.jakimenko+progarm@gmail.com</code></p>
-diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; The price of the <strong class="changes">end</strong> device highly depends on the number of preorders, therefore we are trying to estimate the number of devices we should make.</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; The price of the device highly depends on the number of preorders, therefore we are trying to estimate the number of devices we should make.</p></div>
-ts: 1407988316
-minor: 1
-host: 89.235.245.14
-username: AlexDaniel
-revision: 2
-diff-major: 
-summary: The price of the end device highly depends on the number of preorders, therefore we are trying to estimate the number of devices we should make. . . .
+flags: 01010100
+blocks: <p>The price of the device highly depends on the number of preorders, therefore we are trying to estimate the number of devices we should make.</p><p>The price is going to be lower than 50€.</p><p>If you are interested in getting ProgArm in the near future, please leave a comment below or write an email to <code>alex.jakimenko+progarm@gmail.com</code></p><h2 id="commentsHeading">Comments:</h2><div class="userComment"><p>I came to your ProgArm: Get ProgArm page and noticed you could have a lot more hits. I have found that the key to running a website is making sure the visitors you are getting are interested in your subject matter. There is a company that you can get visitors from and they let you try the service for free. I managed to get over 300 targeted visitors to day to my website. Visit them today: <a class="url http" href="http://url.bz/1b0r">http://url.bz/1b0r</a></p><p>-- <a class="url http outside" href="http://id-vision.be/pcdokter/91">Christine</a> 2014-09-18 14:25 UTC</p></div>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; ----<br />&gt; I came to your ProgArm: Get ProgArm page and noticed you could have a lot more hits. I have found that the key to running a website is making sure the visitors you are getting are interested in your subject matter. There is a company that you can get visitors from and they let you try the service for free. I managed to get over 300 targeted visitors to day to my website. Visit them today: http://url.bz/1b0r<br />&gt; -- [http://id-vision.be/pcdokter/91 Christine] 2014-09-18 14:25 UTC</p></div>
+ts: 1411050358
+minor: 
+host: 192.40.88.164
+username: Christine
+revision: 3
+diff-major: 1
+summary: I came to your ProgArm: Get ProgArm page and noticed you could have a lot more hits. I have found that the key to running a website is making sure . . .
 languages: 
 text: The price of the device highly depends on the number of preorders, therefore we are trying to estimate the number of devices we should make.
 	
@@ -17,5 +16,12 @@ text: The price of the device highly depends on the number of preorders, therefo
 	
 	If you are interested in getting ProgArm in the near future, please leave a comment below or write an email to {{{alex.jakimenko+progarm@gmail.com}}}
 	
-lastmajor: 1
-keep-ts: 1407988316
+	----
+	
+	I came to your ProgArm: Get ProgArm page and noticed you could have a lot more hits. I have found that the key to running a website is making sure the visitors you are getting are interested in your subject matter. There is a company that you can get visitors from and they let you try the service for free. I managed to get over 300 targeted visitors to day to my website. Visit them today: http://url.bz/1b0r
+	
+	-- [http://id-vision.be/pcdokter/91 Christine] 2014-09-18 14:25 UTC
+	
+	
+lastmajor: 3
+keep-ts: 1411050358
