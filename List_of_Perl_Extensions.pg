@@ -1,0 +1,44 @@
+flags: 0101010101010101010101010101010101010
+blocks: <h3>Text to Speech</h3><ul><li>[[speak_android.pl]] --</li><li>[[speak_espeak.pl]] --</li><li>[[speak_flite.pl]] --</li></ul><h3>Connection</h3><ul><li>[[bluetooth_android.pl]] --</li><li>[[bluetooth_linux.pl]] --</li></ul><h3>Music</h3><ul><li>[[android_music.pl]] --</li><li>[[cmus.pl]] --</li></ul><h3>Sound</h3><ul><li>[[amixer.pl]] --</li></ul><h3>System</h3><ul><li>[[repeat.pl]] --</li><li>[[reconnect.pl]] --</li><li>[[battery.pl]] --</li><li>[[cli.pl]] --</li></ul><h3>Misc</h3><ul><li>[[timestamp.pl]] --</li><li>[[tutor.pl]] --</li><li>[[watch.pl]] --</li><li>[[xdotool.pl]] --</li></ul><h3>Phone</h3><ul><li>[[maemo.pl]] --</li></ul><h3>Development</h3><ul><li>[[debug.pl]] --</li></ul>
+ts: 1411323743
+minor: 
+host: 89.235.240.224
+username: AlexDaniel
+revision: 1
+summary: ===Text to Speech * speak_android.pl -- * speak_espeak.pl -- * speak_flite.pl -- ===Connection * bluetooth_android.pl -- * . . .
+languages: 
+text: ===Text to Speech
+	* [[speak_android.pl]] --
+	* [[speak_espeak.pl]] --
+	* [[speak_flite.pl]] --
+	
+	===Connection
+	* [[bluetooth_android.pl]] --
+	* [[bluetooth_linux.pl]] --
+	
+	===Music
+	* [[android_music.pl]] --
+	* [[cmus.pl]] --
+	
+	===Sound
+	* [[amixer.pl]] --
+	
+	===System
+	* [[repeat.pl]] --
+	* [[reconnect.pl]] --
+	* [[battery.pl]] --
+	* [[cli.pl]] --
+	
+	===Misc
+	* [[timestamp.pl]] --
+	* [[tutor.pl]] --
+	* [[watch.pl]] --
+	* [[xdotool.pl]] --
+	
+	===Phone
+	* [[maemo.pl]] --
+	
+	===Development
+	* [[debug.pl]] --
+	
+lastmajor: 1
