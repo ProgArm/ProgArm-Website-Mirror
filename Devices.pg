@@ -1,15 +1,15 @@
-flags: 0101010101010101010101010101010101010
-blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Version</th><th>Photo</th><th>Status</th></tr><tr><td>[[ProgArm 0.3{3}]]</td><td align="right"></td><td>Future release</td></tr><tr><td>[[ProgArm 0.2{2}]]</td><td>[[File:IMGP1310.JPG]]</td><td>Current version</td></tr><tr><td>[[ProgArm 0.1{1}]]</td><td>[[File:DSC_0742.JPG]]</td><td>Old version</td></tr></table><h2>Rings</h2><table class="user"><tr><th>Ring</th><th>Description</th><th>Photo</th></tr><tr><td>[[Ring]]</td><td>Basic wired ring</td><td>[[File:IMGP1298.JPG]]</td></tr><tr><td>[[WinterArm]]</td><td>Winter glove with built-in ring</td><td align="right"></td></tr><tr><td>[[Wireless Ring]]</td><td>Similar to normal Ring, but works without a wire</td><td align="right"></td></tr><tr><td colspan="3"align="center">More to come...</td></tr></table><h2>Documentation for Users</h2><ul><li>[[Clients]]</li><li>[[Controls{l}]]</li><li>[[Features{t}]]</li><li>[[Firmware Flashing]]</li><li>[[List of Perl Extensions]]</li></ul><h2>Documentation for Developers</h2><ul><li>[[Writing Perl Extensions]]</li><li>[[Writing Perl Extensions for Android]]</li><li>[[Writing Clients]]</li><li>[[Protocol{l}]]</li></ul>
-diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; * [[List of Perl Extensions]]</p></div>
+flags: 0101010101010101010
+blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Version</th><th>Photo</th><th>Status</th></tr><tr><td>[[ProgArm 0.3{3}]]</td><td align="right"></td><td>Future release</td></tr><tr><td>[[ProgArm 0.2{2}]]</td><td>[[File:IMGP1310.JPG]]</td><td>Current version</td></tr><tr><td>[[ProgArm 0.1{1}]]</td><td>[[File:DSC_0742.JPG]]</td><td>Old version</td></tr></table><h2>Rings</h2><table class="user"><tr><th>Ring</th><th>Description</th><th>Photo</th></tr><tr><td>[[Ring]]</td><td>Basic wired ring</td><td>[[File:IMGP1298.JPG]]</td></tr><tr><td>[[WinterArm]]</td><td>Winter glove with built-in ring</td><td align="right"></td></tr><tr><td>[[Wireless Ring]]</td><td>Similar to normal Ring, but works without a wire</td><td align="right"></td></tr><tr><td colspan="3"align="center">More to come...</td></tr></table>
+diff-minor: <p><strong>Deleted:</strong></p>
+	<div class="old"><p>&lt; == Documentation for Users<br />&lt; * [[Clients]]<br />&lt; * [[Controls{l}]]<br />&lt; * [[Features{t}]]<br />&lt; * [[Firmware Flashing]]<br />&lt; * [[List of Perl Extensions]]<br />&lt; == Documentation for Developers<br />&lt; * [[Writing Perl Extensions]]<br />&lt; * [[Writing Perl Extensions for Android]]<br />&lt; * [[Writing Clients]]<br />&lt; * [[Protocol{l}]]</p></div>
 ip: 84.52.29.94
-ts: 1411323153
+ts: 1411381699
 minor: 
-host: 89.235.240.224
+host: 217.71.44.162
 username: AlexDaniel
-revision: 137
+revision: 138
 diff-major: 1
-summary: 
+summary: Moving documentation to About
 languages: 
 text: ==Devices
 	[[https://github.com/ProgArm/ProgArm-Hardware/releases Release list]]
@@ -25,18 +25,5 @@ text: ==Devices
 	|[[Wireless Ring]]|Similar to normal Ring, but works without a wire| |
 	||| More to come... |
 	
-	== Documentation for Users
-	* [[Clients]]
-	* [[Controls{l}]]
-	* [[Features{t}]]
-	* [[Firmware Flashing]]
-	* [[List of Perl Extensions]]
-	
-	== Documentation for Developers
-	* [[Writing Perl Extensions]]
-	* [[Writing Perl Extensions for Android]]
-	* [[Writing Clients]]
-	* [[Protocol{l}]]
-	
-lastmajor: 137
-keep-ts: 1411323153
+lastmajor: 138
+keep-ts: 1411381699
