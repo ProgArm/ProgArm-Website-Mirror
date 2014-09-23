@@ -1,11 +1,19 @@
-flags: 0
-blocks: <p>~watch.pl~</p>
-ts: 1411511217
-minor: 1
+flags: 010
+blocks: <p>#ProgArmModule watch.pl</p><p>Test</p>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; <strong class="changes">~~</strong>watch.pl<strong class="changes">~~</strong></p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; <strong class="changes">#ProgArmModule</strong> watch.pl<br />&gt; <strong class="changes">Test</strong></p></div>
+ts: 1411511855
+minor: 
 host: 89.235.222.90
 username: AlexDaniel
-revision: 1
+revision: 2
+diff-major: 1
 summary: Testing
 languages: 
-text: ~~watch.pl~~
+text: #ProgArmModule watch.pl
 	
+	Test
+	
+lastmajor: 2
+keep-ts: 1411511855
