@@ -1,19 +1,18 @@
 flags: 010101010101010
-blocks: <ul><li>[[Alarm Clock]]<br /></li><li>[[Timer]]<br /></li><li>[[Stopwatch]]<br /></li><li>[[File Transfer]]<br /></li><li>[[Encryption]]<br /></li><li>[[Connection test]]<br /></li><li>[[Ring test]]<br /></li><li>Visualize data from accelerometer by using LED<br /></li><li>Use master mode to communicate with multiple devices<br /></li><li>Notify client about single-clicks. This is probably not useful, but it could be handy for custom modules.<br /></li><li>Allow client to fake key presses on the device.</li></ul>
-diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; * Allow client to fake key presses on device.</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; * Allow client to fake key presses on <strong class="changes">the</strong> device.</p></div>
+blocks: <ul><li>[[Alarm Clock]]</li><li>Smart alarm clock (recognize REM stage of sleep)</li><li>[[Timer]]</li><li>[[Stopwatch]]</li><li>[[File Transfer]]</li><li>[[Encryption]]</li><li>[[Connection test]]</li><li>[[Ring test]]</li><li>Visualize data from accelerometer by using LED</li><li>Use master mode to communicate with multiple devices</li><li>Notify client about single-clicks. This is probably not useful, but it could be handy for custom modules.</li><li>Allow client to fake key presses on the device.</li></ul>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; * Smart alarm clock (recognize REM stage of sleep)</p></div>
 ip: 84.52.19.156
-ts: 1407529038
-minor: 1
-host: 89.235.228.93
+ts: 1411662775
+minor: 
+host: 89.235.236.14
 username: AlexDaniel
-revision: 8
-diff-major: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; * Allow client to fake key presses on device.</p></div>
-summary: 
+revision: 9
+diff-major: 1
+summary: suggestion by Tatjana-Aleksandra
 languages: 
 text: * [[Alarm Clock]]
+	* Smart alarm clock (recognize REM stage of sleep)
 	* [[Timer]]
 	* [[Stopwatch]]
 	* [[File Transfer]]
@@ -25,5 +24,5 @@ text: * [[Alarm Clock]]
 	* Notify client about single-clicks. This is probably not useful, but it could be handy for custom modules.
 	* Allow client to fake key presses on the device.
 	
-lastmajor: 7
-keep-ts: 1407529038
+lastmajor: 9
+keep-ts: 1411662775
