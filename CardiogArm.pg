@@ -1,0 +1,18 @@
+flags: 0101010101010
+blocks: <p>The CardiogArm is a concept of a Ring replacement device that establishes User-ProgArm interface via reading of electrical impulses of human body muscles. With CardiogArm it is possible to input commands by just moving fingers instead of pressing the buttons. CardiogArm can also be used to retreive additional biometric data of it's owner, for example heart cardiogram/pulse, or even brain activity. If successful, CardiogArm could later become the default input device of the ProgArm.</p><h3>Problems:</h3><ul><li>Precision operational amplifiers would require a lot of power in order to work properly<br /></li><li>The device might be unsafe for certain people with heart diseases or/and electronic stimulating implants.<br /></li><li>The way of reliable fixation of electrodes on the human body without causing any skin irritation during everyday usage is yet to be found.</li></ul>
+ts: 1411608355
+minor: 
+host: 31.205.4.227
+username: 
+revision: 1
+summary: The CardiogArm is a concept of a Ring replacement device that establishes User-ProgArm interface via reading of electrical impulses of human body . . .
+languages: 
+text: The CardiogArm is a concept of a Ring replacement device that establishes User-ProgArm interface via reading of electrical impulses of human body muscles. With CardiogArm it is possible to input commands by just moving fingers instead of pressing the buttons. CardiogArm can also be used to retreive additional biometric data of it's owner, for example heart cardiogram/pulse, or even brain activity. If successful, CardiogArm could later become the default input device of the ProgArm.
+	
+	===Problems:
+	
+	*Precision operational amplifiers would require a lot of power in order to work properly
+	*The device might be unsafe for certain people with heart diseases or/and electronic stimulating implants.
+	*The way of reliable fixation of electrodes on the human body without causing any skin irritation during everyday usage is yet to be found.
+	
+lastmajor: 1
