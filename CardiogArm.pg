@@ -1,23 +1,25 @@
 flags: 0101010101010
-blocks: <p>The CardiogArm is a concept of a Ring replacement device that establishes User-ProgArm interface via reading of electrical impulses of human body muscles. With CardiogArm it is possible to input commands by just moving fingers instead of pressing the buttons. CardiogArm can also be used to retreive additional biometric data of it's owner, for example heart cardiogram/pulse, or even brain activity. If successful, CardiogArm could later become the default input device of the ProgArm.</p><h3>Problems:</h3><ul><li>Precision operational amplifiers would require a lot of power in order to work properly<br /></li><li>The device might be unsafe for certain people with heart disabilities or/and electronic stimulating implants.<br /></li><li>The way of reliable fixation of electrodes on the human body without causing any skin irritation during everyday usage is yet to be found.</li></ul>
+blocks: <p>The CardiogArm is a concept of a Ring replacement device that establishes User-ProgArm interface via reading of electrical impulses of human body muscles. With CardiogArm it is possible to input commands by just moving fingers instead of pressing the buttons. CardiogArm can also be used to retreive additional biometric data of it's owner, for example heart cardiogram/pulse, or even brain activity. If successful, CardiogArm could later become the default input device of the ProgArm.</p><h3>Problems:</h3><ul><li>Precision operational amplifiers would require a lot of power in order to work properly.<br /></li><li>The device might be unsafe for certain people with heart disabilities or/and electronic stimulating implants.<br /></li><li>The way of reliable fixation of electrodes on the human body without causing any skin irritation during everyday usage is yet to be found.</li></ul>
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; *The device might be unsafe for certain people with heart <strong class="changes">diseases</strong> or/and electronic stimulating implants.</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; *The device might be unsafe for certain people with heart <strong class="changes">disabilities</strong> or/and electronic stimulating implants.</p></div>
-ts: 1411608430
-minor: 
+	<div class="old"><p>&lt; *Precision operational amplifiers would require a lot of power in order to work properly</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; *Precision operational amplifiers would require a lot of power in order to work properly<strong class="changes">.</strong></p></div>
+ts: 1411608466
+minor: 1
 host: 31.205.4.227
 username: 
-revision: 2
-diff-major: 1
+revision: 3
+diff-major: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; *The device might be unsafe for certain people with heart <strong class="changes">diseases</strong> or/and electronic stimulating implants.</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; *The device might be unsafe for certain people with heart <strong class="changes">disabilities</strong> or/and electronic stimulating implants.</p></div>
 summary: The CardiogArm is a concept of a Ring replacement device that establishes User-ProgArm interface via reading of electrical impulses of human body . . .
 languages: 
 text: The CardiogArm is a concept of a Ring replacement device that establishes User-ProgArm interface via reading of electrical impulses of human body muscles. With CardiogArm it is possible to input commands by just moving fingers instead of pressing the buttons. CardiogArm can also be used to retreive additional biometric data of it's owner, for example heart cardiogram/pulse, or even brain activity. If successful, CardiogArm could later become the default input device of the ProgArm.
 	
 	===Problems:
 	
-	*Precision operational amplifiers would require a lot of power in order to work properly
+	*Precision operational amplifiers would require a lot of power in order to work properly.
 	*The device might be unsafe for certain people with heart disabilities or/and electronic stimulating implants.
 	*The way of reliable fixation of electrodes on the human body without causing any skin irritation during everyday usage is yet to be found.
 	
 lastmajor: 2
-keep-ts: 1411608430
+keep-ts: 1411608466
