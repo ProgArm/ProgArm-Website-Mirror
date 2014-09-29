@@ -1,12 +1,12 @@
 flags: 01010100
-blocks: <p>Test text <strong>bold</strong> <em>italics</em><br />Line<br />break</p><p>Line<br />break</p><ol><li>Mixed list<ol><li>Item<ul><li>Bullet</li><li>Bullet</li></ul></li><li>Item</li><li>Item</li></ol></li></ol><h1>Heading 1 (reserved)</h1><h2>Heading 2</h2><h3>Heading 3</h3><h4>Heading 4</h4><h5>Heading 5</h5><h6>Heading 6</h6><table class="user"><tr><th>Column name</th><th>Column name</th></tr><tr><td>Left </td><td align="right"></td></tr><tr><td align="right">Right</td><td align="right"></td></tr><tr><td align="center">Center </td><td align="right"></td></tr></table><p><div class="outer">Custom divs are<div class="inner">allowed<div class="deeper">!</div></div></div></p><h2 id="commentsHeading">Comments:</h2><div class="userComment"><p>Test comment</p><p>Aoeui</p><p>-- AlexDaniel 2014-08-02 03:39 UTC</p></div><div class="userComment"><table class="user"><tr><th>Test</th><th>Test</th></tr><tr><td>Hello</td><td>Table</td></tr></table><p>-- AlexDaniel 2014-08-02 04:14 UTC</p></div><div class="userComment"><p>Test</p><p>-- AlexDaniel 2014-08-03 15:46 UTC</p></div>
+blocks: <p>Test text <strong>bold</strong> <em>italics</em><br />Line<br />break</p><p>Line<br />break</p><ol><li>Mixed list<ol><li>Item<ul><li>Bullet</li><li>Bullet</li></ul></li><li>Item</li><li>Item</li></ol></li></ol><h1>Heading 1 (reserved)</h1><h2>Heading 2</h2><h3>Heading 3</h3><h4>Heading 4</h4><h5>Heading 5</h5><h6>Heading 6</h6><table class="user"><tr><th>Column name</th><th>Column name</th></tr><tr><td>Left </td><td align="right"></td></tr><tr><td align="right">Right</td><td align="right"></td></tr><tr><td align="center">Center </td><td align="right"></td></tr></table><p><div class="outer">Custom divs are<div class="inner">allowed<div class="deeper">!</div></div></div></p><p>Test</p><p>Test</p><p><div class="customparagraph"><br />If you want to use custom styles please make a pull request with edited css file.</div></p><h2 id="commentsHeading">Comments:</h2><div class="userComment"><p>Test comment</p><p>Aoeui</p><p>-- AlexDaniel 2014-08-02 03:39 UTC</p></div><div class="userComment"><table class="user"><tr><th>Test</th><th>Test</th></tr><tr><td>Hello</td><td>Table</td></tr></table><p>-- AlexDaniel 2014-08-02 04:14 UTC</p></div><div class="userComment"><p>Test</p><p>-- AlexDaniel 2014-08-03 15:46 UTC</p></div>
 diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; &lt;outer&gt;Custom divs are&lt;inner&gt;allowed&lt;deeper&gt;!&lt;/&gt;&lt;/&gt;&lt;/&gt;</p></div>
-ts: 1411953919
+	<div class="new"><p>&gt; Test<br />&gt; Test<br />&gt; &lt;customparagraph&gt;<br />&gt; If you want to use custom styles please make a pull request with edited css file.</p></div>
+ts: 1411954123
 minor: 1
 host: 89.235.236.14
 username: AlexDaniel
-revision: 21
+revision: 22
 diff-major: <p><strong>Added:</strong></p>
 	<div class="new"><p>&gt; |=Column name|=Column name|<br />&gt; |Left | |<br />&gt; | Right| |<br />&gt; | Center | |</p></div>
 summary: 
@@ -38,6 +38,13 @@ text: Test text **bold** //italics//
 	
 	<outer>Custom divs are<inner>allowed<deeper>!</></></>
 	
+	Test
+	
+	Test
+	
+	<customparagraph>
+	If you want to use custom styles please make a pull request with edited css file.
+	
 	----
 	
 	Test comment
@@ -63,4 +70,4 @@ text: Test text **bold** //italics//
 	
 	
 lastmajor: 20
-keep-ts: 1411953919
+keep-ts: 1411954123
