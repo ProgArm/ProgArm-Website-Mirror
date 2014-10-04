@@ -1,0 +1,15 @@
+flags: 0
+blocks: <p>Source code: <a href="https://github.com/ProgArm/ProgArm-Client/blob/master/modules/battery.pl">battery.pl</a><h2>Provided keys:</h2><table class="user"><tr><th>Function</th><th>Key</th></tr><tr><td><div class="subroutine">TellBatteryInfo</div></td><td><div class="key">g</div></td></tr></table><h2>Provided variables:</h2><div class="variable">$BatteryLogInterval</div> <div class="variable">$BatteryLogFile</div> <div class="variable">$ChargePrescaler</div></p>
+diff-minor: <p><strong>Deleted:</strong></p>
+	<div class="old"><p>&lt;  </p></div>
+ts: 1412450237
+minor: 1
+host: 84.52.46.155
+username: AlexDaniel
+revision: 3
+diff-major: 
+summary: Initial page
+languages: 
+text: #ProgArmModule battery.pl
+	
+keep-ts: 1412450237

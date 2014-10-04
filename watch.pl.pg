@@ -1,19 +1,19 @@
-flags: 010
-blocks: <p>#ProgArmModule watch.pl</p><p>Test</p>
-diff-minor: <p><strong>Changed:</strong></p>
+flags: 0
+blocks: <p><h2>Provided keys:</h2><table class="user"><tr><th>Function</th><th>Key</th></tr><tr><td>WatchTime</td><td>t</td></tr><tr><td>WatchDate</td><td>d</td></tr></table>0.937940459174456<h2>Provided variables:</h2><pre>%Keys</pre><br /> </p>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt;  </p></div>
+ts: 1412448842
+minor: 1
+host: 84.52.46.155
+username: AlexDaniel
+revision: 7
+diff-major: <p><strong>Changed:</strong></p>
 	<div class="old"><p>&lt; <strong class="changes">~~</strong>watch.pl<strong class="changes">~~</strong></p></div><p><strong>to</strong></p>
 	<div class="new"><p>&gt; <strong class="changes">#ProgArmModule</strong> watch.pl<br />&gt; <strong class="changes">Test</strong></p></div>
-ts: 1411511855
-minor: 
-host: 89.235.222.90
-username: AlexDaniel
-revision: 2
-diff-major: 1
-summary: Testing
+summary: 
 languages: 
 text: #ProgArmModule watch.pl
-	
-	Test
+	 
 	
 lastmajor: 2
-keep-ts: 1411511855
+keep-ts: 1412448842
