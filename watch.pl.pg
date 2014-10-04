@@ -1,19 +1,18 @@
 flags: 0
-blocks: <p><h2>Provided keys:</h2><table class="user"><tr><th>Function</th><th>Key</th></tr><tr><td>WatchTime</td><td>t</td></tr><tr><td>WatchDate</td><td>d</td></tr></table>0.937940459174456<h2>Provided variables:</h2><pre>%Keys</pre><br /> </p>
-diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt;  </p></div>
-ts: 1412448842
+blocks: <p>Source code: <a href="https://github.com/ProgArm/ProgArm-Client/blob/master/modules/watch.pl">watch.pl</a><h2>Provided keys:</h2><table class="user"><tr><th>Function</th><th>Key</th></tr><tr><td><div class="subroutine">WatchTime</div></td><td><div class="key">t</div></td></tr><tr><td><div class="subroutine">WatchDate</div></td><td><div class="key">d</div></td></tr></table></p>
+diff-minor: <p><strong>Deleted:</strong></p>
+	<div class="old"><p>&lt;  </p></div>
+ts: 1412457635
 minor: 1
 host: 84.52.46.155
 username: AlexDaniel
-revision: 7
+revision: 8
 diff-major: <p><strong>Changed:</strong></p>
 	<div class="old"><p>&lt; <strong class="changes">~~</strong>watch.pl<strong class="changes">~~</strong></p></div><p><strong>to</strong></p>
 	<div class="new"><p>&gt; <strong class="changes">#ProgArmModule</strong> watch.pl<br />&gt; <strong class="changes">Test</strong></p></div>
 summary: 
 languages: 
 text: #ProgArmModule watch.pl
-	 
 	
 lastmajor: 2
-keep-ts: 1412448842
+keep-ts: 1412457635
