@@ -1,25 +1,27 @@
 flags: 0
-blocks: <h3>Debian</h3><p>Easy:<br /><code>sudo apt-get install libdevice-serialport-perl libhook-lexwrap-perl</code></p><p>But there are some recommended packages:<br /><code>sudo apt-get install flite xdotool</code> ...</p><h3>Other GNU/Linux distributions</h3><p>Install <code>Device::SerialPort</code> from CPAN if your distribution does not provide a package.</p>
+blocks: <h2>Debian</h2><p>Easy:<br /><code>sudo apt-get install libdevice-serialport-perl libhook-lexwrap-perl</code></p><p>But there are some recommended packages:<br /><code>sudo apt-get install flite xdotool</code> ...</p><h2>Other GNU/Linux distributions</h2><p>Install <code>Device::SerialPort</code> and <code>Hook::LexWrap</code> from CPAN if your distribution does not provide a package.</p>
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; {{{sudo apt-get install libdevice-serialport-perl}}}</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; {{{sudo apt-get install libdevice-serialport-perl <strong class="changes">libhook-lexwrap-perl</strong>}}}</p></div>
-ts: 1408207345
+	<div class="old"><p>&lt; <strong class="changes">===</strong>Debian</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; <strong class="changes">==</strong>Debian</p></div><p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; <strong class="changes">===</strong>Other GNU/Linux distributions<br />&lt; Install {{{Device::SerialPort}}} from CPAN if your distribution does not provide a package.</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; <strong class="changes">==</strong>Other GNU/Linux distributions<br />&gt; Install {{{Device::SerialPort}}} <strong class="changes">and {{{Hook::LexWrap}}}</strong> from CPAN if your distribution does not provide a package.</p></div>
+ts: 1412845329
 minor: 
-host: 89.235.246.223
+host: 217.71.46.13
 username: AlexDaniel
-revision: 2
+revision: 3
 diff-major: 1
 summary: 
 languages: 
-text: ===Debian
+text: ==Debian
 	Easy:
 	{{{sudo apt-get install libdevice-serialport-perl libhook-lexwrap-perl}}}
 	
 	But there are some recommended packages:
 	{{{sudo apt-get install flite xdotool}}} ...
 	
-	===Other GNU/Linux distributions
-	Install {{{Device::SerialPort}}} from CPAN if your distribution does not provide a package.
+	==Other GNU/Linux distributions
+	Install {{{Device::SerialPort}}} and {{{Hook::LexWrap}}} from CPAN if your distribution does not provide a package.
 	
-lastmajor: 2
-keep-ts: 1408207345
+lastmajor: 3
+keep-ts: 1412845329
