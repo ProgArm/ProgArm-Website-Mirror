@@ -1,19 +1,19 @@
 flags: 01010
-blocks: <p><a class="image inter File" href="http://files.progarm.org/Normal_Ports_Clean.jpg"><img class="upload" title="File:Normal Ports Clean.jpg" src="http://files.progarm.org/Normal_Ports_Clean.jpg" alt="File:Normal Ports Clean.jpg" /></a></div></p><h2>Files</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases/tag/v0.2.0-alpha">v0.2.0-alpha release on GitHub</a></p><h2>Photos</h2><p>[[File:IMGP1310.JPG|Device Photo]]</p><h2>Known problems:</h2><ul><li>Device does not start if there is no battery.</li><li>Current is limited to 330 mA (?)</li><li>[[Firmware Flashing|Flashing mode]] is not working properly. (<a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/commit/0586e182973b1895c8a71800c2f0f30fb0aa9b93">fixed</a>)</li><li>NC_1 looks like ground.</li></ul>
+blocks: <p><a class="image inter File" href="http://files.progarm.org/Normal_Ports_Clean.jpg"><img class="upload" title="File:Normal Ports Clean.jpg" src="http://files.progarm.org/Normal_Ports_Clean.jpg" alt="File:Normal Ports Clean.jpg" /></a></p><h2>Files</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases/tag/v0.2.0-alpha">v0.2.0-alpha release on GitHub</a></p><h2>Photos</h2><p>[[File:IMGP1310.JPG|Device Photo]]</p><h2>Known problems:</h2><ul><li>Device does not start if there is no battery.</li><li>Current is limited to 330 mA (?)</li><li>[[Firmware Flashing|Flashing mode]] is not working properly. (<a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/commit/0586e182973b1895c8a71800c2f0f30fb0aa9b93">fixed</a>)</li><li>NC_1 looks like ground.</li></ul>
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; [[image:File:<strong class="changes">Normal_Ports</strong>.jpg]]</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; [[image:File:<strong class="changes">Normal_Ports_Clean</strong>.jpg]]</p></div>
+	<div class="old"><p>&lt; [[image:File:Normal_Ports_Clean.jpg]]</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; [[image:File:Normal_Ports_Clean.jpg]] </p></div>
 ip: 84.52.29.94
-ts: 1413156380
+ts: 1413156684
 minor: 1
 host: 84.52.46.195
 username: AlexDaniel
-revision: 25
+revision: 26
 diff-major: <p><strong>Added:</strong></p>
 	<div class="new"><p>&gt; * NC_1 looks like ground.</p></div>
-summary: 
+summary: Touch
 languages: 
-text: [[image:File:Normal_Ports_Clean.jpg]]
+text: [[image:File:Normal_Ports_Clean.jpg]] 
 	
 	==Files
 	[[https://github.com/ProgArm/ProgArm-Hardware/releases/tag/v0.2.0-alpha v0.2.0-alpha release on GitHub]]
@@ -28,4 +28,4 @@ text: [[image:File:Normal_Ports_Clean.jpg]]
 	* NC_1 looks like ground.
 	
 lastmajor: 24
-keep-ts: 1413156380
+keep-ts: 1413156684
