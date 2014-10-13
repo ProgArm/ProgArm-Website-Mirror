@@ -1,16 +1,15 @@
 flags: 0
-blocks: <h2>Files</h2><p><strong>This is an upcoming version. The work has not started yet.</strong></p><h2>Possible improvements:</h2><ul><li>Use newer and smaller barometer (BMP180? LPS25H?)<br /></li><li>Use combined accelgyro and magnetometer (MPU9150 ?)<br /></li><li>Reduce size to fit into 5x5cm (4x7cm currently) to reduce costs. 4x5cm would be great!<br /></li><li>Add LED to indicate reflashing process.<br /></li><li>Add built-in voltmeter for self-tests<br /></li><li>Charge LED is disabled when device is turned off. This leads to false assumption that charging is not working when device is turned off by hardware switch.<br /></li><li>Smaller bluetooth module (CC2541)</li></ul>
-diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; * Use newer and smaller barometer (BMP180 ?)</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; * Use newer and smaller barometer (BMP180<strong class="changes">? LPS25H</strong>?)</p></div>
+blocks: <h2>Files</h2><p><strong>This is an upcoming version. The work has not started yet.</strong></p><h2>Possible improvements:</h2><ul><li>Use newer and smaller barometer (BMP180? LPS25H?)</li><li>Use combined accelgyro and magnetometer (MPU9150 ?)</li><li>Reduce size to fit into 5x5cm (4x7cm currently) to reduce costs. 4x5cm would be great!</li><li>Add LED to indicate reflashing process.</li><li>Add built-in voltmeter for self-tests</li><li>Charge LED is disabled when device is turned off. This leads to false assumption that charging is not working when device is turned off by hardware switch.</li><li>Smaller bluetooth module (CC2541)</li><li>Use SMD vibramotor.</li></ul>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; * Use SMD vibramotor.</p></div>
 ip: 84.52.38.40
-ts: 1408132972
+ts: 1413230721
 minor: 
-host: 89.235.246.223
+host: 84.52.46.195
 username: AlexDaniel
-revision: 10
+revision: 11
 diff-major: 1
-summary: 
+summary: SMD vibramotor
 languages: 
 text: ==Files
 	**This is an upcoming version. The work has not started yet.**
@@ -23,6 +22,7 @@ text: ==Files
 	* Add built-in voltmeter for self-tests
 	* Charge LED is disabled when device is turned off. This leads to false assumption that charging is not working when device is turned off by hardware switch.
 	* Smaller bluetooth module (CC2541)
+	* Use SMD vibramotor.
 	
-lastmajor: 10
-keep-ts: 1408132972
+lastmajor: 11
+keep-ts: 1413230721
