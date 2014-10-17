@@ -9,7 +9,7 @@ blocks: <h2>Basic extension structure</h2><pre class="real">use strict;
 	
 	sub MyNewSub {
 	    # Wrie your code here
-	}</pre><h2>Repeats</h2><p>By default actions are called without any parameters, however <code>repeat.pl</code> will pass <strong>1</strong> or <strong>-1</strong> to indicate repeat and negative repeat.</p><p>The longest way to detect negative repeat is to use<br /></p><pre class="real">if defined $_[0] and $_[0] == -1</pre><p>You can shorten it to<br /></p><pre class="real">if ($_[0] // 0) == -1</pre><p>However, it is much easier to use experimental <a class="url http outside" href="http://perldoc.perl.org/perlop.html#Smartmatch-Operator">smartmatch operator</a><br /></p><pre class="real">if $_[0] ~~ -1</pre><p>Most extensions use smartmatch operator.</p><p>We can rewrite previous example to handle negative repeats:<br /></p><pre class="real">use strict;
+	}</pre><h2>Repeats</h2><p>By default actions are called without any parameters, however <code>repeat.pl</code> will pass <strong>1</strong> or <strong>-1</strong> to indicate repeat and negative repeat.</p><p>The longest way to detect negative repeat is to use<br /></p><pre class="real">if defined $_[0] and $_[0] == -1</pre><p>You can shorten it to<br /></p><pre class="real">if ($_[0] // 0) == -1</pre><p>However, it is much easier to use experimental <a class="url http outside" href="http://perldoc.perl.org/perlop.html#Smartmatch-Operator">smartmatch operator</a><br /></p><pre class="real">if $_[0] ~~ -1</pre><p>Even though it is deprecated, all extensions use smartmatch operator. You should use it too! (A simple sed command can easily change it in every module, that's why we ask you to respect consistency)</p><p>We can rewrite previous example to handle negative repeats:<br /></p><pre class="real">use strict;
 	use warnings;
 	
 	package ProgArm;
@@ -26,22 +26,14 @@ blocks: <h2>Basic extension structure</h2><pre class="real">use strict;
 	    # Wrie your code here
 	}</pre>
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; By default actions are called without any parameters, however {{{repeat.pl}}} will pass <strong class="changes">{{{</strong>1<strong class="changes">}}}</strong> or <strong class="changes">{{{-</strong>1<strong class="changes">}}}</strong> to indicate repeat and negative repeat.</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; By default actions are called without any parameters, however {{{repeat.pl}}} will pass <strong class="changes">**</strong>1<strong class="changes">**</strong> or <strong class="changes">**-</strong>1<strong class="changes">**</strong> to indicate repeat and negative repeat.</p></div><p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; {{{if defined $_[0] and $_[0] == -1}}}</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; {{{<br />&gt; if defined $_[0] and $_[0] == -1<br />&gt; }}}</p></div><p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; {{{if ($_[0] // 0) == -1}}}</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; {{{<br />&gt; if ($_[0] // 0) == -1<br />&gt; }}}</p></div><p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; {{{if $_[0] ~~ -1}}}</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; {{{<br />&gt; if $_[0] ~~ -1<br />&gt; }}}</p></div>
-ts: 1410981079
-minor: 1
-host: 89.235.230.13
+	<div class="old"><p>&lt; <strong class="changes">Most</strong> extensions use smartmatch operator.</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; <strong class="changes">Even though it is deprecated, all</strong> extensions use smartmatch operator. <strong class="changes">You should use it too! (A simple sed command can easily change it in every module, that's why we ask you to respect consistency)</strong></p></div>
+ts: 1413581575
+minor: 
+host: 84.52.48.25
 username: AlexDaniel
-revision: 5
-diff-major: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; By default actions are called without any parameters, however {{{repeat.pl}}} will pass {{{1}}} <strong class="changes">and</strong> {{{-1}}} to indicate repeat and negative repeat.</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; By default actions are called without any parameters, however {{{repeat.pl}}} will pass {{{1}}} <strong class="changes">or</strong> {{{-1}}} to indicate repeat and negative repeat.</p></div>
+revision: 6
+diff-major: 1
 summary: 
 languages: 
 text: ==Basic extension structure
@@ -76,7 +68,7 @@ text: ==Basic extension structure
 	{{{
 	if $_[0] ~~ -1
 	}}}
-	Most extensions use smartmatch operator.
+	Even though it is deprecated, all extensions use smartmatch operator. You should use it too! (A simple sed command can easily change it in every module, that's why we ask you to respect consistency)
 	
 	We can rewrite previous example to handle negative repeats:
 	{{{
@@ -98,5 +90,5 @@ text: ==Basic extension structure
 	}
 	}}}
 	
-lastmajor: 4
-keep-ts: 1410981079
+lastmajor: 6
+keep-ts: 1413581575
