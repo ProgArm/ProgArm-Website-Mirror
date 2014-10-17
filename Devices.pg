@@ -1,18 +1,15 @@
-flags: 01010101010101010101010
-blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Version</th><th>Photo</th><th>Status</th></tr><tr><td>[[ProgArm 0.3{3}]]</td><td align="right"></td><td align="center"><div class="nextversion">Future release </div></td></tr><tr><td>[[ProgArm 0.2{2}]]</td><td>[[File:IMGP1310.JPG]]</td><td align="center"><div class="currentversion">Current version </div></td></tr><tr><td>[[ProgArm 0.1{1}]]</td><td>[[File:DSC_0742.JPG]]</td><td align="center"><div class="oldversion">Old version </div></td></tr></table><h2>Rings</h2><table class="user"><tr><th>Ring</th><th>Description</th><th>Photo</th></tr><tr><td>[[Ring]]</td><td>Basic wired ring</td><td>[[File:IMGP1298.JPG]]</td></tr><tr><td>[[WinterArm]]</td><td>Winter glove with built-in ring</td><td align="right"></td></tr><tr><td>[[Wireless Ring]]</td><td>Similar to normal Ring, but works without a wire</td><td align="right"></td></tr><tr><td>[[CardiogArm]]</td><td>A device to control ProgArm via electric signals of human muscles</td><td align="right"></td></tr><tr><td colspan="3"align="center">More to come...</td></tr></table>
-diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; |[[ProgArm 0.3{3}]]| <strong class="changes">|</strong>&lt;nextversion&gt;Future release|<br />&lt; |[[ProgArm 0.2{2}]]|[[File:IMGP1310.JPG<strong class="changes">]]|</strong>&lt;currentversion&gt;Current version|<br />&lt; |[[ProgArm 0.1{1}]]|[[File:DSC_0742.JPG<strong class="changes">]]|</strong>&lt;oldversion&gt;Old version|</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; |[[ProgArm 0.3{3}]]| <strong class="changes">| </strong>&lt;nextversion&gt;Future release |<br />&gt; |[[ProgArm 0.2{2}]]|[[File:IMGP1310.JPG<strong class="changes">]]| </strong>&lt;currentversion&gt;Current version |<br />&gt; |[[ProgArm 0.1{1}]]|[[File:DSC_0742.JPG<strong class="changes">]]| </strong>&lt;oldversion&gt;Old version |</p></div>
+flags: 010101010101010
+blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Version</th><th>Photo</th><th>Status</th></tr><tr><td>[[ProgArm 0.3{3}]]</td><td align="right"></td><td align="center"><div class="nextversion">Future release </div></td></tr><tr><td>[[ProgArm 0.2{2}]]</td><td>[[File:IMGP1310.JPG]]</td><td align="center"><div class="currentversion">Current version </div></td></tr><tr><td>[[ProgArm 0.1{1}]]</td><td>[[File:DSC_0742.JPG]]</td><td align="center"><div class="oldversion">Old version </div></td></tr></table><h2>Rings</h2><table class="user"><tr><th>Ring</th><th>Description</th><th>Photo</th></tr><tr><td>[[Ring]]</td><td>Basic wired ring</td><td>[[File:IMGP1298.JPG]]</td></tr></table>
+diff-minor: <p><strong>Deleted:</strong></p>
+	<div class="old"><p>&lt; |[[WinterArm]]|Winter glove with built-in ring| |<br />&lt; |[[Wireless Ring]]|Similar to normal Ring, but works without a wire| |<br />&lt; |[[CardiogArm]]|A device to control ProgArm via electric signals of human muscles| |<br />&lt; ||| More to come... |</p></div>
 ip: 84.52.29.94
-ts: 1412515187
-minor: 1
-host: 84.52.46.155
+ts: 1413587607
+minor: 
+host: 84.52.48.25
 username: AlexDaniel
-revision: 141
-diff-major: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; |[[ProgArm 0.3{3}]]| <strong class="changes">|</strong>Future release|<br />&lt; |[[ProgArm 0.2{2}]]|[[File:IMGP1310.JPG<strong class="changes">]]|</strong>Current version|<br />&lt; |[[ProgArm 0.1{1}]]|[[File:DSC_0742.JPG<strong class="changes">]]|</strong>Old version|</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; |[[ProgArm 0.3{3}]]| <strong class="changes">|&lt;nextversion&gt;</strong>Future release|<br />&gt; |[[ProgArm 0.2{2}]]|[[File:IMGP1310.JPG<strong class="changes">]]|&lt;currentversion&gt;</strong>Current version|<br />&gt; |[[ProgArm 0.1{1}]]|[[File:DSC_0742.JPG<strong class="changes">]]|&lt;oldversion&gt;</strong>Old version|</p></div>
-summary: Status centered
+revision: 142
+diff-major: 1
+summary: Moved to ideas
 languages: 
 text: ==Devices
 	[[https://github.com/ProgArm/ProgArm-Hardware/releases Release list]]
@@ -24,10 +21,6 @@ text: ==Devices
 	==Rings
 	|=Ring|=Description|=Photo|
 	|[[Ring]]|Basic wired ring|[[File:IMGP1298.JPG]]|
-	|[[WinterArm]]|Winter glove with built-in ring| |
-	|[[Wireless Ring]]|Similar to normal Ring, but works without a wire| |
-	|[[CardiogArm]]|A device to control ProgArm via electric signals of human muscles| |
-	||| More to come... |
 	
-lastmajor: 140
-keep-ts: 1412515187
+lastmajor: 142
+keep-ts: 1413587607
