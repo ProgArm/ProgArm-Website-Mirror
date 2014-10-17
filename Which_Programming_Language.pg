@@ -1,0 +1,15 @@
+flags: 010
+blocks: <p>First of all, do not let your experience influence your choice. To become a good programmer you must learn to choose the most appropriate tools. Don't worry if you have no skills in that particular language, you will learn everything eventually. Fixing bugs that were made because of your lack of experience is much easier than porting your code to a whole different language. So if you feel like language <em>X</em> will fit your task better (even if you haven't used it ever) - just go for it!</p><p>We recommend you to use <a class="url http outside" href="http://en.wikipedia.org/wiki/Interpreter_%28computing%29">interpreted programming languages</a>. This is not obligatory but it is usually a very good idea. The reason lies in our [[Goals]], we want it to be highly customizable. We are sure that most people will appreciate a possibility to change the code on the go without the need to set up a toolchain to recompile it. Unfortunately, it is much harder to achieve this on mobile operating systems.</p>
+ts: 1413587127
+minor: 
+host: 84.52.48.25
+username: AlexDaniel
+revision: 1
+summary: First of all, do not let your experience influence your choice. To become a good programmer you must learn to choose the most appropriate tools. . . .
+languages: 
+text: First of all, do not let your experience influence your choice. To become a good programmer you must learn to choose the most appropriate tools. Don't worry if you have no skills in that particular language, you will learn everything eventually. Fixing bugs that were made because of your lack of experience is much easier than porting your code to a whole different language. So if you feel like language //X// will fit your task better (even if you haven't used it ever) - just go for it!
+	
+	
+	We recommend you to use [[http://en.wikipedia.org/wiki/Interpreter_%28computing%29 interpreted programming languages]]. This is not obligatory but it is usually a very good idea. The reason lies in our [[Goals]], we want it to be highly customizable. We are sure that most people will appreciate a possibility to change the code on the go without the need to set up a toolchain to recompile it. Unfortunately, it is much harder to achieve this on mobile operating systems.
+	
+lastmajor: 1
