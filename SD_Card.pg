@@ -1,0 +1,14 @@
+flags: 0
+blocks: <p>There is a port on the board, but currently it is not used by the software.</p><p>Since there is no SDIO peripheral on stm32f103rbt6, the communication with SD card must be done over SPI. Things are getting a bit complicated when you try to use some file system (like FAT). If you have ever managed to use FAT on sd card over SPI, please leave us a note!</p>
+ts: 1413588881
+minor: 
+host: 84.52.48.25
+username: AlexDaniel
+revision: 1
+summary: There is a port on the board, but currently it is not used by the software. Since there is no SDIO peripheral on stm32f103rbt6, the communication . . .
+languages: 
+text: There is a port on the board, but currently it is not used by the software.
+	
+	Since there is no SDIO peripheral on stm32f103rbt6, the communication with SD card must be done over SPI. Things are getting a bit complicated when you try to use some file system (like FAT). If you have ever managed to use FAT on sd card over SPI, please leave us a note!
+	
+lastmajor: 1
