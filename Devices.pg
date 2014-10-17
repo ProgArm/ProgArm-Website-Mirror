@@ -1,13 +1,13 @@
-flags: 010101010101010
-blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Version</th><th>Photo</th><th>Status</th></tr><tr><td>[[ProgArm 0.3{3}]]</td><td align="right"></td><td align="center"><div class="nextversion">Future release </div></td></tr><tr><td>[[ProgArm 0.2{2}]]</td><td>[[File:IMGP1310.JPG]]</td><td align="center"><div class="currentversion">Current version </div></td></tr><tr><td>[[ProgArm 0.1{1}]]</td><td>[[File:DSC_0742.JPG]]</td><td align="center"><div class="oldversion">Old version </div></td></tr></table><h2>Rings</h2><table class="user"><tr><th>Ring</th><th>Description</th><th>Photo</th></tr><tr><td>[[Ring]]</td><td>Basic wired ring</td><td>[[File:IMGP1298.JPG]]</td></tr></table>
-diff-minor: <p><strong>Deleted:</strong></p>
-	<div class="old"><p>&lt; |[[WinterArm]]|Winter glove with built-in ring| |<br />&lt; |[[Wireless Ring]]|Similar to normal Ring, but works without a wire| |<br />&lt; |[[CardiogArm]]|A device to control ProgArm via electric signals of human muscles| |<br />&lt; ||| More to come... |</p></div>
+flags: 01010101010101010
+blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Version</th><th>Photo</th><th>Status</th></tr><tr><td>[[ProgArm 0.3{3}]]</td><td align="right"></td><td align="center"><div class="nextversion">Future release </div></td></tr><tr><td>[[ProgArm 0.2{2}]]</td><td>[[File:IMGP1310.JPG]]</td><td align="center"><div class="currentversion">Current version </div></td></tr><tr><td>[[ProgArm 0.1{1}]]</td><td>[[File:DSC_0742.JPG]]</td><td align="center"><div class="oldversion">Old version </div></td></tr></table><h2>Rings</h2><table class="user"><tr><th>Ring</th><th>Description</th><th>Photo</th></tr><tr><td>[[Ring]]</td><td>Basic wired ring</td><td>[[File:IMGP1298.JPG]]</td></tr></table><p>Please see [[Ideas]] page for other possible ring types.</p>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; Please see [[Ideas]] page for other possible ring types.</p></div>
 ip: 84.52.29.94
-ts: 1413587607
+ts: 1413587687
 minor: 
 host: 84.52.48.25
 username: AlexDaniel
-revision: 142
+revision: 143
 diff-major: 1
 summary: Moved to ideas
 languages: 
@@ -22,5 +22,7 @@ text: ==Devices
 	|=Ring|=Description|=Photo|
 	|[[Ring]]|Basic wired ring|[[File:IMGP1298.JPG]]|
 	
-lastmajor: 142
-keep-ts: 1413587607
+	Please see [[Ideas]] page for other possible ring types.
+	
+lastmajor: 143
+keep-ts: 1413587687
