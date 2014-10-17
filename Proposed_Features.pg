@@ -1,18 +1,18 @@
-flags: 0
-blocks: <p>#REDIRECT Ideas</p>
+flags: 010
+blocks: <p>#REDIRECT [[Ideas]]</p>
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; <strong class="changes">* [[Alarm Clock]]<br />&lt; * Smart alarm clock (recognize REM stage of sleep)<br />&lt; * [[Timer]]<br />&lt; * [[Stopwatch]]<br />&lt; * [[File Transfer]]<br />&lt; * [[Encryption]]<br />&lt; * [[Connection test]]<br />&lt; * [[Ring test]]<br />&lt; * Visualize data from accelerometer by using LED<br />&lt; * Use master mode to communicate with multiple devices<br />&lt; * Notify client about single-clicks. This is probably not useful, but it could be handy for custom modules.<br />&lt; * Allow client to fake key presses on the device.</strong></p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; <strong class="changes">#REDIRECT Ideas</strong></p></div>
+	<div class="old"><p>&lt; #REDIRECT Ideas</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; #REDIRECT <strong class="changes">[[</strong>Ideas<strong class="changes">]]</strong></p></div>
 ip: 84.52.19.156
-ts: 1413587471
+ts: 1413587484
 minor: 
 host: 84.52.48.25
 username: AlexDaniel
-revision: 10
+revision: 11
 diff-major: 1
 summary: 
 languages: 
-text: #REDIRECT Ideas
+text: #REDIRECT [[Ideas]]
 	
-lastmajor: 10
-keep-ts: 1413587471
+lastmajor: 11
+keep-ts: 1413587484
