@@ -1,14 +1,14 @@
 flags: 01010101010101010
-blocks: <p>This page will contain a list of ideas, proposed features and other thoughts. Feel free to join the brainstorming!</p><h2>Proposed ProgArm features</h2><ul><li>[[Alarm Clock]]</li><li>Smart alarm clock (recognize REM stage of sleep)</li><li>[[Timer]]</li><li>[[Stopwatch]]</li><li>[[File Transfer]]</li><li>[[Encryption]]</li><li>[[Connection test]]</li><li>[[Ring test]]</li><li>Visualize data from accelerometer by using LED</li><li>Use master mode to communicate with multiple devices</li><li>Notify client about single-clicks. This is probably not useful, but it could be handy for custom modules.</li><li>Allow client to fake key presses on the device.</li></ul>
-diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; ==Proposed ProgArm features<br />&gt; * [[Alarm Clock]]<br />&gt; * Smart alarm clock (recognize REM stage of sleep)<br />&gt; * [[Timer]]<br />&gt; * [[Stopwatch]]<br />&gt; * [[File Transfer]]<br />&gt; * [[Encryption]]<br />&gt; * [[Connection test]]<br />&gt; * [[Ring test]]<br />&gt; * Visualize data from accelerometer by using LED<br />&gt; * Use master mode to communicate with multiple devices<br />&gt; * Notify client about single-clicks. This is probably not useful, but it could be handy for custom modules.<br />&gt; * Allow client to fake key presses on the device.</p></div>
-ts: 1413587534
+blocks: <p>This page will contain a list of ideas, proposed features and other thoughts. Feel free to join the brainstorming!</p><h2>Proposed ProgArm features</h2><ul><li>[[Alarm Clock]]</li><li>Smart alarm clock (recognize REM stage of sleep)</li><li>[[Timer]]</li><li>[[Stopwatch]]</li><li>[[File Transfer]]</li><li>[[Encryption]]</li><li>[[Connection test]]</li><li>[[Ring test]]</li><li>Visualize data from accelerometer by using LED</li><li>Use master mode to communicate with multiple devices</li><li>Notify client about single-clicks. This is probably not useful, but it could be handy for custom modules.</li></ul>
+diff-minor: <p><strong>Deleted:</strong></p>
+	<div class="old"><p>&lt; * Allow client to fake key presses on the device.</p></div>
+ts: 1413587711
 minor: 
 host: 84.52.48.25
 username: AlexDaniel
-revision: 2
+revision: 3
 diff-major: 1
-summary: This page will contain a list of ideas, proposed features and other thoughts. Feel free to join the brainstorming!
+summary: This is already implemented
 languages: 
 text: This page will contain a list of ideas, proposed features and other thoughts. Feel free to join the brainstorming!
 	
@@ -25,7 +25,7 @@ text: This page will contain a list of ideas, proposed features and other though
 	* Visualize data from accelerometer by using LED
 	* Use master mode to communicate with multiple devices
 	* Notify client about single-clicks. This is probably not useful, but it could be handy for custom modules.
-	* Allow client to fake key presses on the device.
 	
-lastmajor: 2
-keep-ts: 1413587534
+	
+lastmajor: 3
+keep-ts: 1413587711
