@@ -1,0 +1,14 @@
+flags: 0
+blocks: <p>Since the wires on the ring are very thin, there is a high chance that after months of constant use some wire could break. Therefore it would be great if such problems were detected automatically by the software.</p><p>For example, if it was detected that green channel of the RGB LED is not working, the software could use a combination of red and blue channels to produce a different color as a fallback.</p>
+ts: 1413590146
+minor: 
+host: 84.52.48.25
+username: AlexDaniel
+revision: 1
+summary: Since the wires on the ring are very thin, there is a high chance that after months of constant use some wire could break. Therefore it would be . . .
+languages: 
+text: Since the wires on the ring are very thin, there is a high chance that after months of constant use some wire could break. Therefore it would be great if such problems were detected automatically by the software.
+	
+	For example, if it was detected that green channel of the RGB LED is not working, the software could use a combination of red and blue channels to produce a different color as a fallback.
+	
+lastmajor: 1
