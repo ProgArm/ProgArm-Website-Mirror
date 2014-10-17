@@ -1,0 +1,13 @@
+flags: 010
+blocks: <p>Once [[SD Card]]s start working, we can try to send the files over bluetooth.<br />Sure, you can simply take the card out and slam it into your computer, but file transferring over bluetooth could be used for automatic backups or for some advanced client features.</p>
+ts: 1413589207
+minor: 
+host: 84.52.48.25
+username: AlexDaniel
+revision: 1
+summary: Once SD Cards start working, we can try to send the files over bluetooth. Sure, you can simply take the card out and slam it into your computer, . . .
+languages: 
+text: Once [[SD Card]]s start working, we can try to send the files over bluetooth.
+	Sure, you can simply take the card out and slam it into your computer, but file transferring over bluetooth could be used for automatic backups or for some advanced client features.
+	
+lastmajor: 1
