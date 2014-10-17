@@ -1,16 +1,14 @@
-flags: 010101010101010101010101010
-blocks: <p>This page will contain a list of ideas, proposed features and other thoughts. Feel free to join the brainstorming!</p><h2>Proposed ProgArm features</h2><ul><li>[[Alarm Clock]]</li><li>Smart alarm clock (recognize REM stage of sleep)</li><li>[[Timer]]</li><li>[[Stopwatch]]</li><li>[[File Transfer]]</li><li>[[Encryption]]</li><li>[[Connection test]]</li><li>[[Ring test]]</li><li>Visualize data from accelerometer by using LED</li><li>Use master mode to communicate with multiple devices</li><li>Notify client about single-clicks. This is probably not useful, but it could be handy for custom modules.</li><li>Allow client to fake key presses on the device.</li></ul><h2>Proposed ProgArm rings</h2><table class="user"><tr><th>Ring</th><th>Description</th></tr><tr><td>[[WinterArm]]</td><td>Winter glove with built-in ring</td></tr><tr><td>[[Wireless Ring]]</td><td>Similar to normal Ring, but works without a wire</td></tr><tr><td>[[CardiogArm]]</td><td>A device to control ProgArm via electric signals of human muscles</td></tr></table>
-diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; |=Ring|=Description<strong class="changes">|=Photo</strong>|<br />&lt; |[[WinterArm]]|Winter glove with built-in ring| <strong class="changes">|</strong><br />&lt; |[[Wireless Ring]]|Similar to normal Ring, but works without a wire| <strong class="changes">|</strong><br />&lt; |[[CardiogArm]]|A device to control ProgArm via electric signals of human muscles| <strong class="changes">|</strong></p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; |=Ring|=Description|<br />&gt; |[[WinterArm]]|Winter glove with built-in ring|<br />&gt; |[[Wireless Ring]]|Similar to normal Ring, but works without a wire|<br />&gt; |[[CardiogArm]]|A device to control ProgArm via electric signals of human muscles|</p></div>
-ts: 1413587764
-minor: 1
+flags: 01010101010101010101010101010
+blocks: <p>This page will contain a list of ideas, proposed features and other thoughts. Feel free to join the brainstorming!</p><h2>Proposed ProgArm features</h2><ul><li>[[Alarm Clock]]</li><li>Smart alarm clock (recognize REM stage of sleep)</li><li>[[Timer]]</li><li>[[Stopwatch]]</li><li>[[SD Card]]</li><li>[[File Transfer]]</li><li>[[Encryption]]</li><li>[[Connection test]]</li><li>[[Ring test]]</li><li>Visualize data from accelerometer by using LED</li><li>Use master mode to communicate with multiple devices</li><li>Notify client about single-clicks. This is probably not useful, but it could be handy for custom modules.</li><li>Allow client to fake key presses on the device.</li></ul><h2>Proposed ProgArm rings</h2><table class="user"><tr><th>Ring</th><th>Description</th></tr><tr><td>[[WinterArm]]</td><td>Winter glove with built-in ring</td></tr><tr><td>[[Wireless Ring]]</td><td>Similar to normal Ring, but works without a wire</td></tr><tr><td>[[CardiogArm]]</td><td>A device to control ProgArm via electric signals of human muscles</td></tr></table>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; * [[SD Card]]</p></div>
+ts: 1413588088
+minor: 
 host: 84.52.48.25
 username: AlexDaniel
-revision: 5
-diff-major: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; * Allow client to fake key presses on the device.<br />&gt; ==Proposed ProgArm rings<br />&gt; |=Ring|=Description|=Photo|<br />&gt; |[[WinterArm]]|Winter glove with built-in ring| |<br />&gt; |[[Wireless Ring]]|Similar to normal Ring, but works without a wire| |<br />&gt; |[[CardiogArm]]|A device to control ProgArm via electric signals of human muscles| |</p></div>
-summary: This page will contain a list of ideas, proposed features and other thoughts. Feel free to join the brainstorming!
+revision: 6
+diff-major: 1
+summary: SD Card
 languages: 
 text: This page will contain a list of ideas, proposed features and other thoughts. Feel free to join the brainstorming!
 	
@@ -20,6 +18,7 @@ text: This page will contain a list of ideas, proposed features and other though
 	* Smart alarm clock (recognize REM stage of sleep)
 	* [[Timer]]
 	* [[Stopwatch]]
+	* [[SD Card]]
 	* [[File Transfer]]
 	* [[Encryption]]
 	* [[Connection test]]
@@ -35,5 +34,5 @@ text: This page will contain a list of ideas, proposed features and other though
 	|[[Wireless Ring]]|Similar to normal Ring, but works without a wire|
 	|[[CardiogArm]]|A device to control ProgArm via electric signals of human muscles|
 	
-lastmajor: 4
-keep-ts: 1413587764
+lastmajor: 6
+keep-ts: 1413588088
