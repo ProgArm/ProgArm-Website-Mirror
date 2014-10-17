@@ -1,28 +1,18 @@
-flags: 010101010101010
-blocks: <ul><li>[[Alarm Clock]]</li><li>Smart alarm clock (recognize REM stage of sleep)</li><li>[[Timer]]</li><li>[[Stopwatch]]</li><li>[[File Transfer]]</li><li>[[Encryption]]</li><li>[[Connection test]]</li><li>[[Ring test]]</li><li>Visualize data from accelerometer by using LED</li><li>Use master mode to communicate with multiple devices</li><li>Notify client about single-clicks. This is probably not useful, but it could be handy for custom modules.</li><li>Allow client to fake key presses on the device.</li></ul>
-diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; * Smart alarm clock (recognize REM stage of sleep)</p></div>
+flags: 0
+blocks: <p>#REDIRECT Ideas</p>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; <strong class="changes">* [[Alarm Clock]]<br />&lt; * Smart alarm clock (recognize REM stage of sleep)<br />&lt; * [[Timer]]<br />&lt; * [[Stopwatch]]<br />&lt; * [[File Transfer]]<br />&lt; * [[Encryption]]<br />&lt; * [[Connection test]]<br />&lt; * [[Ring test]]<br />&lt; * Visualize data from accelerometer by using LED<br />&lt; * Use master mode to communicate with multiple devices<br />&lt; * Notify client about single-clicks. This is probably not useful, but it could be handy for custom modules.<br />&lt; * Allow client to fake key presses on the device.</strong></p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; <strong class="changes">#REDIRECT Ideas</strong></p></div>
 ip: 84.52.19.156
-ts: 1411662775
+ts: 1413587471
 minor: 
-host: 89.235.236.14
+host: 84.52.48.25
 username: AlexDaniel
-revision: 9
+revision: 10
 diff-major: 1
-summary: suggestion by Tatjana-Aleksandra
+summary: 
 languages: 
-text: * [[Alarm Clock]]
-	* Smart alarm clock (recognize REM stage of sleep)
-	* [[Timer]]
-	* [[Stopwatch]]
-	* [[File Transfer]]
-	* [[Encryption]]
-	* [[Connection test]]
-	* [[Ring test]]
-	* Visualize data from accelerometer by using LED
-	* Use master mode to communicate with multiple devices
-	* Notify client about single-clicks. This is probably not useful, but it could be handy for custom modules.
-	* Allow client to fake key presses on the device.
+text: #REDIRECT Ideas
 	
-lastmajor: 9
-keep-ts: 1411662775
+lastmajor: 10
+keep-ts: 1413587471
