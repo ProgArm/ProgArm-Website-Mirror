@@ -1,13 +1,12 @@
 flags: 010101010101010101010101010101010
-blocks: <p>This page will contain a list of ideas, proposed features and other thoughts. Feel free to join the brainstorming!</p><h2>Proposed ProgArm features</h2><ul><li>[[Alarm Clock]]</li><li>[[Smart Alarm Clock]]</li><li>[[Timer]]</li><li>[[Stopwatch]]</li><li>[[SD Card]]</li><li>[[File Transfer]]</li><li>[[Encryption]]</li><li>[[Connection Test]]</li><li>[[Ring Test]]</li><li>Visualize data from accelerometer by using LED</li><li>[[Bluetooth Master]]</li><li>Notify client about single-clicks. This is probably not useful, but it could be handy for custom modules.</li><li>Allow client to fake key presses on the device.</li></ul><h2>Proposed ProgArm rings</h2><table class="user"><tr><th>Ring</th><th>Description</th></tr><tr><td>[[WinterArm]]</td><td>Winter glove with built-in ring</td></tr><tr><td>[[Wireless Ring]]</td><td>Similar to normal Ring, but works without a wire</td></tr><tr><td>[[CardiogArm]]</td><td>A device to control ProgArm via electric signals of human muscles</td></tr></table><h2>Other projects</h2><p>...</p>
-diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; * <strong class="changes">Use master mode to communicate with multiple devices</strong></p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; * <strong class="changes">[[Bluetooth Master]]</strong></p></div>
-ts: 1413592746
+blocks: <p>This page will contain a list of ideas, proposed features and other thoughts. Feel free to join the brainstorming!</p><h2>Proposed ProgArm features</h2><ul><li>[[Alarm Clock]]</li><li>[[Smart Alarm Clock]]</li><li>[[Timer]]</li><li>[[Stopwatch]]</li><li>[[SD Card]]</li><li>[[File Transfer]]</li><li>[[Encryption]]</li><li>[[Connection Test]]</li><li>[[Ring Test]]</li><li>Visualize data from accelerometer by using LED</li><li>[[Bluetooth Master]]</li><li>Notify client about single-clicks. This is probably not useful, but it could be handy for custom modules.</li></ul><h2>Proposed ProgArm rings</h2><table class="user"><tr><th>Ring</th><th>Description</th></tr><tr><td>[[WinterArm]]</td><td>Winter glove with built-in ring</td></tr><tr><td>[[Wireless Ring]]</td><td>Similar to normal Ring, but works without a wire</td></tr><tr><td>[[CardiogArm]]</td><td>A device to control ProgArm via electric signals of human muscles</td></tr></table><h2>Other projects</h2><p>...</p>
+diff-minor: <p><strong>Deleted:</strong></p>
+	<div class="old"><p>&lt; * Allow client to fake key presses on the device.</p></div>
+ts: 1413593233
 minor: 
 host: 84.52.48.25
 username: AlexDaniel
-revision: 10
+revision: 11
 diff-major: 1
 summary: 
 languages: 
@@ -27,7 +26,6 @@ text: This page will contain a list of ideas, proposed features and other though
 	* Visualize data from accelerometer by using LED
 	* [[Bluetooth Master]]
 	* Notify client about single-clicks. This is probably not useful, but it could be handy for custom modules.
-	* Allow client to fake key presses on the device.
 	
 	==Proposed ProgArm rings
 	|=Ring|=Description|
@@ -38,5 +36,5 @@ text: This page will contain a list of ideas, proposed features and other though
 	==Other projects
 	...
 	
-lastmajor: 10
-keep-ts: 1413592746
+lastmajor: 11
+keep-ts: 1413593233
