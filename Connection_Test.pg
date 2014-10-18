@@ -1,0 +1,14 @@
+flags: 010
+blocks: <p>Since some people might want to build ProgArm by themselves, it would be great if the firmware was capable of detecting the presence of hardware components and testing their functionality.</p><p>Currently the firmware will simply freeze when trying to access some external chip that is not responding.</p>
+ts: 1413592705
+minor: 
+host: 84.52.48.25
+username: AlexDaniel
+revision: 1
+summary: Since some people might want to build ProgArm by themselves, it would be great if the firmware was capable of detecting the presence of hardware . . .
+languages: 
+text: Since some people might want to build ProgArm by themselves, it would be great if the firmware was capable of detecting the presence of hardware components and testing their functionality.
+	
+	Currently the firmware will simply freeze when trying to access some external chip that is not responding.
+	
+lastmajor: 1
