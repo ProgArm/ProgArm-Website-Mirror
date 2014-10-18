@@ -1,12 +1,24 @@
-flags: 0
-blocks: <p>Introduce yourself by making a photo of your device!</p>
-ts: 1413594464
+flags: 0100
+blocks: <p>Introduce yourself by making a photo of your device!</p><h2 id="commentsHeading">Comments:</h2><div class="userComment"><p>I'll start :)<br /><a class="image inter File" href="http://files.progarm.org/ProgArm_Arm_small.JPG"><img class="upload" title="File:ProgArm Arm small.JPG" src="http://files.progarm.org/ProgArm_Arm_small.JPG" alt="File:ProgArm Arm small.JPG" /></a></p><p>-- AlexDaniel 2014-10-18 01:08 UTC</p></div>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; ----<br />&gt; I'll start :)<br />&gt; [[image:File:ProgArm_Arm_small.JPG]]<br />&gt; -- AlexDaniel 2014-10-18 01:08 UTC</p></div>
+ts: 1413594484
 minor: 
 host: 84.52.48.25
 username: AlexDaniel
-revision: 1
-summary: Introduce yourself by making a photo of your device!
+revision: 2
+diff-major: 1
+summary: I'll start :) [[image:File:ProgArm_Arm_small.JPG]]
 languages: 
 text: Introduce yourself by making a photo of your device!
 	
-lastmajor: 1
+	----
+	
+	I'll start :)
+	[[image:File:ProgArm_Arm_small.JPG]]
+	
+	-- AlexDaniel 2014-10-18 01:08 UTC
+	
+	
+lastmajor: 2
+keep-ts: 1413594484
