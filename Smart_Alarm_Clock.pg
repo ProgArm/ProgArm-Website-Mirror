@@ -1,0 +1,16 @@
+flags: 01010
+blocks: <p>Nowadays there are many apps that try to fire the alarm only during the REM stage of sleep.</p><p>Usually the recognition is done by using the microphone or accelerometer, which utilizes the fact that during the REM stage our bodies are more active. Since ProgArm is worn on the arm, the measurements of the accelerometer are more informative in such case. It is even possible that in specific poses it will be possible to detect breathing.</p><p>But in order to do that we must implement regular [[Alarm Clock]] first.</p>
+ts: 1413590750
+minor: 
+host: 84.52.48.25
+username: AlexDaniel
+revision: 1
+summary: Nowadays there are many apps that try to fire the alarm only during the REM stage of sleep. Usually the recognition is done by using the . . .
+languages: 
+text: Nowadays there are many apps that try to fire the alarm only during the REM stage of sleep.
+	
+	Usually the recognition is done by using the microphone or accelerometer, which utilizes the fact that during the REM stage our bodies are more active. Since ProgArm is worn on the arm, the measurements of the accelerometer are more informative in such case. It is even possible that in specific poses it will be possible to detect breathing.
+	
+	But in order to do that we must implement regular [[Alarm Clock]] first.
+	
+lastmajor: 1
