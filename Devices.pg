@@ -1,13 +1,14 @@
 flags: 01010101010101010101010
-blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Version</th><th>Photo</th><th>Status</th></tr><tr><td>[[ProgArm 0.3{3}]]</td><td align="right"></td><td align="center"><div class="nextversion">Future release </div></td></tr><tr><td>[[ProgArm 0.2{2}]]</td><td>[[File:IMGP1310.JPG]]</td><td align="center"><div class="currentversion">Current version </div></td></tr><tr><td>[[ProgArm 0.1{1}]]</td><td>[[File:DSC_0742.JPG]]</td><td align="center"><div class="oldversion">Old version </div></td></tr></table><h2>Rings</h2><table class="user"><tr><th>Ring</th><th>Description</th><th>Photo</th></tr><tr><td>[[Ring]]</td><td>Basic wired ring</td><td>[[File:IMGP1298.JPG]]</td></tr></table><p>See [[Ideas]] page for other possible ring types.</p><h2>Clients</h2><p>[[Clients]] are not part of the hardware, but they are listed here to improve site navigation.<br /></p><ul><li>[[Perl Client]]</li></ul><p>See [[Clients]] for more info.</p>
-diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; [[Clients]] are not part of the hardware, but they are listed here to improve site navigation.</p></div>
+blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Version</th><th>Photo</th><th>Status</th></tr><tr><td>[[ProgArm 0.3{3}]]</td><td align="right"></td><td align="center"><span class="nextversion">Future release </span></td></tr><tr><td>[[ProgArm 0.2{2}]]</td><td>[[File:IMGP1310.JPG]]</td><td align="center"><span class="currentversion">Current version </span></td></tr><tr><td>[[ProgArm 0.1{1}]]</td><td>[[File:DSC_0742.JPG]]</td><td align="center"><span class="oldversion">Old version </span></td></tr></table><h2>Rings</h2><table class="user"><tr><th>Ring</th><th>Description</th><th>Photo</th></tr><tr><td>[[Ring]]</td><td>Basic wired ring</td><td>[[File:IMGP1298.JPG]]</td></tr></table><p>See [[Ideas]] page for other possible ring types.</p><h2>Clients</h2><p>[[Clients]] are not part of the hardware, but they are listed here to improve site navigation.<br /></p><ul><li>[[Perl Client]]</li></ul><p>See [[Clients]] for more info. </p>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; See [[Clients]] for more info.</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; See [[Clients]] for more info. </p></div>
 ip: 84.52.29.94
-ts: 1413594306
+ts: 1413855956
 minor: 
 host: 84.52.48.25
 username: AlexDaniel
-revision: 146
+revision: 147
 diff-major: 1
 summary: 
 languages: 
@@ -28,7 +29,7 @@ text: ==Devices
 	[[Clients]] are not part of the hardware, but they are listed here to improve site navigation.
 	* [[Perl Client]]
 	
-	See [[Clients]] for more info.
+	See [[Clients]] for more info. 
 	
-lastmajor: 146
-keep-ts: 1413594306
+lastmajor: 147
+keep-ts: 1413855956
