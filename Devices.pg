@@ -1,35 +1,16 @@
-flags: 01010101010101010101010
-blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Version</th><th>Photo</th><th>Status</th></tr><tr><td>[[ProgArm 0.3{3}]]</td><td align="right"></td><td align="center"><span class="nextversion">Future release </span></td></tr><tr><td>[[ProgArm 0.2{2}]]</td><td>[[File:IMGP1310.JPG]]</td><td align="center"><span class="currentversion">Current version </span></td></tr><tr><td>[[ProgArm 0.1{1}]]</td><td>[[File:DSC_0742.JPG]]</td><td align="center"><span class="oldversion">Old version </span></td></tr></table><h2>Rings</h2><table class="user"><tr><th>Ring</th><th>Description</th><th>Photo</th></tr><tr><td>[[Ring]]</td><td>Basic wired ring</td><td>[[File:IMGP1298.JPG]]</td></tr></table><p>See [[Ideas]] page for other possible ring types.</p><h2>Clients</h2><p>[[Clients]] are not part of the hardware, but they are listed here to improve site navigation.<br /></p><ul><li>[[Perl Client]]</li></ul><p>See [[Clients]] for more info. </p>
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; See [[Clients]] for more info.</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; See [[Clients]] for more info. </p></div>
+	<div class="old"><p>&lt; <strong class="changes">==Devices<br />&lt; [[https://github.com/ProgArm/ProgArm-Hardware/releases Release list]]<br />&lt; |=Version|=Photo|=Status|<br />&lt; |[[ProgArm 0.3{3}]]| | &lt;nextversion&gt;Future release |<br />&lt; |[[ProgArm 0.2{2}]]|[[File:IMGP1310.JPG]]| &lt;currentversion&gt;Current version |<br />&lt; |[[ProgArm 0.1{1}]]|[[File:DSC_0742.JPG]]| &lt;oldversion&gt;Old version |<br />&lt; ==Rings<br />&lt; |=Ring|=Description|=Photo|<br />&lt; |[[Ring]]|Basic wired ring|[[File:IMGP1298.JPG]]|<br />&lt; See [[Ideas]] page for other possible ring types.<br />&lt; == Clients<br />&lt; [[Clients]] are not part of the hardware, but they are listed here to improve site navigation.<br />&lt; * [[Perl Client]]<br />&lt; See [[Clients]] for more info.</strong> </p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; <strong class="changes"></strong></p></div>
 ip: 84.52.29.94
-ts: 1413855956
+ts: 1414267834
 minor: 
-host: 84.52.48.25
+host: 89.235.232.183
 username: AlexDaniel
-revision: 147
+revision: 148
 diff-major: 1
 summary: 
 languages: 
-text: ==Devices
-	[[https://github.com/ProgArm/ProgArm-Hardware/releases Release list]]
-	|=Version|=Photo|=Status|
-	|[[ProgArm 0.3{3}]]| | <nextversion>Future release |
-	|[[ProgArm 0.2{2}]]|[[File:IMGP1310.JPG]]| <currentversion>Current version |
-	|[[ProgArm 0.1{1}]]|[[File:DSC_0742.JPG]]| <oldversion>Old version |
+text: 
 	
-	==Rings
-	|=Ring|=Description|=Photo|
-	|[[Ring]]|Basic wired ring|[[File:IMGP1298.JPG]]|
-	
-	See [[Ideas]] page for other possible ring types.
-	
-	== Clients
-	[[Clients]] are not part of the hardware, but they are listed here to improve site navigation.
-	* [[Perl Client]]
-	
-	See [[Clients]] for more info. 
-	
-lastmajor: 147
-keep-ts: 1413855956
+lastmajor: 148
+keep-ts: 1414267834
