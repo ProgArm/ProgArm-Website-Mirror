@@ -1,16 +1,15 @@
-flags: 01010101010101010101010
-blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Version</th><th>Photo</th><th>Status</th></tr><tr><td>[[ProgArm 0.3{3}]]</td><td align="right"></td><td align="center"><span class="nextversion">Future release </span></td></tr><tr><td>[[ProgArm 0.2{2}]]</td><td>[[File:IMGP1310.JPG]]</td><td align="center"><span class="currentversion">Current version </span></td></tr><tr><td>[[ProgArm 0.1{1}]]</td><td>[[File:DSC_0742.JPG]]</td><td align="center"><span class="oldversion">Old version </span></td></tr></table><h2>Rings</h2><table class="user"><tr><th>Ring</th><th>Description</th><th>Photo</th></tr><tr><td>[[Ring]]</td><td>Basic wired ring</td><td>[[File:IMGP1298.JPG]]</td></tr></table><p>See [[Ideas]] page for other possible ring types.</p><h2>Clients</h2><p>[[Clients]] are not part of the hardware, but they are listed here to improve site navigation.<br /></p><ul><li>[[Perl Client]]</li></ul><p>See [[Clients]] for more info. </p>
-diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; <strong class="changes"></strong></p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; <strong class="changes">==Devices<br />&gt; [[https://github.com/ProgArm/ProgArm-Hardware/releases Release list]]<br />&gt; |=Version|=Photo|=Status|<br />&gt; |[[ProgArm 0.3{3}]]| | &lt;nextversion&gt;Future release |<br />&gt; |[[ProgArm 0.2{2}]]|[[File:IMGP1310.JPG]]| &lt;currentversion&gt;Current version |<br />&gt; |[[ProgArm 0.1{1}]]|[[File:DSC_0742.JPG]]| &lt;oldversion&gt;Old version |<br />&gt; ==Rings<br />&gt; |=Ring|=Description|=Photo|<br />&gt; |[[Ring]]|Basic wired ring|[[File:IMGP1298.JPG]]|<br />&gt; See [[Ideas]] page for other possible ring types.<br />&gt; == Clients<br />&gt; [[Clients]] are not part of the hardware, but they are listed here to improve site navigation.<br />&gt; * [[Perl Client]]<br />&gt; See [[Clients]] for more info.</strong> </p></div>
+flags: 010101010101010101010100
+blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Version</th><th>Photo</th><th>Status</th></tr><tr><td>[[ProgArm 0.3{3}]]</td><td align="right"></td><td align="center"><span class="nextversion">Future release </span></td></tr><tr><td>[[ProgArm 0.2{2}]]</td><td>[[File:IMGP1310.JPG]]</td><td align="center"><span class="currentversion">Current version </span></td></tr><tr><td>[[ProgArm 0.1{1}]]</td><td>[[File:DSC_0742.JPG]]</td><td align="center"><span class="oldversion">Old version </span></td></tr></table><h2>Rings</h2><table class="user"><tr><th>Ring</th><th>Description</th><th>Photo</th></tr><tr><td>[[Ring]]</td><td>Basic wired ring</td><td>[[File:IMGP1298.JPG]]</td></tr></table><p>See [[Ideas]] page for other possible ring types.</p><h2>Clients</h2><p>[[Clients]] are not part of the hardware, but they are listed here to improve site navigation.<br /></p><ul><li>[[Perl Client]]</li></ul><p>See [[Clients]] for more info.</p><h2 class="commentsHeading">Comments:</h2><div class="userComment"><p>bveqrqsphbsn, <a class="url http" href="http://www.iflexstudios.com/">http://www.iflexstudios.com/</a> Valium, fxZLFyn.</p><p>-- <a class="url http outside" href="http://www.iflexstudios.com/">Facts valium</a> 2014-10-26 20:17 UTC</p></div>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; ----<br />&gt; bveqrqsphbsn, http://www.iflexstudios.com/ Valium, fxZLFyn.<br />&gt; -- [http://www.iflexstudios.com/ Facts valium] 2014-10-26 20:17 UTC</p></div>
 ip: 84.52.29.94
-ts: 1414267844
-minor: 0
-host: 89.235.232.183
-username: AlexDaniel
-revision: 149
+ts: 1414354677
+minor: 
+host: 5.189.190.173
+username: Facts valium
+revision: 150
 diff-major: 1
-summary: Rollback to 2014-10-21 01:45 UTC
+summary: bveqrqsphbsn, http://www.iflexstudios.com/ Valium, fxZLFyn.
 languages: 
 text: ==Devices
 	[[https://github.com/ProgArm/ProgArm-Hardware/releases Release list]]
@@ -31,5 +30,12 @@ text: ==Devices
 	
 	See [[Clients]] for more info. 
 	
-lastmajor: 149
-keep-ts: 1414267844
+	----
+	
+	bveqrqsphbsn, http://www.iflexstudios.com/ Valium, fxZLFyn.
+	
+	-- [http://www.iflexstudios.com/ Facts valium] 2014-10-26 20:17 UTC
+	
+	
+lastmajor: 150
+keep-ts: 1414354677
