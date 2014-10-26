@@ -1,15 +1,15 @@
-flags: 010101010101010101010100
-blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Version</th><th>Photo</th><th>Status</th></tr><tr><td>[[ProgArm 0.3{3}]]</td><td align="right"></td><td align="center"><span class="nextversion">Future release </span></td></tr><tr><td>[[ProgArm 0.2{2}]]</td><td>[[File:IMGP1310.JPG]]</td><td align="center"><span class="currentversion">Current version </span></td></tr><tr><td>[[ProgArm 0.1{1}]]</td><td>[[File:DSC_0742.JPG]]</td><td align="center"><span class="oldversion">Old version </span></td></tr></table><h2>Rings</h2><table class="user"><tr><th>Ring</th><th>Description</th><th>Photo</th></tr><tr><td>[[Ring]]</td><td>Basic wired ring</td><td>[[File:IMGP1298.JPG]]</td></tr></table><p>See [[Ideas]] page for other possible ring types.</p><h2>Clients</h2><p>[[Clients]] are not part of the hardware, but they are listed here to improve site navigation.<br /></p><ul><li>[[Perl Client]]</li></ul><p>See [[Clients]] for more info.</p><h2 class="commentsHeading">Comments:</h2><div class="userComment"><p>bveqrqsphbsn, <a class="url http" href="http://www.iflexstudios.com/">http://www.iflexstudios.com/</a> Valium, fxZLFyn.</p><p>-- <a class="url http outside" href="http://www.iflexstudios.com/">Facts valium</a> 2014-10-26 20:17 UTC</p></div>
+flags: 01010101010101010101010100
+blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Version</th><th>Photo</th><th>Status</th></tr><tr><td>[[ProgArm 0.3{3}]]</td><td align="right"></td><td align="center"><span class="nextversion">Future release </span></td></tr><tr><td>[[ProgArm 0.2{2}]]</td><td>[[File:IMGP1310.JPG]]</td><td align="center"><span class="currentversion">Current version </span></td></tr><tr><td>[[ProgArm 0.1{1}]]</td><td>[[File:DSC_0742.JPG]]</td><td align="center"><span class="oldversion">Old version </span></td></tr></table><h2>Rings</h2><table class="user"><tr><th>Ring</th><th>Description</th><th>Photo</th></tr><tr><td>[[Ring]]</td><td>Basic wired ring</td><td>[[File:IMGP1298.JPG]]</td></tr></table><p>See [[Ideas]] page for other possible ring types.</p><h2>Clients</h2><p>[[Clients]] are not part of the hardware, but they are listed here to improve site navigation.<br /></p><ul><li>[[Perl Client]]</li></ul><p>See [[Clients]] for more info.</p><h2 class="commentsHeading">Comments:</h2><div class="userComment"><p>bveqrqsphbsn, <a class="url http" href="http://www.iflexstudios.com/">http://www.iflexstudios.com/</a> Valium, fxZLFyn.</p><p>-- <a class="url http outside" href="http://www.iflexstudios.com/">Facts valium</a> 2014-10-26 20:17 UTC</p></div><div class="userComment"><p>zqmluqsphbsn, <a class="url http" href="http://www.vigrxplusreviewer.com/">http://www.vigrxplusreviewer.com/</a> Enhance cock vigrx, PQxiOsY.</p><p>-- <a class="url http outside" href="http://www.vigrxplusreviewer.com/">Does it vigrx work</a> 2014-10-26 20:21 UTC</p></div>
 diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; ----<br />&gt; bveqrqsphbsn, http://www.iflexstudios.com/ Valium, fxZLFyn.<br />&gt; -- [http://www.iflexstudios.com/ Facts valium] 2014-10-26 20:17 UTC</p></div>
+	<div class="new"><p>&gt; ----<br />&gt; zqmluqsphbsn, http://www.vigrxplusreviewer.com/ Enhance cock vigrx, PQxiOsY.<br />&gt; -- [http://www.vigrxplusreviewer.com/ Does it vigrx work] 2014-10-26 20:21 UTC</p></div>
 ip: 84.52.29.94
-ts: 1414354677
+ts: 1414354912
 minor: 
 host: 5.189.190.173
-username: Facts valium
-revision: 150
+username: Does it vigrx work
+revision: 151
 diff-major: 1
-summary: bveqrqsphbsn, http://www.iflexstudios.com/ Valium, fxZLFyn.
+summary: zqmluqsphbsn, http://www.vigrxplusreviewer.com/ Enhance cock vigrx, PQxiOsY.
 languages: 
 text: ==Devices
 	[[https://github.com/ProgArm/ProgArm-Hardware/releases Release list]]
@@ -37,5 +37,12 @@ text: ==Devices
 	-- [http://www.iflexstudios.com/ Facts valium] 2014-10-26 20:17 UTC
 	
 	
-lastmajor: 150
-keep-ts: 1414354677
+	----
+	
+	zqmluqsphbsn, http://www.vigrxplusreviewer.com/ Enhance cock vigrx, PQxiOsY.
+	
+	-- [http://www.vigrxplusreviewer.com/ Does it vigrx work] 2014-10-26 20:21 UTC
+	
+	
+lastmajor: 151
+keep-ts: 1414354912
