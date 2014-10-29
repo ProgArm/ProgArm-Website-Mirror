@@ -1,13 +1,14 @@
 flags: 0
 blocks: <pre>96\.47\.22[45]\.[0-9]+
-	5\.189\.190\.173</pre>
+	5\.189\.190\.173
+	176\.38\.12\.46</pre>
 diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; 5\.189\.190\.173</p></div>
-ts: 1414363644
+	<div class="new"><p>&gt; 176\.38\.12\.46</p></div>
+ts: 1414619467
 minor: 1
-host: 89.235.232.183
+host: 84.52.41.120
 username: AlexDaniel
-revision: 3
+revision: 4
 diff-major: <p><strong>Changed:</strong></p>
 	<div class="old"><p>&lt; 96<strong class="changes">.</strong>47<strong class="changes">.225.[</strong>0-9]+</p></div><p><strong>to</strong></p>
 	<div class="new"><p>&gt; 96<strong class="changes">\.</strong>47<strong class="changes">\.22[45]\.[</strong>0-9]+</p></div>
@@ -15,6 +16,7 @@ summary:
 languages: 
 text: 96\.47\.22[45]\.[0-9]+
 	5\.189\.190\.173
+	176\.38\.12\.46
 	
 lastmajor: 2
-keep-ts: 1414363644
+keep-ts: 1414619467
