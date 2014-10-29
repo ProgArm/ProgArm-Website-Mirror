@@ -1,15 +1,12 @@
-flags: 010101010101010101010100
-blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Version</th><th>Photo</th><th>Status</th></tr><tr><td>[[ProgArm 0.3{3}]]</td><td align="right"></td><td align="center"><span class="nextversion">Future release </span></td></tr><tr><td>[[ProgArm 0.2{2}]]</td><td>[[File:IMGP1310.JPG]]</td><td align="center"><span class="currentversion">Current version </span></td></tr><tr><td>[[ProgArm 0.1{1}]]</td><td>[[File:DSC_0742.JPG]]</td><td align="center"><span class="oldversion">Old version </span></td></tr></table><h2>Rings</h2><table class="user"><tr><th>Ring</th><th>Description</th><th>Photo</th></tr><tr><td>[[Ring]]</td><td>Basic wired ring</td><td>[[File:IMGP1298.JPG]]</td></tr></table><p>See [[Ideas]] page for other possible ring types.</p><h2>Clients</h2><p>[[Clients]] are not part of the hardware, but they are listed here to improve site navigation.<br /></p><ul><li>[[Perl Client]]</li></ul><p>See [[Clients]] for more info.</p><h2 class="commentsHeading">Comments:</h2><div class="userComment"><p>betamethasone acetatena phos begddbaagfkfgeck</p><p>-- <a class="url http outside" href="http://begddbaagfkfgeck.blogspot.com/">Smithd489</a> 2014-10-29 14:29 UTC</p></div>
-diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; ----<br />&gt; betamethasone acetatena phos begddbaagfkfgeck<br />&gt; -- [http://begddbaagfkfgeck.blogspot.com/ Smithd489] 2014-10-29 14:29 UTC</p></div>
+flags: 01010101010101010101010
+blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Version</th><th>Photo</th><th>Status</th></tr><tr><td>[[ProgArm 0.3{3}]]</td><td align="right"></td><td align="center"><span class="nextversion">Future release </span></td></tr><tr><td>[[ProgArm 0.2{2}]]</td><td>[[File:IMGP1310.JPG]]</td><td align="center"><span class="currentversion">Current version </span></td></tr><tr><td>[[ProgArm 0.1{1}]]</td><td>[[File:DSC_0742.JPG]]</td><td align="center"><span class="oldversion">Old version </span></td></tr></table><h2>Rings</h2><table class="user"><tr><th>Ring</th><th>Description</th><th>Photo</th></tr><tr><td>[[Ring]]</td><td>Basic wired ring</td><td>[[File:IMGP1298.JPG]]</td></tr></table><p>See [[Ideas]] page for other possible ring types.</p><h2>Clients</h2><p>[[Clients]] are not part of the hardware, but they are listed here to improve site navigation.<br /></p><ul><li>[[Perl Client]]</li></ul><p>See [[Clients]] for more info. </p>
 ip: 84.52.29.94
-ts: 1414592961
-minor: 
-host: 176.38.12.46
-username: Smithd489
-revision: 155
-diff-major: 1
-summary: betamethasone acetatena phos begddbaagfkfgeck
+ts: 1414619451
+minor: 0
+host: 84.52.41.120
+username: AlexDaniel
+revision: 156
+summary: Rollback to 2014-10-26 22:46 UTC
 languages: 
 text: ==Devices
 	[[https://github.com/ProgArm/ProgArm-Hardware/releases Release list]]
@@ -30,12 +27,5 @@ text: ==Devices
 	
 	See [[Clients]] for more info. 
 	
-	----
-	
-	betamethasone acetatena phos begddbaagfkfgeck
-	
-	-- [http://begddbaagfkfgeck.blogspot.com/ Smithd489] 2014-10-29 14:29 UTC
-	
-	
-lastmajor: 155
-keep-ts: 1414592961
+lastmajor: 156
+keep-ts: 1414619451
