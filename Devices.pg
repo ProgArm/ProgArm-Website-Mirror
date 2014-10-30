@@ -1,15 +1,15 @@
 flags: 010101010101010101010100
-blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Version</th><th>Photo</th><th>Status</th></tr><tr><td>[[ProgArm 0.3{3}]]</td><td align="right"></td><td align="center"><span class="nextversion">Future release </span></td></tr><tr><td>[[ProgArm 0.2{2}]]</td><td>[[File:IMGP1310.JPG]]</td><td align="center"><span class="currentversion">Current version </span></td></tr><tr><td>[[ProgArm 0.1{1}]]</td><td>[[File:DSC_0742.JPG]]</td><td align="center"><span class="oldversion">Old version </span></td></tr></table><h2>Rings</h2><table class="user"><tr><th>Ring</th><th>Description</th><th>Photo</th></tr><tr><td>[[Ring]]</td><td>Basic wired ring</td><td>[[File:IMGP1298.JPG]]</td></tr></table><p>See [[Ideas]] page for other possible ring types.</p><h2>Clients</h2><p>[[Clients]] are not part of the hardware, but they are listed here to improve site navigation.<br /></p><ul><li>[[Perl Client]]</li></ul><p>See [[Clients]] for more info.</p><h2 class="commentsHeading">Comments:</h2><div class="userComment"><p>Very nice site! &lt;a href="<a class="url http" href="http://opeyixa2.com/rvqsxtx/1.html&quot;&gt;cheap">http://opeyixa2.com/rvqsxtx/1.html"&gt;cheap</a> goods&lt;/a&gt;</p><p>-- <a class="url http outside" href="http://opeyixa2.com/rvqsxtx/5.html">Pharma453</a> 2014-10-30 04:49 UTC</p></div>
+blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Version</th><th>Photo</th><th>Status</th></tr><tr><td>[[ProgArm 0.3{3}]]</td><td align="right"></td><td align="center"><span class="nextversion">Future release </span></td></tr><tr><td>[[ProgArm 0.2{2}]]</td><td>[[File:IMGP1310.JPG]]</td><td align="center"><span class="currentversion">Current version </span></td></tr><tr><td>[[ProgArm 0.1{1}]]</td><td>[[File:DSC_0742.JPG]]</td><td align="center"><span class="oldversion">Old version </span></td></tr></table><h2>Rings</h2><table class="user"><tr><th>Ring</th><th>Description</th><th>Photo</th></tr><tr><td>[[Ring]]</td><td>Basic wired ring</td><td>[[File:IMGP1298.JPG]]</td></tr></table><p>See [[Ideas]] page for other possible ring types.</p><h2>Clients</h2><p>[[Clients]] are not part of the hardware, but they are listed here to improve site navigation.<br /></p><ul><li>[[Perl Client]]</li></ul><p>See [[Clients]] for more info.</p><h2 class="commentsHeading">Comments:</h2><div class="userComment"><p>Very nice site! &lt;a href="<a class="url http" href="http://opeyixa2.com/rvqsxtx/1.html&quot;&gt;cheap">http://opeyixa2.com/rvqsxtx/1.html"&gt;cheap</a> goods&lt;/a&gt;</p><p>-- <a class="url http outside" href="http://opeyixa2.com/rvqsxtx/5.html">Pharma453</a> 2014-10-30 04:49 UTC</p></div><div class="userComment"><p>Very nice site! [url=<a class="url http" href="http://opeyixa2.com/rvqsxtx/2.html">http://opeyixa2.com/rvqsxtx/2.html</a>]cheap goods[/url]</p><p>-- <a class="url http outside" href="http://opeyixa2.com/rvqsxtx/5.html">Pharme756</a> 2014-10-30 04:50 UTC</p></div>
 diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; ----<br />&gt; Very nice site! &lt;a href="http://opeyixa2.com/rvqsxtx/1.html"&gt;cheap goods&lt;/a&gt;<br />&gt; -- [http://opeyixa2.com/rvqsxtx/5.html Pharma453] 2014-10-30 04:49 UTC</p></div>
+	<div class="new"><p>&gt; ----<br />&gt; Very nice site!  [url=http://opeyixa2.com/rvqsxtx/2.html]cheap goods[/url]<br />&gt; -- [http://opeyixa2.com/rvqsxtx/5.html Pharme756] 2014-10-30 04:50 UTC</p></div>
 ip: 84.52.29.94
-ts: 1414644589
+ts: 1414644607
 minor: 
-host: 94.154.222.95
-username: Pharma453
-revision: 157
+host: 115.71.29.84
+username: Pharme756
+revision: 158
 diff-major: 1
-summary: Very nice site! <a href="http://opeyixa2.com/rvqsxtx/1.html">cheap goods</a>
+summary: Very nice site!  [url=http://opeyixa2.com/rvqsxtx/2.html]cheap goods[/url]
 languages: 
 text: ==Devices
 	[[https://github.com/ProgArm/ProgArm-Hardware/releases Release list]]
@@ -37,5 +37,12 @@ text: ==Devices
 	-- [http://opeyixa2.com/rvqsxtx/5.html Pharma453] 2014-10-30 04:49 UTC
 	
 	
-lastmajor: 157
-keep-ts: 1414644589
+	----
+	
+	Very nice site!  [url=http://opeyixa2.com/rvqsxtx/2.html]cheap goods[/url]
+	
+	-- [http://opeyixa2.com/rvqsxtx/5.html Pharme756] 2014-10-30 04:50 UTC
+	
+	
+lastmajor: 158
+keep-ts: 1414644607
