@@ -1,16 +1,15 @@
-flags: 0
-blocks: <h2><a class="url http" href="https://github.com/ProgArm">https://github.com/ProgArm</a></h2><p>More specifically:<br /></p><ul><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Firmware/releases">Firmware</a> - get the latest .hex file here.<br /></li><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client">Client</a> - this is the main client written in perl. It should work on most platforms.<br /></li><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client-Old">Old client</a> - this is the first proof-of-concept client written in python.<br /><br /></li><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware">Hardware</a> - Schematic and PCB files.<br /><br /></li><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-PrintableParts">Printable parts</a> - This repository will contain all 3D-printable parts for ProgArm.<br /><br /></li><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Misc">Misc</a> - Some development files that do not belong to any other repository.<br /><br /></li><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Website">Website</a> - here is the full source code of this website.<br /></li><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Website-Mirror">Website Mirror</a> - repository that holds all text content from this website. All edits done on this wiki are automatically committed to the repository every 10 minutes.</li></ul>
-diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; * [[https://github.com/ProgArm/ProgArm-Client Client]] - this <strong class="changes">will be</strong> the main client written in perl. <strong class="changes">Hopefully it will</strong> work on most platforms. <strong class="changes">Currently it is unfunctional.</strong></p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; * [[https://github.com/ProgArm/ProgArm-Client Client]] - this <strong class="changes">is</strong> the main client written in perl. <strong class="changes">It should</strong> work on most platforms.</p></div>
+flags: 00
+blocks: <h2><a class="url http" href="https://github.com/ProgArm">https://github.com/ProgArm</a></h2><p>More specifically:<br /></p><ul><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Firmware/releases">Firmware</a> - get the latest .hex file here.</li><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client">Client</a> - this is the main client written in perl. It should work on most platforms.</li><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client-Old">Old client</a> - this is the first proof-of-concept client written in python.<br /><br /></li><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware">Hardware</a> - Schematic and PCB files.<br /><br /></li><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-PrintableParts">Printable parts</a> - This repository will contain all 3D-printable parts for ProgArm.<br /><br /></li><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Misc">Misc</a> - Some development files that do not belong to any other repository.<br /><br /></li><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Website">Website</a> - here is the full source code of this website.</li><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Website-Mirror">Website Mirror</a> - repository that holds all text content from this website. All edits done on this wiki are automatically committed to the repository every 10 minutes.</li></ul><h2 class="commentsHeading">Comments:</h2><div class="userComment"><p>999 A necessary aspect of each female wardrobe are her footwear. 掲示板</p><p>-- <a class="url http outside" href="http://www.raymorehomeschool.com">louis vuitton outlet</a> 2014-10-31 06:52 UTC</p></div>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; ----<br />&gt; 999 A necessary aspect of each female wardrobe are her footwear. 掲示板<br />&gt; -- [http://www.raymorehomeschool.com louis vuitton outlet] 2014-10-31 06:52 UTC</p></div>
 ip: 84.52.44.168
-ts: 1408208913
+ts: 1414738352
 minor: 
-host: 89.235.246.223
-username: AlexDaniel
-revision: 7
+host: 110.85.72.8
+username: louis vuitton outlet
+revision: 8
 diff-major: 1
-summary: 
+summary: 999 A necessary aspect of each female wardrobe are her footwear. 掲示板
 languages: 
 text: ==https://github.com/ProgArm
 	
@@ -28,5 +27,12 @@ text: ==https://github.com/ProgArm
 	* [[https://github.com/ProgArm/ProgArm-Website Website]] - here is the full source code of this website.
 	* [[https://github.com/ProgArm/ProgArm-Website-Mirror Website Mirror]] - repository that holds all text content from this website. All edits done on this wiki are automatically committed to the repository every 10 minutes.
 	
-lastmajor: 7
-keep-ts: 1408208913
+	----
+	
+	999 A necessary aspect of each female wardrobe are her footwear. 掲示板
+	
+	-- [http://www.raymorehomeschool.com louis vuitton outlet] 2014-10-31 06:52 UTC
+	
+	
+lastmajor: 8
+keep-ts: 1414738352
