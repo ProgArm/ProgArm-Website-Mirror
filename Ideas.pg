@@ -1,41 +1,15 @@
-flags: 01010101010101010101010101010101010
-blocks: <p>This page will contain a list of ideas, proposed features and other thoughts. Feel free to join the brainstorming!</p><h2>Proposed ProgArm features</h2><ul><li>[[Alarm Clock]]</li><li>[[Smart Alarm Clock]]</li><li>[[Timer]]</li><li>[[Stopwatch]]</li><li>[[SD Card]]</li><li>[[File Transfer]]</li><li>[[Encryption]]</li><li>[[Connection Test]]</li><li>[[Ring Test]]</li><li>Visualize data from accelerometer by using LED</li><li>[[Bluetooth Master]]</li><li>Notify client about single-clicks. This is probably not useful, but it could be handy for custom modules.</li></ul><h2>Proposed ProgArm rings</h2><table class="user"><tr><th>Ring</th><th>Description</th></tr><tr><td>[[WinterArm]]</td><td>Winter glove with built-in ring</td></tr><tr><td>[[Wireless Ring]]</td><td>Similar to normal Ring, but works without a wire</td></tr><tr><td>[[CardiogArm]]</td><td>A device to control ProgArm via electric signals of human muscles</td></tr></table><h2>Other projects</h2><ul><li>[[ProgEar]]</li></ul>
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; <strong class="changes">...</strong></p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; <strong class="changes">* [[ProgEar]]</strong></p></div>
-ts: 1413923033
+	<div class="old"><p>&lt; <strong class="changes">This page will contain a list of ideas, proposed features and other thoughts. Feel free to join the brainstorming!<br />&lt; ==Proposed ProgArm features<br />&lt; * [[Alarm Clock]]<br />&lt; * [[Smart Alarm Clock]]<br />&lt; * [[Timer]]<br />&lt; * [[Stopwatch]]<br />&lt; * [[SD Card]]<br />&lt; * [[File Transfer]]<br />&lt; * [[Encryption]]<br />&lt; * [[Connection Test]]<br />&lt; * [[Ring Test]]<br />&lt; * Visualize data from accelerometer by using LED<br />&lt; * [[Bluetooth Master]]<br />&lt; * Notify client about single-clicks. This is probably not useful, but it could be handy for custom modules.<br />&lt; ==Proposed ProgArm rings<br />&lt; |=Ring|=Description|<br />&lt; |[[WinterArm]]|Winter glove with built-in ring|<br />&lt; |[[Wireless Ring]]|Similar to normal Ring, but works without a wire|<br />&lt; |[[CardiogArm]]|A device to control ProgArm via electric signals of human muscles|<br />&lt; ==Other projects<br />&lt; * [[ProgEar]]</strong></p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; <strong class="changes"></strong></p></div>
+ts: 1414718176
 minor: 
-host: 84.52.48.25
+host: 84.52.41.120
 username: AlexDaniel
-revision: 12
+revision: 13
 diff-major: 1
 summary: 
 languages: 
-text: This page will contain a list of ideas, proposed features and other thoughts. Feel free to join the brainstorming!
+text: 
 	
-	
-	==Proposed ProgArm features
-	* [[Alarm Clock]]
-	* [[Smart Alarm Clock]]
-	* [[Timer]]
-	* [[Stopwatch]]
-	* [[SD Card]]
-	* [[File Transfer]]
-	* [[Encryption]]
-	* [[Connection Test]]
-	* [[Ring Test]]
-	* Visualize data from accelerometer by using LED
-	* [[Bluetooth Master]]
-	* Notify client about single-clicks. This is probably not useful, but it could be handy for custom modules.
-	
-	==Proposed ProgArm rings
-	|=Ring|=Description|
-	|[[WinterArm]]|Winter glove with built-in ring|
-	|[[Wireless Ring]]|Similar to normal Ring, but works without a wire|
-	|[[CardiogArm]]|A device to control ProgArm via electric signals of human muscles|
-	
-	==Other projects
-	* [[ProgEar]]
-	
-lastmajor: 12
-keep-ts: 1413923033
+lastmajor: 13
+keep-ts: 1414718176
