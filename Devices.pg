@@ -1,15 +1,12 @@
-flags: 010101010101010101010100
-blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Version</th><th>Photo</th><th>Status</th></tr><tr><td>[[ProgArm 0.3{3}]]</td><td align="right"></td><td align="center"><span class="nextversion">Future release </span></td></tr><tr><td>[[ProgArm 0.2{2}]]</td><td>[[File:IMGP1310.JPG]]</td><td align="center"><span class="currentversion">Current version </span></td></tr><tr><td>[[ProgArm 0.1{1}]]</td><td>[[File:DSC_0742.JPG]]</td><td align="center"><span class="oldversion">Old version </span></td></tr></table><h2>Rings</h2><table class="user"><tr><th>Ring</th><th>Description</th><th>Photo</th></tr><tr><td>[[Ring]]</td><td>Basic wired ring</td><td>[[File:IMGP1298.JPG]]</td></tr></table><p>See [[Ideas]] page for other possible ring types.</p><h2>Clients</h2><p>[[Clients]] are not part of the hardware, but they are listed here to improve site navigation.<br /></p><ul><li>[[Perl Client]]</li></ul><p>See [[Clients]] for more info.</p><h2 class="commentsHeading">Comments:</h2><div class="userComment"><p>Hello!<br /><a class="url http" href="http://tabsviva5.com/all_videos">http://tabsviva5.com/all_videos</a> , , <a class="url http" href="http://www.nocreditcheckp8.com/">http://www.nocreditcheckp8.com/</a> , , <a class="url http" href="http://www.nofaxingpaydayp8y.com/">http://www.nofaxingpaydayp8y.com/</a> , , <a class="url http" href="http://fastdelivery6viagra.com/">http://fastdelivery6viagra.com/</a> , , <a class="url http" href="http://pcpfcu.org/holidays.html">http://pcpfcu.org/holidays.html</a> , ,</p><p>-- <a class="url http outside" href="http://fastdelivery6viagra.com/">cheap_viagra</a> 2014-10-31 10:45 UTC</p></div><div class="userComment"><p>Hello!<br /><a class="url http" href="http://www.onlinepharmacyviagraonline10r.com/">http://www.onlinepharmacyviagraonline10r.com/</a> , , <a class="url http" href="http://www.onlinepharmacycialisr10gen.com/">http://www.onlinepharmacycialisr10gen.com/</a> , , <a class="url http" href="http://www.viagracanadar10med.com/">http://www.viagracanadar10med.com/</a> , , <a class="url http" href="http://www.cialiscanadacheap10r.com/">http://www.cialiscanadacheap10r.com/</a> , ,</p><p>-- <a class="url http outside" href="http://www.viagracanadar10med.com/">blog</a> 2014-10-31 11:09 UTC</p></div>
-diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; ----<br />&gt; Hello!<br />&gt; http://www.onlinepharmacyviagraonline10r.com/ ,  , http://www.onlinepharmacycialisr10gen.com/ ,  , http://www.viagracanadar10med.com/ ,  , http://www.cialiscanadacheap10r.com/ ,  ,<br />&gt; -- [http://www.viagracanadar10med.com/ blog] 2014-10-31 11:09 UTC</p></div>
+flags: 01010101010101010101010
+blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Version</th><th>Photo</th><th>Status</th></tr><tr><td>[[ProgArm 0.3{3}]]</td><td align="right"></td><td align="center"><span class="nextversion">Future release </span></td></tr><tr><td>[[ProgArm 0.2{2}]]</td><td>[[File:IMGP1310.JPG]]</td><td align="center"><span class="currentversion">Current version </span></td></tr><tr><td>[[ProgArm 0.1{1}]]</td><td>[[File:DSC_0742.JPG]]</td><td align="center"><span class="oldversion">Old version </span></td></tr></table><h2>Rings</h2><table class="user"><tr><th>Ring</th><th>Description</th><th>Photo</th></tr><tr><td>[[Ring]]</td><td>Basic wired ring</td><td>[[File:IMGP1298.JPG]]</td></tr></table><p>See [[Ideas]] page for other possible ring types.</p><h2>Clients</h2><p>[[Clients]] are not part of the hardware, but they are listed here to improve site navigation.<br /></p><ul><li>[[Perl Client]]</li></ul><p>See [[Clients]] for more info. </p>
 ip: 84.52.29.94
-ts: 1414753746
-minor: 
-host: 95.211.192.231
-username: blog
-revision: 163
-diff-major: 1
-summary: Hello! http://www.onlinepharmacyviagraonline10r.com/ ,  , http://www.onlinepharmacycialisr10gen.com/ ,  , http://www.viagracanadar10med.com/ ,  , . . .
+ts: 1414781263
+minor: 0
+host: 84.52.41.120
+username: AlexDaniel
+revision: 164
+summary: Rollback to 2014-10-30 18:43 UTC
 languages: 
 text: ==Devices
 	[[https://github.com/ProgArm/ProgArm-Hardware/releases Release list]]
@@ -30,21 +27,5 @@ text: ==Devices
 	
 	See [[Clients]] for more info. 
 	
-	----
-	
-	Hello!
-	http://tabsviva5.com/all_videos ,  , http://www.nocreditcheckp8.com/ ,  , http://www.nofaxingpaydayp8y.com/ ,  , http://fastdelivery6viagra.com/ ,  , http://pcpfcu.org/holidays.html ,  ,
-	
-	-- [http://fastdelivery6viagra.com/ cheap_viagra] 2014-10-31 10:45 UTC
-	
-	
-	----
-	
-	Hello!
-	http://www.onlinepharmacyviagraonline10r.com/ ,  , http://www.onlinepharmacycialisr10gen.com/ ,  , http://www.viagracanadar10med.com/ ,  , http://www.cialiscanadacheap10r.com/ ,  ,
-	
-	-- [http://www.viagracanadar10med.com/ blog] 2014-10-31 11:09 UTC
-	
-	
-lastmajor: 163
-keep-ts: 1414753746
+lastmajor: 164
+keep-ts: 1414781263
