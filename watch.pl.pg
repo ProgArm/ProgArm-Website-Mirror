@@ -1,18 +1,22 @@
-flags: 0
-blocks: <p>Source code: <a href="https://github.com/ProgArm/ProgArm-Client/blob/master/modules/watch.pl">watch.pl</a><h2>Provided keys:</h2><table class="user"><tr><th>Function</th><th>Key</th></tr><tr><td><div class="subroutine">WatchTime</div></td><td><div class="key">t</div></td></tr><tr><td><div class="subroutine">WatchDate</div></td><td><div class="key">d</div></td></tr></table></p>
-diff-minor: <p><strong>Deleted:</strong></p>
-	<div class="old"><p>&lt;  </p></div>
-ts: 1412457635
-minor: 1
-host: 84.52.46.155
+flags: 01010
+blocks: <p>Source code: <a href="https://github.com/ProgArm/ProgArm-Client/blob/master/modules/watch.pl">watch.pl</a><h2>Provided keys:</h2><table class="user"><tr><th>Function</th><th>Key</th></tr><tr><td><div class="subroutine">WatchTime</div></td><td><span class="key" title="make a short press on the upper button and then make a short press on both buttons"><span class="keyname">t</span> (<span class="keynone key1">x</span><span class="key2">S</span><span class="keyspacer"> </span><span class="key1">S</span><span class="key2">S</span>)</span></td></tr><tr><td><div class="subroutine">WatchDate</div></td><td><span class="key" title="make a long press on both buttons and then make a short press on both buttons"><span class="keyname">d</span> (<span class="key1">L</span><span class="key2">L</span><span class="keyspacer"> </span><span class="key1">S</span><span class="key2">S</span>)</span></td></tr></table></p><h2>Description</h2><p>This is a simple module that tells time.</p><p>[[Negative Replay]] for <span class="subroutine">WatchTime</span> calls <span class="subroutine">WatchDate</span>.<br />[[Negative Replay]] for <span class="subroutine">WatchDate</span> calls <span class="subroutine">WatchTime</span>.</p>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; ==Description<br />&gt; This is a simple module that tells time.<br />&gt; [[Negative Replay]] for &lt;subroutine&gt;!WatchTime&lt;/&gt; calls &lt;subroutine&gt;!WatchDate&lt;/&gt;.<br />&gt; [[Negative Replay]] for &lt;subroutine&gt;!WatchDate&lt;/&gt; calls &lt;subroutine&gt;!WatchTime&lt;/&gt;.</p></div>
+ts: 1415054237
+minor: 
+host: 84.52.22.131
 username: AlexDaniel
-revision: 8
-diff-major: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; <strong class="changes">~~</strong>watch.pl<strong class="changes">~~</strong></p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; <strong class="changes">#ProgArmModule</strong> watch.pl<br />&gt; <strong class="changes">Test</strong></p></div>
+revision: 9
+diff-major: 1
 summary: 
 languages: 
 text: #ProgArmModule watch.pl
 	
-lastmajor: 2
-keep-ts: 1412457635
+	==Description
+	This is a simple module that tells time.
+	
+	[[Negative Replay]] for <subroutine>!WatchTime</> calls <subroutine>!WatchDate</>.
+	[[Negative Replay]] for <subroutine>!WatchDate</> calls <subroutine>!WatchTime</>.
+	
+lastmajor: 9
+keep-ts: 1415054237
