@@ -1,12 +1,17 @@
-flags: 0
-blocks: <p>#REDIRECT repeat.pl</p>
-ts: 1415058913
-minor: 
+flags: 010
+blocks: <p>#REDIRECT [[repeat.pl]]</p>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; #REDIRECT repeat.pl</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; #REDIRECT <strong class="changes">[[</strong>repeat.pl<strong class="changes">]]</strong></p></div>
+ts: 1415058923
+minor: 1
 host: 84.52.22.131
 username: AlexDaniel
-revision: 1
+revision: 2
+diff-major: 
 summary: #REDIRECT repeat.pl
 languages: 
-text: #REDIRECT repeat.pl
+text: #REDIRECT [[repeat.pl]]
 	
 lastmajor: 1
+keep-ts: 1415058923
