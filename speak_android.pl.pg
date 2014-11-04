@@ -1,0 +1,15 @@
+flags: 0
+blocks: <p>Source code: <a href="https://github.com/ProgArm/ProgArm-Client/blob/master/modules/speak_android.pl">speak_android.pl</a></p><h2>Description</h2><p>This module provides text-to-speech functionality by using built-in android tts.</p>
+ts: 1415077067
+minor: 
+host: 84.52.22.131
+username: AlexDaniel
+revision: 1
+summary: #ProgArmModule speak_android.pl ==Description This module provides text-to-speech functionality by using built-in android tts. 
+languages: 
+text: #ProgArmModule speak_android.pl
+	
+	==Description
+	This module provides text-to-speech functionality by using built-in android tts.
+	
+lastmajor: 1
