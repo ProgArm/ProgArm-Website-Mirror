@@ -1,21 +1,20 @@
-flags: 010101010
-blocks: <p>Use <a class="url http outside" href="https://code.google.com/p/android-scripting/wiki/ApiReference">SL4A reference</a> to find what is possible from perl. If you need something that is not provided by SL4A, then it must be implemented by using ProgArm [[Android_Layer]]. This is unfortunate, because you have to recompile java code after every modification. One of the advantages of ProgArm Perl Client is that you can modify it on the go, the only thing you need is a text editor.</p><p>Everything written in [[Writing Perl Extensions]] still applies.</p>
-diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; Use [[https://code.google.com/p/android-scripting/wiki/ApiReference SL4A reference]] to find what is possible from perl. If you need something that is not provided by SL4A, then it must be implemented by using ProgArm [[Android_Layer]]. This is unfortunate, because you have to recompile java code after every modification. One of the advantages of ProgArm Perl Client is that you can modify it on the go, the only thing you need is text editor.</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; Use [[https://code.google.com/p/android-scripting/wiki/ApiReference SL4A reference]] to find what is possible from perl. If you need something that is not provided by SL4A, then it must be implemented by using ProgArm [[Android_Layer]]. This is unfortunate, because you have to recompile java code after every modification. One of the advantages of ProgArm Perl Client is that you can modify it on the go, the only thing you need is <strong class="changes">a</strong> text editor.</p></div>
-ts: 1413593930
-minor: 1
-host: 84.52.48.25
+flags: 01010101010
+blocks: <p>#REDIRECT [[Writing Perl Modules for Android]]</p><p>Use <a class="url http outside" href="https://code.google.com/p/android-scripting/wiki/ApiReference">SL4A reference</a> to find what is possible from perl. If you need something that is not provided by SL4A, then it must be implemented by using ProgArm [[Android_Layer]]. This is unfortunate, because you have to recompile java code after every modification. One of the advantages of ProgArm Perl Client is that you can modify it on the go, the only thing you need is a text editor.</p><p>Everything written in [[Writing Perl Extensions]] still applies.</p>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; #REDIRECT [[Writing Perl Modules for Android]]</p></div>
+ts: 1415076376
+minor: 
+host: 84.52.22.131
 username: AlexDaniel
-revision: 4
-diff-major: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; Use [[https://code.google.com/p/android-scripting/wiki/ApiReference SL4A reference]] to find what is possible from perl. If you need something that is not provided by SL4A, then it must be implemented by using ProgArm [[<strong class="changes">Android Layer</strong>]]. This is unfortunate, because you have to recompile java code after every modification. One of the advantages of ProgArm Perl Client is that you can modify it on the go, the only thing you need is text editor.</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; Use [[https://code.google.com/p/android-scripting/wiki/ApiReference SL4A reference]] to find what is possible from perl. If you need something that is not provided by SL4A, then it must be implemented by using ProgArm [[<strong class="changes">Android_Layer</strong>]]. This is unfortunate, because you have to recompile java code after every modification. One of the advantages of ProgArm Perl Client is that you can modify it on the go, the only thing you need is text editor.</p></div>
+revision: 5
+diff-major: 1
 summary: 
 languages: 
-text: Use [[https://code.google.com/p/android-scripting/wiki/ApiReference SL4A reference]] to find what is possible from perl. If you need something that is not provided by SL4A, then it must be implemented by using ProgArm [[Android_Layer]]. This is unfortunate, because you have to recompile java code after every modification. One of the advantages of ProgArm Perl Client is that you can modify it on the go, the only thing you need is a text editor.
+text: #REDIRECT [[Writing Perl Modules for Android]]
+	
+	Use [[https://code.google.com/p/android-scripting/wiki/ApiReference SL4A reference]] to find what is possible from perl. If you need something that is not provided by SL4A, then it must be implemented by using ProgArm [[Android_Layer]]. This is unfortunate, because you have to recompile java code after every modification. One of the advantages of ProgArm Perl Client is that you can modify it on the go, the only thing you need is a text editor.
 	
 	Everything written in [[Writing Perl Extensions]] still applies.
 	
-lastmajor: 3
-keep-ts: 1413593930
+lastmajor: 5
+keep-ts: 1415076376
