@@ -1,0 +1,15 @@
+flags: 0
+blocks: <p>Source code: <a href="https://github.com/ProgArm/ProgArm-Client/blob/master/modules/speak_flite.pl">speak_flite.pl</a></p><h2>Description</h2><p>This module provides text-to-speech functionality by using <a class="url http outside" href="http://www.speech.cs.cmu.edu/flite/">flite</a>.</p>
+ts: 1415076027
+minor: 
+host: 84.52.22.131
+username: AlexDaniel
+revision: 1
+summary: #ProgArmModule speak_flite.pl ==Description This module provides text-to-speech functionality by using [[http://www.speech.cs.cmu.edu/flite/ . . .
+languages: 
+text: #ProgArmModule speak_flite.pl
+	
+	==Description
+	This module provides text-to-speech functionality by using [[http://www.speech.cs.cmu.edu/flite/ flite]].
+	
+lastmajor: 1
