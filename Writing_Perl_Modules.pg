@@ -1,5 +1,5 @@
 flags: 0
-blocks: <h2>Basic extension structure</h2><pre class="real">use strict;
+blocks: <h2>Basic module structure</h2><pre class="real">use strict;
 	use warnings;
 	
 	package ProgArm;
@@ -9,7 +9,7 @@ blocks: <h2>Basic extension structure</h2><pre class="real">use strict;
 	
 	sub MyNewSub {
 	    # Wrie your code here
-	}</pre><h2>Repeats</h2><p>By default actions are called without any parameters, however <code>repeat.pl</code> will pass <strong>1</strong> or <strong>-1</strong> to indicate repeat and negative repeat.</p><p>The longest way to detect negative repeat is to use<br /></p><pre class="real">if defined $_[0] and $_[0] == -1</pre><p>You can shorten it to<br /></p><pre class="real">if ($_[0] // 0) == -1</pre><p>However, it is much easier to use experimental <a class="url http outside" href="http://perldoc.perl.org/perlop.html#Smartmatch-Operator">smartmatch operator</a><br /></p><pre class="real">if $_[0] ~~ -1</pre><p>Even though it is deprecated, all extensions use smartmatch operator. You should use it too! (A simple sed command can easily change it in every module, that's why we ask you to respect consistency)</p><p>We can rewrite previous example to handle negative repeats:<br /></p><pre class="real">use strict;
+	}</pre><h2>Repeats</h2><p>By default actions are called without any parameters, however <code>repeat.pl</code> will pass <strong>1</strong> or <strong>-1</strong> to indicate repeat and negative repeat.</p><p>The longest way to detect negative repeat is to use<br /></p><pre class="real">if defined $_[0] and $_[0] == -1</pre><p>You can shorten it to<br /></p><pre class="real">if ($_[0] // 0) == -1</pre><p>However, it is much easier to use experimental <a class="url http outside" href="http://perldoc.perl.org/perlop.html#Smartmatch-Operator">smartmatch operator</a><br /></p><pre class="real">if $_[0] ~~ -1</pre><p>Even though it is deprecated, all modules use smartmatch operator. You should use it too! (A simple sed command can easily change it in every module, that's why we ask you to respect consistency)</p><p>We can rewrite previous example to handle negative repeats:<br /></p><pre class="real">use strict;
 	use warnings;
 	
 	package ProgArm;
@@ -25,14 +25,20 @@ blocks: <h2>Basic extension structure</h2><pre class="real">use strict;
 	sub MyNewSubNegative {
 	    # Wrie your code here
 	}</pre>
-ts: 1415076318
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; ==Basic <strong class="changes">extension</strong> structure</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; ==Basic <strong class="changes">module</strong> structure</p></div><p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; Even though it is deprecated, all <strong class="changes">extensions</strong> use smartmatch operator. You should use it too! (A simple sed command can easily change it in every module, that's why we ask you to respect consistency)</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; Even though it is deprecated, all <strong class="changes">modules</strong> use smartmatch operator. You should use it too! (A simple sed command can easily change it in every module, that's why we ask you to respect consistency)</p></div>
+ts: 1415076348
 minor: 
 host: 84.52.22.131
 username: AlexDaniel
-revision: 1
-summary: ==Basic extension structure {{{ use strict; use warnings; package ProgArm; our(%Keys); @Keys{MyNewSub} = 'g'; sub MyNewSub {     # Wrie . . .
+revision: 2
+diff-major: 1
+summary: Using word "Module" instead of "Extension"
 languages: 
-text: ==Basic extension structure
+text: ==Basic module structure
 	{{{
 	use strict;
 	use warnings;
@@ -64,7 +70,7 @@ text: ==Basic extension structure
 	{{{
 	if $_[0] ~~ -1
 	}}}
-	Even though it is deprecated, all extensions use smartmatch operator. You should use it too! (A simple sed command can easily change it in every module, that's why we ask you to respect consistency)
+	Even though it is deprecated, all modules use smartmatch operator. You should use it too! (A simple sed command can easily change it in every module, that's why we ask you to respect consistency)
 	
 	We can rewrite previous example to handle negative repeats:
 	{{{
@@ -86,4 +92,5 @@ text: ==Basic extension structure
 	}
 	}}}
 	
-lastmajor: 1
+lastmajor: 2
+keep-ts: 1415076348
