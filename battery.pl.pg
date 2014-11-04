@@ -1,15 +1,19 @@
-flags: 0
-blocks: <p>Source code: <a href="https://github.com/ProgArm/ProgArm-Client/blob/master/modules/battery.pl">battery.pl</a><h2>Provided keys:</h2><table class="user"><tr><th>Function</th><th>Key</th></tr><tr><td><div class="subroutine">TellBatteryInfo</div></td><td><div class="key">g</div></td></tr></table><h2>Provided variables:</h2><div class="variable">$BatteryLogInterval</div> <div class="variable">$BatteryLogFile</div> <div class="variable">$ChargePrescaler</div></p>
-diff-minor: <p><strong>Deleted:</strong></p>
-	<div class="old"><p>&lt;  </p></div>
-ts: 1412450237
-minor: 1
-host: 84.52.46.155
+flags: 0101010
+blocks: <p>Source code: <a href="https://github.com/ProgArm/ProgArm-Client/blob/master/modules/battery.pl">battery.pl</a><h2>Provided keys:</h2><table class="user"><tr><th>Function</th><th>Key</th></tr><tr><td><div class="subroutine">TellBatteryInfo</div></td><td><span class="key" title="make a short press on the upper button and then make a long press on both buttons"><span class="keyname">g</span> (<span class="keynone key1">x</span><span class="key2">S</span><span class="keyspacer"> </span><span class="key1">L</span><span class="key2">L</span>)</span></td></tr></table><h2>Provided variables:</h2><div class="variable">$BatteryLogInterval</div> <div class="variable">$BatteryLogFile</div> <div class="variable">$ChargePrescaler</div></p><h2>Description</h2><p>This module will periodically poll ProgArm for battery info. Key{g} should actually tell current battery charge in percent, but most likely this will only be implemented in [[ProgArm 0.3]].</p>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; ==Description<br />&gt; This module will periodically poll ProgArm for battery info. Key{g} should actually tell current battery charge in percent, but most likely this will only be implemented in [[ProgArm 0.3]].</p></div>
+ts: 1415059542
+minor: 
+host: 84.52.22.131
 username: AlexDaniel
-revision: 3
-diff-major: 
-summary: Initial page
+revision: 4
+diff-major: 1
+summary: Description
 languages: 
 text: #ProgArmModule battery.pl
 	
-keep-ts: 1412450237
+	==Description
+	This module will periodically poll ProgArm for battery info. Key{g} should actually tell current battery charge in percent, but most likely this will only be implemented in [[ProgArm 0.3]].
+	
+lastmajor: 4
+keep-ts: 1415059542
