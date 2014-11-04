@@ -1,5 +1,5 @@
-flags: 0
-blocks: <h2>Basic extension structure</h2><pre class="real">use strict;
+flags: 010
+blocks: <p>#REDIRECT [[Writing Perl Modules]]</p><h2>Basic extension structure</h2><pre class="real">use strict;
 	use warnings;
 	
 	package ProgArm;
@@ -25,18 +25,19 @@ blocks: <h2>Basic extension structure</h2><pre class="real">use strict;
 	sub MyNewSubNegative {
 	    # Wrie your code here
 	}</pre>
-diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; <strong class="changes">Most</strong> extensions use smartmatch operator.</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; <strong class="changes">Even though it is deprecated, all</strong> extensions use smartmatch operator. <strong class="changes">You should use it too! (A simple sed command can easily change it in every module, that's why we ask you to respect consistency)</strong></p></div>
-ts: 1413581575
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; #REDIRECT [[Writing Perl Modules]]</p></div>
+ts: 1415076311
 minor: 
-host: 84.52.48.25
+host: 84.52.22.131
 username: AlexDaniel
-revision: 6
+revision: 7
 diff-major: 1
 summary: 
 languages: 
-text: ==Basic extension structure
+text: #REDIRECT [[Writing Perl Modules]]
+	
+	==Basic extension structure
 	{{{
 	use strict;
 	use warnings;
@@ -90,5 +91,5 @@ text: ==Basic extension structure
 	}
 	}}}
 	
-lastmajor: 6
-keep-ts: 1413581575
+lastmajor: 7
+keep-ts: 1415076311
