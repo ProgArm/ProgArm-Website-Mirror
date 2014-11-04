@@ -1,0 +1,21 @@
+flags: 010
+blocks: <p>Source code: <a href="https://github.com/ProgArm/ProgArm-Client/blob/master/modules/tutor.pl">tutor.pl</a><h2>Provided keys:</h2><table class="user"><tr><th>Function</th><th>Key</th></tr><tr><td><div class="subroutine">TutorMode</div></td><td><span class="key" title="make a long press on the upper button twice"><span class="keyname">x</span> (<span class="keynone key1">x</span><span class="key2">L</span><span class="keyspacer"> </span><span class="keynone key1">x</span><span class="key2">L</span>)</span></td></tr></table></p><h2>Description</h2><p>Typing tutor helps you to learn keys.</p><p>It tells you a key name and you have 2 attempts to enter it. If you succeed, it gives you another one. This happens over and over until you quit typing tutor.</p><p>If you fail, it will keep telling you how to press it until you do that. The clue will sound like "make a short press on both buttons and then make a long press on both buttons" (that's exactly the same description as in this wiki, hover over any key to see it).</p><p>Press Key{q} to quit typing tutor.</p>
+ts: 1415068426
+minor: 
+host: 84.52.22.131
+username: AlexDaniel
+revision: 1
+summary: Description
+languages: 
+text: #ProgArmModule tutor.pl
+	
+	==Description
+	Typing tutor helps you to learn keys.
+	
+	It tells you a key name and you have 2 attempts to enter it. If you succeed, it gives you another one. This happens over and over until you quit typing tutor.
+	
+	If you fail, it will keep telling you how to press it until you do that. The clue will sound like "make a short press on both buttons and then make a long press on both buttons" (that's exactly the same description as in this wiki, hover over any key to see it).
+	
+	Press Key{q} to quit typing tutor.
+	
+lastmajor: 1
