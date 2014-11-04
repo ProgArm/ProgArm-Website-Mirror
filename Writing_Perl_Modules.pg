@@ -1,0 +1,89 @@
+flags: 0
+blocks: <h2>Basic extension structure</h2><pre class="real">use strict;
+	use warnings;
+	
+	package ProgArm;
+	our(%Keys);
+	
+	@Keys{MyNewSub} = 'g';
+	
+	sub MyNewSub {
+	    # Wrie your code here
+	}</pre><h2>Repeats</h2><p>By default actions are called without any parameters, however <code>repeat.pl</code> will pass <strong>1</strong> or <strong>-1</strong> to indicate repeat and negative repeat.</p><p>The longest way to detect negative repeat is to use<br /></p><pre class="real">if defined $_[0] and $_[0] == -1</pre><p>You can shorten it to<br /></p><pre class="real">if ($_[0] // 0) == -1</pre><p>However, it is much easier to use experimental <a class="url http outside" href="http://perldoc.perl.org/perlop.html#Smartmatch-Operator">smartmatch operator</a><br /></p><pre class="real">if $_[0] ~~ -1</pre><p>Even though it is deprecated, all extensions use smartmatch operator. You should use it too! (A simple sed command can easily change it in every module, that's why we ask you to respect consistency)</p><p>We can rewrite previous example to handle negative repeats:<br /></p><pre class="real">use strict;
+	use warnings;
+	
+	package ProgArm;
+	our(%Keys);
+	
+	@Keys{MyNewSub} = 'g';
+	
+	sub MyNewSub {
+	    return MyNewSubNegative() if $_[0] ~~ -1;
+	    # Wrie your code here
+	}
+	
+	sub MyNewSubNegative {
+	    # Wrie your code here
+	}</pre>
+ts: 1415076318
+minor: 
+host: 84.52.22.131
+username: AlexDaniel
+revision: 1
+summary: ==Basic extension structure {{{ use strict; use warnings; package ProgArm; our(%Keys); @Keys{MyNewSub} = 'g'; sub MyNewSub {     # Wrie . . .
+languages: 
+text: ==Basic extension structure
+	{{{
+	use strict;
+	use warnings;
+	
+	package ProgArm;
+	our(%Keys);
+	
+	@Keys{MyNewSub} = 'g';
+	
+	sub MyNewSub {
+	    # Wrie your code here
+	}
+	}}}
+	
+	==Repeats
+	By default actions are called without any parameters, however {{{repeat.pl}}} will pass **1** or **-1** to indicate repeat and negative repeat.
+	
+	The longest way to detect negative repeat is to use
+	{{{
+	if defined $_[0] and $_[0] == -1
+	}}}
+	
+	You can shorten it to
+	{{{
+	if ($_[0] // 0) == -1
+	}}}
+	
+	However, it is much easier to use experimental [[http://perldoc.perl.org/perlop.html#Smartmatch-Operator smartmatch operator]]
+	{{{
+	if $_[0] ~~ -1
+	}}}
+	Even though it is deprecated, all extensions use smartmatch operator. You should use it too! (A simple sed command can easily change it in every module, that's why we ask you to respect consistency)
+	
+	We can rewrite previous example to handle negative repeats:
+	{{{
+	use strict;
+	use warnings;
+	
+	package ProgArm;
+	our(%Keys);
+	
+	@Keys{MyNewSub} = 'g';
+	
+	sub MyNewSub {
+	    return MyNewSubNegative() if $_[0] ~~ -1;
+	    # Wrie your code here
+	}
+	
+	sub MyNewSubNegative {
+	    # Wrie your code here
+	}
+	}}}
+	
+lastmajor: 1
