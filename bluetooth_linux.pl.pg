@@ -1,0 +1,30 @@
+flags: 010
+blocks: <p>Source code: <a href="https://github.com/ProgArm/ProgArm-Client/blob/master/modules/bluetooth_linux.pl">bluetooth_linux.pl</a><h2>Provided variables:</h2><div class="variable">$UpdateInterval</div> <div class="variable">$RfcommPath</div></p><h2>Description</h2><p>This module implements serial port communication in GNU/Linux. Although it is called [[bluetooth_linux.pl]], it just reads from a serial port. Therefore you can use it with anything as long as the serial port is used.</p><p>Like all other communication modules, it provides <span class="subroutine">InitConnection</span>, <span class="subroutine">Read</span> and <span class="subroutine">Write</span> subroutines.</p><p>By default, <span class="variable">$RfcommPath</span> is set to <code>/dev/rfcomm0</code>. You might want to change it only if you are using other bluetooth devices and rfcomm0 is already busy.</p><p>Please note that on most distributions you must be in <strong>dialout</strong> group in order to talk with serial ports without root privileges:<br /></p><pre class="real">sudo adduser youruser dialout</pre><p>It is possible that reboot is required after this.<br />If you did that but you still cannot use <code>/dev/rfcommX</code> without root priveleges and the error you see is "Device or resource busy", then try to find out what is using it:<br /></p><pre class="real">sudo lsof /dev/rfcomm0</pre><p>If it lists <strong>bluetooth</strong>, that's fine. But if you see something else, for example <strong>ModemManager</strong>, it is very likely causing your problem. Try killing it!</p>
+ts: 1415075497
+minor: 
+host: 84.52.22.131
+username: AlexDaniel
+revision: 1
+summary: #ProgArmModule bluetooth_linux.pl ==Description This module implements serial port communication in GNU/Linux. Although it is called . . .
+languages: 
+text: #ProgArmModule bluetooth_linux.pl
+	
+	==Description
+	This module implements serial port communication in GNU/Linux. Although it is called [[bluetooth_linux.pl]], it just reads from a serial port. Therefore you can use it with anything as long as the serial port is used.
+	
+	Like all other communication modules, it provides <subroutine>!InitConnection</>, <subroutine>Read</> and <subroutine>Write</> subroutines.
+	
+	By default, <variable>$!RfcommPath</> is set to {{{/dev/rfcomm0}}}. You might want to change it only if you are using other bluetooth devices and rfcomm0 is already busy.
+	
+	Please note that on most distributions you must be in **dialout** group in order to talk with serial ports without root privileges:
+	{{{
+	sudo adduser youruser dialout
+	}}}
+	It is possible that reboot is required after this.
+	If you did that but you still cannot use {{{/dev/rfcommX}}} without root priveleges and the error you see is "Device or resource busy", then try to find out what is using it:
+	{{{
+	sudo lsof /dev/rfcomm0
+	}}}
+	If it lists **bluetooth**, that's fine. But if you see something else, for example **!ModemManager**, it is very likely causing your problem. Try killing it!
+	
+lastmajor: 1
