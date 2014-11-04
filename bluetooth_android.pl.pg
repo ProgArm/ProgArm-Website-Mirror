@@ -1,0 +1,17 @@
+flags: 0
+blocks: <p>Source code: <a href="https://github.com/ProgArm/ProgArm-Client/blob/master/modules/bluetooth_android.pl">bluetooth_android.pl</a><h2>Provided variables:</h2><div class="variable">$Android</div></p><h2>Description</h2><p>This module implements bluetooth communication on Android systems.</p><p>Like all other communication modules, it provides <span class="subroutine">InitConnection</span>, <span class="subroutine">Read</span> and <span class="subroutine">Write</span> subroutines.</p>
+ts: 1415075664
+minor: 
+host: 84.52.22.131
+username: AlexDaniel
+revision: 1
+summary: #ProgArmModule bluetooth_android.pl ==Description This module implements bluetooth communication on Android systems. Like all other . . .
+languages: 
+text: #ProgArmModule bluetooth_android.pl
+	
+	==Description
+	This module implements bluetooth communication on Android systems.
+	
+	Like all other communication modules, it provides <subroutine>!InitConnection</>, <subroutine>Read</> and <subroutine>Write</> subroutines.
+	
+lastmajor: 1
