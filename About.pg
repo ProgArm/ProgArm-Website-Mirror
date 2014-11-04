@@ -1,12 +1,13 @@
 flags: 01010101010101010101010101010101010101010101010
-blocks: <p><a class="image right inter File" href="http://files.progarm.org/ProgArm_Arm_small.JPG"><img class="upload" title="File:ProgArm Arm small.JPG" src="http://files.progarm.org/ProgArm_Arm_small.JPG" alt="File:ProgArm Arm small.JPG" /></a><br />ProgArm is a portable wearable device that is supposed to act as an interface between humans and various gadgets we use. It is based on ARM [[Microcontroller|microcontroller]] and a [[Bluetooth]] module, which provides communication with computers and mobile phones via Serial-Over-Bluetooth protocol. ProgArm also has some basic sensors, such as accelerometer, gyroscope, magnetometer and atmospheric pressure sensor.</p><p>ProgArm itself consists of a small 4 by 7 centimeters PCB, a battery and a [[Ring|ring]], which at the moment plays the role of the main input device.</p><p>The [[Ring|ring]] is 3D-printed, with two buttons and a powerful RGB LED superglued to it. By pressing the buttons with a thumb in [[Controls|different combinations]], one can input various commands, that are either interpreted by ProgArm itself, or are sent via [[Bluetooth]] to other devices. LED is used as a notification light and also as a flashlight.</p><p>Additional features include a vibramotor, a piezo buzzer, solder-on JTAG/SWD interface and two sockets for external devices. One socket port is for IIC interface, other is for SPI. The ports use widely-available micro-USB sockets and plugs.</p><p>The list of existing and proposed functions of the ProgArm and information about clients for different gadgets can be found <a class="url http outside" href="http://progarm.org/Devices">here</a></p><p>Please also see the list of our [[Goals]].</p><h2>Documentation for Users</h2><ul><li>[[Clients]]</li><li>[[Controls{l}]]</li><li>[[Features{t}]]</li><li>[[Firmware Flashing]]</li><li>[[List of Perl Extensions]]</li></ul><h2>Documentation for Developers</h2><ul><li>[[Writing Perl Extensions]]</li><li>[[Writing Perl Extensions for Android]]</li><li>[[Writing Clients]]</li><li>[[Protocol{l}]]</li></ul><h2>Other</h2><ul><li>[[Users]] -- photos of people using ProgArm. <strong>Attention</strong>! This page may contain a lot of big images.</li></ul>
-diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; == Other<br />&gt; * [[Users]] -- photos of people using ProgArm. **Attention**! This page may contain a lot of big images.</p></div>
-ts: 1413594413
+blocks: <p><a class="image right inter File" href="http://files.progarm.org/ProgArm_Arm_small.JPG"><img class="upload" title="File:ProgArm Arm small.JPG" src="http://files.progarm.org/ProgArm_Arm_small.JPG" alt="File:ProgArm Arm small.JPG" /></a><br />ProgArm is a portable wearable device that is supposed to act as an interface between humans and various gadgets we use. It is based on ARM [[Microcontroller|microcontroller]] and a [[Bluetooth]] module, which provides communication with computers and mobile phones via Serial-Over-Bluetooth protocol. ProgArm also has some basic sensors, such as accelerometer, gyroscope, magnetometer and atmospheric pressure sensor.</p><p>ProgArm itself consists of a small 4 by 7 centimeters PCB, a battery and a [[Ring|ring]], which at the moment plays the role of the main input device.</p><p>The [[Ring|ring]] is 3D-printed, with two buttons and a powerful RGB LED superglued to it. By pressing the buttons with a thumb in [[Controls|different combinations]], one can input various commands, that are either interpreted by ProgArm itself, or are sent via [[Bluetooth]] to other devices. LED is used as a notification light and also as a flashlight.</p><p>Additional features include a vibramotor, a piezo buzzer, solder-on JTAG/SWD interface and two sockets for external devices. One socket port is for IIC interface, other is for SPI. The ports use widely-available micro-USB sockets and plugs.</p><p>The list of existing and proposed functions of the ProgArm and information about clients for different gadgets can be found <a class="url http outside" href="http://progarm.org/Devices">here</a></p><p>Please also see the list of our [[Goals]].</p><h2>Documentation for Users</h2><ul><li>[[Clients]]</li><li>[[Controls{l}]]</li><li>[[Features{t}]]</li><li>[[Firmware Flashing]]</li><li>[[List of Perl Modules]]</li></ul><h2>Documentation for Developers</h2><ul><li>[[Writing Perl Extensions]]</li><li>[[Writing Perl Extensions for Android]]</li><li>[[Writing Clients]]</li><li>[[Protocol{l}]]</li></ul><h2>Other</h2><ul><li>[[Users]] -- photos of people using ProgArm. <strong>Attention</strong>! This page may contain a lot of big images.</li></ul>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; * [[List of Perl <strong class="changes">Extensions</strong>]]</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; * [[List of Perl <strong class="changes">Modules</strong>]]</p></div>
+ts: 1415076172
 minor: 
-host: 84.52.48.25
+host: 84.52.22.131
 username: AlexDaniel
-revision: 22
+revision: 23
 diff-major: 1
 summary: 
 languages: 
@@ -28,7 +29,7 @@ text: [[image/right:File:ProgArm_Arm_small.JPG]]
 	* [[Controls{l}]]
 	* [[Features{t}]]
 	* [[Firmware Flashing]]
-	* [[List of Perl Extensions]]
+	* [[List of Perl Modules]]
 	
 	== Documentation for Developers
 	* [[Writing Perl Extensions]]
@@ -40,5 +41,5 @@ text: [[image/right:File:ProgArm_Arm_small.JPG]]
 	* [[Users]] -- photos of people using ProgArm. **Attention**! This page may contain a lot of big images.
 	
 	
-lastmajor: 22
-keep-ts: 1413594413
+lastmajor: 23
+keep-ts: 1415076172
