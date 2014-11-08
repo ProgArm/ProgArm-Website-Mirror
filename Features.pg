@@ -1,22 +1,19 @@
 flags: 010
-blocks: <p>Here is an incomplete list of features:<br /></p><ul><li>RGB flashlight</li><li>Music player control (songs switch, AAA mode toggle, play/pause)</li><li>Control over client device audio (volume up/down, mute)</li><li>Synthesized speech on client device (can tell time and date on demand)</li><li>Presentation slides switching</li><li>Text input</li></ul><p>See also [[Proposed Features]]</p>
-diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; Here is an incomplete list of features:</p></div><p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; [[Proposed Features]]</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; <strong class="changes">See also</strong> [[Proposed Features]]</p></div>
+blocks: <p>Here is an incomplete list of features:<br /></p><ul><li>RGB indicator that is also a flashlight</li><li>Music player control (songs switch, AAA mode toggle, play/pause)</li><li>Control over client device audio (volume up/down, mute)</li><li>Synthesized speech on client device (can tell time and date on demand)</li><li>Presentation slides switching</li><li>Text input</li></ul><p>See also [[Proposed Features]]</p>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; * RGB flashlight</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; * RGB <strong class="changes">indicator that is also a</strong> flashlight</p></div>
 ip: 84.52.39.156
-ts: 1410992370
-minor: 1
-host: 89.235.230.13
+ts: 1415469599
+minor: 
+host: 89.235.226.174
 username: AlexDaniel
-revision: 4
-diff-major: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; <strong class="changes">...<br />&lt; ...<br />&lt; ...</strong></p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; <strong class="changes">* RGB flashlight<br />&gt; * Music player control (songs switch, AAA mode toggle, play/pause)<br />&gt; * Control over client device audio (volume up/down, mute)<br />&gt; * Synthesized speech on client device (can tell time and date on demand)<br />&gt; * Presentation slides switching<br />&gt; * Text input</strong></p></div>
+revision: 5
+diff-major: 1
 summary: 
 languages: 
 text: Here is an incomplete list of features:
-	* RGB flashlight
+	* RGB indicator that is also a flashlight
 	* Music player control (songs switch, AAA mode toggle, play/pause)
 	* Control over client device audio (volume up/down, mute)
 	* Synthesized speech on client device (can tell time and date on demand)
@@ -25,5 +22,5 @@ text: Here is an incomplete list of features:
 	
 	See also [[Proposed Features]]
 	
-lastmajor: 3
-keep-ts: 1410992370
+lastmajor: 5
+keep-ts: 1415469599
