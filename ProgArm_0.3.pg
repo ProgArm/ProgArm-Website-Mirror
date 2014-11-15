@@ -1,15 +1,14 @@
 flags: 01010
-blocks: <h2>Files</h2><p><span class="nextversion">This is an upcoming version. We are working on it!</span></p><h2>Defined improvements:</h2><ul><li>Use newer and smaller barometer (BMP180? LPS25H?)</li><li>Use combined accelgyro and magnetometer (MPU9150?)</li><li>Smaller bluetooth module (CC2541 with <a class="url http outside" href="https://github.com/aanon4/BlueBasic">BlueBasic</a> or nRF51822 with <a class="url http outside" href="https://github.com/pauloborges/blessed">blessed</a>)</li><li>Use SMD vibramotor. (But make sure that it does not get stuck)</li><li>Reduce size to fit into 5x5cm (4x7cm currently) to reduce costs. 4x5cm would be great!</li><li>Charge LED is disabled when the device is turned off. This leads to false assumption that charging is not working when device is turned off by hardware switch.</li><li><strong>Do not use rare components!</strong><ul><li>Use bq24297[http://www.ti.com/lit/ds/symlink/bq24297.pdf] instead of LTC3566.</li><li>bq27410[http://www.ti.com/lit/ds/symlink/bq27410-g1.pdf] instead of LTC2942.</li></ul></li></ul><h2>Possible improvements:</h2><ul><li>Add built-in voltmeter for self-tests.</li><li>Add LED to indicate reflashing process.</li></ul>
+blocks: <h2>Files</h2><p><span class="nextversion">This is an upcoming version. We are working on it!</span></p><h2>Defined improvements:</h2><ul><li>Use newer and smaller barometer (BMP180? LPS25H?) -DONE! (Using LPS25H now)</li><li>Use combined accelgyro and magnetometer (MPU9150?)</li><li>Smaller bluetooth module (CC2541 with <a class="url http outside" href="https://github.com/aanon4/BlueBasic">BlueBasic</a> or nRF51822 with <a class="url http outside" href="https://github.com/pauloborges/blessed">blessed</a>)</li><li>Use SMD vibramotor. (But make sure that it does not get stuck)</li><li>Reduce size to fit into 5x5cm (4x7cm currently) to reduce costs. 4x5cm would be great!</li><li>Charge LED is disabled when the device is turned off. This leads to false assumption that charging is not working when device is turned off by hardware switch.</li><li><strong>Do not use rare components!</strong><ul><li>Use bq24297[http://www.ti.com/lit/ds/symlink/bq24297.pdf] instead of LTC3566.</li><li>bq27410[http://www.ti.com/lit/ds/symlink/bq27410-g1.pdf] instead of LTC2942.</li></ul></li></ul><h2>Possible improvements:</h2><ul><li>Add built-in voltmeter for self-tests.</li><li>Add LED to indicate reflashing process.</li></ul>
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; * Smaller bluetooth module (CC2541<strong class="changes">?)</strong></p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; * Smaller bluetooth module (CC2541 <strong class="changes">with [[https://github.com/aanon4/BlueBasic BlueBasic]] or nRF51822 with [[https://github.com/pauloborges/blessed blessed]])</strong></p></div><p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; ** Use bq24297[http://www.ti.com/lit/ds/symlink/bq24297.pdf] instead of LTC3566.<br />&gt; ** bq27410[http://www.ti.com/lit/ds/symlink/bq27410-g1.pdf] instead of LTC2942.</p></div>
+	<div class="old"><p>&lt; * Use newer and smaller barometer (BMP180? LPS25H?)</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; * Use newer and smaller barometer (BMP180? LPS25H?) <strong class="changes">-DONE! (Using LPS25H now)</strong></p></div>
 ip: 84.52.38.40
-ts: 1414867689
+ts: 1416086588
 minor: 
-host: 84.52.22.131
-username: AlexDaniel
-revision: 13
+host: 31.205.4.227
+username: 
+revision: 14
 diff-major: 1
 summary: 
 languages: 
@@ -17,7 +16,7 @@ text: ==Files
 	<nextversion>This is an upcoming version. We are working on it!
 	
 	==Defined improvements:
-	* Use newer and smaller barometer (BMP180? LPS25H?)
+	* Use newer and smaller barometer (BMP180? LPS25H?) -DONE! (Using LPS25H now)
 	* Use combined accelgyro and magnetometer (MPU9150?)
 	* Smaller bluetooth module (CC2541 with [[https://github.com/aanon4/BlueBasic BlueBasic]] or nRF51822 with [[https://github.com/pauloborges/blessed blessed]])
 	* Use SMD vibramotor. (But make sure that it does not get stuck)
@@ -31,5 +30,5 @@ text: ==Files
 	* Add built-in voltmeter for self-tests.
 	* Add LED to indicate reflashing process.
 	
-lastmajor: 13
-keep-ts: 1414867689
+lastmajor: 14
+keep-ts: 1416086588
