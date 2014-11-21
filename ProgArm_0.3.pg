@@ -1,34 +1,39 @@
 flags: 0101010
-blocks: <h2>Files</h2><p><span class="nextversion">This is an upcoming version. We are working on it! See [[ProgArm 0.2]] for current version.</span></p><h2>Defined improvements:</h2><ul><li>Use newer and smaller barometer (BMP180? LPS25H?) -DONE! (Using LPS25H now)</li><li>Use combined accelgyro and magnetometer (MPU9150?)</li><li>Smaller bluetooth module (CC2541 with <a class="url http outside" href="https://github.com/aanon4/BlueBasic">BlueBasic</a> or nRF51822 with <a class="url http outside" href="https://github.com/pauloborges/blessed">blessed</a>)</li><li>Use SMD vibramotor. (But make sure that it does not get stuck)</li><li>Reduce size to fit into 5x5cm (4x7cm currently) to reduce costs. 4x5cm would be great!</li><li>Charge LED is disabled when the device is turned off. This leads to false assumption that charging is not working when device is turned off by hardware switch.</li><li><strong>Do not use rare components!</strong><ul><li>Use bq24297[http://www.ti.com/lit/ds/symlink/bq24297.pdf] instead of LTC3566.</li><li>bq27410[http://www.ti.com/lit/ds/symlink/bq27410-g1.pdf] instead of LTC2942.</li></ul></li></ul><h2>Possible improvements:</h2><ul><li>Add built-in voltmeter for self-tests.</li><li>Add LED to indicate reflashing process.</li></ul>
-diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; &lt;nextversion&gt;This is an upcoming version. We are working on it!</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; &lt;nextversion&gt;This is an upcoming version. We are working on it! <strong class="changes">See [[ProgArm 0.2]] for current version.</strong></p></div>
+blocks: <h2>Files</h2><p><span class="nextversion">This is an upcoming version. We are working on it! See [[ProgArm 0.2]] for current version.</span></p><p><span class="undecided">Undecided</span> / <span class="todo">Todo</span> / <span class="done">Done</span></p><h2>Defined improvements:</h2><ul><li><span class="done">Use newer and smaller barometer (BMP180? LPS25H?) -- <strong>DONE!</strong> (Using LPS25H now)</span></li><li><span class="undecided">Use combined accelgyro and magnetometer (MPU9150?)</span></li><li><span class="todo">Smaller bluetooth module (CC2541 with <a class="url http outside" href="https://github.com/aanon4/BlueBasic">BlueBasic</a> or nRF51822 with <a class="url http outside" href="https://github.com/pauloborges/blessed">blessed</a>)</span></li><li><span class="undecided">Use SMD vibramotor. (But make sure that it does not get stuck)</span></li><li><span class="todo">Reduce size to fit into 5x5cm (4x7cm currently) to reduce costs. 4x5cm would be great!</span></li><li><span class="undecided">Charge LED is disabled when the device is turned off. This leads to false assumption that charging is not working when device is turned off by hardware switch.</span></li><li><span class="todo"><strong>Do not use rare components!</strong></span><ul><li><span class="todo">Use bq24297[http://www.ti.com/lit/ds/symlink/bq24297.pdf] instead of LTC3566.</span></li><li><span class="todo">bq27410[http://www.ti.com/lit/ds/symlink/bq27410-g1.pdf] instead of LTC2942.</span></li></ul></li></ul><h2>Possible improvements:</h2><ul><li><span class="undecided">Add built-in voltmeter for self-tests.</span></li><li><span class="undecided">Add LED to indicate reflashing process.</span></li></ul>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; &lt;undecided&gt;Undecided&lt;/&gt; / &lt;todo&gt;Todo&lt;/&gt; / &lt;done&gt;Done&lt;/&gt;</p></div><p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; * Use newer and smaller barometer (BMP180? LPS25H?) <strong class="changes">-</strong>DONE<strong class="changes">!</strong> (Using LPS25H now)<br />&lt; * Use combined accelgyro and magnetometer (MPU9150?)<br />&lt; * Smaller bluetooth module (CC2541 with [[https://github.com/aanon4/BlueBasic BlueBasic]] or nRF51822 with [[https://github.com/pauloborges/blessed blessed]])<br />&lt; * Use SMD vibramotor. (But make sure that it does not get stuck)<br />&lt; * Reduce size to fit into 5x5cm (4x7cm currently) to reduce costs. 4x5cm would be great!<br />&lt; * Charge LED is disabled when the device is turned off. This leads to false assumption that charging is not working when device is turned off by hardware switch.<br />&lt; * <strong class="changes">**</strong>Do not use rare components!**<br />&lt; ** Use bq24297[http://www.ti.com/lit/ds/symlink/bq24297.pdf] instead of LTC3566.<br />&lt; ** bq27410[http://www.ti.com/lit/ds/symlink/bq27410-g1.pdf] instead of LTC2942.</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; * <strong class="changes">&lt;done&gt;</strong>Use newer and smaller barometer (BMP180? LPS25H?) <strong class="changes">-- **</strong>DONE<strong class="changes">!**</strong> (Using LPS25H now)<br />&gt; * <strong class="changes">&lt;undecided&gt;</strong>Use combined accelgyro and magnetometer (MPU9150?)<br />&gt; * <strong class="changes">&lt;todo&gt;</strong>Smaller bluetooth module (CC2541 with [[https://github.com/aanon4/BlueBasic BlueBasic]] or nRF51822 with [[https://github.com/pauloborges/blessed blessed]])<br />&gt; * <strong class="changes">&lt;undecided&gt;</strong>Use SMD vibramotor. (But make sure that it does not get stuck)<br />&gt; * <strong class="changes">&lt;todo&gt;</strong>Reduce size to fit into 5x5cm (4x7cm currently) to reduce costs. 4x5cm would be great!<br />&gt; * <strong class="changes">&lt;undecided&gt;</strong>Charge LED is disabled when the device is turned off. This leads to false assumption that charging is not working when device is turned off by hardware switch.<br />&gt; * <strong class="changes">&lt;todo&gt;**</strong>Do not use rare components!**<br />&gt; ** <strong class="changes">&lt;todo&gt;</strong>Use bq24297[http://www.ti.com/lit/ds/symlink/bq24297.pdf] instead of LTC3566.<br />&gt; ** <strong class="changes">&lt;todo&gt;</strong>bq27410[http://www.ti.com/lit/ds/symlink/bq27410-g1.pdf] instead of LTC2942.</p></div><p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; * Add built-in voltmeter for self-tests.<br />&lt; * Add LED to indicate reflashing process.</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; * <strong class="changes">&lt;undecided&gt;</strong>Add built-in voltmeter for self-tests.<br />&gt; * <strong class="changes">&lt;undecided&gt;</strong>Add LED to indicate reflashing process.</p></div>
 ip: 84.52.38.40
-ts: 1416161778
+ts: 1416606693
 minor: 
-host: 84.52.12.245
+host: 89.235.246.134
 username: AlexDaniel
-revision: 15
+revision: 16
 diff-major: 1
-summary: 
+summary: Some colors
 languages: 
 text: ==Files
 	<nextversion>This is an upcoming version. We are working on it! See [[ProgArm 0.2]] for current version.
 	
+	<undecided>Undecided</> / <todo>Todo</> / <done>Done</>
+	
 	==Defined improvements:
-	* Use newer and smaller barometer (BMP180? LPS25H?) -DONE! (Using LPS25H now)
-	* Use combined accelgyro and magnetometer (MPU9150?)
-	* Smaller bluetooth module (CC2541 with [[https://github.com/aanon4/BlueBasic BlueBasic]] or nRF51822 with [[https://github.com/pauloborges/blessed blessed]])
-	* Use SMD vibramotor. (But make sure that it does not get stuck)
-	* Reduce size to fit into 5x5cm (4x7cm currently) to reduce costs. 4x5cm would be great!
-	* Charge LED is disabled when the device is turned off. This leads to false assumption that charging is not working when device is turned off by hardware switch.
-	* **Do not use rare components!**
-	** Use bq24297[http://www.ti.com/lit/ds/symlink/bq24297.pdf] instead of LTC3566.
-	** bq27410[http://www.ti.com/lit/ds/symlink/bq27410-g1.pdf] instead of LTC2942.
+	* <done>Use newer and smaller barometer (BMP180? LPS25H?) -- **DONE!** (Using LPS25H now)
+	* <undecided>Use combined accelgyro and magnetometer (MPU9150?)
+	* <todo>Smaller bluetooth module (CC2541 with [[https://github.com/aanon4/BlueBasic BlueBasic]] or nRF51822 with [[https://github.com/pauloborges/blessed blessed]])
+	* <undecided>Use SMD vibramotor. (But make sure that it does not get stuck)
+	* <todo>Reduce size to fit into 5x5cm (4x7cm currently) to reduce costs. 4x5cm would be great!
+	* <undecided>Charge LED is disabled when the device is turned off. This leads to false assumption that charging is not working when device is turned off by hardware switch.
+	* <todo>**Do not use rare components!**
+	** <todo>Use bq24297[http://www.ti.com/lit/ds/symlink/bq24297.pdf] instead of LTC3566.
+	** <todo>bq27410[http://www.ti.com/lit/ds/symlink/bq27410-g1.pdf] instead of LTC2942.
 	
 	==Possible improvements:
-	* Add built-in voltmeter for self-tests.
-	* Add LED to indicate reflashing process.
+	* <undecided>Add built-in voltmeter for self-tests.
+	* <undecided>Add LED to indicate reflashing process.
 	
-lastmajor: 15
-keep-ts: 1416161778
+lastmajor: 16
+keep-ts: 1416606693
