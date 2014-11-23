@@ -1,13 +1,17 @@
 flags: 01010
-blocks: <table class="user"><tr><th>Component</th><th>Min Voltage</th><th>Max Voltage</th></tr><tr><td>STM32F103RB</td><td align="center">2.0</td><td align="center">3.6</td></tr><tr><td>bq27410[http://www.ti.com/lit/ds/symlink/bq27410-g1.pdf]</td><td align="center">2.7<br />(2.45 no FLASH writes)</td><td align="center">5.5</td></tr><tr><td>LPS25H[http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00066332.pdf]</td><td align="center">1.7</td><td align="center">3.6</td></tr><tr><td>MPU9250</td><td align="center">2.4</td><td align="center">3.6</td></tr></table>
-ts: 1416786242
-minor: 
+blocks: <table class="user"><tr><th align="center">Component </th><th align="center">Min Voltage </th><th align="center">Max Voltage </th></tr><tr><td>STM32F103RB</td><td align="center">2.0</td><td align="center">3.6</td></tr><tr><td>bq27410[http://www.ti.com/lit/ds/symlink/bq27410-g1.pdf]</td><td align="center">2.7<br />(2.45 no FLASH writes)</td><td align="center">5.5</td></tr><tr><td>LPS25H[http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00066332.pdf]</td><td align="center">1.7</td><td align="center">3.6</td></tr><tr><td>MPU9250</td><td align="center">2.4</td><td align="center">3.6</td></tr></table>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; |=Component|=Min Voltage|=Max Voltage|</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; |= Component |= Min Voltage |= Max Voltage |</p></div>
+ts: 1416786284
+minor: 1
 host: 89.235.246.134
 username: AlexDaniel
-revision: 1
+revision: 2
+diff-major: 
 summary: |=Component|=Min Voltage|=Max Voltage| |STM32F103RB| 2.0 | 3.6 | |bq27410| 2.7\\(2.45 no FLASH . . .
 languages: 
-text: |=Component|=Min Voltage|=Max Voltage|
+text: |= Component |= Min Voltage |= Max Voltage |
 	|STM32F103RB| 2.0 | 3.6 |
 	|bq27410[http://www.ti.com/lit/ds/symlink/bq27410-g1.pdf]| 2.7\\(2.45 no FLASH writes) | 5.5 |
 	|LPS25H[http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00066332.pdf]| 1.7 | 3.6 |
@@ -15,3 +19,4 @@ text: |=Component|=Min Voltage|=Max Voltage|
 	
 	
 lastmajor: 1
+keep-ts: 1416786284
