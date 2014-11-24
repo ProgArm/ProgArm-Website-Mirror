@@ -1,13 +1,18 @@
 flags: 0
-blocks: <table class="user"><tr><th>Component</th><th align="center">1</th><th align="center">10</th></tr><tr><td>STM32F103RBT6</td><td align="center">$7.14</td><td align="center">$6.44</td></tr><tr><td>bq24297</td><td align="center">$5.64</td><td align="center">$5.04</td></tr><tr><td>bq27410</td><td align="center">$4.21</td><td align="center">$3.75</td></tr><tr><td>LM3668</td><td align="center">$2.87</td><td align="center">$2.59</td></tr><tr><td>nRF51822</td><td align="center">$4.62</td><td align="center">$3.71</td></tr><tr><td>FC-135</td><td align="center">$1.16</td><td align="center">$0.90</td></tr><tr><td>LPS25H</td><td align="center">$4.02</td><td align="center">$3.23</td></tr></table>
-ts: 1416794258
+blocks: <p><strong>This list is incomplete</strong></p><table class="user"><tr><th>Component</th><th align="center">1</th><th align="center">10</th></tr><tr><td>STM32F103RBT6</td><td align="center">$7.14</td><td align="center">$6.44</td></tr><tr><td>bq24297</td><td align="center">$5.64</td><td align="center">$5.04</td></tr><tr><td>bq27410</td><td align="center">$4.21</td><td align="center">$3.75</td></tr><tr><td>LM3668</td><td align="center">$2.87</td><td align="center">$2.59</td></tr><tr><td>nRF51822</td><td align="center">$4.62</td><td align="center">$3.71</td></tr><tr><td>FC-135</td><td align="center">$1.16</td><td align="center">$0.90</td></tr><tr><td>LPS25H</td><td align="center">$4.02</td><td align="center">$3.23</td></tr></table>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; **This list is incomplete**</p></div>
+ts: 1416794330
 minor: 
 host: 89.235.246.134
 username: AlexDaniel
-revision: 1
+revision: 2
+diff-major: 1
 summary: Rough notes
 languages: 
-text: |=Component|= 1 |= 10 |
+text: **This list is incomplete**
+	
+	|=Component|= 1 |= 10 |
 	|STM32F103RBT6| $7.14 | $6.44 |
 	|bq24297| $5.64 | $5.04 |
 	|bq27410| $4.21 | $3.75 |
@@ -16,4 +21,5 @@ text: |=Component|= 1 |= 10 |
 	|FC-135| $1.16 | $0.90 |
 	|LPS25H| $4.02 | $3.23 |
 	
-lastmajor: 1
+lastmajor: 2
+keep-ts: 1416794330
