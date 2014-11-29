@@ -1,15 +1,16 @@
 flags: 01010101010
-blocks: <h2>Files</h2><p><span class="foo_nextversion">This is an upcoming version. We are working on it! See [[ProgArm 0.2]] for current version.</span></p><p><span class="foo_undecided">Undecided</span> / <span class="foo_todo">Todo</span> / <span class="foo_done">Done</span></p><h2>Defined improvements:</h2><ul><li><span class="foo_done">Use newer and smaller barometer (BMP180? LPS25H?) -- <strong>DONE!</strong> (Using LPS25H[http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00066332.pdf] now)</span></li><li><span class="foo_todo">Smaller bluetooth module (CC2541 with <a class="url http outside" href="https://github.com/aanon4/BlueBasic">BlueBasic</a> or nRF51822 with <a class="url http outside" href="https://github.com/pauloborges/blessed">blessed</a>)</span></li><li><span class="foo_undecided">Use SMD vibramotor. (But make sure that it does not get stuck)</span></li><li><span class="foo_todo">Reduce size to fit into 5x5cm (4x7cm currently) to reduce costs. 4x5cm would be great!</span><ul><li><span class="foo_undecided">Use combined accelgyro and magnetometer (MPU9150?)</span></li><li><span class="foo_todo"> Use LPS4012-222L or LPS4018-222L instead of huge inductors.</span></li><li><span class="foo_undecided"> Smaller transistors?</span></li><li><span class="foo_undecided"> 0402?</span></li></ul></li><li><span class="foo_todo">Charge LED is disabled when the device is turned off. This leads to false assumption that charging is not working when device is turned off by hardware switch.</span></li><li><span class="foo_todo"><strong>Do not use rare components!</strong></span><ul><li><span class="foo_todo">Use bq24297[http://www.ti.com/lit/ds/symlink/bq24297.pdf] with LM3668[http://www.ti.com/lit/ds/symlink/lm3668.pdf] instead of LTC3566.</span></li><li><span class="foo_done">bq27410[http://www.ti.com/lit/ds/symlink/bq27410-g1.pdf] instead of LTC2942.</span></li></ul></li><li><span class="foo_undecided">Battery thermistor?</span></li><li><span class="foo_undecided">RTC supercap?</span></li><li><span class="foo_undecided">No "mode switch"?</span></li><li><span class="foo_undecided">Less ports?</span></li><li><span class="foo_undecided">Complete shutdown from microcontroller?</span></li></ul><h2>Possible improvements:</h2><ul><li><span class="foo_undecided">Add built-in voltmeter for self-tests.</span></li><li><span class="foo_undecided">Add LED to indicate reflashing process.<br /> </span></li></ul>
-diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; * &lt;undecided&gt;Battery thermistor?<br />&gt; * &lt;undecided&gt;RTC supercap?<br />&gt; * &lt;undecided&gt;No "mode switch"?<br />&gt; * &lt;undecided&gt;Less ports?<br />&gt; * &lt;undecided&gt;Complete shutdown from microcontroller?</p></div>
+blocks: <h2>Files</h2><p><span class="foo_nextversion">This is an upcoming version. We are working on it! See [[ProgArm 0.2]] for current version.</span></p><p><span class="foo_undecided">Undecided</span> / <span class="foo_todo">Todo</span> / <span class="foo_done">Done</span></p><h2>Defined improvements:</h2><ul><li><span class="foo_done">Use newer and smaller barometer (BMP180? LPS25H?) -- <strong>DONE!</strong> (Using LPS25H[http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00066332.pdf] now)</span></li><li><span class="foo_todo">Smaller bluetooth module (CC2541 with <a class="url http outside" href="https://github.com/aanon4/BlueBasic">BlueBasic</a> or nRF51822 with <a class="url http outside" href="https://github.com/pauloborges/blessed">blessed</a>)</span></li><li><span class="foo_undecided">Use SMD vibramotor. (But make sure that it does not get stuck)</span></li><li><span class="foo_todo">Reduce size to fit into 5x5cm (4x7cm currently) to reduce costs. 4x5cm would be great!</span><ul><li><span class="foo_undecided">Use combined accelgyro and magnetometer (MPU9150?)</span></li><li><span class="foo_todo"> Use LPS4012-222L or LPS4018-222L instead of huge inductors.</span></li><li><span class="foo_undecided"> Smaller transistors?</span></li><li><span class="foo_todo"> 0402</span></li></ul></li><li><span class="foo_todo">Charge LED is disabled when the device is turned off. This leads to false assumption that charging is not working when device is turned off by hardware switch.</span></li><li><span class="foo_todo"><strong>Do not use rare components!</strong></span><ul><li><span class="foo_todo">Use bq24297[http://www.ti.com/lit/ds/symlink/bq24297.pdf] with LM3668[http://www.ti.com/lit/ds/symlink/lm3668.pdf] instead of LTC3566.</span></li><li><span class="foo_done">bq27410[http://www.ti.com/lit/ds/symlink/bq27410-g1.pdf] instead of LTC2942.</span></li></ul></li><li><span class="foo_undecided">Battery thermistor?</span></li><li><span class="foo_undecided">RTC supercap?</span></li><li><span class="foo_undecided">No "mode switch"?</span></li><li><span class="foo_undecided">Less ports?</span></li><li><span class="foo_undecided">Complete shutdown from microcontroller?</span></li></ul><h2>Possible improvements:</h2><ul><li><span class="foo_undecided">Add built-in voltmeter for self-tests.</span></li><li><span class="foo_undecided">Add LED to indicate reflashing process.<br /> </span></li></ul>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; ** &lt;<strong class="changes">undecided</strong>&gt; 0402<strong class="changes">?</strong></p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; ** &lt;<strong class="changes">todo</strong>&gt; 0402</p></div>
 ip: 84.52.38.40
-ts: 1417132813
+ts: 1417226199
 minor: 
 host: 89.235.235.42
 username: AlexDaniel
-revision: 25
+revision: 26
 diff-major: 1
-summary: More notes
+summary: 
 languages: 
 text: ==Files
 	<nextversion>This is an upcoming version. We are working on it! See [[ProgArm 0.2]] for current version.
@@ -24,7 +25,7 @@ text: ==Files
 	** <undecided>Use combined accelgyro and magnetometer (MPU9150?)
 	** <todo> Use LPS4012-222L or LPS4018-222L instead of huge inductors.
 	** <undecided> Smaller transistors?
-	** <undecided> 0402?
+	** <todo> 0402
 	* <todo>Charge LED is disabled when the device is turned off. This leads to false assumption that charging is not working when device is turned off by hardware switch.
 	* <todo>**Do not use rare components!**
 	** <todo>Use bq24297[http://www.ti.com/lit/ds/symlink/bq24297.pdf] with LM3668[http://www.ti.com/lit/ds/symlink/lm3668.pdf] instead of LTC3566.
@@ -40,5 +41,5 @@ text: ==Files
 	* <undecided>Add LED to indicate reflashing process.
 	 
 	
-lastmajor: 25
-keep-ts: 1417132813
+lastmajor: 26
+keep-ts: 1417226199
