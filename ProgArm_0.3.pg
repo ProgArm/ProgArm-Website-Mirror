@@ -1,22 +1,26 @@
 flags: 01010101010
-blocks: <h2>Files</h2><p><span class="foo_nextversion">This is an upcoming version. We are working on it! See [[ProgArm 0.2]] for current version.</span></p><p><span class="foo_undecided">Undecided</span> / <span class="foo_todo">Todo</span> / <span class="foo_done">Done</span></p><h2>Defined improvements:</h2><ul><li><span class="foo_done">Use newer and smaller barometer (BMP180? LPS25H?) -- <strong>DONE!</strong> (Using LPS25H[http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00066332.pdf] now)</span></li><li><span class="foo_todo">Smaller bluetooth module (CC2541 with <a class="url http outside" href="https://github.com/aanon4/BlueBasic">BlueBasic</a> or nRF51822 with <a class="url http outside" href="https://github.com/pauloborges/blessed">blessed</a>)</span></li><li><span class="foo_undecided">Use SMD vibramotor. (But make sure that it does not get stuck)</span></li><li><span class="foo_todo">Reduce size to fit into 5x5cm (4x7cm currently) to reduce costs. 4x5cm would be great!</span><ul><li><span class="foo_undecided">Use combined accelgyro and magnetometer (MPU9150?)</span></li><li><span class="foo_todo"> Use LPS4012-222L or LPS4018-222L instead of huge inductors.</span></li><li><span class="foo_undecided"> Smaller transistors?</span></li><li><span class="foo_todo"> 0402</span></li></ul></li><li><span class="foo_todo">Charge LED is disabled when the device is turned off. This leads to false assumption that charging is not working when device is turned off by hardware switch.</span></li><li><span class="foo_todo"><strong>Do not use rare components!</strong></span><ul><li><span class="foo_todo">Use bq24297[http://www.ti.com/lit/ds/symlink/bq24297.pdf] with LM3668[http://www.ti.com/lit/ds/symlink/lm3668.pdf] instead of LTC3566.</span></li><li><span class="foo_done">bq27410[http://www.ti.com/lit/ds/symlink/bq27410-g1.pdf] instead of LTC2942.</span></li></ul></li><li><span class="foo_undecided">Battery thermistor?</span></li><li><span class="foo_todo">RTC supercap?</span></li><li><span class="foo_undecided">No "mode switch"?</span></li><li><span class="foo_undecided">Less ports?</span></li></ul><h2>Possible improvements:</h2><ul><li><span class="foo_undecided">Add built-in voltmeter for self-tests.</span></li><li><span class="foo_undecided">Add LED to indicate reflashing process.<br /> </span></li></ul>
-diff-minor: <p><strong>Deleted:</strong></p>
-	<div class="old"><p>&lt; * &lt;undecided&gt;Complete shutdown from microcontroller?</p></div>
+blocks: <h2>Files</h2><p><span class="foo_nextversion">This is an upcoming version. We are working on it! See [[ProgArm 0.2]] for current version.</span></p><p><span class="foo_undecided">Undecided</span> / <span class="foo_todo">Todo</span> / <span class="foo_done">Done</span></p><h2>Improvements:</h2><ul><li><span class="foo_done">Use newer and smaller barometer (BMP180? LPS25H?) -- <strong>DONE!</strong> (Using LPS25H[http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00066332.pdf] now)</span></li><li><span class="foo_todo">Smaller bluetooth module (CC2541 with <a class="url http outside" href="https://github.com/aanon4/BlueBasic">BlueBasic</a> or nRF51822 with <a class="url http outside" href="https://github.com/pauloborges/blessed">blessed</a>)</span></li><li><span class="foo_undecided">Use SMD vibramotor. (But make sure that it does not get stuck)</span></li><li><span class="foo_todo">Reduce size to fit into 5x5cm (4x7cm currently) to reduce costs. 4x5cm would be great!</span><ul><li><span class="foo_undecided">Use combined accelgyro and magnetometer (MPU9150?)</span></li><li><span class="foo_todo"> Use LPS4012-222L or LPS4018-222L instead of huge inductors.</span></li><li><span class="foo_undecided"> Smaller transistors?</span></li><li><span class="foo_todo"> 0402</span></li></ul></li><li><span class="foo_todo">Charge LED is disabled when the device is turned off. This leads to false assumption that charging is not working when device is turned off by hardware switch.</span></li><li><span class="foo_todo"><strong>Do not use rare components!</strong></span><ul><li><span class="foo_todo">Use bq24297[http://www.ti.com/lit/ds/symlink/bq24297.pdf] with LM3668[http://www.ti.com/lit/ds/symlink/lm3668.pdf] instead of LTC3566.</span></li><li><span class="foo_done">bq27410[http://www.ti.com/lit/ds/symlink/bq27410-g1.pdf] instead of LTC2942.</span></li></ul></li><li><span class="foo_undecided">Battery thermistor?</span></li><li><span class="foo_todo">RTC supercap?</span></li><li><span class="foo_undecided">No "mode switch"?</span></li><li><span class="foo_undecided">Less ports?</span></li><li><span class="foo_undecided">Add built-in voltmeter for self-tests.</span></li><li><span class="foo_undecided">Add LED to indicate reflashing process.</span></li><li><span class="foo_undecided">Pulse oximetry</span></li></ul>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; ==<strong class="changes">Defined improvements</strong>:</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; ==<strong class="changes">Improvements</strong>:</p></div><p><strong>Deleted:</strong></p>
+	<div class="old"><p>&lt; ==Possible improvements:</p></div><p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; <strong class="changes"></strong> </p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; <strong class="changes">* &lt;undecided&gt;Pulse oximetry</strong></p></div>
 ip: 84.52.38.40
-ts: 1417226703
+ts: 1417305715
 minor: 
 host: 89.235.235.42
 username: AlexDaniel
-revision: 28
+revision: 29
 diff-major: 1
-summary: 
+summary: Pulse oximetry
 languages: 
 text: ==Files
 	<nextversion>This is an upcoming version. We are working on it! See [[ProgArm 0.2]] for current version.
 	
 	<undecided>Undecided</> / <todo>Todo</> / <done>Done</>
 	
-	==Defined improvements:
+	==Improvements:
 	* <done>Use newer and smaller barometer (BMP180? LPS25H?) -- **DONE!** (Using LPS25H[http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00066332.pdf] now)
 	* <todo>Smaller bluetooth module (CC2541 with [[https://github.com/aanon4/BlueBasic BlueBasic]] or nRF51822 with [[https://github.com/pauloborges/blessed blessed]])
 	* <undecided>Use SMD vibramotor. (But make sure that it does not get stuck)
@@ -33,11 +37,9 @@ text: ==Files
 	* <todo>RTC supercap?
 	* <undecided>No "mode switch"?
 	* <undecided>Less ports?
-	
-	==Possible improvements:
 	* <undecided>Add built-in voltmeter for self-tests.
 	* <undecided>Add LED to indicate reflashing process.
-	 
+	* <undecided>Pulse oximetry
 	
-lastmajor: 28
-keep-ts: 1417226703
+lastmajor: 29
+keep-ts: 1417305715
