@@ -1,16 +1,18 @@
-flags: 01010101010
-blocks: <h2>Files</h2><p><span class="foo_nextversion">This is an upcoming version. We are working on it! See [[ProgArm 0.2]] for current version.</span></p><p><span class="foo_undecided">Undecided</span> / <span class="foo_todo">Todo</span> / <span class="foo_done">Done</span></p><h2>Improvements:</h2><ul><li><span class="foo_done">Use newer and smaller barometer (BMP180? LPS25H?) -- <strong>DONE!</strong> (Using LPS25H[http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00066332.pdf] now)</span></li><li><span class="foo_todo">Smaller bluetooth module with BLE support (CC2541 with <a class="url http outside" href="https://github.com/aanon4/BlueBasic">BlueBasic</a> or nRF51822 with <a class="url http outside" href="https://github.com/pauloborges/blessed">blessed</a>)</span></li><li><span class="foo_undecided">Use SMD vibramotor. (But make sure that it does not get stuck)</span></li><li><span class="foo_todo">Reduce size to fit into 5x5cm (4x7cm currently) to reduce costs. 4x5cm would be great!</span><ul><li><span class="foo_todo">Use combined accelgyro and magnetometer (MPU9250)</span></li><li><span class="foo_todo"> Use LPS4012-222L or LPS4018-222L instead of huge inductors.</span></li><li><span class="foo_undecided"> Smaller transistors?</span></li><li><span class="foo_todo"> 0402</span></li></ul></li><li><span class="foo_todo">Charge LED is disabled when the device is turned off. This leads to false assumption that charging is not working when device is turned off by hardware switch.</span></li><li><span class="foo_done"><strong>Do not use rare components!</strong></span><ul><li><span class="foo_done">Use bq24297[http://www.ti.com/lit/ds/symlink/bq24297.pdf] with LM3668[http://www.ti.com/lit/ds/symlink/lm3668.pdf] instead of LTC3566.</span></li><li><span class="foo_done">bq27410[http://www.ti.com/lit/ds/symlink/bq27410-g1.pdf] instead of LTC2942.</span></li></ul></li><li><span class="foo_undecided">Battery thermistor?</span></li><li><span class="foo_todo">RTC supercap?</span></li><li><span class="foo_undecided">No "mode switch"?</span></li><li><span class="foo_undecided">Less ports?</span></li><li><span class="foo_undecided">Add built-in voltmeter for self-tests.</span></li><li><span class="foo_undecided">Add LED to indicate reflashing process.</span></li><li><span class="foo_undecided">Pulse oximetry (NJL5501R? TCRT1000?)</span></li></ul>
+flags: 0101010101010
+blocks: <h2>Files</h2><p><span class="foo_nextversion">This is an upcoming version. We are working on it! See [[ProgArm 0.2]] for current version.</span></p><p><span class="foo_undecided">Undecided</span> / <span class="foo_todo">Todo</span> / <span class="foo_done">Done</span></p><h2>Improvements:</h2><ul><li><span class="foo_done">Use newer and smaller barometer (BMP180? LPS25H?) -- <strong>DONE!</strong> (Using LPS25H[http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00066332.pdf] now)</span></li><li><span class="foo_todo">Smaller bluetooth module with BLE support (CC2541 with <a class="url http outside" href="https://github.com/aanon4/BlueBasic">BlueBasic</a> or nRF51822 with <a class="url http outside" href="https://github.com/pauloborges/blessed">blessed</a>)</span></li><li><span class="foo_undecided">Use SMD vibramotor. (But make sure that it does not get stuck)</span></li><li><span class="foo_todo">Reduce size to fit into 5x5cm (4x7cm currently) to reduce costs. 4x5cm would be great!</span><ul><li><span class="foo_todo">Use combined accelgyro and magnetometer (MPU9250[http://www.invensense.com/mems/gyro/documents/PS-MPU-9250A-01.pdf])</span></li><li><span class="foo_todo"> Use LPS4012-222L or LPS4018-222L instead of huge inductors.</span></li><li><span class="foo_undecided"> Smaller transistors?</span></li><li><span class="foo_todo"> 0402</span></li></ul></li><li><span class="foo_todo">Charge LED is disabled when the device is turned off. This leads to false assumption that charging is not working when device is turned off by hardware switch.</span></li><li><span class="foo_done"><strong>Do not use rare components!</strong></span><ul><li><span class="foo_done">Use bq24297[http://www.ti.com/lit/ds/symlink/bq24297.pdf] with LM3668[http://www.ti.com/lit/ds/symlink/lm3668.pdf] instead of LTC3566.</span></li><li><span class="foo_done">bq27410[http://www.ti.com/lit/ds/symlink/bq27410-g1.pdf] instead of LTC2942.</span></li></ul></li><li><span class="foo_undecided">Battery thermistor?</span></li><li><span class="foo_todo">RTC supercap?</span></li><li><span class="foo_undecided">No "mode switch"?</span></li><li><span class="foo_undecided">Less ports?</span></li><li><span class="foo_undecided">Add built-in voltmeter for self-tests.</span></li><li><span class="foo_undecided">Add LED to indicate reflashing process.</span></li><li><span class="foo_undecided">Pulse oximetry (NJL5501R? TCRT1000?)</span></li></ul>
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; ** &lt;<strong class="changes">undecided</strong>&gt;Use combined accelgyro and magnetometer (<strong class="changes">MPU9150?)</strong></p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; ** &lt;<strong class="changes">todo</strong>&gt;Use combined accelgyro and magnetometer (<strong class="changes">MPU9250)</strong></p></div>
+	<div class="old"><p>&lt; ** &lt;todo&gt;Use combined accelgyro and magnetometer (MPU9250<strong class="changes">)</strong></p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; ** &lt;todo&gt;Use combined accelgyro and magnetometer (MPU9250<strong class="changes">[http://www.invensense.com/mems/gyro/documents/PS-MPU-9250A-01.pdf])</strong></p></div>
 ip: 84.52.38.40
-ts: 1417324590
-minor: 
+ts: 1417382419
+minor: 1
 host: 89.235.235.42
 username: AlexDaniel
-revision: 33
-diff-major: 1
-summary: MPU9250
+revision: 34
+diff-major: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; ** &lt;<strong class="changes">undecided</strong>&gt;Use combined accelgyro and magnetometer (<strong class="changes">MPU9150?)</strong></p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; ** &lt;<strong class="changes">todo</strong>&gt;Use combined accelgyro and magnetometer (<strong class="changes">MPU9250)</strong></p></div>
+summary: MPU datasheet
 languages: 
 text: ==Files
 	<nextversion>This is an upcoming version. We are working on it! See [[ProgArm 0.2]] for current version.
@@ -22,7 +24,7 @@ text: ==Files
 	* <todo>Smaller bluetooth module with BLE support (CC2541 with [[https://github.com/aanon4/BlueBasic BlueBasic]] or nRF51822 with [[https://github.com/pauloborges/blessed blessed]])
 	* <undecided>Use SMD vibramotor. (But make sure that it does not get stuck)
 	* <todo>Reduce size to fit into 5x5cm (4x7cm currently) to reduce costs. 4x5cm would be great!
-	** <todo>Use combined accelgyro and magnetometer (MPU9250)
+	** <todo>Use combined accelgyro and magnetometer (MPU9250[http://www.invensense.com/mems/gyro/documents/PS-MPU-9250A-01.pdf])
 	** <todo> Use LPS4012-222L or LPS4018-222L instead of huge inductors.
 	** <undecided> Smaller transistors?
 	** <todo> 0402
@@ -39,4 +41,4 @@ text: ==Files
 	* <undecided>Pulse oximetry (NJL5501R? TCRT1000?)
 	
 lastmajor: 33
-keep-ts: 1417324590
+keep-ts: 1417382419
