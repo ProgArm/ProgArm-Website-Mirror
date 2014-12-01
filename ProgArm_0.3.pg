@@ -1,16 +1,18 @@
-flags: 0101010101010
-blocks: <h2>Files</h2><p><span class="foo_nextversion">This is an upcoming version. We are working on it! See [[ProgArm 0.2]] for current version.</span></p><p><span class="foo_undecided">Undecided</span> / <span class="foo_todo">Todo</span> / <span class="foo_done">Done</span></p><h2>Improvements:</h2><ul><li><span class="foo_done">Use newer and smaller barometer (BMP180? LPS25H?) -- <strong>DONE!</strong> (Using LPS25H[http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00066332.pdf] now)</span></li><li><span class="foo_undecided">Smaller bluetooth module with BLE support (CC2541 with <a class="url http outside" href="https://github.com/aanon4/BlueBasic">BlueBasic</a> or nRF51822 with <a class="url http outside" href="https://github.com/pauloborges/blessed">blessed</a>)</span></li><li><span class="foo_undecided">Use SMD vibramotor. (But make sure that it does not get stuck)</span></li><li><span class="foo_todo">Reduce size to fit into 5x5cm (4x7cm currently) to reduce costs. 4x5cm would be great!</span><ul><li><span class="foo_done">Use combined accelgyro and magnetometer (MPU9250[http://www.invensense.com/mems/gyro/documents/PS-MPU-9250A-01.pdf])</span></li><li><span class="foo_todo"> Use LPS4012-222L or LPS4018-222L instead of huge inductors.</span></li><li><span class="foo_undecided"> Smaller transistors?</span></li><li><span class="foo_todo"> 0402</span></li></ul></li><li><span class="foo_done">Charge LED is disabled when the device is turned off. This leads to false assumption that charging is not working when device is turned off by hardware switch.</span></li><li><span class="foo_done"><strong>Do not use rare components!</strong></span><ul><li><span class="foo_done">Use bq24297[http://www.ti.com/lit/ds/symlink/bq24297.pdf] with LM3668[http://www.ti.com/lit/ds/symlink/lm3668.pdf] instead of LTC3566.</span></li><li><span class="foo_done">bq27410[http://www.ti.com/lit/ds/symlink/bq27410-g1.pdf] instead of LTC2942.</span></li></ul></li><li><span class="foo_done">Optional battery thermistor</span></li><li><span class="foo_todo">RTC supercap?</span></li><li><span class="foo_undecided">No "mode switch"?</span></li><li><span class="foo_todo">Less ports, more pin headers!</span></li><li><span class="foo_todo">Minimalistic voltmeter.</span></li><li><span class="foo_undecided">Pulse oximetry (NJL5501R? TCRT1000?)</span></li><li><span class="foo_undecided">IR sensor and transmitter system</span></li></ul>
+flags: 010101010101010
+blocks: <h2>Files</h2><p><span class="foo_nextversion">This is an upcoming version. We are working on it! See [[ProgArm 0.2]] for current version.</span></p><p><span class="foo_undecided">Undecided</span> / <span class="foo_todo">Todo</span> / <span class="foo_done">Done</span></p><h2>Improvements:</h2><ul><li><span class="foo_done">Use newer and smaller barometer (BMP180? LPS25H?) -- <strong>DONE!</strong> (Using LPS25H[http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00066332.pdf] now)</span></li><li><span class="foo_undecided">Smaller bluetooth module with BLE support (CC2541 with <a class="url http outside" href="https://github.com/aanon4/BlueBasic">BlueBasic</a> or nRF51822 with <a class="url http outside" href="https://github.com/pauloborges/blessed">blessed</a>)</span></li><li><span class="foo_undecided">Use SMD vibramotor. (But make sure that it does not get stuck)</span></li><li><span class="foo_todo">Reduce size to fit into 5x5cm (4x7cm currently) to reduce costs. 4x5cm would be great!</span><ul><li><span class="foo_done">Use combined accelgyro and magnetometer (MPU9250[http://www.invensense.com/mems/gyro/documents/PS-MPU-9250A-01.pdf])</span></li><li><span class="foo_todo"> Use LPS4012-222L or LPS4018-222L instead of huge inductors.</span></li><li><span class="foo_undecided"> Smaller transistors?</span></li><li><span class="foo_todo"> 0402</span></li></ul></li><li><span class="foo_done">Charge LED is disabled when the device is turned off. This leads to false assumption that charging is not working when device is turned off by hardware switch.</span></li><li><span class="foo_done"><strong>Do not use rare components!</strong></span><ul><li><span class="foo_done">Use bq24297[http://www.ti.com/lit/ds/symlink/bq24297.pdf] with LM3668[http://www.ti.com/lit/ds/symlink/lm3668.pdf] instead of LTC3566.</span></li><li><span class="foo_done">bq27410[http://www.ti.com/lit/ds/symlink/bq27410-g1.pdf] instead of LTC2942.</span></li></ul></li><li><span class="foo_done">Optional battery thermistor</span></li><li><span class="foo_todo">RTC supercap?</span></li><li><span class="foo_undecided">No "mode switch"?</span></li><li><span class="foo_todo">Less ports, more pin headers!</span></li><li><span class="foo_todo">Minimalistic voltmeter. (as ProgArm extension)</span></li><li><span class="foo_undecided">Pulse oximetry (NJL5501R? TCRT1000?)</span></li><li><span class="foo_todo">IR sensor and transmitter system. (as Ring)</span></li></ul>
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; * &lt;<strong class="changes">todo</strong>&gt;Smaller bluetooth module with BLE support (CC2541 with [[https://github.com/aanon4/BlueBasic BlueBasic]] or nRF51822 with [[https://github.com/pauloborges/blessed blessed]])</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; * &lt;<strong class="changes">undecided</strong>&gt;Smaller bluetooth module with BLE support (CC2541 with [[https://github.com/aanon4/BlueBasic BlueBasic]] or nRF51822 with [[https://github.com/pauloborges/blessed blessed]])</p></div>
+	<div class="old"><p>&lt; * &lt;todo&gt;Minimalistic voltmeter.</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; * &lt;todo&gt;Minimalistic voltmeter. <strong class="changes">(as ProgArm extension)</strong></p></div><p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; * &lt;<strong class="changes">undecided</strong>&gt;IR sensor and transmitter system</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; * &lt;<strong class="changes">todo</strong>&gt;IR sensor and transmitter system<strong class="changes">. (as Ring)</strong></p></div>
 ip: 84.52.38.40
-ts: 1417401685
+ts: 1417402974
 minor: 
 host: 89.235.235.42
 username: AlexDaniel
-revision: 43
+revision: 44
 diff-major: 1
-summary: 
+summary: IR
 languages: 
 text: ==Files
 	<nextversion>This is an upcoming version. We are working on it! See [[ProgArm 0.2]] for current version.
@@ -34,9 +36,9 @@ text: ==Files
 	* <todo>RTC supercap?
 	* <undecided>No "mode switch"?
 	* <todo>Less ports, more pin headers!
-	* <todo>Minimalistic voltmeter.
+	* <todo>Minimalistic voltmeter. (as ProgArm extension)
 	* <undecided>Pulse oximetry (NJL5501R? TCRT1000?)
-	* <undecided>IR sensor and transmitter system
+	* <todo>IR sensor and transmitter system. (as Ring)
 	
-lastmajor: 43
-keep-ts: 1417401685
+lastmajor: 44
+keep-ts: 1417402974
