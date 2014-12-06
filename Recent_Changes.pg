@@ -1,16 +1,18 @@
+flags: 0
+blocks: <p>This page lists changes to the website. If you want to see changes to the sources, then check out our <a class="url http outside" href="https://github.com/ProgArm">git repositories</a>.</p>
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; <strong class="changes">This page lists changes to the website. If you want to see changes to the sources, then check out our [[https://github.com/ProgArm git repositories]].</strong></p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; <strong class="changes"></strong></p></div>
+	<div class="old"><p>&lt; <strong class="changes"></strong></p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; <strong class="changes">This page lists changes to the website. If you want to see changes to the sources, then check out our [[https://github.com/ProgArm git repositories]].</strong></p></div>
 ip: 84.52.31.12
-ts: 1417892989
-minor: 
+ts: 1417893010
+minor: 0
 host: 89.235.228.16
 username: AlexDaniel
-revision: 3
+revision: 4
 diff-major: 1
-summary: 
+summary: Rollback to 2014-09-22 17:31 UTC
 languages: 
-text: 
+text: This page lists changes to the website. If you want to see changes to the sources, then check out our [[https://github.com/ProgArm git repositories]].
 	
-lastmajor: 3
-keep-ts: 1417892989
+lastmajor: 4
+keep-ts: 1417893010
