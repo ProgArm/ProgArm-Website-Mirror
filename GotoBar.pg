@@ -1,28 +1,24 @@
 flags: 010101010101010
-blocks: <p>[[Home{h}]]<br />[[About{b}]]<br />[[Devices{d}]]<br />[[Source{e}]]<br />[[Ideas{i}]]<br />[[Ask{k}]]<br />[[Recent Changes{r}]]</p>
+blocks: <p>[[Home{h}]]<br />[[About{b}]]<br />[[Devices{d}]]<br />[[Source{o}]]<br />[[Ideas{i}]]<br />[[Ask{k}]]<br />[[Recent Changes{r}]]</p>
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; [[About<strong class="changes">]]</strong></p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; [[About<strong class="changes">{b}]]</strong></p></div><p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; [[Source{<strong class="changes">r</strong>}]]</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; [[Source{<strong class="changes">e</strong>}]]</p></div><p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; [[Recent Changes{<strong class="changes">g</strong>}]]</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; [[Recent Changes{<strong class="changes">r</strong>}]]</p></div>
+	<div class="old"><p>&lt; [[Source{<strong class="changes">e</strong>}]]</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; [[Source{<strong class="changes">o</strong>}]]</p></div>
 ip: 84.52.22.78
-ts: 1417888474
+ts: 1417888614
 minor: 
 host: 89.235.228.16
 username: AlexDaniel
-revision: 23
+revision: 24
 diff-major: 1
 summary: shortcuts
 languages: 
 text: [[Home{h}]]
 	[[About{b}]]
 	[[Devices{d}]]
-	[[Source{e}]]
+	[[Source{o}]]
 	[[Ideas{i}]]
 	[[Ask{k}]]
 	[[Recent Changes{r}]]
 	
-lastmajor: 23
-keep-ts: 1417888474
+lastmajor: 24
+keep-ts: 1417888614
