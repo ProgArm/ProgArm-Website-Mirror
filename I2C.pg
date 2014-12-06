@@ -1,16 +1,23 @@
 flags: 0
-blocks: <table class="user"><tr><th align="center">Component </th><th align="center">Address </th></tr><tr><td align="center">LPS25H  </td><td align="center">101110x </td></tr><tr><td align="center">MPU9250</td><td align="center">110100x </td></tr></table><p>Both LPS25H and MPU9250 have a pin that determines the LSB of their addresses (marked with <strong>x</strong> in the table). These pins are connected to ground.</p>
-ts: 1417382876
+blocks: <table class="user"><tr><th align="center">Component </th><th align="center">Address </th></tr><tr><td align="center">LPS25H  </td><td align="center">101110x </td></tr><tr><td align="center">MPU9250</td><td align="center">110100x </td></tr><tr><td align="center">bq24297</td><td align="center">1101011</td></tr><tr><td align="center">bq27410</td><td align="center">1010101</td></tr><tr><td align="center">Si1142</td><td align="center">1011010</td></tr></table><p>Both LPS25H and MPU9250 have a pin that determines the LSB of their addresses (marked with <strong>x</strong> in the table). These pins are connected to ground.</p>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; | bq24297 | 1101011 |<br />&gt; | bq27410 | 1010101 |<br />&gt; | Si1142  | 1011010 |</p></div>
+ts: 1417831657
 minor: 
-host: 89.235.235.42
-username: 
-revision: 1
-summary: |= Component |= Address | | LPS25H  | 101110x | | MPU9250 | 110100x | Both LPS25H and MPU9250 have a pin that determines the LSB of their . . .
+host: 89.235.228.16
+username: AlexDaniel
+revision: 2
+diff-major: 1
+summary: 
 languages: 
 text: |= Component |= Address |
 	| LPS25H  | 101110x |
 	| MPU9250 | 110100x |
+	| bq24297 | 1101011 |
+	| bq27410 | 1010101 |
+	| Si1142  | 1011010 |
 	
 	Both LPS25H and MPU9250 have a pin that determines the LSB of their addresses (marked with **x** in the table). These pins are connected to ground.
 	
-lastmajor: 1
+lastmajor: 2
+keep-ts: 1417831657
