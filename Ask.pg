@@ -1,22 +1,24 @@
 flags: 010
-blocks: <p>Here you can ask any question.</p><p>If you want to report some particular problem please consider creating an issue in appropriate <a class="url http outside" href="https://github.com/ProgArm">repository on GitHub</a>.</p><p>See also [[Contribute]].</p>
+blocks: <p>Here you can ask any question.</p><p>If you want to report some particular problem please consider creating an issue in appropriate <a class="url http outside" href="https://github.com/ProgArm">repository on GitHub</a>.</p><p>See also [[Contribute{n}]].</p>
 diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; See also [[Contribute<strong class="changes">]].</strong></p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; See also [[Contribute<strong class="changes">{n}]].</strong></p></div>
+ip: 217.71.47.97
+ts: 1417891152
+minor: 1
+host: 89.235.228.16
+username: AlexDaniel
+revision: 6
+diff-major: <p><strong>Changed:</strong></p>
 	<div class="old"><p>&lt; See also [[<strong class="changes">Contributions]]</strong></p></div><p><strong>to</strong></p>
 	<div class="new"><p>&gt; See also [[<strong class="changes">Contribute]].</strong></p></div>
-ip: 217.71.47.97
-ts: 1408373724
-minor: 
-host: 217.71.47.166
-username: AlexDaniel
-revision: 5
-diff-major: 1
 summary: 
 languages: 
 text: Here you can ask any question.
 	
 	If you want to report some particular problem please consider creating an issue in appropriate [[https://github.com/ProgArm repository on GitHub]].
 	
-	See also [[Contribute]].
+	See also [[Contribute{n}]].
 	
 lastmajor: 5
-keep-ts: 1408373724
+keep-ts: 1417891152
