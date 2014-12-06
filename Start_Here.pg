@@ -1,15 +1,15 @@
 flags: 01010101010101010
-blocks: <p>If you haven't heard about ProgArm yet, try to follow these:<br /></p><ol><li>Read [[About]] page to understand project goals.</li><li>Learn about [[Features|ProgArm Features]] to understand if it could be useful to you.</li><li>If you have any questions, read everything you are interested in on [[Devices]] page and [[FAQ{q}]].</li><li>If you still have any questions, feel free to [[Ask]] them.</li><li>[[Get ProgArm{g}]] from us or [[Build ProgArm{b}]] yourself.</li></ol>
+blocks: <p>If you haven't heard about ProgArm yet, try to follow these:<br /></p><ol><li>Read [[About]] page to understand project goals.</li><li>Learn about ProgArm [[Features{t}]] to understand if it could be useful to you.</li><li>If you have any questions, read everything you are interested in on [[Devices]] page and [[FAQ{q}]].</li><li>If you still have any questions, feel free to [[Ask]] them.</li><li>[[Get ProgArm{g}]] from us or [[Build ProgArm{u}]] yourself.</li></ol>
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; # If you have any questions, read everything you are interested in on [[Devices]] page and [[FAQ<strong class="changes">]].</strong></p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; # If you have any questions, read everything you are interested in on [[Devices]] page and [[FAQ<strong class="changes">{q}]].</strong></p></div><p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; # [[Get ProgArm<strong class="changes">]]</strong> from us or [[Build ProgArm<strong class="changes">]]</strong> yourself.</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; # [[Get ProgArm<strong class="changes">{g}]]</strong> from us or [[Build ProgArm<strong class="changes">{b}]]</strong> yourself.</p></div>
-ts: 1417888880
+	<div class="old"><p>&lt; # Learn about <strong class="changes">[[Features|</strong>ProgArm Features<strong class="changes">]]</strong> to understand if it could be useful to you.</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; # Learn about <strong class="changes">!</strong>ProgArm <strong class="changes">[[</strong>Features<strong class="changes">{t}]]</strong> to understand if it could be useful to you.</p></div><p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; # [[Get ProgArm{g}]] from us or [[Build ProgArm{<strong class="changes">b</strong>}]] yourself.</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; # [[Get ProgArm{g}]] from us or [[Build ProgArm{<strong class="changes">u</strong>}]] yourself.</p></div>
+ts: 1417889159
 minor: 1
 host: 89.235.228.16
 username: AlexDaniel
-revision: 8
+revision: 9
 diff-major: <p><strong>Changed:</strong></p>
 	<div class="old"><p>&lt; <strong class="changes">*</strong> Read [[About]] page to understand project goals.<br />&lt; <strong class="changes">*</strong> Learn about [[Features|ProgArm Features]] to understand if <strong class="changes">that is what</strong> you <strong class="changes">actually need</strong>.<br />&lt; <strong class="changes">*</strong> If you have any questions, read everything you are interested in on [[Devices]] page and [[FAQ]].<br />&lt; <strong class="changes">*</strong> If you still have any questions, feel free to [[Ask]] them.<br />&lt; <strong class="changes">*</strong> [[Get ProgArm]] from us or [[Build ProgArm]] yourself.</p></div><p><strong>to</strong></p>
 	<div class="new"><p>&gt; <strong class="changes">If you haven't heard about ProgArm yet, try to follow these:<br />&gt; #</strong> Read [[About]] page to understand project goals.<br />&gt; <strong class="changes">#</strong> Learn about [[Features|ProgArm Features]] to understand if <strong class="changes">it could be useful to</strong> you.<br />&gt; <strong class="changes">#</strong> If you have any questions, read everything you are interested in on [[Devices]] page and [[FAQ]].<br />&gt; <strong class="changes">#</strong> If you still have any questions, feel free to [[Ask]] them.<br />&gt; <strong class="changes">#</strong> [[Get ProgArm]] from us or [[Build ProgArm]] yourself.</p></div>
@@ -17,10 +17,10 @@ summary: shortcuts
 languages: 
 text: If you haven't heard about ProgArm yet, try to follow these:
 	# Read [[About]] page to understand project goals.
-	# Learn about [[Features|ProgArm Features]] to understand if it could be useful to you.
+	# Learn about !ProgArm [[Features{t}]] to understand if it could be useful to you.
 	# If you have any questions, read everything you are interested in on [[Devices]] page and [[FAQ{q}]].
 	# If you still have any questions, feel free to [[Ask]] them.
-	# [[Get ProgArm{g}]] from us or [[Build ProgArm{b}]] yourself.
+	# [[Get ProgArm{g}]] from us or [[Build ProgArm{u}]] yourself.
 	
 lastmajor: 7
-keep-ts: 1417888880
+keep-ts: 1417889159
