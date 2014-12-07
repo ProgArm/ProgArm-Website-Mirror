@@ -1,16 +1,17 @@
 flags: 0
-blocks: <p><strong>This list is incomplete</strong></p><table class="user"><tr><th align="center">Component   </th><th align="center">1</th><th align="center">10</th><th align="center">Source     </th></tr><tr><td>STM32F103RBT6</td><td align="center">7.14</td><td align="center">6.44</td><td align="center">Mouser      </td></tr><tr><td>bq24297</td><td align="center">5.64</td><td align="center">5.04</td><td align="center">Mouser      </td></tr><tr><td>bq27410</td><td align="center">4.21</td><td align="center">3.75</td><td align="center">Mouser      </td></tr><tr><td>LM3668</td><td align="center">2.87</td><td align="center">2.59</td><td align="center">Mouser      </td></tr><tr><td>nRF51822</td><td align="center">4.62</td><td align="center">3.71</td><td align="center">Mouser      </td></tr><tr><td>FC-135</td><td align="center">1.16</td><td align="center">0.90</td><td align="center">Mouser      </td></tr><tr><td>LPS25H        </td><td align="center">4.02</td><td align="center">3.23</td><td align="center">Mouser      </td></tr><tr><td>MPU9250</td><td align="right"></td><td align="center">3.42</td><td align="center">AliExpress</td></tr><tr><td align="right"><strong>Total</strong></td><td align="center">33.08$</td><td align="center">29.08$</td><td align="right"></td></tr></table><pre class="real">#+TBLFM: @&gt;$3=vsum(@1..@-1)::@&gt;$2=vsum(@1..@-1)</pre><p>Notes:<br /></p><ul><li>NTK3139PT5G - transistors (Source: Mouser)</li><li>2450BM14A0002T - balun (Source: Mouser)</li><li>2450AT43F0100E - antenna (Source: Mouser)</li><li>LQH43PB2R2M26L - inductor (Source: Mouser) (LPS4012-222MRB is ok too!)</li><li>TPS78330 - LDO (Source: Mouser)</li></ul><p>TODO:<br /></p><ul><li>Ionistor</li><li>Crystals</li><li>Diode (motor)</li><li>Inductors (nrf8001)</li></ul>
-diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; Notes:</p></div><p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; * TPS78330 - LDO (Source: Mouser)<br />&gt; TODO:<br />&gt; * Ionistor<br />&gt; * Crystals<br />&gt; * Diode (motor)<br />&gt; * Inductors (nrf8001)</p></div>
-ts: 1417929328
-minor: 1
+blocks: <p><strong>This list is incomplete</strong></p><table class="user"><tr><th align="center">Component   </th><th align="center">1</th><th align="center">10</th><th align="center">Source     </th></tr><tr><td>STM32F103RBT6</td><td align="center">7.14</td><td align="center">6.44</td><td align="center">Mouser      </td></tr><tr><td>bq24297</td><td align="center">5.64</td><td align="center">5.04</td><td align="center">Mouser      </td></tr><tr><td>bq27410</td><td align="center">4.21</td><td align="center">3.75</td><td align="center">Mouser      </td></tr><tr><td>LM3668</td><td align="center">2.87</td><td align="center">2.59</td><td align="center">Mouser      </td></tr><tr><td>nRF51822</td><td align="center">4.62</td><td align="center">3.71</td><td align="center">Mouser      </td></tr><tr><td>FC-135</td><td align="center">1.16</td><td align="center">0.90</td><td align="center">Mouser      </td></tr><tr><td>LPS25H        </td><td align="center">4.02</td><td align="center">3.23</td><td align="center">Mouser      </td></tr><tr><td>MPU9250</td><td align="right"></td><td align="center">3.42</td><td align="center">AliExpress</td></tr><tr><td align="right"><strong>Total</strong></td><td align="center">33.08$</td><td align="center">29.08$</td><td align="right"></td></tr></table><pre class="real">#+TBLFM: @&gt;$3=vsum(@1..@-1)::@&gt;$2=vsum(@1..@-1)</pre><p>Quick notes:<br /></p><ul><li>NTK3139PT5G - transistors (Source: Mouser)</li><li>2450BM14A0002T - balun (Source: Mouser)</li><li>2450AT43F0100E - antenna (Source: Mouser)</li><li>LQH43PB2R2M26L - inductor (Source: Mouser) (LPS4012-222MRB is ok too!)</li><li>TPS78330 - LDO (Source: Mouser)</li><li>L-07C15NKV6T - 15nH inductor for nrf8001 (Source: Mouser)</li><li>LQM18FN100M00D - 10nH inductor for nrf8001 (Source: Mouser)</li></ul><p>TODO:<br /></p><ul><li>Ionistor</li><li>Crystals</li><li>Diode (motor)</li></ul>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; <strong class="changes">Notes</strong>:</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; <strong class="changes">Quick notes</strong>:</p></div><p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; * L-07C15NKV6T - 15nH inductor for nrf8001 (Source: Mouser)<br />&gt; * LQM18FN100M00D - 10nH inductor for nrf8001 (Source: Mouser)</p></div><p><strong>Deleted:</strong></p>
+	<div class="old"><p>&lt; * Inductors (nrf8001)</p></div>
+ts: 1417930083
+minor: 
 host: 89.235.228.16
 username: AlexDaniel
-revision: 10
-diff-major: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; * LQH43PB2R2M26L - inductor (Source: Mouser) (LPS4012-222MRB is ok too!)</p></div>
-summary: todo
+revision: 11
+diff-major: 1
+summary: notes
 languages: 
 text: **This list is incomplete**
 	
@@ -28,18 +29,19 @@ text: **This list is incomplete**
 	#+TBLFM: @>$3=vsum(@1..@-1)::@>$2=vsum(@1..@-1)
 	}}}
 	
-	Notes:
+	Quick notes:
 	* NTK3139PT5G - transistors (Source: Mouser)
 	* 2450BM14A0002T - balun (Source: Mouser)
 	* 2450AT43F0100E - antenna (Source: Mouser)
 	* LQH43PB2R2M26L - inductor (Source: Mouser) (LPS4012-222MRB is ok too!)
 	* TPS78330 - LDO (Source: Mouser)
+	* L-07C15NKV6T - 15nH inductor for nrf8001 (Source: Mouser)
+	* LQM18FN100M00D - 10nH inductor for nrf8001 (Source: Mouser)
 	
 	TODO:
 	* Ionistor
 	* Crystals
 	* Diode (motor)
-	* Inductors (nrf8001)
 	
-lastmajor: 9
-keep-ts: 1417929328
+lastmajor: 11
+keep-ts: 1417930083
