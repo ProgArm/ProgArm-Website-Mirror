@@ -1,14 +1,14 @@
 flags: 0
-blocks: <p><strong>This list is incomplete</strong></p><table class="user"><tr><th align="center">Component   </th><th align="center">1</th><th align="center">10</th><th align="center">Source     </th></tr><tr><td>STM32F103RBT6</td><td align="center">7.14</td><td align="center">6.44</td><td align="center">Mouser      </td></tr><tr><td>bq24297</td><td align="center">5.64</td><td align="center">5.04</td><td align="center">Mouser      </td></tr><tr><td>bq27410</td><td align="center">4.21</td><td align="center">3.75</td><td align="center">Mouser      </td></tr><tr><td>LM3668</td><td align="center">2.87</td><td align="center">2.59</td><td align="center">Mouser      </td></tr><tr><td>nRF51822</td><td align="center">4.62</td><td align="center">3.71</td><td align="center">Mouser      </td></tr><tr><td>FC-135</td><td align="center">1.16</td><td align="center">0.90</td><td align="center">Mouser      </td></tr><tr><td>LPS25H        </td><td align="center">4.02</td><td align="center">3.23</td><td align="center">Mouser      </td></tr><tr><td>MPU9250</td><td align="right"></td><td align="center">3.42</td><td align="center">AliExpress</td></tr><tr><td align="right"><strong>Total</strong></td><td align="center">33.08$</td><td align="center">29.08$</td><td align="right"></td></tr></table><pre class="real">#+TBLFM: @&gt;$3=vsum(@1..@-1)::@&gt;$2=vsum(@1..@-1)</pre><ul><li>NTK3139PT5G - transistors (Source: Mouser)</li><li>2450BM14A0002T - balun (Source: Mouser)</li><li>2450AT43F0100E - antenna (Source: Mouser)</li></ul>
+blocks: <p><strong>This list is incomplete</strong></p><table class="user"><tr><th align="center">Component   </th><th align="center">1</th><th align="center">10</th><th align="center">Source     </th></tr><tr><td>STM32F103RBT6</td><td align="center">7.14</td><td align="center">6.44</td><td align="center">Mouser      </td></tr><tr><td>bq24297</td><td align="center">5.64</td><td align="center">5.04</td><td align="center">Mouser      </td></tr><tr><td>bq27410</td><td align="center">4.21</td><td align="center">3.75</td><td align="center">Mouser      </td></tr><tr><td>LM3668</td><td align="center">2.87</td><td align="center">2.59</td><td align="center">Mouser      </td></tr><tr><td>nRF51822</td><td align="center">4.62</td><td align="center">3.71</td><td align="center">Mouser      </td></tr><tr><td>FC-135</td><td align="center">1.16</td><td align="center">0.90</td><td align="center">Mouser      </td></tr><tr><td>LPS25H        </td><td align="center">4.02</td><td align="center">3.23</td><td align="center">Mouser      </td></tr><tr><td>MPU9250</td><td align="right"></td><td align="center">3.42</td><td align="center">AliExpress</td></tr><tr><td align="right"><strong>Total</strong></td><td align="center">33.08$</td><td align="center">29.08$</td><td align="right"></td></tr></table><pre class="real">#+TBLFM: @&gt;$3=vsum(@1..@-1)::@&gt;$2=vsum(@1..@-1)</pre><ul><li>NTK3139PT5G - transistors (Source: Mouser)</li><li>2450BM14A0002T - balun (Source: Mouser)</li><li>2450AT43F0100E - antenna (Source: Mouser)</li><li>LQH43PB2R2M26L - inductor (Source: Mouser) (LPS4012-222MRB is ok too!)</li></ul>
 diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; * 2450AT43F0100E - antenna (Source: Mouser)</p></div>
-ts: 1417926316
+	<div class="new"><p>&gt; * LQH43PB2R2M26L - inductor (Source: Mouser) (LPS4012-222MRB is ok too!)</p></div>
+ts: 1417929079
 minor: 
 host: 89.235.228.16
 username: AlexDaniel
-revision: 8
+revision: 9
 diff-major: 1
-summary: 
+summary: inductor
 languages: 
 text: **This list is incomplete**
 	
@@ -29,6 +29,7 @@ text: **This list is incomplete**
 	* NTK3139PT5G - transistors (Source: Mouser)
 	* 2450BM14A0002T - balun (Source: Mouser)
 	* 2450AT43F0100E - antenna (Source: Mouser)
+	* LQH43PB2R2M26L - inductor (Source: Mouser) (LPS4012-222MRB is ok too!)
 	
-lastmajor: 8
-keep-ts: 1417926316
+lastmajor: 9
+keep-ts: 1417929079
