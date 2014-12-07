@@ -1,17 +1,14 @@
 flags: 0
-blocks: <p><strong>This list is incomplete</strong></p><table class="user"><tr><th align="center">Component   </th><th align="center">1</th><th align="center">10</th><th align="center">Source     </th></tr><tr><td>STM32F103RBT6</td><td align="center">7.14</td><td align="center">6.44</td><td align="center">Mouser      </td></tr><tr><td>bq24297</td><td align="center">5.64</td><td align="center">5.04</td><td align="center">Mouser      </td></tr><tr><td>bq27410</td><td align="center">4.21</td><td align="center">3.75</td><td align="center">Mouser      </td></tr><tr><td>LM3668</td><td align="center">2.87</td><td align="center">2.59</td><td align="center">Mouser      </td></tr><tr><td>nRF51822</td><td align="center">4.62</td><td align="center">3.71</td><td align="center">Mouser      </td></tr><tr><td>FC-135</td><td align="center">1.16</td><td align="center">0.90</td><td align="center">Mouser      </td></tr><tr><td>LPS25H        </td><td align="center">4.02</td><td align="center">3.23</td><td align="center">Mouser      </td></tr><tr><td>MPU9250</td><td align="right"></td><td align="center">3.42</td><td align="center">AliExpress</td></tr><tr><td align="right"><strong>Total</strong></td><td align="center">33.08$</td><td align="center">29.08$</td><td align="right"></td></tr></table><pre class="real">#+TBLFM: @&gt;$3=vsum(@1..@-1)::@&gt;$2=vsum(@1..@-1)</pre>
-diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; |= Component   |= 1    |= 10   |= Source    |<br />&lt; |STM32F103RBT6 |  7.14 |  6.44 | Mouser     |<br />&lt; |bq24297       |  5.64 |  5.04 | Mouser     |<br />&lt; |bq27410       |  4.21 |  3.75 | Mouser     |<br />&lt; |LM3668        |  2.87 |  2.59 | Mouser     |<br />&lt; |nRF51822      |  4.62 |  3.71 | Mouser     |<br />&lt; |FC-135        |  1.16 |  0.90 | Mouser     |<br />&lt; |LPS25H        |  4.02 |  3.23 | Mouser     |<br />&lt; |MPU9250       |       |  3.42 | AliExpress |<br />&lt; |     **Total**| 33.08 | 29.08 |            |</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; |= Component   |= 1    |= 10   |= Source     |<br />&gt; |STM32F103RBT6 |  7.14 |  6.44 | Mouser      |<br />&gt; |bq24297       |  5.64 |  5.04 | Mouser      |<br />&gt; |bq27410       |  4.21 |  3.75 | Mouser      |<br />&gt; |LM3668        |  2.87 |  2.59 | Mouser      |<br />&gt; |nRF51822      |  4.62 |  3.71 | Mouser      |<br />&gt; |FC-135        |  1.16 |  0.90 | Mouser      |<br />&gt; |LPS25H        |  4.02 |  3.23 | Mouser      |<br />&gt; |MPU9250       |       |  3.42 | <strong class="changes">!</strong>AliExpress |<br />&gt; |     **Total**| 33.08<strong class="changes">$</strong> | 29.08<strong class="changes">$</strong> |           |</p></div>
-ts: 1417557885
-minor: 1
-host: 89.235.242.183
+blocks: <p><strong>This list is incomplete</strong></p><table class="user"><tr><th align="center">Component   </th><th align="center">1</th><th align="center">10</th><th align="center">Source     </th></tr><tr><td>STM32F103RBT6</td><td align="center">7.14</td><td align="center">6.44</td><td align="center">Mouser      </td></tr><tr><td>bq24297</td><td align="center">5.64</td><td align="center">5.04</td><td align="center">Mouser      </td></tr><tr><td>bq27410</td><td align="center">4.21</td><td align="center">3.75</td><td align="center">Mouser      </td></tr><tr><td>LM3668</td><td align="center">2.87</td><td align="center">2.59</td><td align="center">Mouser      </td></tr><tr><td>nRF51822</td><td align="center">4.62</td><td align="center">3.71</td><td align="center">Mouser      </td></tr><tr><td>FC-135</td><td align="center">1.16</td><td align="center">0.90</td><td align="center">Mouser      </td></tr><tr><td>LPS25H        </td><td align="center">4.02</td><td align="center">3.23</td><td align="center">Mouser      </td></tr><tr><td>MPU9250</td><td align="right"></td><td align="center">3.42</td><td align="center">AliExpress</td></tr><tr><td align="right"><strong>Total</strong></td><td align="center">33.08$</td><td align="center">29.08$</td><td align="right"></td></tr></table><pre class="real">#+TBLFM: @&gt;$3=vsum(@1..@-1)::@&gt;$2=vsum(@1..@-1)</pre><ul><li>NTK3139PT5G (Source: Mouser)</li></ul>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; * NTK3139PT5G (Source: Mouser)</p></div>
+ts: 1417923783
+minor: 
+host: 89.235.228.16
 username: AlexDaniel
-revision: 5
-diff-major: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; |= Component |= 1 |= 10 |<br />&lt; |STM32F103RBT6 |  7.14 |  6.44 |<br />&lt; |bq24297       |  5.64 |  5.04 |<br />&lt; |bq27410       |  4.21 |  3.75 |<br />&lt; |LM3668        |  2.87 |  2.59 |<br />&lt; |nRF51822      |  4.62 |  3.71 |<br />&lt; |FC-135        |  1.16 |  0.90 |<br />&lt; |LPS25H        |  4.02 |  3.23 |<br />&lt; | **Total**| <strong class="changes">**29</strong>.<strong class="changes">66$**</strong> | <strong class="changes">**25</strong>.<strong class="changes">66$**</strong> |</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; |= Component   |= 1    |= 10   <strong class="changes">|= Source</strong>    |<br />&gt; |STM32F103RBT6 |  7.14 |  6.44 | <strong class="changes">Mouser     |</strong><br />&gt; |bq24297       |  5.64 |  5.04 | <strong class="changes">Mouser     |</strong><br />&gt; |bq27410       |  4.21 |  3.75 | <strong class="changes">Mouser     |</strong><br />&gt; |LM3668        |  2.87 |  2.59 | <strong class="changes">Mouser     |</strong><br />&gt; |nRF51822      |  4.62 |  3.71 | <strong class="changes">Mouser     |</strong><br />&gt; |FC-135        |  1.16 |  0.90 | <strong class="changes">Mouser     |</strong><br />&gt; |LPS25H        |  4.02 |  3.23 | <strong class="changes">Mouser     |<br />&gt; |MPU9250       |       |  3.42 | AliExpress |</strong><br />&gt; |     **Total**| <strong class="changes">33</strong>.<strong class="changes">08</strong> | <strong class="changes">29</strong>.<strong class="changes">08 |</strong>            |</p></div>
-summary: MPU
+revision: 6
+diff-major: 1
+summary: 
 languages: 
 text: **This list is incomplete**
 	
@@ -29,5 +26,7 @@ text: **This list is incomplete**
 	#+TBLFM: @>$3=vsum(@1..@-1)::@>$2=vsum(@1..@-1)
 	}}}
 	
-lastmajor: 4
-keep-ts: 1417557885
+	* NTK3139PT5G (Source: Mouser)
+	
+lastmajor: 6
+keep-ts: 1417923783
