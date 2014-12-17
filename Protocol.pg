@@ -1,17 +1,18 @@
 flags: 010
-blocks: <table class="user"><tr><th colspan="4"align="center">Bidirectional </th></tr><tr><th align="center">Byte </th><th align="center">ASCII </th><th align="center">Meaning </th><th align="center">Followed by </th></tr><tr><td align="center">112</td><td align="center">'p'</td><td>Ping</td><td>Nothing</td></tr><tr><td align="center">80</td><td align="center">'P'</td><td>Pong</td><td>Nothing</td></tr><tr><td align="center">69</td><td align="center">'E'</td><td>Enable/Disable command interpretation</td><td>'0' to disable / '1' to enable / '2' to toggle</td></tr><tr><th colspan="4"align="center">-</th></tr><tr><th colspan="4"align="center">From Arm </th></tr><tr><th align="center">Byte </th><th align="center">ASCII </th><th align="center">Meaning </th><th align="center">Followed by </th></tr><tr><td align="center">76</td><td align="center">'L'</td><td>Single letter</td><td>Byte representing one letter</td></tr><tr><td align="center">87</td><td align="center">'W'</td><td>Previous letters form a word</td><td>Nothing (Deprecated since [[Morse Code]] is not used as input system anymore)</td></tr><tr><td align="center">81</td><td align="center">'Q'</td><td>Previous data is wrong</td><td>Nothing</td></tr><tr><td align="center">84</td><td align="center">'T'</td><td>Sending plain text</td><td>Null-terminated string</td></tr><tr><td align="center">83</td><td align="center">'S'</td><td>Sending sensors data</td><td>One character indicating the sensor type and then null-terminated string</td></tr><tr><td align="center">100</td><td align="center">'d'</td><td>Request date. Client should answer with the current date and time</td><td>Nothing</td></tr><tr><th colspan="4"align="center">-</th></tr><tr><th colspan="4"align="center">To Arm </th></tr><tr><th align="center">Byte </th><th align="center">ASCII </th><th align="center">Meaning </th><th align="center">Followed by </th></tr><tr><td align="center">68</td><td align="center">'D'</td><td>Current date is X</td><td>Two bytes for YEAR, then MONTH,DAY,HOURS,MINUTES,SECONDS described by one byte each</td></tr><tr><td align="center">86</td><td align="center">'V'</td><td>Set vibration</td><td>Vibration level (one byte), 0 - no vibration</td></tr><tr><td align="center">114</td><td align="center">'r'</td><td>Reset device (like if reset button was pressed)</td><td align="right"></td></tr><tr><td align="center">108</td><td align="center">'l'</td><td>Fake action</td><td>Byte representing one letter</td></tr></table><h2>Things to remember</h2><ul><li>Lowercase symbols are usually requests.</li><li>Some of these are not supported yet.</li><li>This protocol is subject to change.</li><li>Typable ASCII characters are preferred for the ease of debugging.</li></ul><h2>Is it feasible?</h2><p>Maybe we should switch to some well-known format like JSON or similar?</p>
+blocks: <table class="user"><tr><th colspan="4"align="center">Bidirectional </th></tr><tr><th align="center">Byte </th><th align="center">ASCII </th><th align="center">Meaning </th><th align="center">Followed by </th></tr><tr><td align="center">112</td><td align="center">'p'</td><td>Ping</td><td>Nothing</td></tr><tr><td align="center">80</td><td align="center">'P'</td><td>Pong</td><td>Nothing</td></tr><tr><td align="center">69</td><td align="center">'E'</td><td>Enable/Disable command interpretation</td><td>'0' to disable / '1' to enable / '2' to toggle</td></tr><tr><th colspan="4"align="center">-</th></tr><tr><th colspan="4"align="center">From Arm </th></tr><tr><th align="center">Byte </th><th align="center">ASCII </th><th align="center">Meaning </th><th align="center">Followed by </th></tr><tr><td align="center">76</td><td align="center">'L'</td><td>Single letter</td><td>Byte representing one letter</td></tr><tr><td align="center">87</td><td align="center">'W'</td><td>Previous letters form a word</td><td>Nothing (Deprecated since [[Morse Code]] is not used as input system anymore)</td></tr><tr><td align="center">81</td><td align="center">'Q'</td><td>Previous data is wrong</td><td>Nothing</td></tr><tr><td align="center">84</td><td align="center">'T'</td><td>Sending plain text</td><td>Null-terminated string</td></tr><tr><td align="right"></td><td align="right"></td><td>Sending sensors data</td><td>One character indicating the sensor type and then null-terminated string</td></tr><tr><td align="center">100</td><td align="center">'d'</td><td>Request date. Client should answer with the current date and time</td><td>Nothing</td></tr><tr><td align="center">115</td><td align="center">'s'</td><td>Request settings.</td><td align="right"></td></tr><tr><th colspan="4"align="center">-</th></tr><tr><th colspan="4"align="center">To Arm </th></tr><tr><th align="center">Byte </th><th align="center">ASCII </th><th align="center">Meaning </th><th align="center">Followed by </th></tr><tr><td align="center">68</td><td align="center">'D'</td><td>Current date is X</td><td>Two bytes for YEAR, then MONTH,DAY,HOURS,MINUTES,SECONDS described by one byte each</td></tr><tr><td align="center">86</td><td align="center">'V'</td><td>Set vibration</td><td>Vibration level (one byte), 0 - no vibration</td></tr><tr><td align="center">114</td><td align="center">'r'</td><td>Reset device (like if reset button was pressed)</td><td align="right"></td></tr><tr><td align="center">108</td><td align="center">'l'</td><td>Fake action</td><td>Byte representing one letter</td></tr><tr><td align="center">83</td><td align="center">'S'</td><td>Send settings.</td><td align="right"></td></tr></table><h2>Things to remember</h2><ul><li>Lowercase symbols are usually requests.</li><li>Some of these are not supported yet.</li><li>This protocol is subject to change.</li><li>Typable ASCII characters are preferred for the ease of debugging.</li></ul><h2>Is it feasible?</h2><p>Maybe we should switch to some well-known format like JSON or similar?</p>
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; <strong class="changes">===</strong> Things to remember</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; <strong class="changes">==</strong> Things to remember</p></div><p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; == Is it feasible?<br />&gt; Maybe we should switch to some well-known format like JSON or similar?</p></div>
+	<div class="old"><p>&lt; | <strong class="changes">83</strong> | <strong class="changes">'S'</strong> |Sending sensors data|One character indicating the sensor type and then null-terminated string|</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; |  |  |Sending sensors data|One character indicating the sensor type and then null-terminated string|</p></div><p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; | 115 | 's' |Request settings.| |</p></div><p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; | 83 | 'S' |Send settings.| |</p></div>
 ip: 89.235.239.240
-ts: 1413593408
+ts: 1418785913
 minor: 
-host: 84.52.48.25
+host: 84.52.19.72
 username: AlexDaniel
-revision: 13
+revision: 14
 diff-major: 1
-summary: Maybe we shouldn't reinvent the wheel?
+summary: 
 languages: 
 text: ||||= Bidirectional |
 	|= Byte |= ASCII |= Meaning |= Followed by |
@@ -25,8 +26,9 @@ text: ||||= Bidirectional |
 	| 87 | 'W' |Previous letters form a word|Nothing (Deprecated since [[Morse Code]] is not used as input system anymore)|
 	| 81 | 'Q' |Previous data is wrong|Nothing|
 	| 84 | 'T' |Sending plain text|Null-terminated string|
-	| 83 | 'S' |Sending sensors data|One character indicating the sensor type and then null-terminated string|
+	|  |  |Sending sensors data|One character indicating the sensor type and then null-terminated string|
 	| 100 | 'd' |Request date. Client should answer with the current date and time|Nothing|
+	| 115 | 's' |Request settings.| |
 	||||= - |
 	||||= To Arm |
 	|= Byte |= ASCII |= Meaning |= Followed by |
@@ -34,6 +36,7 @@ text: ||||= Bidirectional |
 	| 86 | 'V' |Set vibration|Vibration level (one byte), 0 - no vibration|
 	| 114 | 'r' |Reset device (like if reset button was pressed)| |
 	| 108 | 'l' |Fake action|Byte representing one letter|
+	| 83 | 'S' |Send settings.| |
 	
 	== Things to remember
 	* Lowercase symbols are usually requests.
@@ -45,5 +48,5 @@ text: ||||= Bidirectional |
 	== Is it feasible?
 	Maybe we should switch to some well-known format like JSON or similar?
 	
-lastmajor: 13
-keep-ts: 1413593408
+lastmajor: 14
+keep-ts: 1418785913
