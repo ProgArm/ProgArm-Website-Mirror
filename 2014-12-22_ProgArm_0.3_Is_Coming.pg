@@ -1,0 +1,27 @@
+flags: 01010101010
+blocks: <p>For the last month we were working on [[ProgArm 0.3]].</p><p>It is almost done! Currently we are making the last steps to finish the PCB.</p><p>Most of the effort was put into various design decisions and component selection. Perhaps we should document it on [[Design Decisions]] page.</p><p>You can follow the progress on [[ProgArm 0.3]] page.</p><p>Here is a list of the most notable changes:<br /></p><ul><li>Bluetooth LE (means low power consumption when used with modern phones)</li><li>1.27mm pin headers instead of USB ports.</li><li>Components like SD card slot are removed from the main board (although you can still connect them as separate modules), at the same time other components like vibramotor or pulse sensor are now considered a must.</li><li>Smaller size. (5x7cm -&gt; 4x5cm)</li><li>Other changes are listed on [[ProgArm 0.3]] page.</li></ul><p>We hope that this time we will make a few extra devices so that you can [[Get ProgArm|get it]].</p>
+ts: 1419223987
+minor: 
+host: 89.235.244.184
+username: AlexDaniel
+revision: 1
+summary: It is coming!
+languages: 
+text: For the last month we were working on [[ProgArm 0.3]].
+	
+	It is almost done! Currently we are making the last steps to finish the PCB.
+	
+	Most of the effort was put into various design decisions and component selection. Perhaps we should document it on [[Design Decisions]] page.
+	
+	You can follow the progress on [[ProgArm 0.3]] page. 
+	
+	Here is a list of the most notable changes:
+	* Bluetooth LE (means low power consumption when used with modern phones)
+	* 1.27mm pin headers instead of USB ports.
+	* Components like SD card slot are removed from the main board (although you can still connect them as separate modules), at the same time other components like vibramotor or pulse sensor are now considered a must.
+	* Smaller size. (5x7cm -> 4x5cm)
+	* Other changes are listed on [[ProgArm 0.3]] page.
+	
+	We hope that this time we will make a few extra devices so that you can [[Get ProgArm|get it]].
+	
+lastmajor: 1
