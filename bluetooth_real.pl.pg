@@ -1,0 +1,12 @@
+flags: 0
+blocks: <p>Source code: <a href="https://github.com/ProgArm/ProgArm-Client/blob/master/modules/bluetooth_real.pl">bluetooth_real.pl</a><h2>Provided variables:</h2><div class="variable">$BluetoothAddress</div> <div class="variable">$BluetoothPort</div></p>
+ts: 1420148586
+minor: 
+host: 82.131.49.240
+username: AlexDaniel
+revision: 1
+summary: Initial
+languages: 
+text: #ProgArmModule bluetooth_real.pl
+	
+lastmajor: 1
