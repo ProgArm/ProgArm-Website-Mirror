@@ -1,14 +1,21 @@
 flags: 0
-blocks: <p>This is our upcoming project :)</p><p>It is highly unlikely that we will post any information until we have a working prototype. Please check back in January!</p>
-ts: 1415076876
+blocks: <p>This is our upcoming project :)</p><p>It is highly unlikely that we will post any information until we have a working prototype. Please check back in January!</p><ul><li>PCM3060</li><li>TPA6120A2</li></ul>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; * PCM3060<br />&gt; * TPA6120A2</p></div>
+ts: 1420225103
 minor: 
-host: 84.52.22.131
-username: AlexDaniel
-revision: 1
-summary: This is our upcoming project :) It is highly unlikely that we will post any information until we have a working prototype. Please check back in . . .
+host: 89.235.233.253
+username: Alexandr Boldin
+revision: 2
+diff-major: 1
+summary: 
 languages: 
 text: This is our upcoming project :)
 	
 	It is highly unlikely that we will post any information until we have a working prototype. Please check back in January!
 	
-lastmajor: 1
+	* PCM3060
+	* TPA6120A2
+	
+lastmajor: 2
+keep-ts: 1420225103
