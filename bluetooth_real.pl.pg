@@ -1,12 +1,19 @@
 flags: 0
-blocks: <p>Source code: <a href="https://github.com/ProgArm/ProgArm-Client/blob/master/modules/bluetooth_real.pl">bluetooth_real.pl</a><h2>Provided variables:</h2><div class="variable">$BluetoothAddress</div> <div class="variable">$BluetoothPort</div></p>
-ts: 1420148586
+blocks: <p>Source code: <a href="https://github.com/ProgArm/ProgArm-Client/blob/master/modules/bluetooth_real.pl">bluetooth_real.pl</a><h2>Provided variables:</h2><div class="variable">$BluetoothAddress</div> <div class="variable">$BluetoothPort</div></p><h2>Description</h2><p>This module is relying on <a class="url http outside" href="http://search.cpan.org/~addutko/Net-Bluetooth/Bluetooth.pm">Net::Bluetooth</a>. It is the preferred way on most GNU/Linux and Windows systems.</p>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; ==Description<br />&gt; This module is relying on [[http://search.cpan.org/~addutko/Net-Bluetooth/Bluetooth.pm Net::Bluetooth]]. It is the preferred way on most GNU/Linux and Windows systems.</p></div>
+ts: 1420459306
 minor: 
-host: 82.131.49.240
+host: 217.71.47.123
 username: AlexDaniel
-revision: 1
-summary: Initial
+revision: 2
+diff-major: 1
+summary: Description
 languages: 
 text: #ProgArmModule bluetooth_real.pl
 	
-lastmajor: 1
+	==Description
+	This module is relying on [[http://search.cpan.org/~addutko/Net-Bluetooth/Bluetooth.pm Net::Bluetooth]]. It is the preferred way on most GNU/Linux and Windows systems.
+	
+lastmajor: 2
+keep-ts: 1420459306
