@@ -1,0 +1,25 @@
+flags: 010
+blocks: <h2>Battery status</h2><h3>Charge prescaler</h3><p>LTC2942 provides a prescaler, which is set to 32 in default ProgArm firmware. You can adjust this value depending on the precision you need and your maximum battery capacity.<br /></p><table class="user"><tr><th>Prescaler</th><th>Max battery<br />capacity</th></tr><tr><td align="center">1</td><td align="center">43.52</td></tr><tr><td align="center">2</td><td align="center">87.04</td></tr><tr><td align="center">4</td><td align="center">174.08</td></tr><tr><td align="center">8</td><td align="center">348.16</td></tr><tr><td align="center">16</td><td align="center">696.32</td></tr><tr><td align="center">32</td><td align="center">1392.64</td></tr><tr><td align="center">64</td><td align="center">2785.28</td></tr><tr><td align="center">128</td><td align="center">5570.56</td></tr></table><p>Please note that if you plan to change prescaler value, you must change it both in the client and in the firmware.</p>
+ts: 1421193352
+minor: 
+host: 82.131.49.239
+username: AlexDaniel
+revision: 1
+summary: moved from Power_Consumtion (typo)
+languages: 
+text: == Battery status
+	===Charge prescaler
+	LTC2942 provides a prescaler, which is set to 32 in default ProgArm firmware. You can adjust this value depending on the precision you need and your maximum battery capacity.
+	|=Prescaler|=Max battery\\capacity|
+	|   1 |   43.52 |
+	|   2 |   87.04 |
+	|   4 |  174.08 |
+	|   8 |  348.16 |
+	|  16 |  696.32 |
+	|  32 | 1392.64 |
+	|  64 | 2785.28 |
+	| 128 | 5570.56 |
+	
+	Please note that if you plan to change prescaler value, you must change it both in the client and in the firmware.
+	
+lastmajor: 1
