@@ -1,21 +1,21 @@
-flags: 010
-blocks: <p>The price of the device highly depends on the number of preorders, therefore we are trying to estimate the number of devices we should make.</p><p>The price is going to be lower than 40€.</p><p>If you are interested in getting ProgArm in the near future, please leave a comment below or write an email to <code>alex.jakimenko+progarm@gmail.com</code></p>
+flags: 01010
+blocks: <p>The price of the device highly depends on the number of preorders, therefore we are trying to estimate the number of devices we should make.</p><p>The price is going to be lower than 40€. See [[Expected Price]] for more info.</p><p>If you are interested in getting ProgArm in the near future, please leave a comment below or write an email to <code>alex.jakimenko+progarm@gmail.com</code></p>
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; The price is going to be lower than <strong class="changes">50</strong>€.</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; The price is going to be lower than <strong class="changes">40</strong>€.</p></div>
-ts: 1420827269
+	<div class="old"><p>&lt; The price is going to be lower than 40€.</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; The price is going to be lower than 40€. <strong class="changes">See [[Expected Price]] for more info.</strong></p></div>
+ts: 1421188054
 minor: 
-host: 82.131.81.220
+host: 82.131.49.239
 username: AlexDaniel
-revision: 5
+revision: 6
 diff-major: 1
-summary: 40€ is OK
+summary: Expected Price link
 languages: 
 text: The price of the device highly depends on the number of preorders, therefore we are trying to estimate the number of devices we should make.
 	
-	The price is going to be lower than 40€.
+	The price is going to be lower than 40€. See [[Expected Price]] for more info.
 	
 	If you are interested in getting ProgArm in the near future, please leave a comment below or write an email to {{{alex.jakimenko+progarm@gmail.com}}}
 	
-lastmajor: 5
-keep-ts: 1420827269
+lastmajor: 6
+keep-ts: 1421188054
