@@ -1,0 +1,18 @@
+flags: 010
+blocks: <h2>Files</h2><p><span class="foo_nextversion">This is an upcoming version. We are working on it! See [[ProgArm 0.2]] for current version.</span></p><p><span class="foo_undecided">Undecided</span> / <span class="foo_todo">Todo</span> / <span class="foo_done">Done</span></p><h2>Current stage:</h2><h2><span class="foo_todo">planning</span> -&gt; <span class="foo_undecided">schematic</span> -&gt; <span class="foo_undecided">components</span> -&gt; <span class="foo_undecided">PCB</span> -&gt; <span class="foo_undecided">waiting for PCBs</span> -&gt; <span class="foo_undecided">testing</span></h2>
+ts: 1421192612
+minor: 
+host: 82.131.49.239
+username: AlexDaniel
+revision: 1
+summary: ==Files <nextversion>This is an upcoming version. We are working on it! See ProgArm 0.2 for current version. . . .
+languages: 
+text: ==Files
+	<nextversion>This is an upcoming version. We are working on it! See [[ProgArm 0.2]] for current version.
+	
+	<undecided>Undecided</> / <todo>Todo</> / <done>Done</>
+	
+	==Current stage:
+	== <todo>planning</> -> <undecided>schematic</> -> <undecided>components</> -> <undecided>PCB</> -> <undecided>waiting for PCBs</> -> <undecided>testing</>
+	
+lastmajor: 1
