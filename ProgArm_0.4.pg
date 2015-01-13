@@ -1,11 +1,14 @@
-flags: 010
-blocks: <h2>Files</h2><p><span class="foo_nextversion">This is an upcoming version. We are working on it! See [[ProgArm 0.2]] for current version.</span></p><p><span class="foo_undecided">Undecided</span> / <span class="foo_todo">Todo</span> / <span class="foo_done">Done</span></p><h2>Current stage:</h2><h2><span class="foo_todo">planning</span> -&gt; <span class="foo_undecided">schematic</span> -&gt; <span class="foo_undecided">components</span> -&gt; <span class="foo_undecided">PCB</span> -&gt; <span class="foo_undecided">waiting for PCBs</span> -&gt; <span class="foo_undecided">testing</span></h2>
-ts: 1421192612
+flags: 01010
+blocks: <h2>Files</h2><p><span class="foo_nextversion">This is an upcoming version. We are working on it! See [[ProgArm 0.2]] for current version.</span></p><p><span class="foo_undecided">Undecided</span> / <span class="foo_todo">Todo</span> / <span class="foo_done">Done</span></p><h2>Current stage:</h2><h2><span class="foo_todo">planning</span> -&gt; <span class="foo_undecided">schematic</span> -&gt; <span class="foo_undecided">components</span> -&gt; <span class="foo_undecided">PCB</span> -&gt; <span class="foo_undecided">waiting for PCBs</span> -&gt; <span class="foo_undecided">testing</span></h2><h2>Ideas</h2><ul><li>Use stm32<strong>L</strong> to improve [[Power Consumption]].</li><li>BMX055 instead of MPU9250.</li></ul>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; ==Ideas<br />&gt; * Use stm32**L** to improve [[Power Consumption]].<br />&gt; * BMX055 instead of MPU9250.</p></div>
+ts: 1421193274
 minor: 
 host: 82.131.49.239
 username: AlexDaniel
-revision: 1
-summary: ==Files <nextversion>This is an upcoming version. We are working on it! See ProgArm 0.2 for current version. . . .
+revision: 2
+diff-major: 1
+summary: Some ideas
 languages: 
 text: ==Files
 	<nextversion>This is an upcoming version. We are working on it! See [[ProgArm 0.2]] for current version.
@@ -15,4 +18,9 @@ text: ==Files
 	==Current stage:
 	== <todo>planning</> -> <undecided>schematic</> -> <undecided>components</> -> <undecided>PCB</> -> <undecided>waiting for PCBs</> -> <undecided>testing</>
 	
-lastmajor: 1
+	==Ideas
+	* Use stm32**L** to improve [[Power Consumption]].
+	* BMX055 instead of MPU9250.
+	
+lastmajor: 2
+keep-ts: 1421193274
