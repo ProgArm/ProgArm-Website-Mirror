@@ -1,22 +1,23 @@
 flags: 0101010101010101010101010
-blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Version</th><th>Photo</th><th>Status</th></tr><tr><td>[[ProgArm 0.4{4}]]</td><td align="right"></td><td align="center"><span class="foo_nextversion">Future release </span></td></tr><tr><td>[[ProgArm 0.3{3}]]</td><td align="right"></td><td align="center"><span class="foo_nextversion">Future release </span></td></tr><tr><td>[[ProgArm 0.2{2}]]</td><td>[[File:IMGP1310.JPG]]</td><td align="center"><span class="foo_currentversion">Current version </span></td></tr><tr><td>[[ProgArm 0.1{1}]]</td><td>[[File:DSC_0742.JPG]]</td><td align="center"><span class="foo_oldversion">Old version </span></td></tr></table><h2>Rings</h2><table class="user"><tr><th>Ring</th><th>Description</th><th>Photo</th></tr><tr><td>[[Ring]]</td><td>Basic wired ring</td><td>[[File:IMGP1298.JPG]]</td></tr></table><p>See [[Ideas]] page for other possible ring types.</p><h2>Clients</h2><p>[[Clients]] are not part of the hardware, but they are listed here to improve site navigation.<br /></p><ul><li>[[Perl Client]]</li></ul><p>See [[Clients]] for more info. </p>
-diff-minor: <p><strong>Deleted:</strong></p>
-	<div class="old"><p>&lt;  </p></div>
+blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Version</th><th>Photo</th><th>Status</th></tr><tr><td>[[ProgArm 0.4{4}]]</td><td align="right"></td><td align="center"><span class="foo_nextversion">Future release </span></td></tr><tr><td>[[ProgArm 0.3{3}]]</td><td align="right"></td><td align="center"><span class="foo_currentversion">Current version </span></td></tr><tr><td>[[ProgArm 0.2{2}]]</td><td>[[File:IMGP1310.JPG]]</td><td align="center"><span class="foo_oldversion">Old version </span></td></tr><tr><td>[[ProgArm 0.1{1}]]</td><td>[[File:DSC_0742.JPG]]</td><td align="center"><span class="foo_oldversion">Old version </span></td></tr></table><h2>Rings</h2><table class="user"><tr><th>Ring</th><th>Description</th><th>Photo</th></tr><tr><td>[[Ring]]</td><td>Basic wired ring</td><td>[[File:IMGP1298.JPG]]</td></tr></table><p>See [[Ideas]] page for other possible ring types.</p><h2>Clients</h2><p>[[Clients]] are not part of the hardware, but they are listed here to improve site navigation.<br /></p><ul><li>[[Perl Client]]</li></ul><p>See [[Clients]] for more info. </p>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; |[[ProgArm 0.3{3}]]| | &lt;<strong class="changes">nextversion</strong>&gt;<strong class="changes">Future release</strong> |<br />&lt; |[[ProgArm 0.2{2}]]|[[File:IMGP1310.JPG]]| &lt;<strong class="changes">currentversion</strong>&gt;<strong class="changes">Current</strong> version |</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; |[[ProgArm 0.3{3}]]| | &lt;<strong class="changes">currentversion</strong>&gt;<strong class="changes">Current version</strong> |<br />&gt; |[[ProgArm 0.2{2}]]|[[File:IMGP1310.JPG]]| &lt;<strong class="changes">oldversion</strong>&gt;<strong class="changes">Old</strong> version |</p></div>
 ip: 84.52.29.94
-ts: 1421192481
+ts: 1421808260
 minor: 
-host: 82.131.49.239
+host: 82.131.44.143
 username: AlexDaniel
-revision: 167
+revision: 168
 diff-major: 1
-summary: Link to ideas for ProgArm 0.4
+summary: ProgArm 0.3!
 languages: 
 text: ==Devices
 	[[https://github.com/ProgArm/ProgArm-Hardware/releases Release list]]
 	|=Version|=Photo|=Status|
 	|[[ProgArm 0.4{4}]]| | <nextversion>Future release |
-	|[[ProgArm 0.3{3}]]| | <nextversion>Future release |
-	|[[ProgArm 0.2{2}]]|[[File:IMGP1310.JPG]]| <currentversion>Current version |
+	|[[ProgArm 0.3{3}]]| | <currentversion>Current version |
+	|[[ProgArm 0.2{2}]]|[[File:IMGP1310.JPG]]| <oldversion>Old version |
 	|[[ProgArm 0.1{1}]]|[[File:DSC_0742.JPG]]| <oldversion>Old version |
 	
 	==Rings
@@ -31,5 +32,5 @@ text: ==Devices
 	
 	See [[Clients]] for more info. 
 	
-lastmajor: 167
-keep-ts: 1421192481
+lastmajor: 168
+keep-ts: 1421808260
