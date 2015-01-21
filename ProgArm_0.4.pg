@@ -1,21 +1,18 @@
 flags: 01010
-blocks: <h2>Files</h2><p><span class="foo_nextversion">This is an upcoming version. The work has <strong>not started yet</strong>! See [[ProgArm 0.2]] for current version.</span></p><p><span class="foo_undecided">Undecided</span> / <span class="foo_todo">Todo</span> / <span class="foo_done">Done</span></p><h2>Current stage:</h2><h2><span class="foo_undecided">planning</span> -&gt; <span class="foo_undecided">schematic</span> -&gt; <span class="foo_undecided">components</span> -&gt; <span class="foo_undecided">PCB</span> -&gt; <span class="foo_undecided">waiting for PCBs</span> -&gt; <span class="foo_undecided">testing</span></h2><h2>Ideas</h2><ul><li>Use stm32<strong>L</strong> to improve [[Power Consumption]].</li><li>BMX055 instead of MPU9250.</li></ul>
+blocks: <h2>Files</h2><p><span class="foo_nextversion">This is an upcoming version. The work has <strong>not started yet</strong>! See [[ProgArm 0.3]] for current version.</span></p><p><span class="foo_undecided">Undecided</span> / <span class="foo_todo">Todo</span> / <span class="foo_done">Done</span></p><h2>Current stage:</h2><h2><span class="foo_undecided">planning</span> -&gt; <span class="foo_undecided">schematic</span> -&gt; <span class="foo_undecided">components</span> -&gt; <span class="foo_undecided">PCB</span> -&gt; <span class="foo_undecided">waiting for PCBs</span> -&gt; <span class="foo_undecided">testing</span></h2><h2>Ideas</h2><ul><li>Use stm32<strong>L</strong> to improve [[Power Consumption]].</li><li>BMX055 instead of MPU9250.</li></ul>
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; &lt;nextversion&gt;This is an upcoming version. <strong class="changes">We are working on it!</strong> See [[ProgArm 0.2]] for current version.</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; &lt;nextversion&gt;This is an upcoming version. <strong class="changes">The work has **not started yet**!</strong> See [[ProgArm 0.2]] for current version.</p></div><p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; == &lt;<strong class="changes">todo</strong>&gt;planning&lt;/&gt; -&gt; &lt;undecided&gt;schematic&lt;/&gt; -&gt; &lt;undecided&gt;components&lt;/&gt; -&gt; &lt;undecided&gt;PCB&lt;/&gt; -&gt; &lt;undecided&gt;waiting for PCBs&lt;/&gt; -&gt; &lt;undecided&gt;testing&lt;/&gt;</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; == &lt;<strong class="changes">undecided</strong>&gt;planning&lt;/&gt; -&gt; &lt;undecided&gt;schematic&lt;/&gt; -&gt; &lt;undecided&gt;components&lt;/&gt; -&gt; &lt;undecided&gt;PCB&lt;/&gt; -&gt; &lt;undecided&gt;waiting for PCBs&lt;/&gt; -&gt; &lt;undecided&gt;testing&lt;/&gt;</p></div>
-ts: 1421193529
-minor: 1
-host: 82.131.49.239
+	<div class="old"><p>&lt; &lt;nextversion&gt;This is an upcoming version. The work has **not started yet**! See [[ProgArm 0.<strong class="changes">2</strong>]] for current version.</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; &lt;nextversion&gt;This is an upcoming version. The work has **not started yet**! See [[ProgArm 0.<strong class="changes">3</strong>]] for current version.</p></div>
+ts: 1421808196
+minor: 
+host: 82.131.44.143
 username: AlexDaniel
-revision: 3
-diff-major: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; ==Ideas<br />&gt; * Use stm32**L** to improve [[Power Consumption]].<br />&gt; * BMX055 instead of MPU9250.</p></div>
-summary: disclaimer
+revision: 4
+diff-major: 1
+summary: 0.3 is the current version now
 languages: 
 text: ==Files
-	<nextversion>This is an upcoming version. The work has **not started yet**! See [[ProgArm 0.2]] for current version.
+	<nextversion>This is an upcoming version. The work has **not started yet**! See [[ProgArm 0.3]] for current version.
 	
 	<undecided>Undecided</> / <todo>Todo</> / <done>Done</>
 	
@@ -26,5 +23,5 @@ text: ==Files
 	* Use stm32**L** to improve [[Power Consumption]].
 	* BMX055 instead of MPU9250.
 	
-lastmajor: 2
-keep-ts: 1421193529
+lastmajor: 4
+keep-ts: 1421808196
