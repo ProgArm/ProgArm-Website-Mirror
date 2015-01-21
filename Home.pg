@@ -1,19 +1,18 @@
-flags: 0101010101010
-blocks: <p><a class="image right inter File" href="http://files.progarm.org/progarmsitelogo.png"><img class="upload" title="File:progarmsitelogo.png" src="http://files.progarm.org/progarmsitelogo.png" alt="File:progarmsitelogo.png" /></a></p><p>This website is a <a class="url http outside" href="http://oddmuse.org/wiki/What_Is_A_Wiki">wiki</a>. You are highly encouraged to [[Page Editing|edit]] it.</p><p><strong>[[Start Here{t}]]</strong> if you are new to this project.</p><p>Most common links:<br /></p><ul><li>[[Controls{l}]]</li><li>[[List of Perl Modules{m}]]</li></ul><h2>Blog</h2>&lt;Journal 3,5&gt;
+flags: 010101010101010
+blocks: <p><a class="image right inter File" href="http://files.progarm.org/progarmsitelogo.png"><img class="upload" title="File:progarmsitelogo.png" src="http://files.progarm.org/progarmsitelogo.png" alt="File:progarmsitelogo.png" /></a></p><p>This website is a <a class="url http outside" href="http://oddmuse.org/wiki/What_Is_A_Wiki">wiki</a>. You are highly encouraged to [[Page Editing|edit]] it.</p><p><strong>[[Start Here{t}]]</strong> if you are new to this project.</p><p>Most common links:<br /></p><ul><li>[[Current Version]]</li><li>[[Controls{l}]]</li><li>[[List of Perl Modules{m}]]</li></ul><h2>Blog</h2>&lt;Journal 3,5&gt;
 	<p><br /></p><h2>Questions</h2>&lt;Journal 6 "^Question_\d+"&gt;
-diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; **[[Start Here<strong class="changes">]]**</strong> if you are new to this project.</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; **[[Start Here<strong class="changes">{t}]]**</strong> if you are new to this project.</p></div>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; * [[Current Version]]</p></div>
 ip: 84.52.29.94
-ts: 1417889081
+ts: 1421808471
 minor: 1
-host: 89.235.228.16
+host: 82.131.44.143
 username: AlexDaniel
-revision: 34
+revision: 35
 diff-major: <p><strong>Changed:</strong></p>
 	<div class="old"><p>&lt; <strong class="changes">[[</strong>Start Here<strong class="changes">]]</strong> if you are new to this project.</p></div><p><strong>to</strong></p>
 	<div class="new"><p>&gt; <strong class="changes">**[[</strong>Start Here<strong class="changes">]]**</strong> if you are new to this project.<br />&gt; <strong class="changes">Most common links:<br />&gt; * [[Controls]]<br />&gt; * [[List of Perl Extensions]]</strong></p></div>
-summary: 
+summary: Link to the current version
 languages: 
 text: [[image/right:File:progarmsitelogo.png]]
 	
@@ -23,6 +22,7 @@ text: [[image/right:File:progarmsitelogo.png]]
 	**[[Start Here{t}]]** if you are new to this project.
 	
 	Most common links:
+	* [[Current Version]]
 	* [[Controls{l}]]
 	* [[List of Perl Modules{m}]]
 	
@@ -34,4 +34,4 @@ text: [[image/right:File:progarmsitelogo.png]]
 	<Journal 6 "^Question_\d+">
 	
 lastmajor: 31
-keep-ts: 1417889081
+keep-ts: 1421808471
