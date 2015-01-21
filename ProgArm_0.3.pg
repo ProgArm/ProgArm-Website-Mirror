@@ -1,15 +1,17 @@
 flags: 0101010101010101010
-blocks: <h2>Files</h2><p><span class="foo_nextversion">This is an upcoming version. We are working on it! See [[ProgArm 0.2]] for current version.</span></p><p><span class="foo_undecided">Undecided</span> / <span class="foo_todo">Todo</span> / <span class="foo_done">Done</span></p><h2>Current stage:</h2><h2><span class="foo_done">planning</span> -&gt; <span class="foo_done">schematic</span> -&gt; <span class="foo_done">components</span> -&gt; <span class="foo_done">PCB</span> -&gt; <span class="foo_todo">waiting for PCBs</span> -&gt; <span class="foo_xxx">testing</span></h2><h2>Improvements:</h2><ul><li><span class="foo_done">Use newer and smaller barometer (BMP180? LPS25H?) -- <strong>DONE!</strong> (Using LPS25H[http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00066332.pdf] now)</span></li><li><span class="foo_done">Smaller bluetooth module with BLE support (CC2541 with <a class="url http outside" href="https://github.com/aanon4/BlueBasic">BlueBasic</a> or nRF51822 with <a class="url http outside" href="https://github.com/pauloborges/blessed">blessed</a> or nRF8001) -- <strong>DONE!</strong> (Using nRF8001[http://www.nordicsemi.com/eng/nordic/download_resource/17534/14/46196215] now)</span></li><li><span class="foo_todo">Use SMD vibramotor. (But make sure that it does not get stuck)</span></li><li><span class="foo_done">Reduce size to fit into 5x5cm (4x7cm currently) to reduce costs. 4x5cm would be great! -- <strong>DONE!</strong> (4x5cm)</span><ul><li><span class="foo_done">Use combined accelgyro and magnetometer (MPU9250[http://www.invensense.com/mems/gyro/documents/PS-MPU-9250A-01.pdf])</span></li><li><span class="foo_done"> Use LPS4012-222L or LPS4018-222L instead of huge inductors. -- <strong>DONE!</strong> (L-07C15NKV6T and LQM18FN100M00D)</span></li><li><span class="foo_done"> Smaller transistors -- <strong>DONE!</strong> (SOT-723-3)</span></li><li><span class="foo_done"> 0402</span></li></ul></li><li><span class="foo_done">Charge LED is disabled when the device is turned off. This leads to false assumption that charging is not working when device is turned off by hardware switch.</span></li><li><span class="foo_done"><strong>Do not use rare components!</strong></span><ul><li><span class="foo_done">Use bq24297[http://www.ti.com/lit/ds/symlink/bq24297.pdf] with LM3668[http://www.ti.com/lit/ds/symlink/lm3668.pdf] instead of LTC3566.</span></li><li><span class="foo_done">bq27410[http://www.ti.com/lit/ds/symlink/bq27410-g1.pdf] instead of LTC2942.</span></li></ul></li><li><span class="foo_done">Optional battery thermistor</span></li><li><span class="foo_done">RTC supercap</span></li><li><span class="foo_done">No "mode switch"?</span></li><li><span class="foo_done">Less ports, more pin headers! -- <strong>DONE!</strong> (1.27mm pin headers)</span></li><li><span class="foo_todo">Minimalistic voltmeter. (as ProgArm extension)</span></li><li><span class="foo_done">Pulse oximetry (NJL5501R? TCRT1000? Si1142?) -- <strong>DONE!</strong> (Using Si1142[https://www.silabs.com/Support%20Documents/TechnicalDocs/Si114x.pdf] now)</span></li><li><span class="foo_todo">IR sensor and transmitter system. (as Ring)</span></li></ul>
-diff-minor: <p><strong>Deleted:</strong></p>
-	<div class="old"><p>&lt; Issues in 0.3 version:<br />&lt; * Check MPU footprint</p></div>
+blocks: <h2>Files</h2><p><span class="foo_nextversion">This is an upcoming version. We are working on it! See [[ProgArm 0.2]] for current version.</span></p><p><span class="foo_undecided">Undecided</span> / <span class="foo_todo">Todo</span> / <span class="foo_done">Done</span></p><h2>Current stage:</h2><h2><span class="foo_done">planning</span> -&gt; <span class="foo_done">schematic</span> -&gt; <span class="foo_done">components</span> -&gt; <span class="foo_done">PCB</span> -&gt; <span class="foo_done">waiting for PCBs</span> -&gt; <span class="foo_todo">testing</span></h2><h2>Improvements:</h2><ul><li><span class="foo_done">Use newer and smaller barometer (BMP180? LPS25H?) -- <strong>DONE!</strong> (Using LPS25H[http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00066332.pdf] now)</span></li><li><span class="foo_done">Smaller bluetooth module with BLE support (CC2541 with <a class="url http outside" href="https://github.com/aanon4/BlueBasic">BlueBasic</a> or nRF51822 with <a class="url http outside" href="https://github.com/pauloborges/blessed">blessed</a> or nRF8001) -- <strong>DONE!</strong> (Using nRF8001[http://www.nordicsemi.com/eng/nordic/download_resource/17534/14/46196215] now)</span></li><li><span class="foo_todo">Use SMD vibramotor. (But make sure that it does not get stuck)</span></li><li><span class="foo_done">Reduce size to fit into 5x5cm (4x7cm currently) to reduce costs. 4x5cm would be great! -- <strong>DONE!</strong> (4x5cm)</span><ul><li><span class="foo_done">Use combined accelgyro and magnetometer (MPU9250[http://www.invensense.com/mems/gyro/documents/PS-MPU-9250A-01.pdf])</span></li><li><span class="foo_done"> Use LPS4012-222L or LPS4018-222L instead of huge inductors. -- <strong>DONE!</strong> (L-07C15NKV6T and LQM18FN100M00D)</span></li><li><span class="foo_done"> Smaller transistors -- <strong>DONE!</strong> (SOT-723-3)</span></li><li><span class="foo_done"> 0402</span></li></ul></li><li><span class="foo_done">Charge LED is disabled when the device is turned off. This leads to false assumption that charging is not working when device is turned off by hardware switch.</span></li><li><span class="foo_done"><strong>Do not use rare components!</strong></span><ul><li><span class="foo_done">Use bq24297[http://www.ti.com/lit/ds/symlink/bq24297.pdf] with LM3668[http://www.ti.com/lit/ds/symlink/lm3668.pdf] instead of LTC3566.</span></li><li><span class="foo_done">bq27410[http://www.ti.com/lit/ds/symlink/bq27410-g1.pdf] instead of LTC2942.</span></li></ul></li><li><span class="foo_done">Optional battery thermistor</span></li><li><span class="foo_done">RTC supercap</span></li><li><span class="foo_done">No "mode switch"?</span></li><li><span class="foo_done">Less ports, more pin headers! -- <strong>DONE!</strong> (1.27mm pin headers)</span></li><li><span class="foo_todo">Minimalistic voltmeter. (as ProgArm extension)</span></li><li><span class="foo_done">Pulse oximetry (NJL5501R? TCRT1000? Si1142?) -- <strong>DONE!</strong> (Using Si1142[https://www.silabs.com/Support%20Documents/TechnicalDocs/Si114x.pdf] now)</span></li><li><span class="foo_todo">IR sensor and transmitter system. (as Ring)</span></li></ul><h2>Testing</h2><ul><li><span class="foo_done">STM32</span></li><li><span class="foo_done">LM3668</span></li><li><span class="foo_undecided">bq27410 - probably, need to test I2C stuff</span></li><li><span class="foo_undecided">bq24297 - probably, need to test I2C stuff</span></li><li><span class="foo_todo">nRF8001</span></li><li><span class="foo_todo">LPS25H</span></li><li><span class="foo_todo">MPU9050</span></li><li><span class="foo_todo">Si1142</span></li><li><span class="foo_undecided">Supercap - weird voltage drop?</span></li><li><span class="foo_done">Vibration</span></li></ul>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; == &lt;done&gt;planning&lt;/&gt; -&gt; &lt;done&gt;schematic&lt;/&gt; -&gt; &lt;done&gt;components&lt;/&gt; -&gt; &lt;done&gt;PCB&lt;/&gt; -&gt; &lt;<strong class="changes">todo</strong>&gt;waiting for PCBs&lt;/&gt; -&gt; &lt;<strong class="changes">xxx</strong>&gt;testing&lt;/&gt;</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; == &lt;done&gt;planning&lt;/&gt; -&gt; &lt;done&gt;schematic&lt;/&gt; -&gt; &lt;done&gt;components&lt;/&gt; -&gt; &lt;done&gt;PCB&lt;/&gt; -&gt; &lt;<strong class="changes">done</strong>&gt;waiting for PCBs&lt;/&gt; -&gt; &lt;<strong class="changes">todo</strong>&gt;testing&lt;/&gt;</p></div><p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; ==Testing<br />&gt; * &lt;done&gt;STM32<br />&gt; * &lt;done&gt;LM3668<br />&gt; * &lt;undecided&gt;bq27410 - probably, need to test I2C stuff<br />&gt; * &lt;undecided&gt;bq24297 - probably, need to test I2C stuff<br />&gt; * &lt;todo&gt;nRF8001<br />&gt; * &lt;todo&gt;LPS25H<br />&gt; * &lt;todo&gt;MPU9050<br />&gt; * &lt;todo&gt;Si1142<br />&gt; * &lt;undecided&gt;Supercap - weird voltage drop?<br />&gt; * &lt;done&gt;Vibration</p></div>
 ip: 84.52.38.40
-ts: 1420147821
+ts: 1421808018
 minor: 
-host: 82.131.49.240
+host: 82.131.44.143
 username: AlexDaniel
-revision: 78
+revision: 79
 diff-major: 1
-summary: Up-to-date list
+summary: Testing phase
 languages: 
 text: ==Files
 	<nextversion>This is an upcoming version. We are working on it! See [[ProgArm 0.2]] for current version.
@@ -17,7 +19,7 @@ text: ==Files
 	<undecided>Undecided</> / <todo>Todo</> / <done>Done</>
 	
 	==Current stage:
-	== <done>planning</> -> <done>schematic</> -> <done>components</> -> <done>PCB</> -> <todo>waiting for PCBs</> -> <xxx>testing</>
+	== <done>planning</> -> <done>schematic</> -> <done>components</> -> <done>PCB</> -> <done>waiting for PCBs</> -> <todo>testing</>
 	
 	==Improvements:
 	* <done>Use newer and smaller barometer (BMP180? LPS25H?) -- **DONE!** (Using LPS25H[http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00066332.pdf] now)
@@ -40,5 +42,17 @@ text: ==Files
 	* <done>Pulse oximetry (NJL5501R? TCRT1000? Si1142?) -- **DONE!** (Using Si1142[https://www.silabs.com/Support%20Documents/TechnicalDocs/Si114x.pdf] now)
 	* <todo>IR sensor and transmitter system. (as Ring)
 	
-lastmajor: 78
-keep-ts: 1420147821
+	==Testing
+	* <done>STM32
+	* <done>LM3668
+	* <undecided>bq27410 - probably, need to test I2C stuff
+	* <undecided>bq24297 - probably, need to test I2C stuff
+	* <todo>nRF8001
+	* <todo>LPS25H
+	* <todo>MPU9050
+	* <todo>Si1142
+	* <undecided>Supercap - weird voltage drop?
+	* <done>Vibration
+	
+lastmajor: 79
+keep-ts: 1421808018
