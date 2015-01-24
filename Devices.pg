@@ -1,20 +1,22 @@
 flags: 010101010101010101010
-blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Version</th><th>Photo</th><th>Status</th></tr><tr><td>[[ProgArm 0.4{4}]]</td><td align="center"><span class="foo_nextversion">Future release </span></td></tr><tr><td>[[ProgArm 0.3{3}]]</td><td align="center"><span class="foo_currentversion">Current version </span></td></tr><tr><td>[[ProgArm 0.2{2}]]</td><td align="center"><span class="foo_oldversion">Old version </span></td></tr><tr><td>[[ProgArm 0.1{1}]]</td><td align="center"><span class="foo_oldversion">Old version </span></td></tr></table><h2>Rings</h2><table class="user"><tr><th>Ring</th><th>Description</th><th>Photo</th></tr><tr><td>[[Ring]]</td><td>Basic wired ring</td><td>[[File:IMGP1298.JPG]]</td></tr></table><p>See [[Ideas]] page for other possible ring types.</p><h2>Clients</h2><p>[[Clients]] are not part of the hardware, but they are listed here to improve site navigation.<br /></p><ul><li>[[Perl Client]]</li></ul><p>See [[Clients]] for more info. </p>
+blocks: <h2>Devices</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">Release list</a><br /></p><table class="user"><tr><th>Version</th><td>Status</td></tr><tr><td>[[ProgArm 0.4{4}]]</td><td align="center"><span class="foo_nextversion">Future release </span></td></tr><tr><td>[[ProgArm 0.3{3}]]</td><td align="center"><span class="foo_currentversion">Current version </span></td></tr><tr><td>[[ProgArm 0.2{2}]]</td><td align="center"><span class="foo_oldversion">Old version </span></td></tr><tr><td>[[ProgArm 0.1{1}]]</td><td align="center"><span class="foo_oldversion">Old version </span></td></tr></table><h2>Rings</h2><table class="user"><tr><th>Ring</th><th>Description</th><th>Photo</th></tr><tr><td>[[Ring]]</td><td>Basic wired ring</td><td>[[File:IMGP1298.JPG]]</td></tr></table><p>See [[Ideas]] page for other possible ring types.</p><h2>Clients</h2><p>[[Clients]] are not part of the hardware, but they are listed here to improve site navigation.<br /></p><ul><li>[[Perl Client]]</li></ul><p>See [[Clients]] for more info. </p>
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; |[[ProgArm 0.4{4}]]| <strong class="changes">|</strong> &lt;nextversion&gt;Future release |<br />&lt; |[[ProgArm 0.3{3}]]| <strong class="changes">|</strong> &lt;currentversion&gt;Current version |<br />&lt; |[[ProgArm 0.2{2<strong class="changes">}]]|[[File:IMGP1310.JPG]]|</strong> &lt;oldversion&gt;Old version |<br />&lt; |[[ProgArm 0.1{1<strong class="changes">}]]|[[File:DSC_0742.JPG]]|</strong> &lt;oldversion&gt;Old version |</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; |[[ProgArm 0.4{4}]]| &lt;nextversion&gt;Future release |<br />&gt; |[[ProgArm 0.3{3}]]| &lt;currentversion&gt;Current version |<br />&gt; |[[ProgArm 0.2{2<strong class="changes">}]]|</strong> &lt;oldversion&gt;Old version |<br />&gt; |[[ProgArm 0.1{1<strong class="changes">}]]|</strong> &lt;oldversion&gt;Old version |</p></div>
+	<div class="old"><p>&lt; |=Version<strong class="changes">|=Photo|=</strong>Status|</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; |=Version<strong class="changes">|</strong>Status|</p></div>
 ip: 84.52.29.94
-ts: 1422057955
-minor: 
+ts: 1422057969
+minor: 1
 host: 85.253.71.111
 username: AlexDaniel
-revision: 169
-diff-major: 1
+revision: 170
+diff-major: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; |[[ProgArm 0.4{4}]]| <strong class="changes">|</strong> &lt;nextversion&gt;Future release |<br />&lt; |[[ProgArm 0.3{3}]]| <strong class="changes">|</strong> &lt;currentversion&gt;Current version |<br />&lt; |[[ProgArm 0.2{2<strong class="changes">}]]|[[File:IMGP1310.JPG]]|</strong> &lt;oldversion&gt;Old version |<br />&lt; |[[ProgArm 0.1{1<strong class="changes">}]]|[[File:DSC_0742.JPG]]|</strong> &lt;oldversion&gt;Old version |</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; |[[ProgArm 0.4{4}]]| &lt;nextversion&gt;Future release |<br />&gt; |[[ProgArm 0.3{3}]]| &lt;currentversion&gt;Current version |<br />&gt; |[[ProgArm 0.2{2<strong class="changes">}]]|</strong> &lt;oldversion&gt;Old version |<br />&gt; |[[ProgArm 0.1{1<strong class="changes">}]]|</strong> &lt;oldversion&gt;Old version |</p></div>
 summary: Photos are visible on the specific pages
 languages: 
 text: ==Devices
 	[[https://github.com/ProgArm/ProgArm-Hardware/releases Release list]]
-	|=Version|=Photo|=Status|
+	|=Version|Status|
 	|[[ProgArm 0.4{4}]]| <nextversion>Future release |
 	|[[ProgArm 0.3{3}]]| <currentversion>Current version |
 	|[[ProgArm 0.2{2}]]| <oldversion>Old version |
@@ -33,4 +35,4 @@ text: ==Devices
 	See [[Clients]] for more info. 
 	
 lastmajor: 169
-keep-ts: 1422057955
+keep-ts: 1422057969
