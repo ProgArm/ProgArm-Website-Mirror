@@ -1,27 +1,28 @@
 flags: 010
-blocks: <h2>Files</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases/tag/v0.1.0">v0.1.0 release on GitHub</a></p><h2>Photos</h2><p>[[File:DSC_0742.JPG]] (partly soldered)</p><h2>Known problems:</h2><ul><li>One of the SPI port pins was not routed due to the error on schematic.</li><li>Ring LED is not connected to any TIM, which means that we have to implement PWM manually. This is pretty inconvenient, because hardware PWM can have much shorter duty cycle, therefore providing a possibility to have dimmer indicators. Also hardware PWM requires no additional lines of code to achieve different shades.</li></ul>
-diff-minor: <p><strong>Deleted:</strong></p>
-	<div class="old"><p>&lt; * Accelerometer &amp; Compass are oriented differently, which means that we have to rotate coordinates to get some consistency.</p></div>
+blocks: <h2>Files</h2><p><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases/tag/v0.1.0">v0.1.0 release on GitHub</a></p><h2>Photos</h2><p>[[File:DSC_0742.JPG|Board Photo]] (partly soldered)</p><h2>Known problems:</h2><ul><li>One of the SPI port pins was not routed due to the error on schematic.</li><li>Ring LED is not connected to any TIM, which means that we have to implement PWM manually. This is pretty inconvenient, because hardware PWM can have much shorter duty cycle, therefore providing a possibility to have dimmer indicators. Also hardware PWM requires no additional lines of code to achieve different shades.</li></ul>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; [[File:DSC_0742.JPG]] (partly soldered)</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; [[File:DSC_0742.JPG<strong class="changes">|Board Photo</strong>]] (partly soldered)</p></div>
 ip: 84.52.29.94
-ts: 1417487186
+ts: 1422058086
 minor: 1
-host: 89.235.242.183
+host: 85.253.71.111
 username: AlexDaniel
-revision: 26
+revision: 27
 diff-major: <p><strong>Changed:</strong></p>
 	<div class="old"><p>&lt; [[<strong class="changes">https://dl.dropboxusercontent.com/u/71236259/</strong>DSC_0742.JPG <strong class="changes">Photo</strong>]]</p></div><p><strong>to</strong></p>
 	<div class="new"><p>&gt; [[<strong class="changes">File:</strong>DSC_0742.JPG]]</p></div>
-summary: Perhaps not
+summary: 
 languages: 
 text: ==Files
 	[[https://github.com/ProgArm/ProgArm-Hardware/releases/tag/v0.1.0 v0.1.0 release on GitHub]]
 	
 	==Photos
-	[[File:DSC_0742.JPG]] (partly soldered)
+	[[File:DSC_0742.JPG|Board Photo]] (partly soldered)
 	
 	==Known problems:
 	* One of the SPI port pins was not routed due to the error on schematic.
 	* Ring LED is not connected to any TIM, which means that we have to implement PWM manually. This is pretty inconvenient, because hardware PWM can have much shorter duty cycle, therefore providing a possibility to have dimmer indicators. Also hardware PWM requires no additional lines of code to achieve different shades.
 	
 lastmajor: 24
-keep-ts: 1417487186
+keep-ts: 1422058086
