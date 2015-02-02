@@ -1,17 +1,0 @@
-flags: 010
-blocks: <p>DeletedPage</p>
-diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; <strong class="changes">== Battery status<br />&lt; ===Charge prescaler<br />&lt; LTC2942 provides a prescaler, which is set to 32 in default ProgArm firmware. You can adjust this value depending on the precision you need and your maximum battery capacity.<br />&lt; |=Prescaler|=Max battery\\capacity|<br />&lt; |   1 |   43.52 |<br />&lt; |   2 |   87.04 |<br />&lt; |   4 |  174.08 |<br />&lt; |   8 |  348.16 |<br />&lt; |  16 |  696.32 |<br />&lt; |  32 | 1392.64 |<br />&lt; |  64 | 2785.28 |<br />&lt; | 128 | 5570.56 |<br />&lt; Please note that if you plan to change prescaler value, you must change it both in the client and in the firmware.</strong></p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; <strong class="changes">DeletedPage</strong></p></div>
-ts: 1421193422
-minor: 
-host: 82.131.49.239
-username: AlexDaniel
-revision: 2
-diff-major: 1
-summary: 
-languages: 
-text: DeletedPage
-	
-lastmajor: 2
-keep-ts: 1421193422
