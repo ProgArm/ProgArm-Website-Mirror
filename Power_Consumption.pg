@@ -1,14 +1,15 @@
 flags: 010
-blocks: <h2>Battery status</h2><h3>Charge prescaler</h3><p>LTC2942 provides a prescaler, which is set to 32 in default ProgArm firmware. You can adjust this value depending on the precision you need and your maximum battery capacity.<br /></p><table class="user"><tr><th>Prescaler</th><th>Max battery<br />capacity</th></tr><tr><td align="center">1</td><td align="center">43.52</td></tr><tr><td align="center">2</td><td align="center">87.04</td></tr><tr><td align="center">4</td><td align="center">174.08</td></tr><tr><td align="center">8</td><td align="center">348.16</td></tr><tr><td align="center">16</td><td align="center">696.32</td></tr><tr><td align="center">32</td><td align="center">1392.64</td></tr><tr><td align="center">64</td><td align="center">2785.28</td></tr><tr><td align="center">128</td><td align="center">5570.56</td></tr></table><p>Please note that if you plan to change prescaler value, you must change it both in the client and in the firmware.</p><p><strong>TODO this is no longer true, we are not using LTC2942 now</strong></p>
-diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; **TODO this is no longer true, we are not using LTC2942 now**</p></div>
-ts: 1422939690
+blocks: <h2>Battery status</h2><h3>Charge prescaler</h3><p>LTC2942 provides a prescaler, which is set to 32 in default ProgArm firmware. You can adjust this value depending on the precision you need and your maximum battery capacity.<br /></p><table class="user"><tr><th>Prescaler</th><th>Max battery<br />capacity</th></tr><tr><td align="center">1</td><td align="center">43.52</td></tr><tr><td align="center">2</td><td align="center">87.04</td></tr><tr><td align="center">4</td><td align="center">174.08</td></tr><tr><td align="center">8</td><td align="center">348.16</td></tr><tr><td align="center">16</td><td align="center">696.32</td></tr><tr><td align="center">32</td><td align="center">1392.64</td></tr><tr><td align="center">64</td><td align="center">2785.28</td></tr><tr><td align="center">128</td><td align="center">5570.56</td></tr></table><p>Please note that if you plan to change prescaler value, you must change it both in the client and in the firmware.</p><p><strong>TODO this is no longer true, we are not using LTC2942 now</strong> </p>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; **TODO this is no longer true, we are not using LTC2942 now**</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; **TODO this is no longer true, we are not using LTC2942 now** </p></div>
+ts: 1422939721
 minor: 
 host: 82.131.3.129
 username: AlexDaniel
-revision: 2
+revision: 3
 diff-major: 1
-summary: 
+summary: Outdated info (disclaimer)
 languages: 
 text: == Battery status
 	===Charge prescaler
@@ -25,7 +26,7 @@ text: == Battery status
 	
 	Please note that if you plan to change prescaler value, you must change it both in the client and in the firmware.
 	
-	**TODO this is no longer true, we are not using LTC2942 now**
+	**TODO this is no longer true, we are not using LTC2942 now** 
 	
-lastmajor: 2
-keep-ts: 1422939690
+lastmajor: 3
+keep-ts: 1422939721
