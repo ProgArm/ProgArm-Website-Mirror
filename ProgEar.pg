@@ -1,24 +1,24 @@
 flags: 0
-blocks: <p>This is our upcoming project :)</p><p>It is highly unlikely that we will post any information until we have a working prototype. Please check back in January!</p><p>Rough notes:<br /></p><ul><li>PCM3060</li><li>TPA6120A2</li></ul>
-diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; Rough notes:</p></div>
-ts: 1420225379
-minor: 1
-host: 89.235.233.253
+blocks: <p>This is our upcoming project :)</p><p>It is highly unlikely that we will post any information until we have a working prototype. Please check back later! (We are working on it)</p><p>Rough notes:<br /></p><ul><li>PCM3060</li><li>TPA6120A2</li></ul>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; It is highly unlikely that we will post any information until we have a working prototype. Please check back <strong class="changes">in January</strong>!</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; It is highly unlikely that we will post any information until we have a working prototype. Please check back <strong class="changes">later</strong>! <strong class="changes">(We are working on it)</strong></p></div>
+ts: 1423048944
+minor: 
+host: 217.71.46.251
 username: AlexDaniel
-revision: 3
-diff-major: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; * PCM3060<br />&gt; * TPA6120A2</p></div>
-summary: 
+revision: 4
+diff-major: 1
+summary: not in january, but a bit later
 languages: 
 text: This is our upcoming project :)
 	
-	It is highly unlikely that we will post any information until we have a working prototype. Please check back in January!
+	It is highly unlikely that we will post any information until we have a working prototype. Please check back later! (We are working on it)
 	
 	
 	Rough notes:
 	* PCM3060
 	* TPA6120A2
 	
-lastmajor: 2
-keep-ts: 1420225379
+lastmajor: 4
+keep-ts: 1423048944
