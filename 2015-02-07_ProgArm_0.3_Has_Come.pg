@@ -1,17 +1,35 @@
-flags: 010
-blocks: <p>We are happy to announce, that the work on [[ProgArm 0.3]] is finally over!</p><p>TESTTESTTEST</p><p>-- Anonymous 2015-02-07 15:18 UTC</p>
-ts: 1423322328
+flags: 010101010
+blocks: <p>We are happy to announce, that the work on [[ProgArm 0.3]] is finally over!</p><p>The device is working as expected, and the only detected fault so far is improperly connected pin of BQ24297 that rendered OTG not functioning properly. The bug has already been fixed on the schematic and will also be removed from the PCB with the release of REV.B.</p><p>Although, functionally it is pretty much the same device, as [[ProgArm 0.2]], it was created using technologies completely new to us.</p><ul><li>First of all, the 0402 passives and ultra-small footprint MOSFETS have been used, which for us means the whole new level of miniaturisation.</li><li>Then, we have developed a custom nRF8001-based Bluetooth front-end, which not only gives us ultra-low energy consumption and Bluetooth Low Energy compatibility, but also enables us to get rid of those bulky, low-quality readily-available solutions, such as HC-05 or HM10.</li><li>We also introduce our new supercap-based RTC backup system, which takes much less space than usual CR2032 battery. This system is yet to be tested.</li><li>Finally, we have assembled the device using improvised reflow soldering method this time. After applying soldering paste through stencil and placing all the components, we used ordinary hot air rework station to do the reflow. This method turned out to be much easier and less time-consuming than manual soldering, and we can recommend everyone using it.</li></ul><p>Other improvements include pretty powerful onboard vibration motor, pulse sensor, new pin header connectors instead of old usb-based ones, 9 axis combined gyroscope-magnetometer, and ultra-small LPS25H ambient pressure sensor.</p><p>We hope that [[ProgArm 0.3]] will work for some time before we have to start developing the new version. We are also able to offer a couple of DIY [[ProgArm 0.3]] kits for you to assemble! As for them, please contact Alex-Daniel if you are interested.</p>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; <strong class="changes">TESTTESTTEST<br />&lt; -- Anonymous 2015-02-07 15:18 UTC</strong></p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; <strong class="changes">The device is working as expected, and the only detected fault so far is improperly connected pin of BQ24297 that rendered OTG not functioning properly. The bug has already been fixed on the schematic and will also be removed from the PCB with the release of REV.B.<br />&gt; Although, functionally it is pretty much the same device, as [[ProgArm 0.2]], it was created using technologies completely new to us.<br />&gt; * First of all, the 0402 passives and ultra-small footprint MOSFETS have been used, which for us means the whole new level of miniaturisation.<br />&gt; * Then, we have developed a custom nRF8001-based Bluetooth front-end, which not only gives us ultra-low energy consumption and Bluetooth Low Energy compatibility, but also enables us to get rid of those bulky, low-quality readily-available solutions, such as HC-05 or HM10.<br />&gt; * We also introduce our new supercap-based RTC backup system, which takes much less space than usual CR2032 battery. This system is yet to be tested.<br />&gt; * Finally, we have assembled the device using improvised reflow soldering method this time. After applying soldering paste through stencil and placing all the components, we used ordinary hot air rework station to do the reflow. This method turned out to be much easier and less time-consuming than manual soldering, and we can recommend everyone using it.<br />&gt; Other improvements include pretty powerful onboard vibration motor, pulse sensor, new pin header connectors instead of old usb-based ones, 9 axis combined gyroscope-magnetometer, and ultra-small LPS25H ambient pressure sensor.<br />&gt; We hope that [[ProgArm 0.3]] will work for some time before we have to start developing the new version. We are also able to offer a couple of DIY [[ProgArm 0.3]] kits for you to assemble! As for them, please contact Alex-Daniel if you are interested.</strong></p></div>
+ts: 1423324860
 minor: 
 host: 31.205.4.227
-username: 
-revision: 1
+username: Alexandr Boldin
+revision: 2
+diff-major: 1
 summary: We are happy to announce, that the work on ProgArm 0.3 is finally over! TESTTESTTEST
 languages: 
 text: We are happy to announce, that the work on [[ProgArm 0.3]] is finally over!
 	
-	TESTTESTTEST
-	
-	-- Anonymous 2015-02-07 15:18 UTC
+	The device is working as expected, and the only detected fault so far is improperly connected pin of BQ24297 that rendered OTG not functioning properly. The bug has already been fixed on the schematic and will also be removed from the PCB with the release of REV.B.
 	
 	
-lastmajor: 1
+	Although, functionally it is pretty much the same device, as [[ProgArm 0.2]], it was created using technologies completely new to us.
+	
+	* First of all, the 0402 passives and ultra-small footprint MOSFETS have been used, which for us means the whole new level of miniaturisation.
+	
+	* Then, we have developed a custom nRF8001-based Bluetooth front-end, which not only gives us ultra-low energy consumption and Bluetooth Low Energy compatibility, but also enables us to get rid of those bulky, low-quality readily-available solutions, such as HC-05 or HM10.
+	
+	* We also introduce our new supercap-based RTC backup system, which takes much less space than usual CR2032 battery. This system is yet to be tested.
+	
+	* Finally, we have assembled the device using improvised reflow soldering method this time. After applying soldering paste through stencil and placing all the components, we used ordinary hot air rework station to do the reflow. This method turned out to be much easier and less time-consuming than manual soldering, and we can recommend everyone using it.
+	
+	
+	Other improvements include pretty powerful onboard vibration motor, pulse sensor, new pin header connectors instead of old usb-based ones, 9 axis combined gyroscope-magnetometer, and ultra-small LPS25H ambient pressure sensor.
+	
+	We hope that [[ProgArm 0.3]] will work for some time before we have to start developing the new version. We are also able to offer a couple of DIY [[ProgArm 0.3]] kits for you to assemble! As for them, please contact Alex-Daniel if you are interested.
+	
+lastmajor: 2
+keep-ts: 1423324860
