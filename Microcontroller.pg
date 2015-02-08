@@ -1,20 +1,14 @@
-flags: 0101010
-blocks: <p>Currently we are using STM32F103RBT6.</p><p>Meaning of the last letters:<br /></p><ul><li><strong>R</strong> - 64-pin. [[ProgArm 0.1|Previously]] we were using <strong>C</strong> (48-pin LQFP), but it seems like it is not enough for ProgArm project.</li><li><strong>B</strong> - 128 Kbytes of Flash. <strong>8</strong> (64 Kbytes) is fine too, but the price difference is pretty much negligible.</li><li><strong>T</strong> - LQFP package.</li><li><strong>6</strong> - operating temperature. <strong>6</strong> is good enough unless you want to boil ProgArm.</li></ul><p>You can find the description of other options in the <a class="url http outside" href="http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf">official datasheet</a> on page 96.</p>
-diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; You can find the description of other options in [[http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf official datasheet]] on page 96.</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; You can find the description of other options in <strong class="changes">the</strong> [[http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf official datasheet]] on page 96.</p></div>
-ts: 1410981000
-minor: 1
-host: 89.235.230.13
+flags: 010101010
+blocks: <p>Currently we are using STM32F103RBT6.</p><p>Meaning of the last letters:<br /></p><ul><li><strong>R</strong> - 64-pin. [[ProgArm 0.1|Previously]] we were using <strong>C</strong> (48-pin LQFP), but it seems like it is not enough for ProgArm project.</li><li><strong>B</strong> - 128 Kbytes of Flash. <strong>8</strong> (64 Kbytes) is fine too, but the price difference is pretty much negligible.</li><li><strong>T</strong> - LQFP package.</li><li><strong>6</strong> - operating temperature. <strong>6</strong> is good enough unless you want to boil ProgArm.</li></ul><p>You can find the description of other options in the <a class="url http outside" href="http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf">official datasheet</a> on page 96.</p><h2>STM32L</h2><p>We are thinking about using STM32L in the next version, but this is undecided.</p><p>Pros:<br /></p><ul><li>Lower [[Power Consumption]]</li></ul><p>Cons:<br /></p><ul><li>Higher price</li><li>Less features</li><li>Less docs</li><li>Less popularity</li></ul>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; == STM32L<br />&gt; We are thinking about using STM32L in the next version, but this is undecided.<br />&gt; Pros:<br />&gt; * Lower [[Power Consumption]]<br />&gt; Cons:<br />&gt; * Higher price<br />&gt; * Less features<br />&gt; * Less docs<br />&gt; * Less popularity</p></div>
+ts: 1423426907
+minor: 
+host: 82.131.3.129
 username: AlexDaniel
-revision: 4
-diff-major: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; Meaning of last letters:<br />&lt; * **R** - 64-pin <strong class="changes">LQFP</strong>. [[ProgArm 0.1|Previously]] we were using **C** (48-pin LQFP), but it seems like it is not enough for ProgArm project.</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; Meaning of <strong class="changes">the</strong> last letters:<br />&gt; * **R** - 64-pin. [[ProgArm 0.1|Previously]] we were using **C** (48-pin LQFP), but it seems like it is not enough for ProgArm project.</p></div><p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; * **T** - </p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; * **T** - <strong class="changes">LQFP package.</strong></p></div><p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; You can find the description of other options in [[http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf official datasheet]] on page 96.</p></div>
-summary: 
+revision: 5
+diff-major: 1
+summary: STM32L pros and cons
 languages: 
 text: Currently we are using STM32F103RBT6.
 	
@@ -26,5 +20,17 @@ text: Currently we are using STM32F103RBT6.
 	
 	You can find the description of other options in the [[http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf official datasheet]] on page 96.
 	
-lastmajor: 3
-keep-ts: 1410981000
+	== STM32L
+	We are thinking about using STM32L in the next version, but this is undecided.
+	
+	Pros:
+	* Lower [[Power Consumption]]
+	
+	Cons:
+	* Higher price
+	* Less features
+	* Less docs
+	* Less popularity
+	
+lastmajor: 5
+keep-ts: 1423426907
