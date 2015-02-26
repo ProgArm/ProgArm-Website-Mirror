@@ -1,12 +1,15 @@
-flags: 0
-blocks: <h2><a class="url http" href="https://github.com/ProgArm">https://github.com/ProgArm</a></h2><p>More specifically:<br /></p><ul><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Firmware/releases">Firmware</a> - get the latest .hex file here.</li><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client">Client</a> - this is the main client written in perl. It should work on most platforms.</li><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client-Old">Old client</a> - this is the first proof-of-concept client written in python.<br /><br /></li><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware">Hardware</a> - Schematic and PCB files.<br /><br /></li><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-PrintableParts">Printable parts</a> - This repository will contain all 3D-printable parts for ProgArm.<br /><br /></li><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Misc">Misc</a> - Some development files that do not belong to any other repository.<br /><br /></li><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Website">Website</a> - here is the full source code of this website.</li><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Website-Mirror">Website Mirror</a> - repository that holds all text content from this website. All edits done on this wiki are automatically committed to the repository every 10 minutes.</li></ul>
+flags: 010
+blocks: <h2><a class="url http" href="https://github.com/ProgArm">https://github.com/ProgArm</a></h2><p>More specifically:<br /></p><ul><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Firmware/releases">Firmware</a> - get the latest .hex file here.</li><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client">Client</a> - this is the main client written in perl. It should work on most platforms.</li><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client-Old">Old client</a> - this is the first proof-of-concept client written in python.<br /><br /></li><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware">Hardware</a> - Schematic and PCB files.<br /><br /></li><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-PrintableParts">Printable parts</a> - This repository will contain all 3D-printable parts for ProgArm.<br /><br /></li><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Misc">Misc</a> - Some development files that do not belong to any other repository.<br /><br /></li><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Website">Website</a> - here is the full source code of this website.</li><li><a class="url http outside" href="https://github.com/ProgArm/ProgArm-Website-Mirror">Website Mirror</a> - repository that holds all text content from this website. All edits done on this wiki are automatically committed to the repository every 10 minutes.</li></ul><p>See also:<br /></p><ul><li>[[Contribute]]</li></ul>
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; See also:<br />&gt; * [[Contribute]]</p></div>
 ip: 84.52.44.168
-ts: 1414783047
-minor: 0
-host: 84.52.41.120
+ts: 1424993232
+minor: 
+host: 82.131.81.158
 username: AlexDaniel
-revision: 76
-summary: Rollback to 2014-10-31 18:44 UTC
+revision: 77
+diff-major: 1
+summary: Contribute link
 languages: 
 text: ==https://github.com/ProgArm
 	
@@ -24,5 +27,8 @@ text: ==https://github.com/ProgArm
 	* [[https://github.com/ProgArm/ProgArm-Website Website]] - here is the full source code of this website.
 	* [[https://github.com/ProgArm/ProgArm-Website-Mirror Website Mirror]] - repository that holds all text content from this website. All edits done on this wiki are automatically committed to the repository every 10 minutes.
 	
-lastmajor: 76
-keep-ts: 1414783047
+	See also:
+	* [[Contribute]]
+	
+lastmajor: 77
+keep-ts: 1424993232
