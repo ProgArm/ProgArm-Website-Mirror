@@ -1,5 +1,3 @@
-flags: 0
-blocks: <table class="user"><tr><th align="center">Component </th><th align="center">Address </th></tr><tr><td align="center">LPS25H  </td><td align="center">101110x </td></tr><tr><td align="center">MPU9250</td><td align="center">110100x </td></tr><tr><td align="center">bq24297</td><td align="center">1101011</td></tr><tr><td align="center">bq27410</td><td align="center">1010101</td></tr><tr><td align="center">Si1142</td><td align="center">1011010</td></tr></table><p>Both LPS25H and MPU9250 have a pin that determines the LSB of their addresses (marked with <strong>x</strong> in the table). These pins are connected to ground.</p>
 diff-minor: <p><strong>Added:</strong></p>
 	<div class="new"><p>&gt; | bq24297 | 1101011 |<br />&gt; | bq27410 | 1010101 |<br />&gt; | Si1142  | 1011010 |</p></div>
 ts: 1417831657

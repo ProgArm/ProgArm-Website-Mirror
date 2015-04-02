@@ -1,5 +1,3 @@
-flags: 01010101010
-blocks: <p>ProgArm is way more useful if you connect it to some other device (like your phone or a personal computer). Of course, pure bluetooth connection is not enough to be useful, there must be something running on your computer. We call that kind of software "Client".</p><p>Known ProgArm clients:<br /></p><ol><li>[[Perl Client]]. It runs on all platforms.</li><li>There was a proof-of-concept <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client-Old">client written in Python</a>. It is currently outdated. If you want to develop your own python client, just start from scratch.</li></ol><p>See also:<br /></p><ul><li>[[Which Programming Language]]</li><li>[[Writing Clients]]</li></ul>
 diff-minor: <p><strong>Changed:</strong></p>
 	<div class="old"><p>&lt; * [[<strong class="changes">Which_Programming_Language</strong>]]</p></div><p><strong>to</strong></p>
 	<div class="new"><p>&gt; * [[<strong class="changes">Which Programming Language</strong>]]</p></div>

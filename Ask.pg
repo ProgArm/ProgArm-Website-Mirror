@@ -1,5 +1,3 @@
-flags: 010
-blocks: <p>Here you can ask any question.</p><p>If you want to report some particular problem please consider creating an issue in appropriate <a class="url http outside" href="https://github.com/ProgArm">repository on GitHub</a>.</p><p>See also [[Contribute{n}]].</p>
 diff-minor: <p><strong>Changed:</strong></p>
 	<div class="old"><p>&lt; See also [[Contribute<strong class="changes">]].</strong></p></div><p><strong>to</strong></p>
 	<div class="new"><p>&gt; See also [[Contribute<strong class="changes">{n}]].</strong></p></div>

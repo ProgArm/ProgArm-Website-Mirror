@@ -1,5 +1,3 @@
-flags: 010
-blocks: <p>#REDIRECT [[Ideas]]</p>
 diff-minor: <p><strong>Changed:</strong></p>
 	<div class="old"><p>&lt; #REDIRECT Ideas</p></div><p><strong>to</strong></p>
 	<div class="new"><p>&gt; #REDIRECT <strong class="changes">[[</strong>Ideas<strong class="changes">]]</strong></p></div>

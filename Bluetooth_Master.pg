@@ -1,5 +1,3 @@
-flags: 01010
-blocks: <p>It might be useful to use ProgArm as Bluetooth Master device.</p><p>Sadly, HC-05 does not allow multiple slaves to be connected simultaneously, which means that this feature is not as useful as it could potentially be.</p><p>The idea of choosing the device you want to talk with (PC or phone) right from ProgArm is still very alluring.</p>
 ts: 1413593199
 minor: 
 host: 84.52.48.25

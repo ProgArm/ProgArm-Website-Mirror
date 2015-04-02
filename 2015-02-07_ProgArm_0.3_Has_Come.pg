@@ -1,5 +1,3 @@
-flags: 0101010101010
-blocks: <p>We are happy to announce that the work on [[ProgArm 0.3|ProgArm 0.3.0]] is finally over!</p><p>The device is working as expected and the only detected fault so far is improperly connected pin of BQ24297 that rendered OTG unfunctional (although STM32F103RBT6 does not support OTG anyway). The bug has already been fixed on the schematic and this problem will be removed from the PCB with the release of 0.3.1.</p><p>Functionally it is pretty much the same device as [[ProgArm 0.2]] but it was created using technologies completely new to us.</p><ul><li>First of all, the 0402 passives and ultra-small footprint MOSFETS have been used which brings us to the whole new level of miniaturisation.</li><li>We are now using nRF8001 for Bluetooth, which not only gives us ultra-low energy consumption and Bluetooth Low Energy compatibility, but also enables us to get rid of those bulky, low-quality solutions such as HC-05 or HM-10.</li><li>We are currently testing our new supercap-based RTC backup system, which takes much less space than usual CR2032 battery.</li><li>Finally, we have assembled this device using an improvised reflow soldering method. After applying soldering paste through the stencil and placing all the components, we used ordinary hot air rework station to do the reflow. This method turned out to be much easier and less time-consuming than manual soldering, we can recommend it to everyone.</li></ul><p>Other improvements include pulse sensor, new pin header connectors instead of old usb-based ones, 9 axis combined gyroscope-magnetometer, ultra-small LPS25H ambient pressure sensor and a powerful on-board vibration motor.</p><p>It seems like next time we are not going to rebuild the device from scratch, so the next version is going to be [[ProgArm 0.3|ProgArm 0.3.1]] and not [[ProgArm 0.4]].</p><p>We are also able to offer a couple of DIY [[ProgArm 0.3]] kits for you to assemble! As for them, please contact AlexDaniel if you are interested.</p>
 diff-minor: <p><strong>Changed:</strong></p>
 	<div class="old"><p>&lt; The device is working as expected and the only detected fault so far is improperly connected pin of BQ24297 that rendered OTG unfunctional<strong class="changes">.</strong> The bug has already been fixed on the schematic and this problem will be removed from the PCB with the release of 0.3.1.</p></div><p><strong>to</strong></p>
 	<div class="new"><p>&gt; The device is working as expected and the only detected fault so far is improperly connected pin of BQ24297 that rendered OTG unfunctional <strong class="changes">(although STM32F103RBT6 does not support OTG anyway).</strong> The bug has already been fixed on the schematic and this problem will be removed from the PCB with the release of 0.3.1.</p></div>
@@ -8,8 +6,8 @@ minor:
 host: 85.253.117.10
 username: AlexDaniel
 revision: 9
-diff-major: 1
 summary: tiny correction about OTG
+diff-major: 1
 languages: 
 text: We are happy to announce that the work on [[ProgArm 0.3|ProgArm 0.3.0]] is finally over!
 	

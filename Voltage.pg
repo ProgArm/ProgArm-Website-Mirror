@@ -1,5 +1,3 @@
-flags: 01010
-blocks: <table class="user"><tr><th align="center">Component </th><th align="center">Min Voltage </th><th align="center">Max Voltage </th></tr><tr><td>STM32F103RB</td><td align="center">2.0<br />(2.4 with ADC)</td><td align="center">3.6</td></tr><tr><td>bq27410[http://www.ti.com/lit/ds/symlink/bq27410-g1.pdf]</td><td align="center">2.7<br />(2.45 no FLASH writes)</td><td align="center">5.5</td></tr><tr><td>LPS25H[http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00066332.pdf]</td><td align="center">1.7</td><td align="center">3.6</td></tr><tr><td>MPU9250</td><td align="center">2.4</td><td align="center">3.6</td></tr><tr><td>nRF51822</td><td align="center">1.8</td><td align="center">3.6</td></tr></table>
 diff-minor: <p><strong>Added:</strong></p>
 	<div class="new"><p>&gt; |nRF51822| 1.8 | 3.6 |</p></div>
 ts: 1416786924

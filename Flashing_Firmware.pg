@@ -1,5 +1,3 @@
-flags: 010
-blocks: <p>#REDIRECT [[Firmware Flashing]]</p>
 diff-minor: <p><strong>Changed:</strong></p>
 	<div class="old"><p>&lt; <strong class="changes">Get the latest .hex file from [[https://github.com/ProgArm/ProgArm-Firmware/releases here]].<br />&lt; ==GNU/Linux<br />&lt; # Use any bluetooth manager to establish bluetooth connection. On Debian ##blueman## works best.</strong><br />&lt; # <strong class="changes">Download and install</strong> [[<strong class="changes">https://code.google.com/p/stm32flash/ stm32flash]].<br />&lt; # Upload firmware using this command:<br />&lt; {{{<br />&lt; stm32flash -b 38400 -w ProgArm-</strong>Firmware<strong class="changes">.hex /dev/rfcomm0<br />&lt; }}}<br />&lt; # If the command above requires root privileges, then your user is not in the ##dialout## group. It is highly recommended to be in ##dialout## group, although not obligatory for flashing process.<br />&lt; ==Windows<br />&lt; ...</strong></p></div><p><strong>to</strong></p>
 	<div class="new"><p>&gt; #<strong class="changes">REDIRECT</strong> [[Firmware <strong class="changes">Flashing]]</strong></p></div>

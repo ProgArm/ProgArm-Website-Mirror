@@ -1,5 +1,3 @@
-flags: 010101010
-blocks: <h2>Source</h2><p>You can <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client">get it from GitHub</a>. If you don't use git, then just press <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Client/archive/master.zip">Download ZIP</a> button.</p><h2>Dependencies</h2><p>Current requirements:<br /></p><ol><li>Perl version &gt;= 5.10.1</li><li><code>Hook::LexWrap</code> (required by repeat.pl)</li><li><code>Device::SerialPort</code> unless you are running on Android</li></ol><h2>Installation</h2><ul><li>[[Perl Client on Android]]</li><li>[[Perl Client on GNU∕Linux]]</li><li>[[Perl_Client_on_Windows]] -- Coming soon...</li><li>[[Perl Client on Maemo]]</li></ul>
 diff-minor: <p><strong>Deleted:</strong></p>
 	<div class="old"><p>&lt; ----<br />&lt; 4dt<br />&lt; -- Anonymous 2014-08-25 12:47 UTC</p></div>
 ts: 1413121268

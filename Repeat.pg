@@ -1,5 +1,3 @@
-flags: 010
-blocks: <p>#REDIRECT [[repeat.pl]]</p>
 diff-minor: <p><strong>Changed:</strong></p>
 	<div class="old"><p>&lt; #REDIRECT repeat.pl</p></div><p><strong>to</strong></p>
 	<div class="new"><p>&gt; #REDIRECT <strong class="changes">[[</strong>repeat.pl<strong class="changes">]]</strong></p></div>
