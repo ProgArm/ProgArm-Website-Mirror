@@ -8,7 +8,7 @@ blocks: <h2>Basic module structure</h2><div class="highlight"><pre><span style="
 	<span style="color: #40ffff">@Keys</span><span style="color: #d0d0d0">{MyNewSub}</span><span style="color: #666666">·</span><span style="color: #d0d0d0">=</span><span style="color: #666666">·</span><span style="color: #ed9d13">&#39;g&#39;</span><span style="color: #d0d0d0">;</span><span style="color: #666666"></span>
 	
 	<span style="color: #6ab825; font-weight: bold">sub</span><span style="color: #666666">·</span><span style="color: #447fcf">MyNewSub</span><span style="color: #666666">·</span><span style="color: #d0d0d0">{</span><span style="color: #666666"></span>
-	<span style="color: #666666">····</span><span style="color: #999999; font-style: italic">#</span><span style="color: #666666">·</span><span style="color: #999999; font-style: italic">Wrie</span><span style="color: #666666">·</span><span style="color: #999999; font-style: italic">your</span><span style="color: #666666">·</span><span style="color: #999999; font-style: italic">code</span><span style="color: #666666">·</span><span style="color: #999999; font-style: italic">here</span><span style="color: #666666"></span>
+	<span style="color: #666666">····</span><span style="color: #999999; font-style: italic">#</span><span style="color: #666666">·</span><span style="color: #999999; font-style: italic">Write</span><span style="color: #666666">·</span><span style="color: #999999; font-style: italic">your</span><span style="color: #666666">·</span><span style="color: #999999; font-style: italic">code</span><span style="color: #666666">·</span><span style="color: #999999; font-style: italic">here</span><span style="color: #666666"></span>
 	<span style="color: #d0d0d0">}</span><span style="color: #666666"></span>
 	</pre></div>
 	<h2>Repeats</h2><p>By default actions are called without any parameters, however <code>repeat.pl</code> will pass <strong>1</strong> or <strong>-1</strong> to indicate repeat and negative repeat.</p><p>The longest way to detect negative repeat is to use<br /></p><div class="highlight"><pre><span style="color: #6ab825; font-weight: bold">if</span><span style="color: #666666">·</span><span style="color: #24909d">defined</span><span style="color: #666666">·</span><span style="color: #40ffff">$_</span><span style="color: #d0d0d0">[</span><span style="color: #3677a9">0</span><span style="color: #d0d0d0">]</span><span style="color: #666666">·</span><span style="color: #6ab825; font-weight: bold">and</span><span style="color: #666666">·</span><span style="color: #40ffff">$_</span><span style="color: #d0d0d0">[</span><span style="color: #3677a9">0</span><span style="color: #d0d0d0">]</span><span style="color: #666666">·</span><span style="color: #d0d0d0">==</span><span style="color: #666666">·</span><span style="color: #d0d0d0">-</span><span style="color: #3677a9">1</span><span style="color: #666666"></span>
@@ -27,26 +27,32 @@ blocks: <h2>Basic module structure</h2><div class="highlight"><pre><span style="
 	
 	<span style="color: #6ab825; font-weight: bold">sub</span><span style="color: #666666">·</span><span style="color: #447fcf">MyNewSub</span><span style="color: #666666">·</span><span style="color: #d0d0d0">{</span><span style="color: #666666"></span>
 	<span style="color: #666666">····</span><span style="color: #6ab825; font-weight: bold">return</span><span style="color: #666666">·</span><span style="color: #d0d0d0">MyNewSubNegative()</span><span style="color: #666666">·</span><span style="color: #6ab825; font-weight: bold">if</span><span style="color: #666666">·</span><span style="color: #40ffff">$_</span><span style="color: #d0d0d0">[</span><span style="color: #3677a9">0</span><span style="color: #d0d0d0">]</span><span style="color: #666666">·</span><span style="color: #d0d0d0">~~</span><span style="color: #666666">·</span><span style="color: #d0d0d0">-</span><span style="color: #3677a9">1</span><span style="color: #d0d0d0">;</span><span style="color: #666666"></span>
-	<span style="color: #666666">····</span><span style="color: #999999; font-style: italic">#</span><span style="color: #666666">·</span><span style="color: #999999; font-style: italic">Wrie</span><span style="color: #666666">·</span><span style="color: #999999; font-style: italic">your</span><span style="color: #666666">·</span><span style="color: #999999; font-style: italic">code</span><span style="color: #666666">·</span><span style="color: #999999; font-style: italic">here</span><span style="color: #666666"></span>
+	<span style="color: #666666">····</span><span style="color: #999999; font-style: italic">#</span><span style="color: #666666">·</span><span style="color: #999999; font-style: italic">Write</span><span style="color: #666666">·</span><span style="color: #999999; font-style: italic">your</span><span style="color: #666666">·</span><span style="color: #999999; font-style: italic">code</span><span style="color: #666666">·</span><span style="color: #999999; font-style: italic">here</span><span style="color: #666666"></span>
 	<span style="color: #d0d0d0">}</span><span style="color: #666666"></span>
 	
 	<span style="color: #6ab825; font-weight: bold">sub</span><span style="color: #666666">·</span><span style="color: #447fcf">MyNewSubNegative</span><span style="color: #666666">·</span><span style="color: #d0d0d0">{</span><span style="color: #666666"></span>
-	<span style="color: #666666">····</span><span style="color: #999999; font-style: italic">#</span><span style="color: #666666">·</span><span style="color: #999999; font-style: italic">Wrie</span><span style="color: #666666">·</span><span style="color: #999999; font-style: italic">your</span><span style="color: #666666">·</span><span style="color: #999999; font-style: italic">code</span><span style="color: #666666">·</span><span style="color: #999999; font-style: italic">here</span><span style="color: #666666"></span>
+	<span style="color: #666666">····</span><span style="color: #999999; font-style: italic">#</span><span style="color: #666666">·</span><span style="color: #999999; font-style: italic">Write</span><span style="color: #666666">·</span><span style="color: #999999; font-style: italic">your</span><span style="color: #666666">·</span><span style="color: #999999; font-style: italic">code</span><span style="color: #666666">·</span><span style="color: #999999; font-style: italic">here</span><span style="color: #666666"></span>
 	<span style="color: #d0d0d0">}</span><span style="color: #666666"></span>
 	</pre></div>
 	
 diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt;     # <strong class="changes">Wrie</strong> your code here</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt;     # <strong class="changes">Write</strong> your code here</p></div><p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt;     # <strong class="changes">Wrie</strong> your code here</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt;     # <strong class="changes">Write</strong> your code here</p></div><p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt;     # <strong class="changes">Wrie</strong> your code here</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt;     # <strong class="changes">Write</strong> your code here</p></div>
+ts: 1427937516
+minor: 1
+host: 82.131.81.75
+username: AlexDaniel
+revision: 3
+diff-major: <p><strong>Changed:</strong></p>
 	<div class="old"><p>&lt; ==Basic <strong class="changes">extension</strong> structure</p></div><p><strong>to</strong></p>
 	<div class="new"><p>&gt; ==Basic <strong class="changes">module</strong> structure</p></div><p><strong>Changed:</strong></p>
 	<div class="old"><p>&lt; Even though it is deprecated, all <strong class="changes">extensions</strong> use smartmatch operator. You should use it too! (A simple sed command can easily change it in every module, that's why we ask you to respect consistency)</p></div><p><strong>to</strong></p>
 	<div class="new"><p>&gt; Even though it is deprecated, all <strong class="changes">modules</strong> use smartmatch operator. You should use it too! (A simple sed command can easily change it in every module, that's why we ask you to respect consistency)</p></div>
-ts: 1415076348
-minor: 
-host: 84.52.22.131
-username: AlexDaniel
-revision: 2
-diff-major: 1
-summary: Using word "Module" instead of "Extension"
+summary: 
 languages: 
 text: ==Basic module structure
 	{{{
@@ -59,7 +65,7 @@ text: ==Basic module structure
 	@Keys{MyNewSub} = 'g';
 	
 	sub MyNewSub {
-	    # Wrie your code here
+	    # Write your code here
 	}
 	}}}
 	
@@ -94,13 +100,13 @@ text: ==Basic module structure
 	
 	sub MyNewSub {
 	    return MyNewSubNegative() if $_[0] ~~ -1;
-	    # Wrie your code here
+	    # Write your code here
 	}
 	
 	sub MyNewSubNegative {
-	    # Wrie your code here
+	    # Write your code here
 	}
 	}}}
 	
 lastmajor: 2
-keep-ts: 1415076348
+keep-ts: 1427937516
