@@ -1,3 +1,5 @@
+flags: 01010
+blocks: <p>If you see "DeletedPage" on top, it means that this page was marked for deletion.</p><p>Keep in mind that deleted content is still accessible via the revision history and <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Website-Mirror">Git Mirror</a>.</p><p>If you stumble upon some weird deleted page in the [[Recent Changes]], it probably means that it was a spam attempt.</p>
 diff-minor: <p><strong>Changed:</strong></p>
 	<div class="old"><p>&lt; If you see "DeletedPage" on top, <strong class="changes">in</strong> means that this page was marked for deletion.</p></div><p><strong>to</strong></p>
 	<div class="new"><p>&gt; If you see "DeletedPage" on top, <strong class="changes">it</strong> means that this page was marked for deletion.</p></div>

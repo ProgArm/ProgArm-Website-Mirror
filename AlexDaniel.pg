@@ -1,3 +1,5 @@
+flags: 0
+blocks: <p>You can find info about me here:<br /></p><ul><li><a class="url http outside" href="http://alexdaniel.org/About">'About me' on my blog</a> -- here you can find how to contact me. You can also check out my blog posts, but there is a high chance that you will not like it.</li></ul>
 diff-minor: <p><strong>Changed:</strong></p>
 	<div class="old"><p>&lt; <strong class="changes">-</strong></p></div><p><strong>to</strong></p>
 	<div class="new"><p>&gt; <strong class="changes">You can find info about me here:<br />&gt; * [[http://alexdaniel.org/About 'About me' on my blog]] -- here you can find how to contact me. You can also check out my blog posts, but there is a high chance that you will not like it.</strong></p></div>

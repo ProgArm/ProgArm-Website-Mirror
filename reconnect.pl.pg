@@ -1,3 +1,5 @@
+flags: 0
+blocks: <p>Source code: <a href="https://github.com/ProgArm/ProgArm-Client/blob/master/modules/reconnect.pl">reconnect.pl</a></p><h2>Description</h2><p>This module wraps around <span class="foo_subroutine">Read</span> subroutine to detect disconnections.</p><p>It provides <span class="foo_subroutine">OnConnect</span> and <span class="foo_subroutine">OnDisconnect</span> subroutines to be used by another modules.</p><p>Please note that it <strong>does not</strong> attempt to establish new bluetooth connection after disconnects, because it is a job of the bluetooth manager in your operating system (or perhaps another module, if your bluetooth manager is dumb).</p>
 ts: 1415063535
 minor: 
 host: 84.52.22.131

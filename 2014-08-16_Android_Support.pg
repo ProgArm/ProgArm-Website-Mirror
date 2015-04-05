@@ -1,10 +1,11 @@
+flags: 01010
+blocks: <p>We are happy to announce that now it possible to use same [[Client]] across all platforms, including Android.</p><p>This was a very crucial step. Now we are sure that users on all platforms will benefit from any added features (unless they are platform-specific, of course).</p><p>Although there are several hacks we have to perform in order to run it on Android, it is not as hard as it seemed to be.</p><p>More details are available on [[Perl Client on Android]] page.</p>
 ts: 1408156190
 minor: 
 host: 89.235.246.223
 username: AlexDaniel
 revision: 1
 summary: We are happy to announce that now it possible to use same Client across all platforms, including Android. This was a very crucial step. Now we . . .
-languages: 
 text: We are happy to announce that now it possible to use same [[Client]] across all platforms, including Android.
 	
 	This was a very crucial step. Now we are sure that users on all platforms will benefit from any added features (unless they are platform-specific, of course).
@@ -13,4 +14,5 @@ text: We are happy to announce that now it possible to use same [[Client]] acros
 	
 	More details are available on [[Perl Client on Android]] page.
 	
+languages: 
 lastmajor: 1

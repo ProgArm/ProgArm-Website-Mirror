@@ -1,3 +1,5 @@
+flags: 0
+blocks: <pre>\b(viagra|valium|xanax|tramadol|vardenafil|cialis|levitra)\b # 2014-10-31 Devices</pre>
 ts: 1414781275
 minor: 1
 host: 84.52.41.120

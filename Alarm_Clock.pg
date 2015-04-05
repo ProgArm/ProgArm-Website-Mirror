@@ -1,3 +1,5 @@
+flags: 01010
+blocks: <p>The only stopper is the lack of any way to input time.</p><p>Perhaps it is time to implement [[Fn Key]] with all numbers and symbols [[Controls|mapped to different combinations]]? The problem is that it is already hard to learn the layout, by adding numbers we will only make it even harder.</p><p>Is there any better way to input numbers with two buttons without typing it character by character?</p>
 ts: 1413592367
 minor: 
 host: 84.52.48.25

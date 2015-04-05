@@ -1,3 +1,5 @@
+flags: 010101010101010
+blocks: <p>[[Home{h}]]<br />[[About{b}]]<br />[[Devices{d}]]<br />[[Source{o}]]<br />[[Ideas{i}]]<br />[[Ask{k}]]<br />[[Recent Changes{r}]]</p>
 diff-minor: <p><strong>Changed:</strong></p>
 	<div class="old"><p>&lt; [[Source{<strong class="changes">e</strong>}]]</p></div><p><strong>to</strong></p>
 	<div class="new"><p>&gt; [[Source{<strong class="changes">o</strong>}]]</p></div>

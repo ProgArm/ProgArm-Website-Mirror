@@ -1,3 +1,5 @@
+flags: 010
+blocks: <p>Source code: <a href="https://github.com/ProgArm/ProgArm-Client/blob/master/modules/speak_espeak.pl">speak_espeak.pl</a></p><h2>Description</h2><p>This module provides text-to-speech functionality by using <a class="url http outside" href="http://espeak.sourceforge.net/">espeak</a>.</p><p>espeak works nicely, but the quality is not as good as with [[speak_flite.pl]]</p>
 ts: 1415075971
 minor: 
 host: 84.52.22.131

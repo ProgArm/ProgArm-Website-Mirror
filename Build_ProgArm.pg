@@ -1,3 +1,5 @@
+flags: 01010
+blocks: <p>You can get schematic pdf and other files from <a class="url http outside" href="https://github.com/ProgArm/ProgArm-Hardware/releases">here</a>, but we recommend you to view Kicad files directly.</p><h2>Bill Of Materials</h2><ul><li>[[ProgArm 0.3 BOM]]</li><li>[[ProgArm 0.2 BOM]]</li></ul>
 diff-minor: <p><strong>Deleted:</strong></p>
 	<div class="old"><p>&lt; TODO<br />&lt; **This info is outdated (it was about [[ProgArm 0.2]], but the current version is [[ProgArm 0.3]]).**</p></div><p><strong>Deleted:</strong></p>
 	<div class="old"><p>&lt; * [[ProgArm 0.2 BOM]]</p></div><p><strong>Added:</strong></p>

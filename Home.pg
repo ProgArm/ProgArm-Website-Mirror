@@ -1,3 +1,6 @@
+flags: 010101010101010
+blocks: <p><a class="image right inter File" href="http://files.progarm.org/progarmsitelogo.png"><img class="upload" title="File:progarmsitelogo.png" src="http://files.progarm.org/progarmsitelogo.png" alt="File:progarmsitelogo.png" /></a></p><p>This website is a <a class="url http outside" href="http://oddmuse.org/wiki/What_Is_A_Wiki">wiki</a>. You are highly encouraged to [[Page Editing|edit]] it.</p><p><strong>[[Start Here{t}]]</strong> if you are new to this project.</p><p>Most common links:<br /></p><ul><li>[[Current Version{v}]]</li><li>[[Controls{l}]]</li><li>[[List of Perl Modules{m}]]</li></ul><h2>Blog</h2>&lt;Journal 3,5&gt;
+	<p><br /></p><h2>Questions</h2>&lt;Journal 6 "^Question_\d+"&gt;
 diff-minor: <p><strong>Changed:</strong></p>
 	<div class="old"><p>&lt; * [[Current Version<strong class="changes">]]</strong></p></div><p><strong>to</strong></p>
 	<div class="new"><p>&gt; * [[Current Version<strong class="changes">{v}]]</strong></p></div>

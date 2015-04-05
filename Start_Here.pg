@@ -1,3 +1,5 @@
+flags: 01010101010101010
+blocks: <p>If you haven't heard about ProgArm yet, try to follow these:<br /></p><ol><li>Read [[About]] page to understand project goals.</li><li>Learn about ProgArm [[Features{t}]] to understand if it could be useful to you.</li><li>If you have any questions, read everything you are interested in on [[Devices]] page and [[FAQ{q}]].</li><li>If you still have any questions, feel free to [[Ask]] them.</li><li>[[Get ProgArm{g}]] from us or [[Build ProgArm{u}]] yourself.</li></ol>
 diff-minor: <p><strong>Changed:</strong></p>
 	<div class="old"><p>&lt; # Learn about <strong class="changes">[[Features|</strong>ProgArm Features<strong class="changes">]]</strong> to understand if it could be useful to you.</p></div><p><strong>to</strong></p>
 	<div class="new"><p>&gt; # Learn about <strong class="changes">!</strong>ProgArm <strong class="changes">[[</strong>Features<strong class="changes">{t}]]</strong> to understand if it could be useful to you.</p></div><p><strong>Changed:</strong></p>

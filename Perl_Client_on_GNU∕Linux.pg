@@ -1,3 +1,5 @@
+flags: 0
+blocks: <h2>Debian</h2><p>Easy:<br /><code>sudo apt-get install libdevice-serialport-perl libhook-lexwrap-perl</code></p><p>But there are some recommended packages:<br /><code>sudo apt-get install flite xdotool</code> ...</p><h2>Other GNU/Linux distributions</h2><p>Install <code>Device::SerialPort</code> and <code>Hook::LexWrap</code> from CPAN if your distribution does not provide a package.</p>
 diff-minor: <p><strong>Changed:</strong></p>
 	<div class="old"><p>&lt; <strong class="changes">===</strong>Debian</p></div><p><strong>to</strong></p>
 	<div class="new"><p>&gt; <strong class="changes">==</strong>Debian</p></div><p><strong>Changed:</strong></p>

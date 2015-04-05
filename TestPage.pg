@@ -1,3 +1,5 @@
+flags: 0101010
+blocks: <p>Weird characters: äõугстф<br />Underline e̲<br />[[Home{o}]]<br />-- AlexDaniel 2014-04-06 15:49 UTC</p>&lt;Journal 1 "^News_\d"&gt;
 diff-minor: <p><strong>Changed:</strong></p>
 	<div class="old"><p>&lt; [[Home<strong class="changes">{.}]]</strong></p></div><p><strong>to</strong></p>
 	<div class="new"><p>&gt; [[Home<strong class="changes">{o}]]</strong></p></div>

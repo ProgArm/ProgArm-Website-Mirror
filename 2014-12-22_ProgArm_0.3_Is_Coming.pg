@@ -1,3 +1,5 @@
+flags: 01010101010
+blocks: <p>For the last month we were working on [[ProgArm 0.3]].</p><p>It is almost done! Currently we are making the last steps to finish the PCB.</p><p>Most of the effort was put into various design decisions and component selection. Perhaps we should document it on [[Design Decisions]] page.</p><p>You can follow the progress on [[ProgArm 0.3]] page.</p><p>Here is a list of the most notable changes:<br /></p><ul><li>Bluetooth LE (means low power consumption when used with modern phones)</li><li>1.27mm pin headers instead of USB ports.</li><li>Components like SD card slot are removed from the main board (although you can still connect them as separate modules), at the same time other components like vibramotor or pulse sensor are now considered a must.</li><li>Smaller size. (4x7cm -&gt; 4x5cm)</li><li>Other changes are listed on [[ProgArm 0.3]] page.</li></ul><p>We hope that this time we will make a few extra devices so that you can [[Get ProgArm|get it]].</p>
 diff-minor: <p><strong>Changed:</strong></p>
 	<div class="old"><p>&lt; * Smaller size. (<strong class="changes">5x7cm</strong> -&gt; 4x5cm)</p></div><p><strong>to</strong></p>
 	<div class="new"><p>&gt; * Smaller size. (<strong class="changes">4x7cm</strong> -&gt; 4x5cm)</p></div>
@@ -6,8 +8,8 @@ minor: 1
 host: 89.235.244.184
 username: AlexDaniel
 revision: 2
-summary: 
 diff-major: 
+summary: 
 languages: 
 text: For the last month we were working on [[ProgArm 0.3]].
 	

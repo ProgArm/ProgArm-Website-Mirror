@@ -1,3 +1,5 @@
+flags: 0
+blocks: <p>Source code: <a href="https://github.com/ProgArm/ProgArm-Client/blob/master/modules/bluetooth_android.pl">bluetooth_android.pl</a></p><h2>Description</h2><p>This module implements bluetooth communication on Android systems.</p><p>Like all other communication modules, it provides <span class="foo_subroutine">InitConnection</span>, <span class="foo_subroutine">Read</span> and <span class="foo_subroutine">Write</span> subroutines.<br /> </p>
 diff-minor: <p><strong>Added:</strong></p>
 	<div class="new"><p>&gt;  </p></div>
 ts: 1415075755

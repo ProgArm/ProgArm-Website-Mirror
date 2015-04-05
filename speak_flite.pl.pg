@@ -1,3 +1,5 @@
+flags: 0
+blocks: <p>Source code: <a href="https://github.com/ProgArm/ProgArm-Client/blob/master/modules/speak_flite.pl">speak_flite.pl</a><h2>Provided variables:</h2><div class="variable">@FliteArgs</div></p><h2>Description</h2><p>This module provides text-to-speech functionality by using <a class="url http outside" href="http://www.speech.cs.cmu.edu/flite/">flite</a>.</p>
 ts: 1415076027
 minor: 
 host: 84.52.22.131

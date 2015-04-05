@@ -1,3 +1,5 @@
+flags: 0
+blocks: <p>It seems like by default bluetooth connections are pretty insecure. Maybe by encrypting the communication ourselves we can make it safer?</p><p>Also, is there any way to use longer pin codes?</p>
 ts: 1413588043
 minor: 
 host: 84.52.48.25
