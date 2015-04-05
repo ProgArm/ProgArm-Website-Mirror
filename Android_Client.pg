@@ -1,0 +1,28 @@
+flags: 01010101010101010
+blocks: <div class="foo_notimplemented">This client is not done yet. We are working on it.</div><p>Here we will collect our thoughts about using [[ProgArm]] [[Client|client]] on [[Android]].</p><h1>Introduction</h1><p>We want to put Perl interpreter right into <strong>apk</strong> (it is possible to compile perl for Android since v5.20). Then we will make a small layer written in Java that will let [[Perl Client]] run Android commands.</p><h1>Status Bar</h1><p>It should show a battery icon in the status bar. This way you can easily track ProgArm battery along with you phone battery status.</p><h1>Menu</h1><p>When you start an app, it will show a simple menu with these items:<br /></p><ul><li>Connect/Disconnect</li><li>Functions -- a list of things you can do with ProgArm (e.g. turn on flashlight, set alarm clock, turn off, start vibrating -- everything ProgArm can do). Every function in the list must display a key associated with it (you are meant to run that stuff by using a ring, after all).</li><li>Controls -- similar to [[Controls]] page (or even an exact copy), but right in your phone.</li><li>Status -- display various info (e.g. detailed battery info, uptime, etc.).</li></ul>
+ts: 1428277481
+minor: 
+host: 82.131.49.192
+username: AlexDaniel
+revision: 1
+summary: Initial ideas
+languages: 
+text: <notimplemented>
+	This client is not done yet. We are working on it.
+	
+	Here we will collect our thoughts about using [[ProgArm]] [[Client|client]] on [[Android]].
+	
+	= Introduction
+	We want to put Perl interpreter right into **apk** (it is possible to compile perl for Android since v5.20). Then we will make a small layer written in Java that will let [[Perl Client]] run Android commands.
+	
+	= Status Bar
+	It should show a battery icon in the status bar. This way you can easily track ProgArm battery along with you phone battery status.
+	
+	= Menu
+	When you start an app, it will show a simple menu with these items:
+	* Connect/Disconnect
+	* Functions -- a list of things you can do with ProgArm (e.g. turn on flashlight, set alarm clock, turn off, start vibrating -- everything ProgArm can do). Every function in the list must display a key associated with it (you are meant to run that stuff by using a ring, after all).
+	* Controls -- similar to [[Controls]] page (or even an exact copy), but right in your phone.
+	* Status -- display various info (e.g. detailed battery info, uptime, etc.).
+	
+lastmajor: 1
