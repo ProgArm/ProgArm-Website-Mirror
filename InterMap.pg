@@ -1,18 +1,19 @@
 flags: 0
-blocks: <p> File <a class="url http" href="http://files.progarm.org/">http://files.progarm.org/</a><br /> Module <a class="url http" href="https://github.com/ProgArm/ProgArm-Client/blob/master/modules/">https://github.com/ProgArm/ProgArm-Client/blob/master/modules/</a></p>
-diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt;  Module https://github.com/ProgArm/ProgArm-Client/blob/master/modules/</p></div>
+blocks: <p> File <a class="url http" href="https://files.progarm.org/">https://files.progarm.org/</a><br /> Module <a class="url http" href="https://github.com/ProgArm/ProgArm-Client/blob/master/modules/">https://github.com/ProgArm/ProgArm-Client/blob/master/modules/</a></p>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt;  File <strong class="changes">http</strong>://files.progarm.org/</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt;  File <strong class="changes">https</strong>://files.progarm.org/</p></div>
 ip: 89.235.236.216
-ts: 1408379778
+ts: 1428972229
 minor: 
-host: 217.71.44.10
+host: 82.131.49.192
 username: AlexDaniel
-revision: 4
+revision: 5
 diff-major: 1
-summary: 
+summary: HTTPS
 languages: 
-text:  File http://files.progarm.org/
+text:  File https://files.progarm.org/
 	 Module https://github.com/ProgArm/ProgArm-Client/blob/master/modules/
 	
-lastmajor: 4
-keep-ts: 1408379778
+lastmajor: 5
+keep-ts: 1428972229
