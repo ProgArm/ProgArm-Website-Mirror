@@ -6,7 +6,6 @@ host: 217.71.47.154
 username: AlexDaniel
 revision: 1
 summary: * [Module:amixer.pl amixer.pl] -- adjust volume level (ALSA) * [Module:android_music.pl android_music.pl] -- currently unfunctional module to . . .
-languages: 
 text: * [Module:amixer.pl amixer.pl] -- adjust volume level (ALSA)
 	* [Module:android_music.pl android_music.pl] -- currently unfunctional module to control music on android
 	* Essential bluetooth modules:
@@ -25,4 +24,5 @@ text: * [Module:amixer.pl amixer.pl] -- adjust volume level (ALSA)
 	* [Module:watch.pl watch.pl] -- tell date and time
 	* [Module:xdotool.pl xdotool.pl] -- input text on GNU/Linux by using [[https://github.com/jordansissel/xdotool xdotool]]
 	
+languages: 
 lastmajor: 1

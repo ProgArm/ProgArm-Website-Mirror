@@ -10,8 +10,8 @@ minor:
 host: 217.71.45.119
 username: AlexDaniel
 revision: 6
-diff-major: 1
 summary: 
+diff-major: 1
 languages: 
 text: ==Where can I get ProgArm?
 	You can [[Get ProgArm]] from us or [[Build ProgArm]] yourself.

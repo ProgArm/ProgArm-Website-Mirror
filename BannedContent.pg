@@ -6,6 +6,6 @@ host: 84.52.41.120
 username: AlexDaniel
 revision: 1
 summary: Devices
-languages: 
 text: \b(viagra|valium|xanax|tramadol|vardenafil|cialis|levitra)\b # 2014-10-31 Devices
 	
+languages: 

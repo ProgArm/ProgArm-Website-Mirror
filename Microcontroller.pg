@@ -8,9 +8,9 @@ minor: 1
 host: 82.131.3.129
 username: AlexDaniel
 revision: 6
+summary: STM32L pros and cons
 diff-major: <p><strong>Added:</strong></p>
 	<div class="new"><p>&gt; == STM32L<br />&gt; We are thinking about using STM32L in the next version, but this is undecided.<br />&gt; Pros:<br />&gt; * Lower [[Power Consumption]]<br />&gt; Cons:<br />&gt; * Higher price<br />&gt; * Less features<br />&gt; * Less docs<br />&gt; * Less popularity</p></div>
-summary: STM32L pros and cons
 languages: 
 text: ==Currently
 	We are using STM32F103RBT6.

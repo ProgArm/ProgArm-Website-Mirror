@@ -8,8 +8,8 @@ minor:
 host: 82.131.101.209
 username: AlexDaniel
 revision: 2
-diff-major: 1
 summary: Some clarification
+diff-major: 1
 languages: 
 text: This page should help you to understand the words [[Left]], [[Right]], [[Top]] and [[Bottom]] that you can find in some instructions.
 	

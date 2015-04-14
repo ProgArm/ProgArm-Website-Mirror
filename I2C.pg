@@ -7,8 +7,8 @@ minor:
 host: 89.235.228.16
 username: AlexDaniel
 revision: 2
-diff-major: 1
 summary: 
+diff-major: 1
 languages: 
 text: |= Component |= Address |
 	| LPS25H  | 101110x |

@@ -6,7 +6,6 @@ host: 82.131.49.192
 username: AlexDaniel
 revision: 1
 summary: Initial ideas
-languages: 
 text: <notimplemented>
 	This client is not done yet. We are working on it.
 	
@@ -25,4 +24,5 @@ text: <notimplemented>
 	* Controls -- similar to [[Controls]] page (or even an exact copy), but right in your phone.
 	* Status -- display various info (e.g. detailed battery info, uptime, etc.).
 	
+languages: 
 lastmajor: 1

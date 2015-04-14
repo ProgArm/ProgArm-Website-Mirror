@@ -6,7 +6,6 @@ host: 82.131.101.209
 username: AlexDaniel
 revision: 1
 summary: |= Name/Value |= Count |= Refs |= Description | |||= Chips | |STM32F103R|1|U1|stm32f103rbt6 is the best option. See Microcontroller| . . .
-languages: 
 text: |= Name/Value |= Count |= Refs |= Description |
 	|||= Chips |
 	|STM32F103R|1|U1|stm32f103rbt6 is the best option. See [[Microcontroller]]|
@@ -76,4 +75,5 @@ text: |= Name/Value |= Count |= Refs |= Description |
 	|JTAG_Interface|1|P5|
 	|JUMPER|1|JP1|
 	
+languages: 
 lastmajor: 1

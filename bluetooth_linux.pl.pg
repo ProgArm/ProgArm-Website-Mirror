@@ -10,7 +10,6 @@ host: 84.52.22.131
 username: AlexDaniel
 revision: 1
 summary: #ProgArmModule bluetooth_linux.pl ==Description This module implements serial port communication in GNU/Linux. Although it is called . . .
-languages: 
 text: #ProgArmModule bluetooth_linux.pl
 	
 	==Description
@@ -31,4 +30,5 @@ text: #ProgArmModule bluetooth_linux.pl
 	}}}
 	If it lists **bluetooth**, that's fine. But if you see something else, for example **!ModemManager**, it is very likely causing your problem. Try killing it!
 	
+languages: 
 lastmajor: 1

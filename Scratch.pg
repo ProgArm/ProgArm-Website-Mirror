@@ -8,9 +8,9 @@ minor: 1
 host: 89.235.236.14
 username: AlexDaniel
 revision: 24
+summary: 
 diff-major: <p><strong>Added:</strong></p>
 	<div class="new"><p>&gt; |=Column name|=Column name|<br />&gt; |Left | |<br />&gt; | Right| |<br />&gt; | Center | |</p></div>
-summary: 
 languages: 
 text: Test text **bold** //italics//
 	Line

@@ -6,7 +6,6 @@ host: 84.52.22.131
 username: AlexDaniel
 revision: 1
 summary: #ProgArmModule amixer.pl ==Description This module allows you to control sound volume on most GNU/Linux distributions. Negative Repeat for . . .
-languages: 
 text: #ProgArmModule amixer.pl
 	
 	==Description
@@ -14,4 +13,5 @@ text: #ProgArmModule amixer.pl
 	
 	[[Negative Repeat]] for <subroutine>!VolumeUp</> is <subroutine>!VolumeDown</> and vice versa.
 	
+languages: 
 lastmajor: 1

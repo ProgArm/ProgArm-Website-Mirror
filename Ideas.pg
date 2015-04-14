@@ -8,8 +8,8 @@ minor: 0
 host: 84.52.41.120
 username: AlexDaniel
 revision: 14
-diff-major: 1
 summary: Rollback to 2014-10-21 20:23 UTC
+diff-major: 1
 languages: 
 text: This page will contain a list of ideas, proposed features and other thoughts. Feel free to join the brainstorming!
 	

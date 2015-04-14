@@ -8,8 +8,8 @@ minor:
 host: 82.131.49.192
 username: AlexDaniel
 revision: 18
-diff-major: 1
 summary: clarification
+diff-major: 1
 languages: 
 text: ==Source
 	You can [[https://github.com/ProgArm/ProgArm-Client get it from GitHub]]. If you don't use git, then just press [[https://github.com/ProgArm/ProgArm-Client/archive/master.zip Download ZIP]] button.

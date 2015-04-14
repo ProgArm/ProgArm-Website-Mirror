@@ -6,7 +6,6 @@ host: 84.52.22.131
 username: AlexDaniel
 revision: 1
 summary: #ProgArmModule cmus.pl ==Description This module allows you to control [cmus music player]. . . .
-languages: 
 text: #ProgArmModule cmus.pl
 	
 	==Description
@@ -18,4 +17,5 @@ text: #ProgArmModule cmus.pl
 	[[Negative Repeat]] for <subroutine>!CmusPause</> is <subroutine>!CmusNext</>.
 	
 	
+languages: 
 lastmajor: 1

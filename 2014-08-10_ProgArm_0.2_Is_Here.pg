@@ -7,9 +7,9 @@ minor: 1
 host: 82.131.49.240
 username: AlexDaniel
 revision: 18
+summary: touch
 diff-major: <p><strong>Added:</strong></p>
 	<div class="new"><p>&gt; ----<br />&gt; Correct. That's how any wiki engine works, not just Oddmuse :)<br />&gt; -- AlexDaniel 2014-08-23 14:08 UTC</p></div>
-summary: touch
 languages: 
 text: We are glad to tell that the work on ProgArm 0.2 is now complete. The device hardware alpha [[https://github.com/ProgArm/ProgArm-Hardware/releases/tag/v0.2.0-alpha release]] can be found on [[Source|GitHub]]. Please note that there was a fix made to the schematic, however PCB files are still those of the previous version.
 	

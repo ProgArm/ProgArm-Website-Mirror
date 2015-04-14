@@ -6,11 +6,11 @@ host: 84.52.22.131
 username: AlexDaniel
 revision: 1
 summary: Description
-languages: 
 text: #ProgArmModule debug.pl
 	
 	==Description
 	**This module should not be enabled by default.**
 	It might be useful to you during development process.
 	
+languages: 
 lastmajor: 1

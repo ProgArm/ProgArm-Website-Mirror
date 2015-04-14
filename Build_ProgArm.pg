@@ -9,8 +9,8 @@ minor:
 host: 82.131.101.209
 username: AlexDaniel
 revision: 21
-diff-major: 1
 summary: links to BOMs
+diff-major: 1
 languages: 
 text: You can get schematic pdf and other files from [[https://github.com/ProgArm/ProgArm-Hardware/releases here]], but we recommend you to view Kicad files directly.
 	

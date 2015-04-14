@@ -7,8 +7,8 @@ minor: 1
 host: 84.52.22.131
 username: AlexDaniel
 revision: 2
-diff-major: 
 summary: #ProgArmModule bluetooth_android.pl ==Description This module implements bluetooth communication on Android systems. Like all other . . .
+diff-major: 
 languages: 
 text: #ProgArmModule bluetooth_android.pl
 	

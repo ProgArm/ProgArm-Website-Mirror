@@ -6,7 +6,6 @@ host: 88.196.241.125
 username: AlexDaniel
 revision: 1
 summary: Our first prototypes and even early versions of ProgArm 0.1 were using Morse code as input system. Once we figured out that Morse code is too . . .
-languages: 
 text: Our first prototypes and even early versions of [[ProgArm 0.1]] were using Morse code as input system. Once we figured out that Morse code is too inefficient for our purpose, we have created our own [[Controls|two button input system]].
 	
 	Advantages of morse code:
@@ -18,4 +17,5 @@ text: Our first prototypes and even early versions of [[ProgArm 0.1]] were using
 	* Since the number of clicks is arbitrary, there must be a delay. You can choose any delay, but in practice something around 500 ms is fine.
 	* You might think that 500 ms is very short, but it turns out that it is too long. Any delay is undesirable. It is much harder to learn the whole alphabet if you are not getting instant feedback.
 	
+languages: 
 lastmajor: 1

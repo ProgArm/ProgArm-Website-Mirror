@@ -7,8 +7,8 @@ minor:
 host: 84.52.48.25
 username: AlexDaniel
 revision: 2
-diff-major: 1
 summary: There is a port on the board, but currently it is not used by the software. Since there is no SDIO peripheral on stm32f103rbt6, the communication . . .
+diff-major: 1
 languages: 
 text: There is a port on the board, but currently it is not used by the software.
 	

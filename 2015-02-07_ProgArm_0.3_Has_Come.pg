@@ -8,8 +8,8 @@ minor:
 host: 85.253.117.10
 username: AlexDaniel
 revision: 9
-diff-major: 1
 summary: tiny correction about OTG
+diff-major: 1
 languages: 
 text: We are happy to announce that the work on [[ProgArm 0.3|ProgArm 0.3.0]] is finally over!
 	

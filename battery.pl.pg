@@ -8,10 +8,10 @@ minor: 1
 host: 84.52.22.131
 username: AlexDaniel
 revision: 7
+summary: Description
 diff-major: <p><strong>Changed:</strong></p>
 	<div class="old"><p>&lt; This module will periodically poll ProgArm for battery info. Key{g} should tell current battery charge in percent, but most likely this will only be implemented in [[ProgArm 0.3]].</p></div><p><strong>to</strong></p>
 	<div class="new"><p>&gt; This module will periodically poll ProgArm for battery info. <strong class="changes">Use [[https://github.com/ProgArm/ProgArm-Misc/blob/master/battery/plotBattery.plt this]] script to create a graphical plot.</strong><br />&gt; Key{g} should tell current battery charge in percent, but most likely this will only be implemented in [[ProgArm 0.3]].</p></div>
-summary: Description
 languages: 
 text: #ProgArmModule battery.pl
 	

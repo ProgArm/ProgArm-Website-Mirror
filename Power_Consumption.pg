@@ -8,8 +8,8 @@ minor:
 host: 82.131.101.209
 username: AlexDaniel
 revision: 4
-diff-major: 1
 summary: Outdated notice
+diff-major: 1
 languages: 
 text: == Battery status
 	<outdated>

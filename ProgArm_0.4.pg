@@ -9,8 +9,8 @@ minor:
 host: 85.253.117.10
 username: AlexDaniel
 revision: 6
-diff-major: 1
 summary: Upcoming version notice
+diff-major: 1
 languages: 
 text: <notimplemented>
 	This is an upcoming version.

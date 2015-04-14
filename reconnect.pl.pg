@@ -6,7 +6,6 @@ host: 84.52.22.131
 username: AlexDaniel
 revision: 1
 summary: #ProgArmModule reconnect.pl ==Description This module wraps around <subroutine>Read</> subroutine to detect disconnections. It . . .
-languages: 
 text: #ProgArmModule reconnect.pl
 	
 	==Description
@@ -16,4 +15,5 @@ text: #ProgArmModule reconnect.pl
 	
 	Please note that it **does not** attempt to establish new bluetooth connection after disconnects, because it is a job of the bluetooth manager in your operating system (or perhaps another module, if your bluetooth manager is dumb).
 	
+languages: 
 lastmajor: 1

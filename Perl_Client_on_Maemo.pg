@@ -46,11 +46,11 @@ minor: 1
 host: 217.71.44.147
 username: AlexDaniel
 revision: 3
+summary: 
 diff-major: <p><strong>Changed:</strong></p>
 	<div class="old"><p>&lt; Install <strong class="changes">{{{</strong>Device::SerialPort<strong class="changes">}}}</strong></p></div><p><strong>to</strong></p>
 	<div class="new"><p>&gt; Install <strong class="changes">##</strong>Device::SerialPort<strong class="changes">##</strong></p></div><p><strong>Added:</strong></p>
 	<div class="new"><p>&gt; Install ##Hook::LexWrap##<br />&gt; {{{cpanm --no-wget --verbose Hook::LexWrap}}}</p></div>
-summary: 
 languages: 
 text: The biggest problem is that Perl is too outdated (v5.8.3). You should install a newer version by using [[http://perlbrew.pl/ perlbrew]].
 	

@@ -6,11 +6,11 @@ host: 84.52.48.25
 username: AlexDaniel
 revision: 1
 summary: It might be useful to use ProgArm as Bluetooth Master device. Sadly, HC-05 does not allow multiple slaves to be connected simultaneously, which . . .
-languages: 
 text: It might be useful to use ProgArm as Bluetooth Master device.
 	
 	Sadly, HC-05 does not allow multiple slaves to be connected simultaneously, which means that this feature is not as useful as it could potentially be.
 	
 	The idea of choosing the device you want to talk with (PC or phone) right from ProgArm is still very alluring.
 	
+languages: 
 lastmajor: 1

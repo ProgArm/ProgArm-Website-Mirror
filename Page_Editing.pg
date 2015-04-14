@@ -1,5 +1,5 @@
 flags: 010
-blocks: <h3>Most of these rules are supported:</h3><p><a class="image inter File" href="http://files.progarm.org/creole_cheat_sheet_inv.png"><img class="upload" title="File:creole cheat sheet inv.png" src="http://files.progarm.org/creole_cheat_sheet_inv.png" alt="File:creole cheat sheet inv.png" /></a></p><h3>Test page</h3><p>Feel free to use [[Scratch]] page to test any feature.</p>
+blocks: <h3>Most of these rules are supported:</h3><p><a class="image inter File" href="https://files.progarm.org/creole_cheat_sheet_inv.png"><img class="upload" title="File:creole cheat sheet inv.png" src="https://files.progarm.org/creole_cheat_sheet_inv.png" alt="File:creole cheat sheet inv.png" /></a></p><h3>Test page</h3><p>Feel free to use [[Scratch]] page to test any feature.</p>
 diff-minor: <p><strong>Changed:</strong></p>
 	<div class="old"><p>&lt; <strong class="changes">http://files.progarm.org/</strong>creole_cheat_sheet_inv.png</p></div><p><strong>to</strong></p>
 	<div class="new"><p>&gt; <strong class="changes">[[image:File:</strong>creole_cheat_sheet_inv.png<strong class="changes">]]</strong></p></div>
@@ -8,8 +8,8 @@ minor:
 host: 89.235.245.14
 username: AlexDaniel
 revision: 4
-diff-major: 1
 summary: 
+diff-major: 1
 languages: 
 text: ===Most of these rules are supported:
 	[[image:File:creole_cheat_sheet_inv.png]]

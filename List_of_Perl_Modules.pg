@@ -8,12 +8,12 @@ minor: 1
 host: 217.71.47.123
 username: AlexDaniel
 revision: 6
+summary: Misc -> Tools
 diff-major: <p><strong>Added:</strong></p>
 	<div class="new"><p>&gt; * [[speak_windows.pl]] -- using default windows tts. (Yet to be developed)</p></div><p><strong>Changed:</strong></p>
 	<div class="old"><p>&lt; These are some extension that are actually part of the core. They could have been included in the main file, but they were separated to keep our modular design. You probably don't want to <strong class="changes">exclude</strong> these from your modules list.</p></div><p><strong>to</strong></p>
 	<div class="new"><p>&gt; These are some extension that are actually part of the core. They could have been included in the main file, but they were separated to keep our modular design. You probably don't want to <strong class="changes">remove</strong> these from your modules list.</p></div><p><strong>Added:</strong></p>
 	<div class="new"><p>&gt; * [[settings.pl]] - Save and load ProgArm settings.<br />&gt; * [[log.pl]] - Log various data.</p></div>
-summary: Misc -> Tools
 languages: 
 text: **Please note** that here we say "perl module" while referring to small files that implement a set of specific features. These are not real [[http://en.wikipedia.org/wiki/Perl_module Perl modules]].
 	

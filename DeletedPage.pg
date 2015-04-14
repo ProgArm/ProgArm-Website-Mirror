@@ -8,8 +8,8 @@ minor: 1
 host: 82.131.3.129
 username: AlexDaniel
 revision: 2
-diff-major: 
 summary: Explanation
+diff-major: 
 languages: 
 text: If you see "DeletedPage" on top, it means that this page was marked for deletion.
 	

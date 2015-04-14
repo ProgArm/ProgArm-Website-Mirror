@@ -6,7 +6,6 @@ host: 84.52.22.131
 username: AlexDaniel
 revision: 1
 summary: Description
-languages: 
 text: #ProgArmModule tutor.pl
 	
 	==Description
@@ -18,4 +17,5 @@ text: #ProgArmModule tutor.pl
 	
 	Press Key{q} to quit typing tutor.
 	
+languages: 
 lastmajor: 1

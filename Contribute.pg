@@ -13,8 +13,8 @@ minor:
 host: 85.253.108.48
 username: AlexDaniel
 revision: 7
-diff-major: 1
 summary: 
+diff-major: 1
 languages: 
 text: ==Hardware
 	We are using [[http://www.kicad-pcb.org Kicad]] for schematic and pcb development. You can find the source in our [[https://github.com/ProgArm/ProgArm-Hardware repository]] on GitHub.

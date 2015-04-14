@@ -8,8 +8,8 @@ minor: 1
 host: 89.235.241.41
 username: AlexDaniel
 revision: 3
-diff-major: 
 summary: Links and formatting
+diff-major: 
 languages: 
 text: Although it is said that HM-10 "can replace [[HC-05]], [[HC-06]], HC-07 etc", it is not exactly like that.
 	

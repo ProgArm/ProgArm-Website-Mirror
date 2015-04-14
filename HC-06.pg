@@ -6,7 +6,7 @@ host: 217.71.47.152
 username: AlexDaniel
 revision: 1
 summary: HC-06 is a cheaper alternative to HC-05. The only difference between HC-06 and HC-05 is that HC-06 cannot work in master mode. The price . . .
-languages: 
 text: HC-06 is a cheaper alternative to [[HC-05]]. The only difference between HC-06 and [[HC-05]] is that HC-06 cannot work in master mode. The price difference is pretty much negligible, so you should prefer [[HC-05]].
 	
+languages: 
 lastmajor: 1

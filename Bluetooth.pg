@@ -8,8 +8,8 @@ minor:
 host: 82.131.101.209
 username: AlexDaniel
 revision: 12
-diff-major: 1
 summary: Not implemented notice
+diff-major: 1
 languages: 
 text: Bluetooth is one of the defining features of ProgArm. Even though there are some hardware [[Features|features]] that could work without bluetooth connection, most of the usefulness comes from pairing ProgArm with another device.
 	

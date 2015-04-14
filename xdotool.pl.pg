@@ -6,7 +6,6 @@ host: 84.52.22.131
 username: AlexDaniel
 revision: 1
 summary: #ProgArmModule xdotool.pl ==Description This is an experimental module that lets you to type text on most GNU/Linux distributions. . . .
-languages: 
 text: #ProgArmModule xdotool.pl
 	
 	==Description
@@ -17,4 +16,5 @@ text: #ProgArmModule xdotool.pl
 	
 	Does anybody know how to get it to work?
 	
+languages: 
 lastmajor: 1

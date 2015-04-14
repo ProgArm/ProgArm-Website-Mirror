@@ -8,9 +8,9 @@ minor: 1
 host: 31.205.4.227
 username: Alexandr Boldin
 revision: 6
+summary: 
 diff-major: <p><strong>Added:</strong></p>
 	<div class="new"><p>&gt; ----<br />&gt; Somehow I doubt that it is feasible. For example, look at [[https://www.thalmic.com/en/myo/ Myo]]. It has been started somewhere around February 2013, but it is still in the pre-order state. I've seen announcements that it will be released in the first part of 2014, but that did not happen. Now they are saying that it will be shipped in 2015. And that is with the all hype and raised money they have!<br />&gt; And look at their examples! One or two gestures to control one thing, then one or two gestures to control another thing... But no unified functionality whatsoever. And it seems like these guys are trying really hard to get their stuff done.<br />&gt; So the questions are:<br />&gt; * How is it possible to prevent false events? For example, when you are lacing your shoelaces your hands are doing all sorts of various movements, there is a high chance that one of them will trigger your action.<br />&gt; * How is it possible to integrate it in ProgArm so that the device is smaller than Myo but at the same time is more useful?<br />&gt; * What about delays? I doubt that some gesture recognition will ever be as responsive as a simple button press.<br />&gt; -- AlexDaniel 2014-12-06 19:07 UTC</p></div>
-summary: 
 languages: 
 text: The CardiogArm is a concept of a Ring replacement device that establishes User-ProgArm interface via reading of electrical impulses of human body muscles. With CardiogArm it is possible to input commands by just moving fingers instead of pressing the buttons. CardiogArm can also be used to retrieve additional biometric data of its owner, for example heart cardiogram/pulse, or even brain activity. If successful, CardiogArm could later become the default input device of the ProgArm.
 	

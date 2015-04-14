@@ -8,8 +8,8 @@ minor:
 host: 82.131.49.239
 username: AlexDaniel
 revision: 6
-diff-major: 1
 summary: Expected Price link
+diff-major: 1
 languages: 
 text: The price of the device highly depends on the number of preorders, therefore we are trying to estimate the number of devices we should make.
 	

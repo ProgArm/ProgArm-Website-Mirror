@@ -10,8 +10,8 @@ minor:
 host: 217.71.46.13
 username: AlexDaniel
 revision: 3
-diff-major: 1
 summary: 
+diff-major: 1
 languages: 
 text: ==Debian
 	Easy:

@@ -7,8 +7,8 @@ minor:
 host: 217.71.47.123
 username: AlexDaniel
 revision: 2
-diff-major: 1
 summary: Description
+diff-major: 1
 languages: 
 text: #ProgArmModule bluetooth_real.pl
 	

@@ -10,7 +10,6 @@ host: 84.52.22.131
 username: AlexDaniel
 revision: 1
 summary: Description
-languages: 
 text: #ProgArmModule timestamp.pl
 	
 	==Description
@@ -28,4 +27,5 @@ text: #ProgArmModule timestamp.pl
 	}}}
 	You can change the format by modifying <variable>$!TimestampFormat</>, but please keep **%s** on the end because it is used for parsing.
 	
+languages: 
 lastmajor: 1

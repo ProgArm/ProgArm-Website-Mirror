@@ -6,10 +6,10 @@ host: 84.52.22.131
 username: AlexDaniel
 revision: 1
 summary: #ProgArmModule speak_flite.pl ==Description This module provides text-to-speech functionality by using [[http://www.speech.cs.cmu.edu/flite/ . . .
-languages: 
 text: #ProgArmModule speak_flite.pl
 	
 	==Description
 	This module provides text-to-speech functionality by using [[http://www.speech.cs.cmu.edu/flite/ flite]].
 	
+languages: 
 lastmajor: 1

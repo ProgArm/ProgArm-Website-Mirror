@@ -8,8 +8,8 @@ minor: 1
 host: 89.235.228.16
 username: AlexDaniel
 revision: 2
-diff-major: 
 summary: 
+diff-major: 
 languages: 
 text: Writing your own client is easy! But before you start doing it, please make sure that the lacking functionality cannot be implemented by [[Writing_Perl_Extensions|writing a module]].
 	

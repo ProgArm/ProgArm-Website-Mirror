@@ -10,8 +10,8 @@ minor:
 host: 82.131.101.209
 username: AlexDaniel
 revision: 6
-diff-major: 1
 summary: Size and layer count
+diff-major: 1
 languages: 
 text: == Bluetooth
 	We have used HC-05 in the past (before [[ProgArm 0.3]]), but it is too limited. Here are some of the negative aspects of HC-05:

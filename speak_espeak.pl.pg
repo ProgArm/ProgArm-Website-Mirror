@@ -6,7 +6,6 @@ host: 84.52.22.131
 username: AlexDaniel
 revision: 1
 summary: #ProgArmModule speak_espeak.pl ==Description This module provides text-to-speech functionality by using [[http://espeak.sourceforge.net/ . . .
-languages: 
 text: #ProgArmModule speak_espeak.pl
 	
 	==Description
@@ -14,4 +13,5 @@ text: #ProgArmModule speak_espeak.pl
 	
 	espeak works nicely, but the quality is not as good as with [[speak_flite.pl]]
 	
+languages: 
 lastmajor: 1

@@ -9,8 +9,8 @@ minor:
 host: 82.131.49.239
 username: AlexDaniel
 revision: 24
-diff-major: 1
 summary: Fixed todo list
+diff-major: 1
 languages: 
 text: **This list is incomplete**
 	|= Component               |= 1    |= 10   |= Source     |= Notes                               |

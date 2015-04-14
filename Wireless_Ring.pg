@@ -7,8 +7,8 @@ minor:
 host: 89.235.242.77
 username: Alexandr Boldin
 revision: 5
-diff-major: 1
 summary: 
+diff-major: 1
 languages: 
 text: Wireless_Ring is a version of Ring, that doesn't need any wire to work. In addition to two buttons it also has a small battery or a supercap, and a transmitter, Tiny microcontroller also might be needed in order to digitally modulate transmitter's signal to represent presses of different buttons. The Wireless_Ring can be charged via ProgArm itself (on the go), or with a dedicated charger. This type of ring will also lack a LED due to the battery of applicable size would be of too low capacity to power it. For now, Wireless_Ring is just a concept.
 	

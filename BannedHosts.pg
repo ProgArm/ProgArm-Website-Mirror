@@ -9,10 +9,10 @@ minor: 1
 host: 84.52.41.120
 username: AlexDaniel
 revision: 4
+summary: 
 diff-major: <p><strong>Changed:</strong></p>
 	<div class="old"><p>&lt; 96<strong class="changes">.</strong>47<strong class="changes">.225.[</strong>0-9]+</p></div><p><strong>to</strong></p>
 	<div class="new"><p>&gt; 96<strong class="changes">\.</strong>47<strong class="changes">\.22[45]\.[</strong>0-9]+</p></div>
-summary: 
 languages: 
 text: 96\.47\.22[45]\.[0-9]+
 	5\.189\.190\.173

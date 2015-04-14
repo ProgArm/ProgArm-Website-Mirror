@@ -6,7 +6,6 @@ host: 84.52.22.131
 username: AlexDaniel
 revision: 1
 summary: Description
-languages: 
 text: #ProgArmModule repeat.pl
 	
 	==Description
@@ -26,4 +25,5 @@ text: #ProgArmModule repeat.pl
 	If the module does not handle negative repeats, using Key{Backspace} will work like a regular repeat.
 	
 	
+languages: 
 lastmajor: 1

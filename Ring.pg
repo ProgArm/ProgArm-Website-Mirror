@@ -8,10 +8,10 @@ minor: 1
 host: 84.52.55.103
 username: AlexDaniel
 revision: 5
+summary: 
 diff-major: <p><strong>Changed:</strong></p>
 	<div class="old"><p>&lt; ===Attention! <strong class="changes">The Ring</strong> is NOT waterproof</p></div><p><strong>to</strong></p>
 	<div class="new"><p>&gt; ===Attention! <strong class="changes">This version of ring</strong> is NOT waterproof</p></div>
-summary: 
 languages: 
 text: This is the very basic version of an input ring that comes with ProgArm out of the box. It is a 3D-printed ring with two micro-buttons and a bright RGB LED superglued to it. Ring is connected to ProgArm through the dedicated Ring_Port. Micro-USB-type plug of a ring wire also contains the resistors for a LED, this allows to use different LED types without modifying the ProgArm.
 	

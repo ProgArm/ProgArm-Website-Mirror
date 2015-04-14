@@ -8,8 +8,8 @@ minor:
 host: 193.40.244.196
 username: AlexDaniel
 revision: 2
-diff-major: 1
 summary: Link to About page
+diff-major: 1
 languages: 
 text: You can find info about me here:
 	* [[http://alexdaniel.org/About 'About me' on my blog]] -- here you can find how to contact me. You can also check out my blog posts, but there is a high chance that you will not like it.

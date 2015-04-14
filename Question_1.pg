@@ -7,9 +7,9 @@ minor: 1
 host: 89.235.232.183
 username: AlexDaniel
 revision: 5
+summary: Touch
 diff-major: <p><strong>Added:</strong></p>
 	<div class="new"><p>&gt; ----<br />&gt; The device was sent on September 30th. Happy progarming! :)<br />&gt; -- AlexDaniel 2014-10-03 23:48 UTC</p></div>
-summary: Touch
 languages: 
 text: When can I receive the device? :C
 	

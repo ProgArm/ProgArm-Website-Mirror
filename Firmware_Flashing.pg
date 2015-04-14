@@ -8,8 +8,8 @@ minor:
 host: 84.52.22.131
 username: AlexDaniel
 revision: 12
-diff-major: 1
 summary: ModemManager is causing some problems in debian unstable
+diff-major: 1
 languages: 
 text: ==Before you start
 	# Get the latest .hex file from [[https://github.com/ProgArm/ProgArm-Firmware/releases here]].
