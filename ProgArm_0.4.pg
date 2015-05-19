@@ -1,12 +1,12 @@
 flags: 01010
-blocks: <div class="foo_notimplemented">This is an upcoming version.<br />The work has <strong>not started yet</strong>! Please see [[Current Version]].</div><h2>Files</h2><p>No files yet.</p><p><span class="foo_undecided">Undecided</span> / <span class="foo_todo">Todo</span> / <span class="foo_done">Done</span></p><h2>Current stage:</h2><h2><span class="foo_undecided">planning</span> -&gt; <span class="foo_undecided">schematic</span> -&gt; <span class="foo_undecided">components</span> -&gt; <span class="foo_undecided">PCB</span> -&gt; <span class="foo_undecided">waiting for PCBs</span> -&gt; <span class="foo_undecided">testing</span></h2><h2>Ideas</h2><ul><li><span class="foo_undecided">Use stm32<strong>L</strong> to improve [[Power Consumption]].</span></li><li><span class="foo_undecided">BMX055 instead of MPU9250.</span></li><li><span class="foo_undecided">Redefine concept.</span></li><li><span class="foo_undecided">Use resistor arrays.</span></li><li><span class="foo_undecided">Use dual mosfets (6-pin SOTs).</span></li></ul>
+blocks: <div class="foo_notimplemented">This is an upcoming version.<br />The work has <strong>not started yet</strong>! Please see [[Current Version]].</div><h2>Files</h2><p>No files yet.</p><p><span class="foo_undecided">Undecided</span> / <span class="foo_todo">Todo</span> / <span class="foo_done">Done</span></p><h2>Current stage:</h2><h2><span class="foo_undecided">planning</span> -&gt; <span class="foo_undecided">schematic</span> -&gt; <span class="foo_undecided">components</span> -&gt; <span class="foo_undecided">PCB</span> -&gt; <span class="foo_undecided">waiting for PCBs</span> -&gt; <span class="foo_undecided">testing</span></h2><h2>Ideas</h2><ul><li><span class="foo_undecided">Use stm32<strong>L</strong> to improve [[Power Consumption]].</span></li><li><span class="foo_undecided">BMX055 instead of MPU9250.</span></li><li><span class="foo_undecided">Redefine concept.</span></li><li><span class="foo_undecided">Use resistor arrays.</span></li><li><span class="foo_undecided">Use dual mosfets (6-pin SOTs).</span></li><li><span class="foo_undecided">Redesign power system.</span></li></ul>
 diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; * &lt;undecided&gt;Redefine concept.<br />&gt; * &lt;undecided&gt;Use resistor arrays.<br />&gt; * &lt;undecided&gt;Use dual mosfets (6-pin SOTs).</p></div>
-ts: 1431960756
+	<div class="new"><p>&gt; * &lt;undecided&gt;Redesign power system.</p></div>
+ts: 1432070867
 minor: 
 host: 31.205.5.8
 username: Alexandr Boldin
-revision: 7
+revision: 8
 diff-major: 1
 summary: 
 languages: 
@@ -28,6 +28,7 @@ text: <notimplemented>
 	* <undecided>Redefine concept.
 	* <undecided>Use resistor arrays.
 	* <undecided>Use dual mosfets (6-pin SOTs).
+	* <undecided>Redesign power system.
 	
-lastmajor: 7
-keep-ts: 1431960756
+lastmajor: 8
+keep-ts: 1432070867
