@@ -1,19 +1,17 @@
-flags: 0
-blocks: <p>You can find info about me here:<br /></p><ul><li><a class="url http outside" href="http://alexdaniel.org/About">'About me' on my blog</a> -- here you can find how to contact me. You can also check out my blog posts, but there is a high chance that you will not like it.</li></ul>
+flags: 010
+blocks: &lt;include "http://alexdaniel.org/?id=About&amp;raw=1"&gt;
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; <strong class="changes">-</strong></p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; <strong class="changes">You can find info about me here:<br />&gt; * [[http://alexdaniel.org/About 'About me' on my blog]] -- here you can find how to contact me. You can also check out my blog posts, but there is a high chance that you will not like it.</strong></p></div>
-ts: 1423750404
+	<div class="old"><p>&lt; <strong class="changes">You can find info about me here:<br />&lt; * [[</strong>http://alexdaniel.org<strong class="changes">/</strong>About <strong class="changes">'About me' on my blog]] -- here you can find how to contact me. You can also check out my blog posts, but there is a high chance that you will not like it.</strong></p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; <strong class="changes">&lt;include "</strong>http://alexdaniel.org<strong class="changes">/?id=</strong>About<strong class="changes">&amp;raw=1"&gt;</strong></p></div>
+ts: 1437862806
 minor: 
-host: 193.40.244.196
+host: 82.131.47.214
 username: AlexDaniel
-revision: 2
-summary: Link to About page
+revision: 3
 diff-major: 1
+summary: include stuff from my blog
 languages: 
-text: You can find info about me here:
-	* [[http://alexdaniel.org/About 'About me' on my blog]] -- here you can find how to contact me. You can also check out my blog posts, but there is a high chance that you will not like it.
+text: <include "http://alexdaniel.org/?id=About&raw=1">
 	
-	
-lastmajor: 2
-keep-ts: 1423750404
+lastmajor: 3
+keep-ts: 1437862806
