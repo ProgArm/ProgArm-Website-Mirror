@@ -1,23 +1,21 @@
-flags: 0
-blocks: <table class="user"><tr><th align="center">Key </th><th align="center">Morse </th><th align="center">Action </th><th align="center">Description </th></tr><tr><td align="right"></td><td align="right"></td><td>Repeat last command</td><td align="right"></td></tr><tr><td align="right"></td><td align="right"></td><td>Check all devices (I²C)</td><td align="right"></td></tr><tr><td align="right"></td><td align="right"></td><td>Enter the most energy saving mode</td><td align="right"></td></tr><tr><td align="right"></td><td align="right"></td><td>Save current timestamp</td><td align="right"></td></tr></table>
-diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; | | | | |</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; | | |<strong class="changes">Repeat last command| |<br />&gt; | | |Check all devices (!I²C)| |<br />&gt; | | |Enter the most energy saving mode| |<br />&gt; | | |Save current timestamp</strong>| |</p></div>
+blocks: <table class="user"><tr><th align="center">Key </th><th align="center">Morse </th><th align="center">Action </th><th align="center">Description </th></tr><tr><td align="right"></td><td align="right"></td><td>Enter the most energy saving mode</td><td align="right"></td></tr></table>
+lastmajorsummary: “Repeat last command” is already implemented by “repeat.pl”, “Check all devices” is “Test” action (currently on v), “Save current timestamp” is implemented in “timestamp.pl”
 ip: 84.52.39.156
-ts: 1397075055
-minor: 
-host: sa-84-52-39-156.saturn.infonet.ee
-username: AlexDaniel
-revision: 2
 diff-major: 1
-summary: 
+summary: “Repeat last command” is already implemented by “repeat.pl”, “Check all devices” is “Test” action (currently on v), “Save current timestamp” is implemented in “timestamp.pl”
 languages: 
 text: |= Key |= Morse |= Action |= Description |
-	| | |Repeat last command| |
-	| | |Check all devices (!I²C)| |
 	| | |Enter the most energy saving mode| |
-	| | |Save current timestamp| |
 	
 	
-lastmajor: 2
-keep-ts: 1397075055
+lastmajor: 3
+diff-minor: <p><strong>Deleted:</strong></p>
+	<div class="old"><p>&lt; | | |Repeat last command| |<br />&lt; | | |Check all devices (!I²C)| |</p></div><p><strong>Deleted:</strong></p>
+	<div class="old"><p>&lt; | | |Save current timestamp| |</p></div>
+flags: 0
+ts: 1441668682
+minor: 
+username: AlexDaniel
+host: 82.131.7.230
+revision: 3
+keep-ts: 1441668682
