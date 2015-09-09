@@ -1,15 +1,16 @@
 flags: 01010
-blocks: <div class="foo_notimplemented">This is an upcoming version.<br />The work has <strong>not started yet</strong>! Please see [[Current Version]].</div><h2>Files</h2><p>No files yet.</p><p><span class="foo_undecided">Undecided</span> / <span class="foo_todo">Todo</span> / <span class="foo_done">Done</span></p><h2>Current stage:</h2><h2><span class="foo_undecided">planning</span> -&gt; <span class="foo_undecided">schematic</span> -&gt; <span class="foo_undecided">components</span> -&gt; <span class="foo_undecided">PCB</span> -&gt; <span class="foo_undecided">waiting for PCBs</span> -&gt; <span class="foo_undecided">testing</span></h2><h2>Ideas</h2><ul><li><span class="foo_undecided">Use stm32<strong>L</strong> to improve [[Power Consumption]].</span></li><li><span class="foo_undecided">BMX055 instead of MPU9250.</span></li><li><span class="foo_undecided">Redefine concept.</span></li><li><span class="foo_undecided">Use resistor arrays.</span></li><li><span class="foo_undecided">Use dual mosfets (6-pin SOTs).</span></li><li><span class="foo_undecided">Redesign power system.</span></li><li><span class="foo_todo">Test points for I²C and SPI</span></li></ul>
-diff-minor: <p><strong>Added:</strong></p>
-	<div class="new"><p>&gt; * &lt;todo&gt;Test points for I²C and SPI</p></div>
-lastmajorsummary: Test points
-ts: 1441718504
+blocks: <div class="foo_notimplemented">This is an upcoming version.<br />The work has <strong>not started yet</strong>! Please see [[Current Version]].</div><h2>Files</h2><p>No files yet.</p><p><span class="foo_undecided">Undecided</span> / <span class="foo_todo">Todo</span> / <span class="foo_done">Done</span></p><h2>Current stage:</h2><h2><span class="foo_undecided">planning</span> -&gt; <span class="foo_undecided">schematic</span> -&gt; <span class="foo_undecided">components</span> -&gt; <span class="foo_undecided">PCB</span> -&gt; <span class="foo_undecided">waiting for PCBs</span> -&gt; <span class="foo_undecided">testing</span></h2><h2>Ideas</h2><ul><li><span class="foo_undecided">Use stm32<strong>L</strong> to improve [[Power Consumption]].</span></li><li><span class="foo_undecided">BMX055 instead of MPU9250.</span></li><li><span class="foo_undecided">Redefine concept.</span></li><li><span class="foo_undecided">Use resistor arrays.</span></li><li><span class="foo_undecided">Use dual mosfets (6-pin SOTs).</span></li><li><span class="foo_undecided">Redesign power system.</span></li><li><span class="foo_todo">Test points for I²C and SPI.</span></li><li><span class="foo_undecided">4.7kΩ pull-up resistors instead of 4.7kΩ.</span></li></ul>
+diff-minor: <p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; * &lt;todo&gt;Test points for I²C and SPI</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; * &lt;todo&gt;Test points for I²C and SPI<strong class="changes">.<br />&gt; * &lt;undecided&gt;4.7kΩ pull-up resistors instead of 4.7kΩ.</strong></p></div>
+lastmajorsummary: 4.7kΩ for pull-ups?
+ts: 1441778745
 minor: 
-host: 89.235.227.27
+host: 82.131.7.230
 username: AlexDaniel
-revision: 9
+revision: 10
 diff-major: 1
-summary: Test points
+summary: 4.7kΩ for pull-ups?
 languages: 
 text: <notimplemented>
 	This is an upcoming version.
@@ -30,7 +31,8 @@ text: <notimplemented>
 	* <undecided>Use resistor arrays.
 	* <undecided>Use dual mosfets (6-pin SOTs).
 	* <undecided>Redesign power system.
-	* <todo>Test points for I²C and SPI
+	* <todo>Test points for I²C and SPI.
+	* <undecided>4.7kΩ pull-up resistors instead of 4.7kΩ.
 	
-lastmajor: 9
-keep-ts: 1441718504
+lastmajor: 10
+keep-ts: 1441778745
