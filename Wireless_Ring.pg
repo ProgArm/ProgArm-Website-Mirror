@@ -1,23 +1,25 @@
-flags: 0
-blocks: <p>Wireless_Ring is a version of Ring, that doesn't need any wire to work. In addition to two buttons it also has a small battery or a supercap, and a transmitter, Tiny microcontroller also might be needed in order to digitally modulate transmitter's signal to represent presses of different buttons. The Wireless_Ring can be charged via ProgArm itself (on the go), or with a dedicated charger. This type of ring will also lack a LED due to the battery of applicable size would be of too low capacity to power it. For now, Wireless_Ring is just a concept.</p><h3>Problems:</h3><ul><li>Finding a battery that is small enough to be placed onto a ring, but with enough capacity to power a transmitter for a reasonable amount of time.</li><li>Finding a miniature transmitter to be placed onto a ring,and  with working range for about 10 meters.</li><li>Creating a prototype of Wireless_Ring, that is not too bulky and inconvenient to wear.</li></ul>
+flags: 010
+blocks: <p>Wireless_Ring is a version of Ring, that doesn't need any wire to work. In addition to two buttons it also has a small battery or a supercap, and a transmitter, Tiny microcontroller also might be needed in order to digitally modulate transmitter's signal to represent presses of different buttons. The Wireless_Ring can be charged via ProgArm itself (on the go), or with a dedicated charger. This type of ring will also lack a LED due to the battery of applicable size would be of too low capacity to power it. For now, Wireless_Ring is just a concept.</p><h3>Problems:</h3><ul><li>Finding a battery that is small enough to be placed onto a ring, but with enough capacity to power a transmitter for a reasonable amount of time.</li><li>Finding a miniature transmitter to be placed onto a ring, and with working range for about 10 meters.</li><li>Creating a prototype of [[Wireless Ring]], that is not too bulky and inconvenient to wear.</li></ul>
 diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; * Finding a battery<strong class="changes">,</strong> that is small enough to <strong class="changes">place</strong> onto a ring, but with enough capacity to power a transmitter for a reasonable amount of time.<br />&lt; * Finding a miniature transmitter to <strong class="changes">place</strong> onto a ring, with working range for about 10 meters.</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; * Finding a battery that is small enough to <strong class="changes">be placed</strong> onto a ring, but with enough capacity to power a transmitter for a reasonable amount of time.<br />&gt; * Finding a miniature transmitter to <strong class="changes">be placed</strong> onto a ring,<strong class="changes">and</strong>  with working range for about 10 meters.</p></div>
-ts: 1446172200
+	<div class="old"><p>&lt; ===Problems:</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; === Problems:</p></div><p><strong>Changed:</strong></p>
+	<div class="old"><p>&lt; * Finding a miniature transmitter to be placed onto a ring,and  with working range for about 10 meters.<br />&lt; * Creating a prototype of <strong class="changes">Wireless_Ring,</strong> that is not too bulky and inconvenient to wear.</p></div><p><strong>to</strong></p>
+	<div class="new"><p>&gt; * Finding a miniature transmitter to be placed onto a ring, and with working range for about 10 meters.<br />&gt; * Creating a prototype of <strong class="changes">[[Wireless Ring]],</strong> that is not too bulky and inconvenient to wear.</p></div>
+ts: 1446220694
 minor: 1
-host: 31.205.1.103
-username: Alexandr Boldin
-revision: 6
+host: 85.253.118.231
+username: AlexDaniel
+revision: 7
 diff-major: <p><strong>Added:</strong></p>
 	<div class="new"><p>&gt; ===Problems:<br />&gt; * Finding a battery, that is small enough to place onto a ring, but with enough capacity to power a transmitter for a reasonable amount of time.<br />&gt; * Finding a miniature transmitter to place onto a ring, with working range for about 10 meters.<br />&gt; * Creating a prototype of Wireless_Ring, that is not too bulky and inconvenient to wear.</p></div>
 summary: 
 languages: 
 text: Wireless_Ring is a version of Ring, that doesn't need any wire to work. In addition to two buttons it also has a small battery or a supercap, and a transmitter, Tiny microcontroller also might be needed in order to digitally modulate transmitter's signal to represent presses of different buttons. The Wireless_Ring can be charged via ProgArm itself (on the go), or with a dedicated charger. This type of ring will also lack a LED due to the battery of applicable size would be of too low capacity to power it. For now, Wireless_Ring is just a concept.
 	
-	===Problems:
+	=== Problems:
 	* Finding a battery that is small enough to be placed onto a ring, but with enough capacity to power a transmitter for a reasonable amount of time.
-	* Finding a miniature transmitter to be placed onto a ring,and  with working range for about 10 meters.
-	* Creating a prototype of Wireless_Ring, that is not too bulky and inconvenient to wear.
+	* Finding a miniature transmitter to be placed onto a ring, and with working range for about 10 meters.
+	* Creating a prototype of [[Wireless Ring]], that is not too bulky and inconvenient to wear.
 	
 lastmajor: 5
-keep-ts: 1446172200
+keep-ts: 1446220694
