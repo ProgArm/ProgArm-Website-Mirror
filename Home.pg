@@ -1,21 +1,14 @@
-flags: 010101010101010
-blocks: <p><a class="image right inter File" href="https://files.progarm.org/progarmsitelogo.png"><img class="upload" title="File:progarmsitelogo.png" src="https://files.progarm.org/progarmsitelogo.png" alt="File:progarmsitelogo.png" /></a></p><p>This website is a <a class="url http outside" href="http://oddmuse.org/wiki/What_Is_A_Wiki">wiki</a>. You are highly encouraged to [[Page Editing|edit]] it.</p><p><strong>[[Start Here{t}]]</strong> if you are new to this project.</p><p>Most common links:<br /></p><ul><li>[[Current Version{v}]]</li><li>[[Controls{l}]]</li><li>[[List of Perl Modules{m}]]</li></ul><h2>Blog</h2>&lt;Journal 3,5&gt;
+blocks: <h2><strong>MOVING TO ANOTHER SERVER</strong></h2><p><strong>If you see this page, then you was served with an old DNS record.</strong></p><p><a class="image right inter File" href="https://files.progarm.org/progarmsitelogo.png"><img class="upload" title="File:progarmsitelogo.png" src="https://files.progarm.org/progarmsitelogo.png" alt="File:progarmsitelogo.png" /></a></p><p>This website is a <a class="url http outside" href="http://oddmuse.org/wiki/What_Is_A_Wiki">wiki</a>. You are highly encouraged to [[Page Editing|edit]] it.</p><p><strong>[[Start Here{t}]]</strong> if you are new to this project.</p><p>Most common links:<br /></p><ul><li>[[Current Version{v}]]</li><li>[[Controls{l}]]</li><li>[[List of Perl Modules{m}]]</li></ul><h2>Blog</h2>&lt;Journal 3,5&gt;
 	<p><br /></p><h2>Questions</h2>&lt;Journal 6 "^Question_\d+"&gt;
-diff-minor: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; * [[Current Version<strong class="changes">]]</strong></p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; * [[Current Version<strong class="changes">{v}]]</strong></p></div>
+lastmajorsummary: MOVING TO ANOTHER SERVER
 ip: 84.52.29.94
-ts: 1421808543
-minor: 1
-host: 82.131.44.143
-username: AlexDaniel
-revision: 36
-diff-major: <p><strong>Changed:</strong></p>
-	<div class="old"><p>&lt; <strong class="changes">[[</strong>Start Here<strong class="changes">]]</strong> if you are new to this project.</p></div><p><strong>to</strong></p>
-	<div class="new"><p>&gt; <strong class="changes">**[[</strong>Start Here<strong class="changes">]]**</strong> if you are new to this project.<br />&gt; <strong class="changes">Most common links:<br />&gt; * [[Controls]]<br />&gt; * [[List of Perl Extensions]]</strong></p></div>
-summary: accesskey
+diff-major: 1
+summary: MOVING TO ANOTHER SERVER
 languages: 
-text: [[image/right:File:progarmsitelogo.png]]
+text: == **MOVING TO ANOTHER SERVER**
+	**If you see this page, then you was served with an old DNS record.**
+	
+	[[image/right:File:progarmsitelogo.png]]
 	
 	
 	This website is a [[http://oddmuse.org/wiki/What_Is_A_Wiki wiki]]. You are highly encouraged to [[Page Editing|edit]] it.
@@ -34,5 +27,13 @@ text: [[image/right:File:progarmsitelogo.png]]
 	==Questions
 	<Journal 6 "^Question_\d+">
 	
-lastmajor: 31
-keep-ts: 1421808543
+lastmajor: 37
+diff-minor: <p><strong>Added:</strong></p>
+	<div class="new"><p>&gt; == **MOVING TO ANOTHER SERVER**<br />&gt; **If you see this page, then you was served with an old DNS record.**</p></div>
+flags: 010101010101010
+ts: 1446423147
+minor: 
+username: AlexDaniel
+host: 85.253.118.231
+revision: 37
+keep-ts: 1446423147
